@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurrection Loadout Randomiser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Insurrection Loadout Randomiser</h1>
+    <input type="range" id="input_weapon_amount" min="1" max="20" value="7">
+    <label for="input_weapon_amount">Max allowed weapons : <span id="weapon_amount"></span></label>
+    <br>
+    <input type="checkbox" id="guarantee_all_ammo"><label for="guarantee_all_ammo" id="guarantee_all_ammo_label">Guarantee at least 1 weapon per ammo type (Chaos excluded)</label><span id="guarantee_all_ammo_disabled"></span>
+    <br>
+    <input type="checkbox" id="include_aeonstave"><label for="include_aeonstave">Include Sacrosanct Aeonstave</label>
+    <br>
+    <input type="checkbox" id="include_convergence"><label for="include_convergence">Include Convergence</label>
+    <br>
+    <input type="checkbox" id="include_chainsaw"><label for="include_chainsaw">Include Chainsaw</label>
+    <br>
+    <input type="button" value="Generate Loadout" onclick="generate_loadout()">
+    <br>
+
+    <div id="loadout">
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
