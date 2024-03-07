@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insurrection Loadout Randomiser</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/public/style.css">
 </head>
 <body>
@@ -21,13 +20,13 @@
     <br>
     <input type="checkbox" id="include_chainsaw"><label for="include_chainsaw">Include Chainsaw</label>
     <br>
-    <input type="button" value="Generate Loadout" onclick="generate_loadout()">
+    <input type="button" id="generate_loadout" value="Generate Loadout">
     <br>
 
     <div id="loadout">
 
     </div>
 </body>
-<script src="script.js"></script>
+<script src="script.js" type="module"></script>
 <script src="/public/global.js"></script>
 </html>

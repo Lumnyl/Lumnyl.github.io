@@ -1,57 +1,8 @@
-const weapon_list = [
-    // {slot: 1, name: "Chainsaw", ammo: "None"},
-
-    {slot: 2, name: "Pistol", ammo: "Bullets"},
-    {slot: 2, name: "Laser Rifle", ammo: "Cells"},
-
-    {slot: 3, name: "Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Slug Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Super Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Shrapnel Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Auto Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Riot Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Quad Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Raiden Electron Shotgun", ammo: "Shells"},
-    {slot: 3, name: "Streetsweeper", ammo: "Shells"},
-
-    {slot: 4, name: "Assault Rifle", ammo: "Bullets"},
-    {slot: 4, name: "Burst Rifle", ammo: "Bullets"},
-    {slot: 4, name: "Nailgun", ammo: "Bullets"},
-    {slot: 4, name: "Atom Blaster", ammo: "Bullets"},
-    {slot: 4, name: "Light Machinegun", ammo: "Bullets"},
-    {slot: 4, name: "Firestorm", ammo: "Bullets"},
-
-    {slot: 5, name: "Rocket Launcher", ammo: "Rockets"},
-    {slot: 5, name: "Direct Hit", ammo: "Rockets"},
-    {slot: 5, name: "Grenade Launcher", ammo: "Rockets"},
-    {slot: 5, name: "Napalm Bomber", ammo: "Rockets"},
-    {slot: 5, name: "Stickybomb Launcher", ammo: "Rockets"},
-    {slot: 5, name: "Dual Missile Launcher", ammo: "Rockets"},
-    {slot: 5, name: "Dark Blaster", ammo: "Demon"},
-    {slot: 5, name: "HE Rocket Launcher", ammo: "Rockets"},
-    {slot: 5, name: "Meteorite", ammo: "Rockets"},
-    
-    {slot: 6, name: "Plasma Rifle", ammo: "Cells"},
-    {slot: 6, name: "Overcharge Rifle", ammo: "Cells"},
-    {slot: 6, name: "Railgun", ammo: "Cells"},
-    {slot: 6, name: "Railbeam", ammo: "Cells"},
-    {slot: 6, name: "Plasma Repeater", ammo: "Cells"},
-    {slot: 6, name: "Laser Minigun", ammo: "Cells"},
-    {slot: 6, name: "Scourge Rifle", ammo: "Demon"},
-    {slot: 6, name: "Spinfusor", ammo: "Cells"},
-    
-    {slot: 7, name: "BFG 9000", ammo: "Cells"},
-    {slot: 7, name: "Gauss Annihilator", ammo: "Cells"},
-    {slot: 7, name: "BFG 10000", ammo: "Cells"},
-    {slot: 7, name: "Hakkero Magicannon", ammo: "Cells"},
-    {slot: 7, name: "Heliacal Arc", ammo: "Demon"},
-    
-    // {slot: 8, name: "Sacrosanct Aeonstave", ammo: "Chaos"},
-    // {slot: 8, name: "Convergence", ammo: "Demon"},
-]
+import { weapon_list } from "./weapon_list.js";
 
 let input_amount = document.querySelector("#input_weapon_amount")
 let weapon_amount = document.querySelector('#weapon_amount')
+let button_generate = document.querySelector("#generate_loadout")
 
 weapon_amount.textContent = input_amount.value
 
@@ -70,6 +21,8 @@ input_amount.addEventListener("input", (event) => {
         document.querySelector('#guarantee_all_ammo_disabled').textContent= ""
     }
 });
+
+button_generate.addEventListener("click", generate_loadout)
 
 function random_item(array) {
     return array[Math.floor(Math.random() * array.length)];
@@ -115,7 +68,7 @@ function generate_loadout() {
 
     document.querySelector("#loadout").innerHTML = ""
     let loadout_display = document.createElement("ul")
-    for (weapon of [...loadout].sort((a, b) => a.slot - b.slot )) {
+    for (let weapon of [...loadout].sort((a, b) => a.slot - b.slot )) {
         let listelem = document.createElement("li")
         let img = document.createElement("img")
         let name = document.createElement("span")
