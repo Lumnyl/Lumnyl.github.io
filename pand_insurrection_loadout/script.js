@@ -28,7 +28,10 @@ function random_item(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
+var loadout_text
+
 function generate_loadout() {
+    loadout_text = ""
     let loadout = new Set()
     let ammo_types = new Set()
     let guarantee_all_ammo = document.querySelector('#guarantee_all_ammo').checked
@@ -74,10 +77,26 @@ function generate_loadout() {
         let name = document.createElement("span")
         img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
         name.textContent = `Slot ${weapon.slot} - ${weapon.name}`
+        loadout_text += name.textContent + "\n"
         listelem.appendChild(img)
         listelem.appendChild(name)
         loadout_display.appendChild(listelem)
     }
     document.querySelector("#loadout").appendChild(loadout_display)
 
+    let download_link = document.querySelector("#download_loadout")
+    download_link.href = makeTextFile(loadout_text)
+    download_link.download = "loadout.txt"
+    download_link.style.display = 'block'
+
+}
+var textFile = null
+
+function makeTextFile(text) {
+    var data = new Blob([text], {type: 'text/plain'});
+    if (textFile !== null) {
+      window.URL.revokeObjectURL(textFile);
+    }
+    textFile = window.URL.createObjectURL(data);
+    return textFile;
 }
