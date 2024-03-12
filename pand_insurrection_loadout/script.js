@@ -230,7 +230,7 @@ function rollAugments(weapon) {
                     used_slots += required_slots
                 }
             } else {
-                let required_slots = (augment_list.conversion_type == "chaos") ? 3 : 2;
+                let required_slots = (augment_list.conversion_type == "Chaos") ? 3 : 2;
                 if (used_slots + required_slots <= upgrade_slots) {
                     augment_list.conversion += 1
                     used_slots += required_slots
