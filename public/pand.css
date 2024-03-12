@@ -1,0 +1,64 @@
+.wpn_raiden {
+  background: linear-gradient(violet, purple);
+}
+.wpn_hakkero {
+  background: linear-gradient(cyan, #007FFF);
+}
+.wpn_arcane {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.pand_title {
+  font-size: 48px;
+  margin: 0;
+  background: linear-gradient(black 35%, red 55%, black 75%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px red;
+}
+.wpn_staff {
+  color: lime;
+  font-weight: bold;
+  text-shadow: 1px 1px green, -1px -1px green, -1px 1px green, 1px -1px green, 1px 0px green, -1px 0px green, 0px 1px green, 0px -1px green, 0 0 10px lime;
+}
+.wpn_convergence {
+  color: darkred;
+  font-weight: bold;
+  text-shadow: 1px 1px red, -1px -1px red, -1px 1px red, 1px -1px red, 1px 0px red, -1px 0px red, 0px 1px red, 0px -1px red, 0 0 10px red;
+}
+.wpn_durability {
+  font-weight: bold;
+}
+.augment {
+  font-weight: bold;
+}
+.augment_Superior {
+  color: black;
+  text-shadow: 1px 1px magenta, -1px -1px magenta, -1px 1px magenta, 1px -1px magenta, 1px 0px magenta, -1px 0px magenta, 0px 1px magenta, 0px -1px magenta, 0 0 10px magenta;
+}
+.augment_Formatter {
+  color: black;
+  text-shadow: 1px 1px cyan, -1px -1px cyan, -1px 1px cyan, 1px -1px cyan, 1px 0px cyan, -1px 0px cyan, 0px 1px cyan, 0px -1px cyan, 0 0 10px cyan;
+}
+.augment_Blast {
+  color: orange;
+}
+.augment_Chaos {
+  color: green;
+}
+.augment_Flame {
+  color: orangered;
+}
+.augment_Strength {
+  color: red;
+}
+.augment_Haste {
+  color: yellow;
+}
+.augment_Precision {
+  color: blue;
+}
+.augment_Capacity {
+  color: limegreen;
+}

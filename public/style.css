@@ -1,6 +1,49 @@
+* {
+  font-family: Tahoma;
+}
+body {
+  background-color: #ADF;
+}
+.transition-all-ease {
+  transition: all ease 300ms;
+}
+.darkmode {
+  color: white;
+  background-color: #013;
+}
 .strikethrough {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 .italic {
-    font-style: italic;
+  font-style: italic;
+}
+.floater {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(#0AF, #0083c5);
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px black, inset 3px 3px 5px #FFFFFFA0;
+}
+.floater p {
+  margin: 8px;
+  user-select: none;
+}
+.floater_clickable {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+.floater_clickable:visited {
+  color: black;
+}
+.floater_clickable:hover {
+  color: blue;
+}
+.floater_clickable:active {
+  color: red;
 }
