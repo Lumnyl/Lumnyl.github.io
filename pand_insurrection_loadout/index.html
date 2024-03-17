@@ -11,7 +11,7 @@
 
 <body>
     <h1 class="pand_title">Insurrection Loadout Randomiser</h1>
-    <h2>Last updated : 12 March 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
+    <h2>Last updated : 17 March 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
     <h3 class="italic">Compatible with version 2.5 (2 March 2024)</h3>
     <input type="range" id="input_weapon_amount" min="1" max="20" value="7">
     <label for="input_weapon_amount">Max allowed weapons : <span id="weapon_amount"></span></label>
@@ -35,11 +35,15 @@
     <br>
     <button id="generate_loadout">Generate Loadout</button>
     <br>
+    <button id="load_button">Load a loadout from JSON</button>
+    <input type="file" id="load_saved_loadout" accept=".json" style="display: none">
+    <br>
 
     <div id="loadout">
 
     </div>
-    <a id="download_loadout" style="display:none;"><button>Download loadout as text file</button></a>
+    <a id="download_loadout_txt" style="display:none;"><button>Download loadout as text file</button></a>
+    <a id="download_loadout_json" style="display:none;"><button>Download loadout as JSON</button></a>
     <h3>Rules :</h3>
     <ul>
         <li>Reroll as much as you want before you start playing.</li>
@@ -61,10 +65,10 @@
         <li>Chaos is not included in the ammo type check because it's only used by 1 weapon.</li>
         <li>Augment randomisation is a bit more involved. :
             <ul>
-                <li>The "upgrade path" is determined first. <span class="augment augment_Superior">Superior</span> will be chosen 2/3rds of the time, and <span class="augment augment_Formatter">Formatter</span> the other third. Durability weapons always use the <span class="augment augment_Formatter">Formatter</span> upgrade path.</li>
+                <li>The "upgrade path" is determined first. <span class="augment augment_Superior">Superior</span> will be chosen 2/3rds of the time, and <span class="augment augment_Formatter">Formatter</span> the other third. <span class="wpn_durability">Durability</span> weapons always use the <span class="augment augment_Formatter">Formatter</span> upgrade path.</li>
                 <li>Conversion augments have a 50% (25% for <span class="augment augment_Formatter">Formatter</span> weapons) chance to not be included in the augment pool.</li>
                 <li>All augments in the pool have an equal chance to be chosen, with conversion augments counted as one.</li>
-                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5 this includes the Auto and Riot Shotguns, the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
+                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5 this includes the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
                 <li>The Railgun, Railbeam and Gauss Annihilator cannot roll <span class="augment augment_Precision">Precision</span> augments.</li>
 
             </ul>

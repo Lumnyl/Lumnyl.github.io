@@ -1,4 +1,4 @@
-import { weapon_list } from "./weapon_list.js";
+import weapon_list from "./weapon_list.json" assert {type: 'json'}
 
 let input_amount = document.querySelector("#input_weapon_amount")
 let weapon_amount = document.querySelector('#weapon_amount')
@@ -6,6 +6,13 @@ let button_generate = document.querySelector("#generate_loadout")
 
 if (localStorage.getItem("wpn_amount") !== null) input_amount.value = localStorage.getItem("wpn_amount")
 weapon_amount.textContent = input_amount.value
+
+if (input_amount.value < 5) {
+    document.querySelector('#guarantee_all_ammo').checked = false
+    document.querySelector('#guarantee_all_ammo').disabled = true
+    document.querySelector('#guarantee_all_ammo_label').classList.add("strikethrough")
+    document.querySelector('#guarantee_all_ammo_disabled').textContent = " You need at least 5 weapons to enable this"
+}
 
 input_amount.addEventListener("input", (event) => {
     weapon_amount.textContent = event.target.value;
@@ -39,8 +46,34 @@ function random_item(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
+document.querySelector("#load_button").addEventListener("click", function() {document.getElementById('load_saved_loadout').click()})
+document.querySelector("#load_saved_loadout").addEventListener("change", load_loadout)
+
+function load_loadout() {
+    var files = document.querySelector('#load_saved_loadout').files;
+    if (files.length <= 0) {
+        return false;
+    }
+    var fr = new FileReader();
+
+    fr.onload = function (e) {
+        console.log(e);
+        var result = JSON.parse(e.target.result);
+        console.log(result)
+        var loadout = []
+        var augments = []
+        for (let object of result) {
+            loadout.push(object.weapon)
+            augments.push(object.augments)
+        }
+        display_loadout(loadout, augments)
+    }
+
+    fr.readAsText(document.querySelector("#load_saved_loadout").files[0]);
+}
+
 function generate_loadout() {
-    var loadout_text = ""
+    document.querySelector('#load_saved_loadout').value = ""
     let loadout = new Set()
     let ammo_types = new Set()
     let guarantee_all_ammo = document.querySelector('#guarantee_all_ammo').checked
@@ -100,98 +133,15 @@ function generate_loadout() {
         loadout.add(random_item(final_weapon_list))
     }
 
-    document.querySelector("#loadout").innerHTML = ""
-    let loadout_display = document.createElement("ul")
-    for (let weapon of [...loadout].sort((a, b) => a.slot - b.slot)) {
-        let listelem = document.createElement("li")
-        let img = document.createElement("img")
-        let slot = document.createElement("span")
-        let name = document.createElement("span")
-        img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
-        slot.textContent = `Slot ${weapon.slot} - `
-        name.textContent = weapon.name + " "
-        if (weapon.name == "Sacrosanct Aeonstave") {
-            name.classList.add("wpn_staff")
+    let sorted_loadout = [...loadout].sort((a, b) => a.slot - b.slot)
+    let augments = []
+    if (roll_augments) {
+        for (let index in sorted_loadout) {
+            augments[index] = rollAugments(sorted_loadout[index])
         }
-        if (weapon.name == "Convergence") {
-            name.classList.add("wpn_convergence")
-        }
-        if (weapon.tags.includes("Arcane")) {
-            name.classList.add("wpn_arcane")
-        }
-        if (weapon.name == "Hakkero Magicannon") {
-            name.classList.add("wpn_hakkero")
-        }
-        if (weapon.name == "Raiden Electron Shotgun") {
-            name.classList.add("wpn_raiden")
-        }
-        if (weapon.tags.includes("Durability")) {
-            name.classList.add("wpn_durability")
-        }
-        listelem.appendChild(img)
-        listelem.appendChild(slot)
-        listelem.appendChild(name)
-        let augment_text = ""
-        if (roll_augments && !weapon.tags.includes("No Augments")) {
-            let augment_list_elem = document.createElement("span")
-            let augments = rollAugments(weapon)
-
-            let img_upgrade_path = document.createElement("img")
-            let text_upgrade_path = document.createElement("span")
-            img_upgrade_path.src = `img/augments/${augments["upgrade_path"]}.gif`
-            img_upgrade_path.alt = augments["upgrade_path"]
-            img_upgrade_path.title = augments["upgrade_path"]
-            text_upgrade_path.textContent = ` ${augments["upgrade_path"]} `
-            text_upgrade_path.classList.add(`augment`)
-            text_upgrade_path.classList.add(`augment_${augments["upgrade_path"]}`)
-            augment_list_elem.appendChild(img_upgrade_path)
-            augment_list_elem.appendChild(text_upgrade_path)
-            augment_text += `| ${augments["upgrade_path"]} | `
-
-            if (augments["conversion_type"] != "") {
-                let img_conversion = document.createElement("img")
-                let text_conversion = document.createElement("span")
-                img_conversion.src = `img/augments/${augments["conversion_type"]}.gif`
-                img_conversion.alt = `${augments["conversion_type"]}`
-                img_conversion.title = `${augments["conversion_type"]}`
-                text_conversion.textContent = ` ${augments["conversion_type"]} : ${augments["conversion"]} `
-                text_conversion.classList.add(`augment`)
-                text_conversion.classList.add(`augment_${augments["conversion_type"]}`)
-                augment_list_elem.appendChild(img_conversion)
-                augment_list_elem.appendChild(text_conversion)
-                augment_text += `${augments["conversion_type"]} : ${augments["conversion"]} | `
-            }
-
-            for (let index in augments) {
-                if (index != "conversion" && index != "conversion_type") {
-                    if (augments[index] > 0) {
-                        let img_augment = document.createElement("img")
-                        let text_augment = document.createElement("span")
-                        img_augment.src = `img/augments/${index}.png`
-                        img_augment.alt = `${index}`
-                        img_augment.title = `${index}`
-                        text_augment.textContent = ` ${index} : ${augments[index]} `
-                        text_augment.classList.add(`augment`)
-                        text_augment.classList.add(`augment_${index}`)
-                        augment_list_elem.appendChild(img_augment)
-                        augment_list_elem.appendChild(text_augment)
-                        augment_text += `${index} : ${augments[index]}  | `
-                    }
-                }
-            }
-
-            listelem.appendChild(augment_list_elem)
-        }
-        loadout_text += slot.textContent + name.textContent + augment_text + "\n"
-        loadout_display.appendChild(listelem)
     }
-    document.querySelector("#loadout").appendChild(loadout_display)
 
-    let download_link = document.querySelector("#download_loadout")
-
-    download_link.href = makeTextFile(loadout_text)
-    download_link.download = "loadout.txt"
-    download_link.style.display = 'block'
+    display_loadout(sorted_loadout, augments)
 }
 var textFile = null
 
@@ -214,7 +164,7 @@ function rollAugments(weapon) {
     let upgrade_choices = ["Strength", "Haste"]
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
     if (!limit_capacity) { upgrade_choices.push("Capacity") }
-    else if (weapon.tags.includes("Durability") || weapon.tags.includes("Magazine")) { upgrade_choices.push("Capacity") }
+    else if (weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) { upgrade_choices.push("Capacity") }
     if (!weapon.tags.includes("Arcane") && (Math.random() < 0.5 || (Math.random() < 0.75 && augment_list["upgrade_path"] == "Formatter"))) {
         upgrade_choices.push("conversion")
     }
@@ -244,4 +194,104 @@ function rollAugments(weapon) {
     }
 
     return augment_list
+}
+
+function display_loadout(loadout, augments) {
+    document.querySelector("#loadout").innerHTML = ""
+    let loadout_display = document.createElement("ul")
+    var loadout_save = []
+    var loadout_text = ""
+    for (let index in loadout) {
+        let weapon = loadout[index]
+        let wpn_augments = augments[index]
+
+        loadout_save[index] = {}
+        loadout_save[index].weapon = weapon
+        loadout_text += `Slot ${weapon.slot} - ${weapon.name}`
+
+        let listelem = document.createElement("li")
+        let img = document.createElement("img")
+        let slot = document.createElement("span")
+        let name = document.createElement("span")
+        img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
+        slot.textContent = ` Slot ${weapon.slot} - `
+        name.textContent = weapon.name + " "
+        if (weapon.name == "Sacrosanct Aeonstave") {
+            name.classList.add("wpn_staff")
+        }
+        if (weapon.name == "Convergence") {
+            name.classList.add("wpn_convergence")
+        }
+        if (weapon.tags.includes("Arcane")) {
+            name.classList.add("wpn_arcane")
+        }
+        if (weapon.name == "Hakkero Magicannon") {
+            name.classList.add("wpn_hakkero")
+        }
+        if (weapon.name == "Raiden Electron Shotgun") {
+            name.classList.add("wpn_raiden")
+        }
+        if (weapon.tags.includes("Durability")) {
+            name.classList.add("wpn_durability")
+        }
+        listelem.appendChild(img)
+        listelem.appendChild(slot)
+        listelem.appendChild(name)
+
+        if (wpn_augments !== undefined) {
+            loadout_save[index].augments = wpn_augments
+            console.log(wpn_augments)
+            for (let prop in wpn_augments) {
+                if (prop != "conversion" && !(prop == "conversion_type" && wpn_augments[prop] == "")) {
+                    if (wpn_augments[prop] > 0 || prop == "conversion_type" || prop == "upgrade_path") {
+                        let aug_elem = document.createElement("span")
+                        let aug_img = document.createElement("img")
+                        let aug_text = document.createElement("span")
+                        aug_img.alt = prop
+                        aug_text.classList.add(`augment`)
+                        
+                        if (prop == "upgrade_path") {
+                            aug_img.src = `img/augments/${wpn_augments[prop]}.gif`
+                            aug_text.textContent = ` ${wpn_augments[prop]} `
+                            aug_text.classList.add(`augment_${wpn_augments[prop]}`)
+                            loadout_text += `| ${wpn_augments[prop]} | `
+                        } else if (prop == "conversion_type") {
+                            aug_img.src = `img/augments/${wpn_augments[prop]}.gif`
+                            aug_text.textContent = ` ${wpn_augments[prop]} : ${wpn_augments["conversion"]} `
+                            aug_text.classList.add(`augment_${wpn_augments[prop]}`)
+                            loadout_text += `${wpn_augments[prop]} : ${wpn_augments["conversion"]} | `
+                        } else {
+                            aug_img.src = `img/augments/${prop}.png`
+                            aug_text.textContent = ` ${prop} : ${wpn_augments[prop]} `
+                            aug_text.classList.add(`augment_${prop}`)
+                            loadout_text += `${prop} : ${wpn_augments[prop]}  | `
+                        }
+                        if (wpn_augments[prop] == "Superior") {
+                            aug_img.title = weapon.superior
+                        }
+                        aug_elem.appendChild(aug_img)
+                        aug_elem.appendChild(aug_text)
+                        listelem.appendChild(aug_elem)
+                    }
+                }
+            }
+        }
+        loadout_text += "\n"
+        loadout_display.appendChild(listelem)
+    }
+
+    console.log(loadout_text)
+
+    document.querySelector("#loadout").appendChild(loadout_display)
+
+    let download_link_txt = document.querySelector("#download_loadout_txt")
+    let download_link_json = document.querySelector("#download_loadout_json")
+
+    download_link_txt.href = makeTextFile(loadout_text)
+    download_link_txt.download = "loadout.txt"
+    download_link_txt.style.display = 'block'
+
+    download_link_json.href = makeTextFile(JSON.stringify(loadout_save))
+    download_link_json.download = "loadout.json"
+    download_link_json.style.display = 'block'
 }

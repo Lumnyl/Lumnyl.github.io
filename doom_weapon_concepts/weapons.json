@@ -1,0 +1,501 @@
+[
+    {
+        "name": "Combat Knife",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "description": "Standard-issue CQC weapon for those seeking a stealthier approach, combat in ammo-scarce environements, or just plain old getting close and personnal. Some may say the size of the blade doesn't matter, but puncturing hellspawn flesh does require some amount of heft (and arm strength)."
+    },
+    {
+        "name": "Brass Knuckles",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "description": "The solution for those who have something to prove but don't want to feel limited by the fleshy padding wrapping their hands. Nothing like knocking out a demon in a single roid-fuelled punch."
+    },
+    {
+        "name": "Chainsaw",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "description": "Woodcutting tool turned demon ripper. Not the cleanest among melee weapons, but its crudeness has a certain charm to it. Now go find some meat."
+    },
+    {
+        "name": "Super Chainsaw",
+        "fullname": "UAC Dual-Blade FTAU-8000 Chainsaw",
+        "ammo": "N/A",
+        "category": "Melee",
+        "description": "Following the unexpected success of chainsaws on the battlefield, the next logical step would obviously be to double-down on the ripping and tearing. Painting your armor red has never been so easy, but the increased power required tends to jam the weapon after prolonged usage."
+    },
+    {
+        "name": "Plasma Saber",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "description": "Prehistoric technology meets post-space age material developpement. This plasma-fueled magic wand will sever, melt, lacerate and immolate any and all things unfortunate enough to make contact with it."
+    },
+    {
+        "name": "Blast Hammer",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Melee",
+        "description": "A large metal weight affixed on top of a pole is nothing you haven't seen before, but the surprise comes in the form of a 12 gauge frag round right in whatever freak's skull you just caved in. Demolition with a capital D."
+    },
+    {
+        "name": "Laser Drill",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "description": "A hand-held power tool used to harvest minerals from space rocks using a (literal) myriad of lasers converging into a single point. If you've ever burned ants with a magnifying glass as a kid, this machine will make you feel right at home."
+    },
+    {
+        "name": "Power Fist",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "description": "Ever wanted to not only kill a demon in a single punch, but also knock its head clean off its shoulders straight into the stratosphere? Do you feel disgusted by the limitations of the human body? Are you currently in rehab for steroid abuse? (we don't judge) If you answered yes to any of these questions, here's the weapon just for you."
+    },
+
+    {
+        "name": "Pistol",
+        "fullname": "ACG Delta-10",
+        "ammo": "Bullets",
+        "category": "Sidearm",
+        "description": "Nothing wrong with a good old self-loader; there's a reason this kind of design managed to stay relevant for centuries since its inception. Sure, it's not the strongest weapon around, but 50 rounds is more than enough to get a foothold and you can always snag a shotgun from a former officer you didn't really like."
+    },
+    {
+        "name": "Magnum",
+        "fullname": "",
+        "ammo": "Bullets x3",
+        "category": "Sidearm",
+        "description": "Revolvers might be a little too old-school in an age of plasma guns and demon magic, but their relative simplicity makes them ideal candidates for jamming the biggest baddest ammunition available, and sometimes that's just what you need."
+    },
+    {
+        "name": "Hip-fire",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Sidearm",
+        "description": "Originally developped to give wounded soldiers a way to defend themselves with only one arm, this little wonder of small arms developpement gives the shooter exceptional accuracy even without aiming down the sights through a combination of barrel-aligned laser pointers and computer-assisted electromagnetic adjusters. Even better if you still have 2 functional arms."
+    },
+    {
+        "name": "Security Pistol",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Sidearm",
+        "description": "Plasma is all the rage these days, so it was only a matter of time before these became a thing. Low-powered plasma pistols are great for pacifying human threats without killing them, but with demons outnumbering criminals, full-power quickly became the norm among security guards."
+    },
+    {
+        "name": "Flare Gun",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Sidearm",
+        "description": "An emergency tool used to signal your position to whoever is coming to save you. But in a real emergency you can also use this to cook demon flesh extra crispy from a relatively safe distance."
+    },
+    {
+        "name": "MMP-50",
+        "fullname": "",
+        "ammo": "Bullets x2",
+        "category": "Sidearm",
+        "description": "\"Magnum\" and \"Machine-pistol\" are not two words you commonly see together and for good reason. Don't try and shoot it à la John Woo, as the human wrist has not evolved to withstand 2 kilojoules of force over 10 times per second."
+    },
+    {
+        "name": "SMG",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Sidearm",
+        "description": "A weapon type that didn't get much of a chance to prove itself originally, but as pistol cartridges got more powerful it finally managed to find a niche amongst users with a preference for more controllable, rapid-fire weapons."
+    },
+    
+    {
+        "name": "Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "description": "With close-range encounters becoming more prevalent, shotguns began to see more use as the range of rifles wasn't as needed anymore. If problem persists after treatment, keep treating until the problem goes away."
+    },
+    {
+        "name": "Rifled Shotgun",
+        "fullname": "SENS Power Pump w/ Slug Shells",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "description": "Firing a single projectile per shot might seem antithetical to what a shotgun is best for, but it does have the precision and range advantage with a proper setup. You could use regular buckshot with this gun, but the rifled barrel ironically makes the spread worse. Some people even like to run these with explosive payloads when rockets are in short supply."
+    },
+    {
+        "name": "Blast Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "description": "A gun that shoots no bullets, instead substituting the standard buckshot with an explosive compound, turning this shotgun into a close-range shockwave dispenser. Good alternative to a heavy machine-gun."
+    },
+    {
+        "name": "Terminator Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "description": "An alternate solution to the shooting buckshot problem. A lever isn't as straightforward as a pump, but the gun makes up for it with the ability to use bigger shells with higher pellet counts. Don't try to flip-cock it before consulting a gunsmith if you don't want to consult a doctor afterwards."
+    },
+    {
+        "name": "Combat Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "description": "All the boom of a shotgun without all that pumping and shell inserting nonsense. Semi-automatic means a higher rate of fire, and box magazines makes reloading in the heat of combat painless. Sure, it may not be as cool, but cool doesn't keep you out of the grave."
+    },
+    {
+        "name": "40mm Shotgun",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Shotgun",
+        "description": "Like a snake biting its tail, this \"shotgun\" is actually a pump-action grenade-launcher, loaded with grenades that actually fire buckshot. Clunky and hard to use, at the very least it tends to calm down whatever is on the receiving end very quickly."
+    },
+    {
+        "name": "Gyrojet Shotgun",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Shotgun",
+        "description": "Gyrojet technology has been in limbo ever since its inception due to poor accuracy and legal issues. Decades later and with the constant threat of demonic attacks, research has progressed to the point where pump-action rocket-swarm-launchers are not only possible but effective as well."
+    },
+    
+    {
+        "name": "Boomstick",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Super Shotgun",
+        "description": "Who would have thought that double-barreled shotguns - a staple of the civilian market - would see widespread military use? Centuries of firearm evolution, tactical accessories, integrated computing, and what comes out on top? Two metal tubes loaded with buckshot."
+    },
+    {
+        "name": "Slayer Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Super Shotgun",
+        "description": "A heavily modified side-by-size coach gun fitted with a grappling hook that provides fantastic mobility for daredevils, though its lack of stock or ability to fire single barrels tend to turn off who prefer not getting right in the demons' faces."
+    },
+    {
+        "name": "Harpooner",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Super Shotgun",
+        "description": "The Slayer Shotgun concept turned on its head. The harpoon brings the demons right to you, and a double fistfull of buckshot makes sure they won't dare try to bite back."
+    },
+    {
+        "name": "Hyper Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Super Shotgun",
+        "description": "The firepower of a double-barrel with the fire rate of a pump-action. The bullpup design may be a pain to reload, but when it's loaded, it's out for blood."
+    },
+    {
+        "name": "Quad Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Super Shotgun",
+        "description": "2 barrels of buckshot can bruise the shoulder of an untrained shooter. 4 barrels will most likely relocate your shoulder and not be painless about it. But hey, at least you're not on the other end."
+    },
+    {
+        "name": "Jackhammer",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Super Shotgun",
+        "description": "A good weapon needs to be relatively easy to handle. A good weapon doesn't double in weight when you insert a magazine in. A good weapon doesn't combine hard-hitting recoil and uncontrollable rate of fire. But how many good weapons turn flesh into mush in a matter of seconds?"
+    },
+    {
+        "name": "Machreaper",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Super Shotgun",
+        "description": "This shotgun fires a high-powered supersonic shockwave over a very short distance. Normally, it would take some time for the capacitors to recharge between each shot, but it's also fitted with a kinetic supercharger, allowing you to accelerate the process with up to 2 actions of the lever."
+    },
+
+    {
+        "name": "Assault Rifle",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Automatic",
+        "description": "A mainstay of any solider's loadout since the middle of the 20th century. This jack-of-all-trades is good for precision and rapid-fire alike."
+    },
+    {
+        "name": "Hyperburst",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Automatic",
+        "description": "Though mechanically complex and a pain to manufacture, this rifle has the distinct advantage of firing a burst of bullets quicker than the time it takes for the shooter to get hit with recoil. While not as strong individually, the rapid repeated bullet impacts have an easier time getting demons to flinch."
+    },
+    {
+        "name": "Chaingun",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Automatic",
+        "description": "The advantage of using electricity to power your gun it that you can directly control the rate of fire. In the case of prolonged rapid-fire, the gun has a quick-change rotating barrel assembly, allowing continued usage without damaging the overheated barrels."
+    },
+    {
+        "name": "Minigun",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Automatic",
+        "description": "Often misnamed as chainguns, miniguns are functionally similar, but cycle through multiple barrels as they fire, whilst chainguns only used one at a time. Multiple barrels allows for massive uninterrupted streams of bullets, but make accurate aiming practically impossible."
+    },
+    {
+        "name": "Metalstorm",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Automatic",
+        "description": "Taking what the Hyperburst does and jacking it up even higher. The Metalstorm has dozens of barrels loaded with caseless ammo, ready to be fired synchronously through electric pulses and creating a wall of bullets dense enough to block out the sun."
+    },
+    {
+        "name": "Chimera",
+        "fullname": "",
+        "ammo": "Bullets x2",
+        "category": "Automatic",
+        "description": "Multi-barreled rifles haven't really had any kind of success before hell invaded, but when the strategy revolves around dispensing as much lead as possible, who's gonna say no to something that does it twice as much?"
+    },
+
+    {
+        "name": "DMR",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Precision",
+        "description": "A more precision-focused weapon platform. Even though the bigger ammunition was originally used for its range, it's its stopping power that got these rifles to keep a niche in the world demon killing."
+    },
+    {
+        "name": "Gauss Rifle",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Precision",
+        "description": "With constant technological advancements in the fields of electricity and electronics came the democratisation of coilguns, where electromagnetic forces are used to sling bullets forwards at high enough velocities to pierce multiple layers of hellspawn. The quick charging and decharging of the coils also give this weapon its distinctive firing sound."
+    },
+    {
+        "name": "Sniper Rifle",
+        "fullname": "",
+        "ammo": "Bullets x3",
+        "category": "Precision",
+        "description": "Hell's armies don't exactly have commanding officers in the traditional sense, but it does still have high-value targets to eliminate. Moreover, some demons are best dealt with from a distance, and few are tough enough to survive a headshot from a high caliber rifle."
+    },
+    {
+        "name": "Anti-Materiel Rifle",
+        "fullname": "",
+        "ammo": "Bullets x10",
+        "category": "Precision",
+        "description": "As the name implies, this kind of rifle is best used against armored equipment and tends to be overkill for target elimination - that is, if said target doesn't takes magnitudes more punishment than any human would."
+    },
+    
+    {
+        "name": "Rocket Launcher",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "With bigger demons comes the need for bigger weaponry. Unlike older rocket launcher models, this one shoots slower rockets that consume less fuel and produce little to no back-blast, allowing usage in crowded environments."
+    },
+    {
+        "name": "Heat Seeker",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "The ever increasing frequency of flying enemies called for a way to hit them with rockets more reliably. The targetting system causes a bit of delay between shots, but such the price of making missing your target an actual challenge."
+    },
+    {
+        "name": "Hellstorm",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "Another shining example of quantity over quality, this weapon launches a volley of missiles at a rate high enough to qualify as suppressive fire. It might be a pain to carry and on the shoulder, but firing is a such a rush that it just keeps you coming back for more."
+    },
+    {
+        "name": "Grenade Launcher",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "Sometimes, explosives need a little more subtlelty than destroying what directly in front of you. The grenades can be lobbed over wall, around corners, or worst case scenario, straight back at you. Someone could lose an eye."
+    },
+    {
+        "name": "Assault Grenade Launcher",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "Slow-moving projectiles might do the trick for crowds and more sluggish targets, but some are just nimble enough to consistently dodge or worse create unnecessary danger close situations. Reduced explosive radius, increased rate of fire and high-capacity magazines should give you just the edge you need against these pesky buggers."
+    },
+    {
+        "name": "Napalm Launcher",
+        "fullname": "",
+        "ammo": "Rockets x2",
+        "category": "Launcher",
+        "description": "It's a mystery why most of the inhabitants of a place filled with fire and brimstone aren't immune to said fire and brimstone, but it does provide a fantastic crowd control opportunity and the simple pleasures of the smell of cooked demonic meat."
+    },
+    {
+        "name": "Frag Launcher",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "Explosions are nice and all, but they tend to lose effectiveness over range. Fragmentation helps turn even the nastiest of misses into successful improvised acupuncture sessions. "
+    },
+    {
+        "name": "Howitzer",
+        "fullname": "",
+        "ammo": "Rockets x2",
+        "category": "",
+        "description": "The term \"Howitzer\" generally designates a piece of artillery that can fire both directly forwards and high up in the air - in this case, man-portable artillery. You may not care about the math behind ballistic trajectories, but \"man-portable artillery\" is really all you need to remember."
+    },
+    {
+        "name": "Rail Cannon",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "Another man-protable artillery piece, mixed with fancy electric techno-magic. There's no explosive in the payload, instead relying on the projectile's mass and the extreme velocity of the railgun system to pierce basically anything."
+    },
+    {
+        "name": "Dragon Destructor",
+        "fullname": "",
+        "ammo": "Rockets x3",
+        "category": "Launcher",
+        "description": "A little bit of style among utilitarian designs. Launches a supermassive explosive that barrels through fodder and explodes when it hits a wall - fleshy or otherwise. A good grip is required as to make sure Newton's third law doesn't cause the gun to smash into a wall."
+    },
+    {
+        "name": "Skulltag",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Launcher",
+        "description": "An unconventional weapon taking advantage of the chaotic nature of hell's armies. It fires a single drill-shaped projectiles than homes in on a demon's head, piercing its brain and crudely controlling it via electric pulses. The intent is to make the tagged demon retreat back to its brethren, and which point the projectile detonates a high-explosive charge."
+    },
+    {
+        "name": "Tele-frag",
+        "fullname": "",
+        "ammo": "Rockets + Cells x25",
+        "category": "Launcher",
+        "description": "Ever wanted to weaponise teleportation, but don't want to go through the trouble of setting up teleporter pads? With this masterpiece pf engineering, you can now teleport explosives right into the demons' guts. Ludicrous gibs!"
+    },
+    
+    {
+        "name": "Plasma Rifle",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Special Weapon",
+        "description": "Balls of superheated molecular soup straight out of the tap. Technically not a rifle, as plasma is a bit too amorphous to take advantage of barrel rifling, but lethality doesn't care about technicality."
+    },
+    {
+        "name": "Laser Cannon",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Special Weapon",
+        "description": "The unmatched power of the sun into your tiny mortal hands. No spread, no recoil, no loss of effectiveness at range, no bullet casings; if it didn't require so much energy it would be the perfect weapon."
+    },
+    {
+        "name": "Plasma Railgun",
+        "fullname": "",
+        "ammo": "Cells x10",
+        "category": "Special Weapon",
+        "description": "Railguns don't have to be limited to metallic projectiles."
+    },
+    {
+        "name": "Ricochet Rifle",
+        "fullname": "",
+        "ammo": "Cells x2",
+        "category": "Special Weapon",
+        "description": "Concentrating plasma into a dense orb has the neat side effect of stabilising it enough to cause it to bounce a couple of times before dispersing. A nightmare for those worried about friendly fire, partially solved by a trajectory predictor connected to your HUD."
+    },
+    {
+        "name": "Lightning Gun",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Special Weapon",
+        "description": "One more added to the list of natural phenomena weaponised by mankind. This weapon has limited range but makes up for it with how easy it is to use : press the trigger and just let physics do the aiming for you."
+    },
+    {
+        "name": "Tesla Cannon",
+        "fullname": "",
+        "ammo": "Cells x10",
+        "category": "Special Weapon",
+        "description": "A precursor to what would become the basis of the argent-powered BFG. Fires tesla balls that zaps nearby lifeforms as they go, only stopping upon contact with solid matter. Do not use in the rain."
+    },
+    {
+        "name": "Assault Shield",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Special Weapon",
+        "description": "Why bother with a shield if the best demon-killing strategy is shooting at it until it dies? What if you could shoot at it without the fear of eating a fireball back? Sure you could try to clumsily aim your sidearm around a standard shield, but wouldn't it be better if said shield had an integrated plasma cannon?"
+    },
+    {
+        "name": "Reflector Shield",
+        "fullname": "UAC SHY Reflective Shield",
+        "ammo": "Cells",
+        "category": "Special Weapon",
+        "description": "Nothing says pacifism like letting the demons kill themselves. Proximity sensors, targetting modules, and enough kinetic energy to make a grown man stumble, just the ingredients needed to gaslight a group of fireball lobbers into solving their anger issues amongst themselves."
+    },
+    {
+        "name": "Demon Blaster",
+        "fullname": "",
+        "ammo": "Demon Energy x4",
+        "category": "Special Weapon",
+        "description": "Due to the demons' preference of cybernetic augments over conventional firearms, it was tricky to reverse-engineer their technology into usable weaponry. This weapon enhances the demon's magical abilities in order to shoot explosive balls of pure infernal energy. Fortunately, they have a tendency to drop a bit of energy when dying, and thus fueling further demon killing."
+    },
+    {
+        "name": "Acid Slinger",
+        "fullname": "",
+        "ammo": "Demon Energy x8",
+        "category": "Special Weapon",
+        "description": "Due to demonic energy being a form of magic, it can easily be transmuted into different forms with radically different physical and chemical attributes. By diluting it with water, it becomes a semi-liquid compound that becomes extremely caustic when exposed to air."
+    },
+    {
+        "name": "Demonic Flamethrower",
+        "fullname": "",
+        "ammo": "Demon Energy",
+        "category": "Special Weapon",
+        "description": "Most of hell's denizen use fireballs are their ranged attack of choice, so it only makes sense for a hell-powered weapon to do the same. The produced fire burns very quickly and doesn't stick to surfaces, so concentrated fire should be the prefered method of attack. (pun not intended)"
+    },
+    
+    {
+        "name": "BFG 9000",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Superweapon",
+        "description": "An autologism crafted into a weapon. Fires a massive ball of plasma followed an obscenely damaging burst of residual energy, strong enough to obliterate even the mightiest of adversaries. Oh yes!"
+    },
+    {
+        "name": "BFG 2704",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Superweapon",
+        "description": "The first succesful attempt at a man-portable superweapon, the 2704 is what led to the serendipitous discovery of bouncy plasma. As the first of its kind, the barrage of plasma shots is somewhat unrefined, causing the power (and thus the color) of each individual shot to be a bit unpredictable."
+    },
+    {
+        "name": "BFG 10000",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Superweapon",
+        "description": "As good as the 9000 model is, it has a noticeable skill requirement to use effectively. The 10k remedies this issue by being much more straightforward with a rapid-fire salvo high-intensity plasma."
+    },
+    {
+        "name": "Megalaser",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Superweapon",
+        "description": "Originally a tank-mounted weapon for destroying aircraft, this nuclear-powered tool of destruction is strong enough to turn even the hardest of metals into slag, which has the unfortunate drawback of severly limiting how long you can have fun before frying all of its components, but oh boy do you have fun."
+    },
+    {
+        "name": "Mechanised Arm Cannon",
+        "fullname": "",
+        "ammo": "Bullets + Shells + Rockets + Cells",
+        "category": "Superweapon",
+        "description": "In an attempt to get the most firepower possible, a mechanical arm was developped with weapons for all commonly used weapon types. A machine-gun, shotgun, rocket launcher and plasma beam caster can all be fired using the user's fingers, individually to fit the situation, or in most cases all at once."
+    },
+
+    {
+        "name": "Hand Grenade",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Throwable",
+        "description": "The prefered way of greeting a group of hellspawn, grenades are typically used to clear rooms without having to confront the danger directly, but are also an lightweight alternative to dedicated launchers. Articulated shoulder cannons also exist for those with not enough arms to hold their gun and throw grenades at the same time."
+    },
+    {
+        "name": "Cryo Grenade",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Throwable",
+        "description": "Bring the cold straight to hell. Flash-freezes a sizeable area, causing demons to have trouble moving around as their bodies fail to adapt to the sudden temperature drop. As an added bonus, frozen flesh breaks apart much more easily, causing tougher demons to fall more quickly to concentrated fire."
+    },
+    {
+        "name": "Tesla Field Generator",
+        "fullname": "",
+        "ammo": "Rockets",
+        "category": "Throwable",
+        "description": "A single explosive is sometimes not enough to hold its own against swarms of angry monsters, but a long-lasting field of particularly excited electrons will do the trick just fine. Keep away from electronical devices."
+    }
+]
