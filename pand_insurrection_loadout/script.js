@@ -137,7 +137,9 @@ function generate_loadout() {
     let augments = []
     if (roll_augments) {
         for (let index in sorted_loadout) {
-            augments[index] = rollAugments(sorted_loadout[index])
+            if (!sorted_loadout[index].tags.includes("No Augments")) {
+                augments[index] = rollAugments(sorted_loadout[index])
+            }
         }
     }
 
@@ -207,7 +209,7 @@ function display_loadout(loadout, augments) {
 
         loadout_save[index] = {}
         loadout_save[index].weapon = weapon
-        loadout_text += `Slot ${weapon.slot} - ${weapon.name}`
+        loadout_text += `Slot ${weapon.slot} - ${weapon.name} `
 
         let listelem = document.createElement("li")
         let img = document.createElement("img")
@@ -240,7 +242,6 @@ function display_loadout(loadout, augments) {
 
         if (wpn_augments !== undefined) {
             loadout_save[index].augments = wpn_augments
-            console.log(wpn_augments)
             for (let prop in wpn_augments) {
                 if (prop != "conversion" && !(prop == "conversion_type" && wpn_augments[prop] == "")) {
                     if (wpn_augments[prop] > 0 || prop == "conversion_type" || prop == "upgrade_path") {
