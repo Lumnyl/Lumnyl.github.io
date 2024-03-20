@@ -236,7 +236,7 @@
         "category": "Shotgun",
         "primary" : "Buckshot x8",
         "secondary" : "N/A",
-        "notes" : "",
+        "notes" : "Requires reloading.",
         "superior" : "No reloading.",
         "durability": false,
         "description": "All the boom of a shotgun without all that pumping and shell inserting nonsense. Semi-automatic means a higher rate of fire, and box magazines makes reloading in the heat of combat painless. Sure, it may not be as cool, but cool doesn't keep you out of the grave."
@@ -309,7 +309,7 @@
         "category": "Super Shotgun",
         "primary" : "Double-barrel (x20)",
         "secondary" : "Single barrel (x10)",
-        "notes" : "Increased accuracy on secondary fire.",
+        "notes" : "Requires reloading. Increased accuracy on secondary fire.",
         "superior" : "Can fire 2 extra shells before pumping.",
         "durability": false,
         "description": "The firepower of a double-barrel with the fire rate of a pump-action. The bullpup design may be a pain to reload, but when it's loaded, it's out for blood."
@@ -322,7 +322,7 @@
         "primary" : "Quad-barrel (x40)",
         "secondary" : "Double-barrel (x20)",
         "notes" : "",
-        "superior" : "",
+        "superior" : "Meatshots stuns and knocks back the target.",
         "durability": false,
         "description": "2 barrels of buckshot can bruise the shoulder of an untrained shooter. 4 barrels will most likely relocate your shoulder and not be painless about it. But hey, at least you're not on the other end."
     },
@@ -331,7 +331,7 @@
         "fullname": "",
         "ammo": "Shells",
         "category": "Super Shotgun",
-        "primary" : "Auto-fire",
+        "primary" : "Auto-fire (x8)",
         "secondary" : "N/A",
         "notes" : "",
         "superior" : "Fires in bursts of 2 with no delay. Second shot consumes no ammo.",
@@ -431,7 +431,7 @@
         "category": "Precision",
         "primary" : "Fire",
         "secondary" : "N/A",
-        "notes" : "",
+        "notes" : "Requires reloading.",
         "superior" : "Auto-fire",
         "durability": false,
         "description": "A more precision-focused weapon platform. Even though the bigger ammunition was originally used for its range, it's its stopping power that got these rifles to keep a niche in the world demon killing."
@@ -673,7 +673,7 @@
         "category": "Special Weapon",
         "primary" : "Tesla shot",
         "secondary" : "N/A",
-        "notes" : "",
+        "notes" : "Requires reloading.",
         "superior" : "Projectile electrifies liquid surfaces on contact.",
         "durability": false,
         "description": "A weapon concept that was actually produced during the 20th century but faded into obscurity before it saw any widespread use. Fires tesla balls that zaps nearby lifeforms as they go, only stopping upon contact with solid matter. Do not use in the rain."
