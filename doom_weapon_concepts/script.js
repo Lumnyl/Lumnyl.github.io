@@ -25,7 +25,7 @@ function change_selected_weapon () {
     weapon_desc.textContent = selected_weapon.description
     weapon_primary.textContent = `Primary fire : ${selected_weapon.primary}`
     weapon_secondary.textContent = `Secondary fire : ${selected_weapon.secondary}`
-    weapon_notes.textContent = (selected_weapon.notes = "") ? `Notes : ${selected_weapon.notes}` : ""
+    weapon_notes.textContent = (selected_weapon.notes != "") ? `Notes : ${selected_weapon.notes}` : ""
     weapon_superior.textContent = `Superior : ${selected_weapon.superior}`
 }
 
