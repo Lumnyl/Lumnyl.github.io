@@ -12,10 +12,6 @@ body {
     transition: all ease 300ms;
 }
 
-.darkmode {
-    color: white;
-    background-color: #013;
-}
 
 .strikethrough {
     text-decoration: line-through;
@@ -23,6 +19,33 @@ body {
 
 .italic {
     font-style: italic;
+}
+
+table {
+    border: solid 2px black;
+    border-collapse: collapse;
+    th {
+        border: solid 1px black;
+        padding: 3px;
+    }
+    td {
+        border: solid 1px black;
+        padding: 3px;
+    }
+}
+
+.darkmode {
+    color: white;
+    background-color: #013;
+    table {
+        border: solid 2px white;
+        th {
+            border: solid 1px white;
+        }
+        td {
+            border: solid 1px white;
+        }
+    }
 }
 
 // Floater Stuff

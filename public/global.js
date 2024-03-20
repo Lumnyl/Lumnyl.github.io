@@ -2,7 +2,7 @@ var html_body = document.querySelector("body")
 var is_darkmode = (localStorage.getItem("is_darkmode") === null) ? false : localStorage.getItem("is_darkmode")
 if (is_darkmode === "true") html_body.classList.add("darkmode")
 
-var last_website_update = "17 March 2024"
+var last_website_update = "20 March 2024"
 
 var footer_separator = document.createElement("hr")
 var last_updated = document.createElement("p")
