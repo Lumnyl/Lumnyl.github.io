@@ -9,6 +9,8 @@ const weapon_superior = document.querySelector("#weapon_superior")
 
 import weapon_list from "./weapons.json" assert {type: 'json'}
 
+document.querySelector("#weapon_amount").textContent = weapon_list.length
+
 for (let index in weapon_list) {
     let option = document.createElement("option")
     option.textContent = `${weapon_list[index].name}`
