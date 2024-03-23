@@ -7,7 +7,7 @@ const weapon_secondary = document.querySelector("#weapon_secondary")
 const weapon_notes = document.querySelector("#weapon_notes")
 const weapon_superior = document.querySelector("#weapon_superior")
 
-import weapon_list from "/doom_weapon_concepts/weapons.json" assert {type: 'json'}
+import weapon_list from "/doom_weapon_concepts/weapons.js"
 
 document.querySelector("#weapon_amount").textContent = weapon_list.length
 

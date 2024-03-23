@@ -1,4 +1,4 @@
-[
+export default [
     {
         "name": "Combat Knife",
         "fullname": "",
