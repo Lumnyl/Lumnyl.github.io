@@ -1,4 +1,4 @@
-import weapon_list from "./weapon_list.json" assert {type: 'json'}
+import weapon_list from "./weapon_list.js"
 
 let input_amount = document.querySelector("#input_weapon_amount")
 let weapon_amount = document.querySelector('#weapon_amount')
@@ -32,7 +32,7 @@ input_amount.addEventListener("input", (event) => {
 })
 
 for (let setting of document.querySelectorAll("input[type=checkbox]")) {
-    if (setting.id != "darkmode_toggle") {
+    if (setting.id != "darkmode_toggle" && setting.id != "minimise_toggle") {
         if (localStorage.getItem(`setting_${setting.id}`) !== null) setting.checked = (localStorage.getItem(`setting_${setting.id}`) === "true")
         setting.addEventListener("click", function () {
             localStorage.setItem(`setting_${setting.id}`, setting.checked)

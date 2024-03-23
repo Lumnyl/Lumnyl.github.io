@@ -1,4 +1,4 @@
-import character_list from "./characters.json" assert {type: 'json'}
+import character_list from "./characters.js"
 
 const table_body = document.querySelector("tbody")
 

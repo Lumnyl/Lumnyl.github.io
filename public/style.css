@@ -13,6 +13,9 @@ body {
 .italic {
   font-style: italic;
 }
+.hide {
+  display: none;
+}
 table {
   border: solid 2px black;
   border-collapse: collapse;
@@ -53,6 +56,9 @@ table td {
 .floater p {
   margin: 8px;
   user-select: none;
+}
+#darkmode_toggle {
+  display: none;
 }
 .floater_clickable {
   cursor: pointer;

@@ -1,4 +1,4 @@
-[
+export default [
     {"slot": 1, "name": "Chainsaw", "ammo": "None", "tags": ["No Augments"], "superior": "None"},
 
     {"slot": 2, "name": "Pistol", "ammo": "Bullets", "tags": [], "superior": "Fires explosive projectiles (4 ammo per shot)"},
