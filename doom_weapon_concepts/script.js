@@ -28,7 +28,19 @@ function change_selected_weapon () {
     weapon_primary.textContent = `Primary fire : ${selected_weapon.primary}`
     weapon_secondary.textContent = `Secondary fire : ${selected_weapon.secondary}`
     weapon_notes.textContent = (selected_weapon.notes != "") ? `Notes : ${selected_weapon.notes}` : ""
-    weapon_superior.textContent = `Superior : ${selected_weapon.superior}`
+    if (selected_weapon.category == "Artifact") {
+        let level_list = document.createElement("ol")
+        weapon_superior.textContent = "Level-ups :"
+        weapon_superior.appendChild(level_list)
+        for (let level in selected_weapon.superior) {
+            let level_elem = document.createElement("li")
+            level_elem.textContent = selected_weapon.superior[level]
+            level_list.appendChild(level_elem)
+        }
+
+    } else {
+        weapon_superior.textContent = `Superior : ${selected_weapon.superior}`
+    }
 }
 
 change_selected_weapon()

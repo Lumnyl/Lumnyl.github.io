@@ -18,7 +18,7 @@ export default [
         "category": "Melee",
         "primary" : "Punch",
         "secondary" : "N/A",
-        "notes" : "Silent - 10x damage when under the effects of Berserk.",
+        "notes" : "Silent - 5x damage when under the effects of Berserk.",
         "superior" : "Guaranteed flinch with increased duration.",
         "durability": false,
         "description": "The solution for those who have something to prove but don't want to feel limited by the fleshy padding wrapping their hands. Nothing like knocking out a demon in a single roid-fuelled punch."
@@ -43,7 +43,7 @@ export default [
         "primary" : "Saw",
         "secondary" : "N/A",
         "notes" : "Automatically alerts nearby enemies. Lengthy cooldown after prolonged use.",
-        "superior" : "No longer jams. Prolonged use sets target on fire.",
+        "superior" : "No longer jams. Increased movement speed while revving.",
         "durability": false,
         "description": "Following the unexpected success of chainsaws on the battlefield, the next logical step would obviously be to double-down on the ripping and tearing. Painting your armor red has never been so easy, but the increased power required tends to jam the weapon after prolonged usage."
     },
@@ -55,7 +55,7 @@ export default [
         "primary" : "Slash",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "Shoots a horizontal plasma beams.",
+        "superior" : "Shoots horizontal plasma beams.",
         "durability": false,
         "description": "Prehistoric technology meets post-space age material developpement. This plasma-fueled magic wand will sever, melt, lacerate and immolate any and all things unfortunate enough to make contact with it."
     },
@@ -67,21 +67,9 @@ export default [
         "primary" : "Smash",
         "secondary" : "N/A",
         "notes" : "Reduced damage when out of ammo.",
-        "superior" : "Explosion after a larger area.",
+        "superior" : "Explosion affects a larger area.",
         "durability": false,
         "description": "A large metal weight affixed on top of a pole is nothing you haven't seen before, but the surprise comes in the form of a 12 gauge frag round right in whatever freak's skull you just caved in. Demolition with a capital D."
-    },
-    {
-        "name": "Laser Drill",
-        "fullname": "",
-        "ammo": "N/A",
-        "category": "Melee",
-        "primary" : "Laser beam",
-        "secondary" : "Concentrated beam with lower range but higher damage.",
-        "notes" : "Durability weapon.",
-        "superior" : "Extended range.",
-        "durability": true,
-        "description": "A hand-held power tool used to harvest minerals from space rocks using a (literal) myriad of lasers converging into a single point. If you've ever burned ants with a magnifying glass as a kid, this machine will make you feel right at home."
     },
     {
         "name": "Power Fist",
@@ -106,6 +94,30 @@ export default [
         "superior" : "Can parry projectiles and triples the shotgun blast damage when doing so. Parrying with an uppercut makes you look cool but has no practical use.",
         "durability": false,
         "description": "Typographic error turned monster tenderiser. Negates the inherent inaccuracy of shotgun shells by eliminating the range variable completely. Your money back if it explodes in your hand."
+    },
+    {
+        "name": "Laser Drill",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Laser beam",
+        "secondary" : "Short-range high-intensity beam",
+        "notes" : "",
+        "superior" : "Extended range.",
+        "durability": true,
+        "description": "A hand-held power tool used to harvest minerals from space rocks using a (literal) myriad of lasers converging into a single point. If you've ever burned ants with a magnifying glass as a kid, this machine will make you feel right at home."
+    },
+    {
+        "name": "DNA Blade",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Stab",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Target explodes on death, dealing heavy damage to nearby demons of the same species.",
+        "durability": true,
+        "description": "Experimental knife developped for quickly eliminating difficult to kill targets. The blade can be detached, releasing a special chemical that violently reacts with demonic DNA. Spontaneous destruction of target usually occurs."
     },
 
     {
@@ -229,6 +241,18 @@ export default [
         "description": "A weapon type that didn't get much of a chance to prove itself originally, but as pistol cartridges got more powerful it finally managed to find a niche amongst users with a preference for more controllable, rapid-fire weapons."
     },
     {
+        "name": "Sawn-off",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Sidearm",
+        "primary" : "Double-barrel (x20)",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Guns akimbo.",
+        "durability": false,
+        "description": "Diminutive iteration of the classic double-barrel we all know and love. High maneuverability and reload speed at the cost of severely decreased accuracy. Usable one-handed for the expert gunslingers out there."
+    },
+    {
         "name": "Giga-Volt",
         "fullname": "",
         "ammo": "N/A",
@@ -324,6 +348,18 @@ export default [
         "superior" : "Additional sparkly explosions.",
         "durability": false,
         "description": "Gyrojet technology has been in limbo ever since its inception due to poor accuracy and legal issues. Decades later and with the constant threat of demonic attacks, research has progressed to the point where pump-action rocket-swarm-launchers are not only possible but effective as well."
+    },
+    {
+        "name": "Chromatic Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "primary" : "Red spread x5 | Green beam | Blue blast",
+        "secondary" : "Cycle between colors",
+        "notes" : "",
+        "superior" : "Combines all fire modes in one for double the ammo cost.",
+        "durability": false,
+        "description": "Killer colors! An arcane weapon that fires different kinds of projectiles out of a single ammo type."
     },
     
     {
@@ -481,7 +517,19 @@ export default [
         "notes" : "",
         "superior" : "Drastically increased fire rate and bullet spread.",
         "durability": false,
-        "description": "Stands for General Purpose Machine-Gun. Named this way due to its ammo being strong enough to the gun versatility, such as suppressive fire, destroying unarmored vehicles, or spitting enough lead to make customers not need to come back for more. Somehow usable one-handed, as the high recoil is enough to perfectly counteract its weight."
+        "description": "Stands for General Purpose Machine-Gun. Named this way due to its ammo being strong enough to give the gun versatility, such as suppressive fire, destroying unarmored vehicles, or spitting enough lead to make customers not need to come back for more. Somehow usable one-handed, as the high recoil is enough to perfectly counteract its weight."
+    },
+    {
+        "name": "Nailgun",
+        "fullname": "",
+        "ammo": "Bullets x2",
+        "category": "Automatic",
+        "primary" : "Low-pressure rapid fire",
+        "secondary" : "High-pressure precision fire",
+        "notes" : "Pierces through enemies.",
+        "superior" : "Fires both barrels at once",
+        "durability": false,
+        "description": "Double-barreled pneumatic hardware dispenser. Nails are dense enough to pierce through flesh like a hot knife through butter, though the extra mass limits their velocity severely."
     },
     {
         "name": "Metalstorm",
@@ -721,7 +769,7 @@ export default [
         "primary" : "Dragon rocket",
         "secondary" : "",
         "notes" : "Loses \"damage momentum\" when piercing enemies and explodes when it reaches 0. Initial momentum is equal to blast damage.",
-        "superior" : "Enemies whose max health is under 10% of the dragon rocket's damage don't cause momentum loss.",
+        "superior" : "Enemies whose max health is under 10% of the dragon rocket's damage don't incur any momentum loss.",
         "durability": true,
         "description": "A little bit of style in a world of utilitarian designs. Launches a supermassive explosive that barrels through fodder and explodes when it hits a wall - fleshy or otherwise. A good grip is required as to make sure Newton's third law doesn't cause the gun to smash into a wall."
     },
@@ -817,8 +865,8 @@ export default [
         "category": "Special Weapon",
         "primary" : "Sawblade launch",
         "secondary" : "N/A",
-        "notes" : "Missed sawblades can be retrieved, restoring durability.",
-        "superior" : "Pierces enemies and bounces against walls up to 3 times each.",
+        "notes" : "Sawblades on solid surfaces can be retrieved, restoring durability.",
+        "superior" : "Pierces enemies and bounces against solid surfaces up to 3 times each.",
         "durability": true,
         "description": "An elegant solution to the classic problem \"I want to make demon sausage but getting close and personnal is hazardous to my health\". An integrated metal reshaper can turn contents of toolboxes into makeshift sawblades."
     },
@@ -892,7 +940,7 @@ export default [
         "notes" : "10+ needles in close proximity causes an explosive reaction.",
         "superior" : "Needles react twice as fast.",
         "durability": false,
-        "description": ""
+        "description": "A compact hell-gun condenses energy into crystal needles. The crystals don't have that much punch individually, but they react violently with each other once critical mass is achieved. The internal condenser takes a while to get going, causing a noticeable delay between the first shot and the storm of projectiles that follows."
     },
     {
         "name": "Infernal Flamethrower",
@@ -907,6 +955,18 @@ export default [
         "description": "Most of hell's denizen use fire as their ranged attack of choice, so it only makes sense for a hell-powered weapon to do the same. The produced fire burns very quickly and doesn't stick to surfaces, so concentrated fire should be the prefered method of attack. (pun not intended)"
     },
     {
+        "name": "Gore Gun",
+        "fullname": "",
+        "ammo": "Blood",
+        "category": "Gore spread",
+        "primary" : "Gore bomb",
+        "secondary" : "N/A",
+        "notes" : "Charged by dealing damage close to enemies with any weapon.",
+        "superior" : "Rapidly charges while standing in pools of blood or near bloodfalls.",
+        "durability": false,
+        "description": "A sweet little contraption that turns violence into more violence. Collecting blood charges the weapon, which is then infused with hell magic to form solid projectiles or further concentrated to create blood bombs."
+    },
+    {
         "name": "Volcanus",
         "fullname": "",
         "ammo": "Demon Energy x25",
@@ -916,7 +976,7 @@ export default [
         "notes" : "",
         "superior" : "Spreads more projectiles over a larger area.",
         "durability": true,
-        "description": "A little hand-held armaggedon. Projectiles crash into the ground and spews fire and volcanic slag everywhere."
+        "description": "A little hand-held armaggedon. Projectiles crash into the ground and spews fire and volcanic slag everywhere. Scorching the earth has never been so fun."
     },
     
     {
@@ -951,21 +1011,9 @@ export default [
         "primary" : "Auto-fire",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "No self-damage.",
+        "superior" : "No more wind-up required.",
         "durability": false,
         "description": "As good as the 9000 model is, it has a noticeable skill requirement to use effectively. The 10k remedies this issue by being much more straightforward with a rapid-fire salvo high-intensity plasma."
-    },
-    {
-        "name": "Unmaker",
-        "fullname": "",
-        "ammo": "Demon Energy x3",
-        "category": "Superweapon",
-        "primary" : "Auto-spread shot",
-        "secondary" : "N/A",
-        "notes" : "",
-        "superior" : "Fires 2 extra projectiles for 2 extra ammo per shot.",
-        "durability": false,
-        "description": "Hidden within the deepest darkest corners of hell, this weapon looks demonic yet no demon has been seen using it. Given how strong it is in human hands, maybe it's for the better."
     },
     {
         "name": "Tele-frag",
@@ -990,6 +1038,30 @@ export default [
         "superior" : "Star also shoots star-shaped projectiles in a horizontal circular pattern. Higher intensity stars shoot more projectiles.",
         "durability": false,
         "description": "The unmatched power of the sun into your tiny mortal hands. The intensity of the fired cataclysm mimics the different life stages of this kind of celestial body : star, supergiant, supernova, black hole and quasar. Fortunately they are nowhere near as close as threatening to our galaxy as the real deal would be."
+    },
+    {
+        "name": "Disintegrator",
+        "fullname": "",
+        "ammo": "Cells x??",
+        "category": "Superweapon",
+        "primary" : "Insta-kill",
+        "secondary" : "N/A",
+        "notes" : "Ammo cost depends on the health of the target. Doesn't fire when ammo is insufficient.",
+        "superior" : "Targets under a certain health threshold require no ammo.",
+        "durability": false,
+        "description": "The final solution to problem you don't want to spend the time dealing with. Sluggish and ammo-inefficient compared to other superweapons, but it makes for it in raw \"fuck outta here\" potential."
+    },
+    {
+        "name": "NUKE",
+        "fullname": "",
+        "ammo": "Rockets x40",
+        "category": "Superweapon",
+        "primary" : "Atomic Purification",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "No self-damage. Go nuts.",
+        "durability": false,
+        "description": "No need for a lengthy explanation. It's a portable nuke launcher, what else is there to say."
     },
     {
         "name": "Mechanised Arm Cannon",
@@ -1087,5 +1159,61 @@ export default [
         "superior" : "Enemies in the field stop moving.",
         "durability": false,
         "description": "A single explosive is sometimes not enough to hold its own against swarms of angry monsters, but a long-lasting field of particularly excited electrons will do the trick just fine. Keep away from electronical devices."
+    },
+    {
+        "name": "Rolling Thunder",
+        "fullname": "",
+        "ammo": "Grenades x3",
+        "category": "Throwable",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Causes 5 explosions in a straight line away from the point of impact.",
+        "superior" : "Third explosion creates an additional 4, perpendicular to the trajectory, resulting in a + shape.",
+        "durability": false,
+        "description": "A surgical strike in a ball. Please refrain from trying to bounce these off walls, it was already hard enough to get them to explode in the correct direction."
+    },
+    {
+        "name": "Mini Turret",
+        "fullname": "",
+        "ammo": "Grenades",
+        "category": "Throwable",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Fires a machine-gun at targets within range. Enemies can target and destroy it prematurely. Destroys itself when out of ammo.",
+        "superior" : "Indestructible. Enemies immediately target the turret upon being shot.",
+        "durability": false,
+        "description": "A cute little gun to throw at your problems. Take care of your turrets and they'll take care of you back. Sacrificing them in order to save yourself is fine too, they're dumb robots they don't have feelings." 
+    },
+
+    {
+        "name": "Unmaker",
+        "fullname": "",
+        "ammo": "Demon Energy x3",
+        "category": "Artifact",
+        "primary" : "Energy shots x3",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : [
+            "Fires 5 shots horizontally. Ammo cost rises to 5.",
+            "Fires 7 shots horizontally. Ammo cost rises to 7.",
+            "Fires 9 shots horizontally. Ammo cost rises to 9."
+        ],
+        "durability": false,
+        "description": "Hidden within the deepest darkest corners of hell, this weapon looks demonic yet no demon has been seen using it. Given how strong it is in human hands, maybe it's for the better."
+    },
+    {
+        "name": "Scythe",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Artifact",
+        "primary" : "Horizontal slash",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : [
+            "Secondary attack creates a horizontal spread of fireballs. Costs 5 Demon Energy.",
+            "Extracts demon energy on primary attack kills. Amount is based on enemy max health.",
+            "Secondary attack also creates a spread of homing hellfire. Ammo cost rises to 10."],
+        "durability": false,
+        "description": "Harbinger of the apocalypse. Unavoidable finality. Impartial judgement. Dancing in an unending back and forth against the mortal masses like crops at harvest time. Go, and destroy some worlds."
     }
 ]

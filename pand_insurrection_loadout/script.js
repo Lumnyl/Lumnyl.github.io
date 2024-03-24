@@ -11,7 +11,7 @@ if (input_amount.value < 5) {
     document.querySelector('#guarantee_all_ammo').checked = false
     document.querySelector('#guarantee_all_ammo').disabled = true
     document.querySelector('#guarantee_all_ammo_label').classList.add("strikethrough")
-    document.querySelector('#guarantee_all_ammo_disabled').textContent = " You need at least 5 weapons to enable this"
+    document.querySelector('#guarantee_all_ammo_disabled').textContent = " You need at least 5 weapons to enable this setting"
 }
 
 input_amount.addEventListener("input", (event) => {
@@ -21,7 +21,7 @@ input_amount.addEventListener("input", (event) => {
         document.querySelector('#guarantee_all_ammo').checked = false
         document.querySelector('#guarantee_all_ammo').disabled = true
         document.querySelector('#guarantee_all_ammo_label').classList.add("strikethrough")
-        document.querySelector('#guarantee_all_ammo_disabled').textContent = " You need at least 5 weapons to enable this"
+        document.querySelector('#guarantee_all_ammo_disabled').textContent = " You need at least 5 weapons to enable this setting"
 
 
     } else {
