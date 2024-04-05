@@ -9,7 +9,7 @@ export default [
         "notes" : "Silent - 10x damage against unaware enemies.",
         "superior" : "Secondary attack parries enemy projectiles.",
         "durability": false,
-        "description": "Standard-issue CQC weapon for those seeking a stealthier approach, combat in ammo-scarce environements, or just plain old getting close and personnal. Some may say the size of the blade doesn't matter, but puncturing hellspawn flesh does require some amount of heft (and arm strength)."
+        "description": "Standard-issue CQC weapon for those seeking a stealthier approach, combat in ammo-scarce environements, or just plain old getting close and personnal. Cuts and punctures hellspawn skin like a hot... well, knife through butter."
     },
     {
         "name": "Brass Knuckles",
@@ -245,8 +245,8 @@ export default [
         "fullname": "",
         "ammo": "Shells",
         "category": "Sidearm",
-        "primary" : "Double-barrel (x20)",
-        "secondary" : "N/A",
+        "primary" : "Double-barrel (x16)",
+        "secondary" : "Single-barrel (x8)",
         "notes" : "",
         "superior" : "Guns akimbo.",
         "durability": false,
@@ -456,7 +456,7 @@ export default [
         "notes" : "",
         "superior" : "Fires in bursts of 2 with no delay. Second shot consumes no ammo.",
         "durability": true,
-        "description": "A good weapon needs to be relatively easy to handle. A good weapon doesn't double in weight when you insert a magazine in. A good weapon doesn't combine hard-hitting recoil and uncontrollable rate of fire. But how many good weapons turn flesh into mush in a matter of seconds?"
+        "description": "A tiny little gun that triples in weight when loaded, way too light to absorb any recoil, basically zero precision, and fires absolutely too quickly due to how short the bolt is. The upside? Unparalleled flesh tenderiser."
     },
 
     {
@@ -780,7 +780,7 @@ export default [
         "category": "Launcher",
         "primary" : "Skull drill",
         "secondary" : "N/A",
-        "notes" : "Doesn't explode if it doesn't kill its target fast enough.",
+        "notes" : "Tougher demons require multiple drills to mind-control.",
         "superior" : "Enemy max health increases blast damage and radius.",
         "durability": true,
         "description": "An unconventional weapon taking advantage of the chaotic nature of hell's armies. It fires a single drill-shaped projectiles than homes in on a demon's head, piercing its brain and crudely controlling it via electric pulses. The intent is to make the tagged demon retreat back to its brethren, at which point the projectile detonates a high-explosive charge."
