@@ -269,6 +269,7 @@ function display_loadout(loadout, augments) {
                         }
                         if (wpn_augments[prop] == "Superior") {
                             aug_img.title = weapon.superior
+                            aug_text.title = weapon.superior
                         }
                         aug_elem.appendChild(aug_img)
                         aug_elem.appendChild(aug_text)

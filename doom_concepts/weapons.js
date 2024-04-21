@@ -517,7 +517,7 @@ export default [
         "superior" : "Stuns enemies. Extra damage to stunned enemies.",
         "durability": false,
         "description": "This shotgun fires a high-powered supersonic shockwave over a very short distance. Normally, it would take some time for the capacitors to recharge between each shot, but it's also fitted with a kinetic supercharger, allowing you to accelerate the process with up to 2 actions of the lever.",
-        "authorsnotes": "Blatant ripped from Final Doomer. I just love that gun.",
+        "authorsnotes": "Blatantly ripped from Final Doomer. I just love that gun.",
         "designnotes": ""
     },
     {
@@ -557,7 +557,7 @@ export default [
         "primary" : "Auto-fire",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "Duplex rounds.",
+        "superior" : "Fires 4 bullets per shot. Decreased damage.",
         "durability": false,
         "description": "Multi-barreled rifles haven't really had any kind of success before hell invaded, but when the strategy revolves around dispensing as much lead as possible, who's gonna say no to something that does it twice as much?",
         "authorsnotes": "",
@@ -571,7 +571,7 @@ export default [
         "primary" : "Burst x3",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "Shots per burst increases to 5.",
+        "superior" : "Secondary fire shoots 3 bursts at once in a horizontal spread.",
         "durability": false,
         "description": "Though mechanically complex and a pain to manufacture, this rifle has the distinct advantage of firing a burst of bullets quicker than the time it takes for the shooter to get hit with recoil. While not as strong individually, the rapid repeated bullet impacts have an easier time getting demons to flinch.",
         "authorsnotes": "",
