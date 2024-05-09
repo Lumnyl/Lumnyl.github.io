@@ -11,16 +11,18 @@
 
 <body>
     <h1 class="pand_title">Insurrection Loadout Randomiser</h1>
-    <h2>Last updated : 21 April 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
+    <h2>Last updated : 09 May 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
     <h3 class="italic">Compatible with version 2.5.1 (21 April 2024)</h3>
     <input type="range" id="input_weapon_amount" min="1" max="20" value="7">
     <label for="input_weapon_amount">Max allowed weapons : <span id="weapon_amount"></span></label>
+    <br>
+    <input type="checkbox" id="include_chainsaw"><label for="include_chainsaw">Include Chainsaw</label>
     <br>
     <input type="checkbox" id="include_aeonstave"><label for="include_aeonstave">Include <span class="wpn_staff">Sacrosanct Aeonstave</span></label>
     <br>
     <input type="checkbox" id="include_convergence"><label for="include_convergence">Include <span class="wpn_convergence">Convergence</span></label>
     <br>
-    <input type="checkbox" id="include_chainsaw"><label for="include_chainsaw">Include Chainsaw</label>
+    <input type="checkbox" id="include_secretweapons"><label for="include_secretweapons">Include <span class="wpn_secret">Secret Weapons</span></label>
     <br>
     <input type="checkbox" id="guarantee_durability"><label for="guarantee_durability">Guarantee at least 1 <span class="wpn_durability">Durability</span> weapon</label>
     <br>
@@ -51,7 +53,6 @@
         <li>No limits on what augments you can use, unless of course you selected the "<i>Randomise augments</i>" option.</li>
         <li>You're allowed to drop a loadout weapon to grab a copy to try out a different build for example.</li>
         <li>You may use any weapon you want until as placeholders. Limit yourself to the Doom 2 arsenal, use sidegrades (e.g. an Auto Shotgun until you get a Riot Shotgun) or not even limit yourself at all, that's all up to you.</li>
-        <li>You may only upgrade placeholder weapons to raise your game level. Make sure to drop them after you're done upgrading.</li>
         <li>You're allowed to disregard or add any rules if you feel like doing so. Those are just some basic guidelines to get you started.</li>
         <li>Have fun. This is the only rule you must follow. I <i>will</i> know if you don't.</li>
     </ul>
@@ -68,7 +69,7 @@
                 <li>The "upgrade path" is determined first. <span class="augment augment_Superior">Superior</span> will be chosen 2/3rds of the time, and <span class="augment augment_Formatter">Formatter</span> the other third. <span class="wpn_durability">Durability</span> weapons always use the <span class="augment augment_Formatter">Formatter</span> upgrade path.</li>
                 <li>Conversion augments have a 50% (25% for <span class="augment augment_Formatter">Formatter</span> weapons) chance to not be included in the augment pool.</li>
                 <li>All augments in the pool have an equal chance to be chosen, with conversion augments counted as one.</li>
-                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5 this includes the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
+                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5 this includes the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the Flamethrower, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
                 <li>The Railgun, Railbeam and Gauss Annihilator cannot roll <span class="augment augment_Precision">Precision</span> augments.</li>
 
             </ul>

@@ -81,6 +81,7 @@ function generate_loadout() {
     let include_aeonstave = document.querySelector('#include_aeonstave').checked
     let include_convergence = document.querySelector('#include_convergence').checked
     let include_chainsaw = document.querySelector('#include_chainsaw').checked
+    let include_secretweapons = document.querySelector('#include_secretweapons').checked
     let roll_augments = document.querySelector('#roll_augments').checked
 
     let final_weapon_list = [...weapon_list]
@@ -103,6 +104,14 @@ function generate_loadout() {
     if (!include_chainsaw) {
         for (let index in final_weapon_list) {
             if (final_weapon_list[index].name == "Chainsaw") {
+                final_weapon_list.splice(index, 1)
+            }
+        }
+    }
+
+    if (!include_secretweapons) {
+        for (let index in final_weapon_list) {
+            if (final_weapon_list[index].tags.includes("Secret")) {
                 final_weapon_list.splice(index, 1)
             }
         }
@@ -217,7 +226,7 @@ function display_loadout(loadout, augments) {
         let name = document.createElement("span")
         img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
         slot.textContent = ` Slot ${weapon.slot} - `
-        name.textContent = weapon.name + " "
+        name.textContent = weapon.name
         if (weapon.name == "Sacrosanct Aeonstave") {
             name.classList.add("wpn_staff")
         }
@@ -236,9 +245,13 @@ function display_loadout(loadout, augments) {
         if (weapon.tags.includes("Durability")) {
             name.classList.add("wpn_durability")
         }
+        if (weapon.tags.includes("Secret")) {
+            name.classList.add("wpn_secret")
+        }
         listelem.appendChild(img)
         listelem.appendChild(slot)
         listelem.appendChild(name)
+        listelem.innerHTML += " "
 
         if (wpn_augments !== undefined) {
             loadout_save[index].augments = wpn_augments
