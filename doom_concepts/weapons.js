@@ -1071,7 +1071,7 @@ export default [
         "designnotes": ""
     },
     {
-        "name": "Acid Slinger",
+        "name": "Acid Lobber",
         "fullname": "",
         "ammo": "Demon Energy x8",
         "category": "Special",

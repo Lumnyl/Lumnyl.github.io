@@ -11,7 +11,7 @@
 
 <body>
     <h1 class="pand_title">Insurrection Loadout Randomiser</h1>
-    <h2>Last updated : 09 May 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
+    <h2>Last updated : 18 May 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
     <h3 class="italic">Compatible with version 2.5.1 (21 April 2024)</h3>
     <input type="range" id="input_weapon_amount" min="1" max="20" value="7">
     <label for="input_weapon_amount">Max allowed weapons : <span id="weapon_amount"></span></label>
@@ -62,7 +62,7 @@
         <li>Options affect the randomisation in the order they are shown. This means it will first choose a <span class="wpn_durability">Durability</span> weapon, then roll weapons you have one for each ammo type, if the corresponding options are selected.</li>
         <li>The Chainsaw is not included by default due to not being upgradable.</li>
         <li>The <span class="wpn_convergence">Convergence</span> is not included by default due to being unobtainable if you have pursuer bosses disabled.</li>
-        <li>The <span class="wpn_staff">Sacrosanct Aeonstave</span> is not included by default for no reason in particular. But the option is there.</li>
+        <li>The <span class="wpn_staff">Sacrosanct Aeonstave</span> is not included by default because it makes spawn events more often.</li>
         <li>Chaos is not included in the ammo type check because it's only used by 1 weapon.</li>
         <li>Augment randomisation is a bit more involved. :
             <ul>
@@ -71,6 +71,7 @@
                 <li>All augments in the pool have an equal chance to be chosen, with conversion augments counted as one.</li>
                 <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5 this includes the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the Flamethrower, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
                 <li>The Railgun, Railbeam and Gauss Annihilator cannot roll <span class="augment augment_Precision">Precision</span> augments.</li>
+                <li>Slot 7 weapons cannot roll <span class="augment augment_Chaos">Chaos</span> augments.</li>
 
             </ul>
         </li>
