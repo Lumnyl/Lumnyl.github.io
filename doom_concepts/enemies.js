@@ -99,7 +99,7 @@ export default [
         "name": "Archvile",
         "category": "Archvile",
         "species": "Archvile",
-        "description": "A lanky freak that is able to bring back almost any demon back to life and defends itself with an unavoidable fire spell. Take down as soon as possible.",
+        "description": "A lanky freak that is able to bring back almost any demon back to life and defends itself with an undodgeable fire spell. Take down as soon as possible.",
         "lore": ""
     },
     {
@@ -121,7 +121,7 @@ export default [
         "name": "SS Nazi",
         "category": "Wolfenstein",
         "species": "Human",
-        "description": "A completely normal human being, found in a very special place in hell. Peppers you with his sub-machinegun.",
+        "description": "A completely normal human being, found in a very special place in hell. Peppers you with his sub-machinegun and German words.",
         "lore": ""
     },
 ]

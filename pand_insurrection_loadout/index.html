@@ -11,9 +11,9 @@
 
 <body>
     <h1 class="pand_title">Insurrection Loadout Randomiser</h1>
-    <h2>Last updated : 18 May 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
+    <h2>Last updated : 11 June 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
     <h3 class="italic">Compatible with version 2.5.1 (21 April 2024)</h3>
-    <input type="range" id="input_weapon_amount" min="1" max="20" value="7">
+    <input type="range" id="input_weapon_amount" min="6" max="20" value="6">
     <label for="input_weapon_amount">Max allowed weapons : <span id="weapon_amount"></span></label>
     <br>
     <input type="checkbox" id="include_chainsaw"><label for="include_chainsaw">Include Chainsaw</label>
@@ -24,11 +24,11 @@
     <br>
     <input type="checkbox" id="include_secretweapons"><label for="include_secretweapons">Include <span class="wpn_secret">Secret Weapons</span></label>
     <br>
-    <input type="checkbox" id="guarantee_durability"><label for="guarantee_durability">Guarantee at least 1 <span class="wpn_durability">Durability</span> weapon</label>
+    <input type="checkbox" id="guarantee_all_ammo"><label for="guarantee_all_ammo">Guarantee at least 1 weapon per ammo type (Chaos excluded)</label>
     <br>
-    <input type="checkbox" id="guarantee_all_ammo"><label for="guarantee_all_ammo"
-        id="guarantee_all_ammo_label">Guarantee at least 1 weapon per ammo type (Chaos excluded)</label><span
-        id="guarantee_all_ammo_disabled"></span>
+    <input type="checkbox" id="all_ammo_exclude_durability"><label for="all_ammo_exclude_durability" id="all_ammo_exclude_durability_label">Disable rolling for Durability weapons until the above condition is met</label>
+    <br id="all_ammo_exclude_durability_br">
+    <input type="checkbox" id="guarantee_durability"><label for="guarantee_durability">Guarantee at least 1 <span class="wpn_durability">Durability</span> weapon</label>
     <br>
     <input type="checkbox" id="roll_augments"><label for="roll_augments">Randomise augments</label>
     <br>

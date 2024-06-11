@@ -7,28 +7,9 @@ let button_generate = document.querySelector("#generate_loadout")
 if (localStorage.getItem("wpn_amount") !== null) input_amount.value = localStorage.getItem("wpn_amount")
 weapon_amount.textContent = input_amount.value
 
-if (input_amount.value < 5) {
-    document.querySelector('#guarantee_all_ammo').checked = false
-    document.querySelector('#guarantee_all_ammo').disabled = true
-    document.querySelector('#guarantee_all_ammo_label').classList.add("strikethrough")
-    document.querySelector('#guarantee_all_ammo_disabled').textContent = " You need at least 5 weapons to enable this setting"
-}
-
 input_amount.addEventListener("input", (event) => {
     weapon_amount.textContent = event.target.value;
     localStorage.setItem("wpn_amount", event.target.value)
-    if (event.target.value < 5) {
-        document.querySelector('#guarantee_all_ammo').checked = false
-        document.querySelector('#guarantee_all_ammo').disabled = true
-        document.querySelector('#guarantee_all_ammo_label').classList.add("strikethrough")
-        document.querySelector('#guarantee_all_ammo_disabled').textContent = " You need at least 5 weapons to enable this setting"
-
-
-    } else {
-        document.querySelector('#guarantee_all_ammo').disabled = false
-        document.querySelector('#guarantee_all_ammo_label').classList.remove("strikethrough")
-        document.querySelector('#guarantee_all_ammo_disabled').textContent = ""
-    }
 })
 
 for (let setting of document.querySelectorAll("input[type=checkbox]")) {
@@ -46,7 +27,23 @@ function random_item(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-document.querySelector("#load_button").addEventListener("click", function() {document.getElementById('load_saved_loadout').click()})
+function check_all_ammo () {
+    if (document.querySelector("#guarantee_all_ammo").checked) {
+        document.querySelector("#all_ammo_exclude_durability").classList.remove("hide")
+        document.querySelector("#all_ammo_exclude_durability_label").classList.remove("hide")
+        document.querySelector("#all_ammo_exclude_durability_br").classList.remove("hide")
+    } else {
+        document.querySelector("#all_ammo_exclude_durability").classList.add("hide")
+        document.querySelector("#all_ammo_exclude_durability").checked = false
+        document.querySelector("#all_ammo_exclude_durability_label").classList.add("hide")
+        document.querySelector("#all_ammo_exclude_durability_br").classList.add("hide")
+    }
+}
+
+document.querySelector("#guarantee_all_ammo").addEventListener("change", check_all_ammo)
+check_all_ammo()
+
+document.querySelector("#load_button").addEventListener("click", function () { document.getElementById('load_saved_loadout').click() })
 document.querySelector("#load_saved_loadout").addEventListener("change", load_loadout)
 
 function load_loadout() {
@@ -77,6 +74,7 @@ function generate_loadout() {
     let loadout = new Set()
     let ammo_types = new Set()
     let guarantee_all_ammo = document.querySelector('#guarantee_all_ammo').checked
+    let all_ammo_exclude_durability = document.querySelector('#all_ammo_exclude_durability').checked
     let guarantee_durability = document.querySelector('#guarantee_durability').checked
     let include_aeonstave = document.querySelector('#include_aeonstave').checked
     let include_convergence = document.querySelector('#include_convergence').checked
@@ -117,20 +115,12 @@ function generate_loadout() {
         }
     }
 
-    if (guarantee_durability) {
-        let weapon
-        do {
-            weapon = random_item(final_weapon_list)
-        } while (!weapon.tags.includes("Durability"))
-        ammo_types.add(weapon.ammo)
-        loadout.add(weapon)
-    }
 
     if (guarantee_all_ammo) {
         if (input_amount.value >= 5) {
             while (ammo_types.size != 5) {
                 let weapon = random_item(final_weapon_list)
-                if (!ammo_types.has(weapon.ammo) && weapon.ammo != "Chaos" && weapon.ammo != "None") {
+                if (!ammo_types.has(weapon.ammo) && weapon.ammo != "Chaos" && weapon.ammo != "None" && !(all_ammo_exclude_durability && weapon.tags.includes("Durability"))) {
                     ammo_types.add(weapon.ammo)
                     loadout.add(weapon)
                 }
@@ -138,9 +128,23 @@ function generate_loadout() {
         }
     }
 
-    while (loadout.size < input_amount.value) {
+
+    while (loadout.size < input_amount.value - 1) {
         loadout.add(random_item(final_weapon_list))
     }
+
+    while (loadout.size < input_amount.value) {
+        if (guarantee_durability) {
+            let weapon
+            do {
+                weapon = random_item(final_weapon_list)
+            } while (!weapon.tags.includes("Durability"))
+            loadout.add(weapon)
+        } else {
+            loadout.add(random_item(final_weapon_list))
+        }
+    }
+
 
     let sorted_loadout = [...loadout].sort((a, b) => a.slot - b.slot)
     let augments = []
@@ -263,7 +267,7 @@ function display_loadout(loadout, augments) {
                         let aug_text = document.createElement("span")
                         aug_img.alt = prop
                         aug_text.classList.add(`augment`)
-                        
+
                         if (prop == "upgrade_path") {
                             aug_img.src = `img/augments/${wpn_augments[prop]}.gif`
                             aug_text.textContent = ` ${wpn_augments[prop]} `
