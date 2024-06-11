@@ -25,7 +25,7 @@ export default [
     {"slot": 5, "name": "Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Laser-guided rockets"},
     {"slot": 5, "name": "Direct Hit", "ammo": "Rockets", "tags": [], "superior": "Rocket damage increases while traveling"},
     {"slot": 5, "name": "Grenade Launcher", "ammo": "Rockets", "tags": [], "superior": "Grenades deal more damage and explode on impact"},
-    {"slot": 5, "name": "Napalm Bomber", "ammo": "Rockets", "tags": [], "superior": "Spreads more fire"},
+    {"slot": 5, "name": "Napalm Bomber", "ammo": "Rockets", "tags": ["No Flame"], "superior": "Spreads more fire"},
     {"slot": 5, "name": "Stickybomb Launcher", "ammo": "Rockets", "tags": [], "superior": "Grenades explode multiple times"},
     {"slot": 5, "name": "Dual Missile Launcher", "ammo": "Rockets", "tags": [], "superior": "Accelerates and homes in more aggressively"},
     {"slot": 5, "name": "Dark Blaster", "ammo": "Demon", "tags": [], "superior": "Shoots a shockwave when cooling down and consumes 1 less ammo per shot"},
