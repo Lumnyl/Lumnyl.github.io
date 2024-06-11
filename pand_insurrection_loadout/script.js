@@ -187,7 +187,10 @@ function rollAugments(weapon) {
         let choice = random_item(upgrade_choices)
         if (choice == "conversion") {
             if (augment_list.conversion_type == "") {
-                (weapon.slot == 7) ? choice = random_item(["Flame", "Blast"]) : choice = random_item(["Flame", "Blast", "Chaos"])
+                let conv_choices = ["Blast"]
+                if (weapon.slot != 7) { conv_choices.push("Chaos") }
+                if (!weapon.tags.includes("No Flame")) { conv_choices.push("Flame") }
+                choice = random_item(conv_choices)
                 let required_slots = (choice == "Chaos") ? 3 : 2;
                 if (used_slots + required_slots <= upgrade_slots) {
                     augment_list.conversion_type = choice

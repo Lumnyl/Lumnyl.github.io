@@ -30,7 +30,7 @@ export default [
     {"slot": 5, "name": "Dual Missile Launcher", "ammo": "Rockets", "tags": [], "superior": "Accelerates and homes in more aggressively"},
     {"slot": 5, "name": "Dark Blaster", "ammo": "Demon", "tags": [], "superior": "Shoots a shockwave when cooling down and consumes 1 less ammo per shot"},
     {"slot": 5, "name": "HE Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Magazine size increases to 3"},
-    {"slot": 5, "name": "Flamethrower", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Airblast altfire"},
+    {"slot": 5, "name": "Flamethrower", "ammo": "Rockets", "tags": ["Magazine", "No Flame"], "superior": "Airblast altfire"},
     {"slot": 5, "name": "Meteorite", "ammo": "Rockets", "tags": ["Durability"], "superior": "None"},
     
     {"slot": 6, "name": "Plasma Rifle", "ammo": "Cells", "tags": [], "superior": "No cooldown"},
