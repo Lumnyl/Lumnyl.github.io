@@ -3,9 +3,12 @@ export default [
     {"slot": 1, "name": "Truck Wheel Launcher", "ammo": "None", "tags": ["Durability", "Secret"], "superior": "None"},
 
     {"slot": 2, "name": "Pistol", "ammo": "Bullets", "tags": [], "superior": "Fires explosive projectiles (4 ammo per shot)"},
+    {"slot": 2, "name": "Security Pistol", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Alt-fire now stuns groups and direct hits can stun bosses"},
+    {"slot": 2, "name": "Flare Gun", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Magazine size increases to 5. Alt-fire fires all flares in a horizontal spread"},
     {"slot": 2, "name": "Laser Rifle", "ammo": "Cells", "tags": [], "superior": "Full-auto and piercing beams (3 ammo per shot)"},
 
     {"slot": 3, "name": "Shotgun", "ammo": "Shells", "tags": [], "superior": "Dragon's breath rounds"},
+    {"slot": 3, "name": "Jagdpanzer", "ammo": "Shells", "tags": ["Magazine", "Gunlocker"], "superior": "Fires an extra high-damage piercing shot"},
     {"slot": 3, "name": "Slug Shotgun", "ammo": "Shells", "tags": [], "superior": "Extra knockback to enemies"},
     {"slot": 3, "name": "Super Shotgun", "ammo": "Shells", "tags": [], "superior": "Extra short-range pellets"},
     {"slot": 3, "name": "Shrapnel Shotgun", "ammo": "Shells", "tags": [], "superior": "Projectiles are no longer affected by gravity"},
@@ -41,6 +44,8 @@ export default [
     {"slot": 6, "name": "Laser Minigun", "ammo": "Cells", "tags": [], "superior": "Spawns a shield when firing"},
     {"slot": 6, "name": "Scourge Rifle", "ammo": "Demon", "tags": ["Magazine"], "superior": "No cooldown and projectiles create poison clouds"},
     {"slot": 6, "name": "Spinfusor", "ammo": "Cells", "tags": ["Magazine"], "superior": "Shoots stabilised bouncing projectiles"},
+    {"slot": 6, "name": "Phase DMR", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "Shots travel instantly and don't cause any self damage"},
+    {"slot": 6, "name": "Silver Buster", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "No longer needs to pump"},
     
     {"slot": 7, "name": "BFG 9000", "ammo": "Cells", "tags": [], "superior": "Projectiles now shoots extra tracers on impact"},
     {"slot": 7, "name": "Gauss Annihilator", "ammo": "Cells", "tags": ["No Precision"], "superior": "No self damage"},

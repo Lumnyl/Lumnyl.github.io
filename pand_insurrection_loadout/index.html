@@ -11,8 +11,9 @@
 
 <body>
     <h1 class="pand_title">Insurrection Loadout Randomiser</h1>
-    <h2>Last updated : 11 June 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
+    <h2>Last updated : 12 June 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
     <h3 class="italic">Compatible with version 2.5.1 (21 April 2024)</h3>
+    <h3 class="italic">Compatible with <a href="https://visceralcxxiii.itch.io/pand-ins-gunlock" class="wpn_gunlocker">Gunlocker</a> version 0.2 (12 June 2024)</h3>
     <input type="range" id="input_weapon_amount" min="6" max="20" value="6">
     <label for="input_weapon_amount">Max allowed weapons : <span id="weapon_amount"></span></label>
     <br>
@@ -23,6 +24,8 @@
     <input type="checkbox" id="include_convergence"><label for="include_convergence">Include <span class="wpn_convergence">Convergence</span></label>
     <br>
     <input type="checkbox" id="include_secretweapons"><label for="include_secretweapons">Include <span class="wpn_secret">Secret Weapons</span></label>
+    <br>
+    <input type="checkbox" id="include_gunlocker"><label for="include_gunlocker">Include weapons from <a href="https://visceralcxxiii.itch.io/pand-ins-gunlock" class="wpn_gunlocker">Gunlocker [G]</a></label>
     <br>
     <input type="checkbox" id="guarantee_all_ammo"><label for="guarantee_all_ammo">Guarantee at least 1 weapon per ammo type (Chaos excluded)</label>
     <br>
@@ -67,9 +70,10 @@
         <li>Augment randomisation is a bit more involved. :
             <ul>
                 <li>The "upgrade path" is determined first. <span class="augment augment_Superior">Superior</span> will be chosen 2/3rds of the time, and <span class="augment augment_Formatter">Formatter</span> the other third. <span class="wpn_durability">Durability</span> weapons always use the <span class="augment augment_Formatter">Formatter</span> upgrade path.</li>
-                <li>Conversion augments have a 50% (25% for <span class="augment augment_Formatter">Formatter</span> weapons) chance to not be included in the augment pool.</li>
+                <li>Conversion augments have a 50% (67% for <span class="augment augment_Formatter">Formatted</span> weapons) chance to be included in the augment pool.</li>
                 <li>All augments in the pool have an equal chance to be chosen, with conversion augments counted as one.</li>
-                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5 this includes the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the Flamethrower, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
+                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5 this includes the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the Jagdpanzer (from <a href="https://visceralcxxiii.itch.io/pand-ins-gunlock" class="wpn_gunlocker">Gunlocker</a>) the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the Flamethrower, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
+                <li>The Flamethrower and Napalm Bomber cannot roll <span class="augment augment_Flame">Flame</span> augments.</li>
                 <li>The Railgun, Railbeam and Gauss Annihilator cannot roll <span class="augment augment_Precision">Precision</span> augments.</li>
                 <li>Slot 7 weapons cannot roll <span class="augment augment_Chaos">Chaos</span> augments.</li>
 

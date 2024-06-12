@@ -80,6 +80,7 @@ function generate_loadout() {
     let include_convergence = document.querySelector('#include_convergence').checked
     let include_chainsaw = document.querySelector('#include_chainsaw').checked
     let include_secretweapons = document.querySelector('#include_secretweapons').checked
+    let include_gunlocker = document.querySelector('#include_gunlocker').checked
     let roll_augments = document.querySelector('#roll_augments').checked
 
     let final_weapon_list = [...weapon_list]
@@ -110,6 +111,14 @@ function generate_loadout() {
     if (!include_secretweapons) {
         for (let index in final_weapon_list) {
             if (final_weapon_list[index].tags.includes("Secret")) {
+                final_weapon_list.splice(index, 1)
+            }
+        }
+    }
+
+    if (!include_gunlocker) {
+        for (let index in final_weapon_list) {
+            if (final_weapon_list[index].tags.includes("Gunlocker")) {
                 final_weapon_list.splice(index, 1)
             }
         }
@@ -180,7 +189,7 @@ function rollAugments(weapon) {
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
     if (!limit_capacity) { upgrade_choices.push("Capacity") }
     else if (weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) { upgrade_choices.push("Capacity") }
-    if (!weapon.tags.includes("Arcane") && (Math.random() < 0.5 || (Math.random() < 0.75 && augment_list["upgrade_path"] == "Formatter"))) {
+    if (!weapon.tags.includes("Arcane") && (Math.random() < 0.5 || (Math.random() < 0.67 && augment_list["upgrade_path"] == "Formatter"))) {
         upgrade_choices.push("conversion")
     }
     while (used_slots < upgrade_slots) {
@@ -242,6 +251,10 @@ function display_loadout(loadout, augments) {
         }
         if (weapon.tags.includes("Arcane")) {
             name.classList.add("wpn_arcane")
+        }
+        if (weapon.tags.includes("Gunlocker")) {
+            name.innerHTML += ' <span class="wpn_gunlocker" title="Part of the Gunlocker addon">[G]</span>'
+            loadout_text += `[G] `
         }
         if (weapon.name == "Hakkero Magicannon") {
             name.classList.add("wpn_hakkero")
