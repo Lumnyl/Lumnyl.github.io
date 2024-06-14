@@ -1,8 +1,11 @@
 .wpn_raiden {
-  background: linear-gradient(violet, purple);
+  background: linear-gradient(purple, magenta);
 }
 .wpn_hakkero {
-  background: linear-gradient(cyan, #007FFF);
+  background: linear-gradient(#007FFF, cyan);
+}
+.wpn_maximum {
+  background: linear-gradient(darkred, red);
 }
 .wpn_arcane {
   background-clip: text;

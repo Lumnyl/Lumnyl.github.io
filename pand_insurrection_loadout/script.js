@@ -240,6 +240,7 @@ function display_loadout(loadout, augments) {
         let img = document.createElement("img")
         let slot = document.createElement("span")
         let name = document.createElement("span")
+        let addon = document.createElement("span")
         img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
         slot.textContent = ` Slot ${weapon.slot} - `
         name.textContent = weapon.name
@@ -252,15 +253,20 @@ function display_loadout(loadout, augments) {
         if (weapon.tags.includes("Arcane")) {
             name.classList.add("wpn_arcane")
         }
-        if (weapon.tags.includes("Gunlocker")) {
-            name.innerHTML += ' <span class="wpn_gunlocker" title="Part of the Gunlocker addon">[G]</span>'
-            loadout_text += `[G] `
-        }
         if (weapon.name == "Hakkero Magicannon") {
             name.classList.add("wpn_hakkero")
         }
         if (weapon.name == "Raiden Electron Shotgun") {
             name.classList.add("wpn_raiden")
+        }
+        if (weapon.name == "Maximum") {
+            name.classList.add("wpn_maximum")
+        }
+        if (weapon.tags.includes("Gunlocker")) {
+            addon.textContent = "[G] "
+            addon.classList.add("wpn_gunlocker")
+            addon.title = "Part of the Gunlocker addon"
+            loadout_text += `[G] `
         }
         if (weapon.tags.includes("Durability")) {
             name.classList.add("wpn_durability")
@@ -272,6 +278,7 @@ function display_loadout(loadout, augments) {
         listelem.appendChild(slot)
         listelem.appendChild(name)
         listelem.innerHTML += " "
+        listelem.appendChild(addon)
 
         if (wpn_augments !== undefined) {
             loadout_save[index].augments = wpn_augments
