@@ -4,6 +4,12 @@
 body {
   background-color: #ADF;
 }
+a {
+  color: #04F;
+}
+a:active {
+  color: red;
+}
 .transition-all-ease {
   transition: all ease 300ms;
 }
