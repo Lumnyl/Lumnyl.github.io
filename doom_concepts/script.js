@@ -21,6 +21,7 @@ const head_lists = {
 }
 
 const weapon_categ_list = [
+    "Only New",
     "Melee",
     "Sidearm",
     "Shotgun",
@@ -102,7 +103,7 @@ function build_weapon_table() {
         weapon_head.appendChild(cell)
     }
     for (let weapon of weapon_list) {
-        if (subcategory_selector.value == 0 || weapon_categ_list[subcategory_selector.value-1] == weapon.category) {
+        if (subcategory_selector.value == 0 || weapon_categ_list[subcategory_selector.value-1] == weapon.category || (weapon_categ_list[subcategory_selector.value] == 1 || weapon.isnew)) {
             let row = document.createElement("tr")
             for (let item of head_lists.weapons) {
                 let cell = document.createElement("td")
