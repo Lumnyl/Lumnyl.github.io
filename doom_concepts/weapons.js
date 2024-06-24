@@ -1785,7 +1785,7 @@ export default [
         "fullname": "",
         "ammo": "Shotshells | Bombs",
         "category": "Disposable",
-        "primary" : "Shotgun",
+        "primary" : "Buckshot x10",
         "secondary" : "Grenade",
         "notes" : "",
         "superior" : "N/A",
