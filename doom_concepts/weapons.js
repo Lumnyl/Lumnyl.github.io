@@ -836,7 +836,7 @@ export default [
         "primary" : "Super auto-fire",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "",
+        "superior" : "Each kill restores some durability.",
         "durability": true,
         "description": "Twin-barrel super gun with a super rate of fire, a super-size magazine firing super high-calibers. It is not a well made weapon by any means, but it delivers on every aspect, especially considering how cheap it is.",
         "authorsnotes": "",
