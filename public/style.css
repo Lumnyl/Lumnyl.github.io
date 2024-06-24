@@ -47,6 +47,9 @@ table td {
 .darkmode table td {
   border: solid 1px white;
 }
+.concept_isnew {
+  color: lime;
+}
 .floater {
   position: fixed;
   top: 20px;

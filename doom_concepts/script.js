@@ -29,14 +29,18 @@ const weapon_categ_list = [
     "Precision",
     "Launcher",
     "Special",
+    "Demonic",
     "Superweapon",
     "Throwable",
-    "Artifact"
+    "Disposable",
+    "Artifact",
+    "Powerup"
 ]
 
 const quicknotesweapons = `<li>Demon energy is sometimes dropped by demons on death. Bigger demons drop more.</li>
 <li>Grenades are sometimes dropped by former humans. Backpacks give 5.</li>
 <li>Durability weapons can break and must be repaired with repair kits.</li>
+<li>Disposable weapons are discarded after use. Multiple copies can be kepts. For weapons able to attack more than once, pressing Reload discards the currently held copy.</li>
 <li>Upgrades are like Pandemonia Superior augments or Arcane keys. Basically a special upgrade unlocked by an item.</li>
 <li>Level 0 is the baseline for artifacts.</li>
 <li>Lore is whatever. The war against hell is still going and shooting at it until it dies is still the best combat strategy.</li>
@@ -114,6 +118,9 @@ function build_weapon_table() {
                     cell.textContent = weapon[item[0]]
                     if (weapon.durability && item[0] == "category") { 
                         cell.textContent += " - Durability"
+                    }
+                    if (weapon.isnew && item[0] == "name") {
+                        cell.innerHTML += '<span class="concept_isnew"> (new!)</span>'
                     }
                 }
                 row.appendChild(cell)
