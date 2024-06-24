@@ -232,7 +232,7 @@ export default [
         "category": "Sidearm",
         "primary" : "Fire",
         "secondary" : "Taser Shot",
-        "notes" : "Taser shot doesn't stun bosses",
+        "notes" : "",
         "superior" : "Taser shot can now stun bosses. Stunned targets electrify nearby enemies.",
         "durability": false,
         "description": "A rather bulky and unwieldy handgun, fitted with an underbarrel lightning bolt. Became commonplace among security agents who found having two separate problem solvers a bit unpractical.",
