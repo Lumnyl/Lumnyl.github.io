@@ -1162,21 +1162,6 @@ export default [
         "isnew": false
     },
     {
-        "name": "Laser Cannon",
-        "fullname": "",
-        "ammo": "Cells",
-        "category": "Special",
-        "primary" : "Laser beam",
-        "secondary" : "N/A",
-        "notes" : "",
-        "superior" : "Lasers charge enemies. Fully charged enemies ricochet lasers onto other targets and explode upon death.",
-        "durability": false,
-        "description": "What anyone first thinks about when asked to come up with a sci-fi weapon. No spread, no recoil, no loss of effectiveness at range, no bullet casings; if it didn't require so much energy it would be the perfect weapon.",
-        "authorsnotes": "",
-        "designnotes": "",
-        "isnew": false
-    },
-    {
         "name": "Laser Carbine",
         "fullname": "",
         "ammo": "Cells",
@@ -1186,10 +1171,25 @@ export default [
         "notes" : "",
         "superior" : "Pierces enemies. Doubled ammo cost.",
         "durability": false,
-        "description": "A traditional automatic rifle powered by laser technology.",
+        "description": "A traditional automatic rifle powered by laser technology; what anyone first thinks about when asked to come up with a sci-fi weapon. No spread, no recoil, no loss of effectiveness at range, no bullet casings, and no armor piercing capabilities.",
         "authorsnotes": "",
         "designnotes": "",
         "isnew": true
+    },
+    {
+        "name": "Laser Cannon",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Special",
+        "primary" : "Laser beam",
+        "secondary" : "N/A",
+        "notes" : "Needs to cool down after firing.",
+        "superior" : "Lasers charge enemies. Fully charged enemies ricochet lasers onto other targets and explode upon death.",
+        "durability": false,
+        "description": "Long range anything melter. Originally a bulky machine used in automated air defense systems to protect against missiles, it is now compact enough to see use in ground combat as well. Can serve as a very fancy - and very energy-intensive - photonic blowtorch in a pinch.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "isnew": false
     },
     {
         "name": "Plasma Railgun",
