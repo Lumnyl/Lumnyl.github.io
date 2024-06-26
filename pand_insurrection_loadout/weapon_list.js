@@ -34,7 +34,7 @@ export default [
     {"slot": 5, "name": "Dual Missile Launcher", "ammo": "Rockets", "tags": [], "superior": "Accelerates and homes in more aggressively"},
     {"slot": 5, "name": "Dark Blaster", "ammo": "Demon", "tags": [], "superior": "Shoots a shockwave when cooling down and consumes 1 less ammo per shot"},
     {"slot": 5, "name": "HE Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Magazine size increases to 3"},
-    {"slot": 5, "name": "Flamethrower", "ammo": "Rockets", "tags": ["Magazine", "No Flame"], "superior": "Airblast altfire"},
+    {"slot": 5, "name": "Flamethrower", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Airblast altfire"},
     {"slot": 5, "name": "Flak Cannon", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Primary fire shoots additional explosive tracers. Secondary fire has increased impact damage and spawns more flames"},
     {"slot": 5, "name": "Meteorite", "ammo": "Rockets", "tags": ["Durability"], "superior": "None"},
     
@@ -46,6 +46,7 @@ export default [
     {"slot": 6, "name": "Laser Minigun", "ammo": "Cells", "tags": [], "superior": "Spawns a shield when firing"},
     {"slot": 6, "name": "Scourge Rifle", "ammo": "Demon", "tags": ["Magazine"], "superior": "No cooldown and projectiles create poison clouds"},
     {"slot": 6, "name": "Spinfusor", "ammo": "Cells", "tags": ["Magazine"], "superior": "Shoots stabilised bouncing projectiles"},
+    {"slot": 6, "name": "Enlightener", "ammo": "Cells", "tags": ["Durability"], "superior": "None"},
     {"slot": 6, "name": "Phase DMR", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "5-shot burst. Shots travel instantly and don't cause any self damage"},
     {"slot": 6, "name": "Silver Buster", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "No longer needs to pump"},
     
