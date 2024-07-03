@@ -21,7 +21,7 @@ const head_lists = {
 }
 
 const weapon_categ_list = [
-    "Only New",
+    "New and Updated",
     "Melee",
     "Sidearm",
     "Shotgun",
@@ -108,7 +108,7 @@ function build_weapon_table() {
         weapon_head.appendChild(cell)
     }
     for (let weapon of weapon_list) {
-        if (subcategory_selector.value == 0 || weapon_categ_list[subcategory_selector.value-1] == weapon.category || (weapon_categ_list[subcategory_selector.value-1] == "Disposable" && weapon.category == "Partially Disposable") || (subcategory_selector.value == 1 && weapon.isnew)) {
+        if (subcategory_selector.value == 0 || weapon_categ_list[subcategory_selector.value-1] == weapon.category || (weapon_categ_list[subcategory_selector.value-1] == "Disposable" && weapon.category == "Partially Disposable") || (subcategory_selector.value == 1 && weapon.newstatus>0)) {
             let row = document.createElement("tr")
             for (let item of head_lists.weapons) {
                 let cell = document.createElement("td")
@@ -125,8 +125,12 @@ function build_weapon_table() {
                     if (weapon.durability && item[0] == "category") { 
                         cell.textContent += " - Durability"
                     }
-                    if (weapon.isnew && item[0] == "name") {
-                        cell.innerHTML += '<span class="concept_isnew"> (new!)</span>'
+                    if (item[0] == "name") {
+                        if (weapon.newstatus == 1) {
+                            cell.innerHTML += '<span class="concept_isnew"> (new!)</span>'
+                        } else if (weapon.newstatus == 2) {
+                            cell.innerHTML += '<span class="concept_isupdated"> (updated!)</span>'
+                        }
                     }
                 }
                 row.appendChild(cell)

@@ -12,7 +12,7 @@ export default [
         "description": "Standard-issue CQC weapon for those seeking a stealthier approach, combat in ammo-scarce environements, or just plain old getting close and personnal. Cuts and punctures hellspawn skin like a hot... well, knife through butter.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Brass Knuckles",
@@ -27,7 +27,7 @@ export default [
         "description": "The solution for those who have something to prove but don't want to feel limited by the fleshy padding wrapping their hands. Nothing like knocking out a demon in a single roid-fuelled punch.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Fire Axe",
@@ -42,7 +42,7 @@ export default [
         "description": "A reliable tool for door opening and head splitting alike. Already comes painted in red so you don't have to do it yourself.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Machete",
@@ -57,7 +57,7 @@ export default [
         "description": "Chops down vines and foliage, and in case there's a lack of vines and foliage, limbs and guts as well!",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Chainsaw",
@@ -72,7 +72,7 @@ export default [
         "description": "Woodcutting tool turned demon ripper. Not the cleanest among melee weapons, but its crudeness has a certain charm to it. Now go find some meat.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Super Chainsaw",
@@ -87,7 +87,7 @@ export default [
         "description": "Following the unexpected success of chainsaws on the battlefield, the next logical step would obviously be to double-down on the ripping and tearing. Painting your armor red has never been so easy, but the increased power required tends to jam the weapon after prolonged usage.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Electro-Tonfa",
@@ -102,7 +102,7 @@ export default [
         "description": "Combining police brutality with more police brutality. This contraption never caught on due to how easy it was for untrained users to injure themselves, but remains popular among the few who got profiencent enough to reap its superior damage potential.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Plasma Saber",
@@ -117,7 +117,7 @@ export default [
         "description": "Prehistoric technology meets post-space age material developpement. This plasma-fueled magic wand will sever, melt, lacerate and immolate any and all things unfortunate enough to make contact with it.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Blast Hammer",
@@ -132,7 +132,7 @@ export default [
         "description": "A large metal weight affixed on top of a pole is nothing you haven't seen before, but the surprise comes in the form of a 12 gauge frag round right in whatever freak's skull you just caved in. Demolition with a capital D.",
         "authorsnotes": "Basically KF2's Pulverizer.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Power Fist",
@@ -147,7 +147,7 @@ export default [
         "description": "Ever wanted to not only kill a demon in a single punch, but also knock its head clean off its shoulders straight into the stratosphere? Do you feel disgusted by the limitations of the human body? Are you currently in rehab for steroid abuse? (we don't judge) If you answered yes to any of these questions, here's the weapon just for you.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Guntlet",
@@ -162,7 +162,7 @@ export default [
         "description": "Typographic error turned monster tenderiser. Negates the inherent inaccuracy of shotgun shells by eliminating the range variable completely. Your money back if it explodes in your hand.",
         "authorsnotes": "The GANTLET.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Hellfire Sword",
@@ -177,7 +177,7 @@ export default [
         "description": "A scimitar perpetually burning with the fires of hell. Somehow entirely harmless to the user and can be stowed and stored safely without any worries of setting everything on fire. How convenient.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Laser Drill",
@@ -192,7 +192,7 @@ export default [
         "description": "A hand-held power tool used to harvest minerals from space rocks using a (literal) myriad of lasers converging into a single point. If you've ever burned ants with a magnifying glass as a kid, this machine will make you feel right at home.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "DNA Blade",
@@ -207,7 +207,7 @@ export default [
         "description": "Experimental knife developped for quickly eliminating difficult to kill targets. The blade can be detached, releasing a special chemical that violently reacts with demonic DNA. Spontaneous destruction of target usually occurs.",
         "authorsnotes": "Inspired by the Longinus Knife from Xionic Madness.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
 
     {
@@ -223,7 +223,7 @@ export default [
         "description": "Nothing wrong with a good old self-loader. One of these and 50 bullets, that's just enough to get the party started.",
         "authorsnotes": "",
         "designnotes": "The first weapon I drew. Looks as generic as it gets.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Classic Pistol",
@@ -238,7 +238,7 @@ export default [
         "description": "The predecessor to the UAC's current standard-issue pistol. Remarkably accurate but has a mean, snappy kick.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Lucky Pistol",
@@ -253,7 +253,7 @@ export default [
         "description": "A gold-plated pistol with ivory grips and fitted with an engraved suppressor; most likely a collection piece. Altough obsolete and completely outclassed as a combat weapon, it gives off a certain aura that makes vital shots easier to hit.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Heavy Pistol",
@@ -268,7 +268,7 @@ export default [
         "description": "A high caliber, low capacity semi-automatic. While this wouldn't be to outstanding on its own, it features an innovation muzzle device that can change between suppressor and compensator.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Security Pistol",
@@ -283,7 +283,7 @@ export default [
         "description": "A rather bulky and unwieldy handgun, fitted with an underbarrel lightning bolt. Became commonplace among security agents who found having two separate problem solvers a bit unpractical.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Magnum",
@@ -298,7 +298,7 @@ export default [
         "description": "Revolvers might be a little too old-school in an age of plasma guns and demon magic, but their relative simplicity makes them ideal candidates for jamming the biggest baddest ammunition available, and sometimes that's just what you need.",
         "authorsnotes": "",
         "designnotes": "Based on an old revolver design of mine, with a little less Raging Bull and a little more Colt Python.",
-        "isnew": false
+        "newstatus": 2
     },
     {
         "name": "Handcannon",
@@ -313,7 +313,7 @@ export default [
         "description": "Magnum sniper rounds in a single-shot package that fits in your pocket. The absolute final word in one handed caliber pissing matches.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Hip-fire",
@@ -328,7 +328,7 @@ export default [
         "description": "Originally developped to give wounded soldiers a way to effectively defend themselves with only one arm, this little wonder of small arms developpement gives the shooter exceptional accuracy even without using the sights. A self-adjusting barrel-aligned laser system ensures you will always hit where you aim. Even better if you still have 2 functional arms.",
         "authorsnotes": "",
         "designnotes": "The low bore axis is inspired by the Laugo Alien.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Smart Gun",
@@ -343,7 +343,7 @@ export default [
         "description": "High capacity revolver that aims itself through a mix of target recognition sensors and computer-assisted electromagnetic adjusters. Is able to lock on to multiple targets before firing at all of them in sequence.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Plasma Pistol",
@@ -358,7 +358,7 @@ export default [
         "description": "Plasma is all the rage these days, so it was only a matter of time before these became a thing. Originally intended as a less lethal alternative to regular firearms for pacifying human targets, the ever increasing demonic threat caused new models to get jacked up higher in terms of lethality.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Laser Pistolette",
@@ -373,7 +373,7 @@ export default [
         "description": "A concept familiar to anyone who has seen a sci-fi movie. A conpact emitter of very angry particles-waves of light, so angry in fact that they burn whatever they come into contact with.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Flare Gun",
@@ -388,7 +388,7 @@ export default [
         "description": "An emergency tool used to signal your position to whoever is coming to save you. But in a real emergency you can also use this to cook demon flesh extra crispy from a relatively safe distance.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Heavy Metal",
@@ -403,7 +403,7 @@ export default [
         "description": "\"Magnum\" and \"Machine-pistol\" are not two words you commonly see together and for good reason. Don't try and shoot it à la John Woo, as the human wrist has not evolved to withstand 2 kilojoules of force over 10 times per second.",
         "authorsnotes": "Inspired by the real life full-auto Desert Eagle.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "SMG",
@@ -418,7 +418,7 @@ export default [
         "description": "A weapon type that didn't get much of a chance to prove itself originally, but as pistol cartridges got more powerful it finally managed to find a niche amongst users with a preference for more controllable, rapid-fire weapons.",
         "authorsnotes": "",
         "designnotes": "Some weird mash of a Kriss Vector and a UMP.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Sawn-off",
@@ -433,7 +433,7 @@ export default [
         "description": "Diminutive iteration of the classic double-barrel we all know and love. High maneuverability and reload speed at the cost of severely decreased accuracy. Usable one-handed for the expert gunslingers out there.",
         "authorsnotes": "Basically Blood's shotgun.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Giga-Volt",
@@ -448,7 +448,7 @@ export default [
         "description": "Your average security stun gun this is not. Once attached, the electrodes conduct electricity at rates comparable to electric chairs, and only come off upon the target's demise or if line of sight is broken. As a safety measure, the battery must be changed after each shot, regardless of the length of the previous discharge.",
         "authorsnotes": "Inspired by the Taser from the Heli Attack series.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     
     {
@@ -464,7 +464,7 @@ export default [
         "description": "With close-range encounters becoming more prevalent, shotguns began to see more use as the range of rifles wasn't as needed anymore. If problem persists after treatment, keep treating until the problem goes away.",
         "authorsnotes": "Superior is inspired by how shotguns work in PAYDAY 2.",
         "designnotes": "Like the Pistol, there's nothing really special about this one.",
-        "isnew": false
+        "newstatus": 2
     },
     {
         "name": "Classic Shotgun",
@@ -479,7 +479,7 @@ export default [
         "description": "A good old pump-action shotgun with wooden furniture and a modified choke that removes vertical spread from the equation.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Rifled Shotgun",
@@ -494,7 +494,7 @@ export default [
         "description": "Firing a single projectile per shot might seem antithetical to what a shotgun is best for, but it does have the precision and range advantage with a proper setup. You could use regular buckshot with this gun, but the rifled barrel ironically makes the spread worse. Some people even like to run these with explosive payloads when rockets are in short supply.",
         "authorsnotes": "",
         "designnotes": "The general shape of an 870 Express with a SPAS-12 pump.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Blast Shotgun",
@@ -509,7 +509,7 @@ export default [
         "description": "A gun that shoots no bullets, instead substituting the standard buckshot with an explosive compound, turning this shotgun into a close-range shockwave dispenser. Good alternative to a heavy machine-gun.",
         "authorsnotes": "Inspired by the Metal Slug shotgun.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Flame Shot",
@@ -524,7 +524,7 @@ export default [
         "description": "Close relative to the Blast Shotgun. Instead of an explosive shockwave, this gun fires a blast of dragon's breath that sets ablaze anything in its path.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Terminator Shotgun",
@@ -539,7 +539,7 @@ export default [
         "description": "An alternate solution to the shooting buckshot problem. A lever isn't as straightforward as a pump, but the gun makes up for it with the ability to use bigger shells with higher pellet counts. Don't try to flip-cock it before consulting a gunsmith if you don't want to consult a doctor afterwards.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Plague Shotgun",
@@ -554,7 +554,7 @@ export default [
         "description": "Hell doesn't give a shit about the Geneva convention, so why should you? A dozen armor-piercing projectiles with a deadly pathogen more interested in demon flesh than human flesh.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Charge Shotgun",
@@ -569,7 +569,7 @@ export default [
         "description": "The shotgun archetype propelled into the future. The pump is used to charge the weapon, and can overcharge should greater firepower prove itself necessary.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Combat Shotgun",
@@ -584,7 +584,7 @@ export default [
         "description": "All the boom of a shotgun without all that pumping and shell inserting nonsense. Semi-automatic means a higher rate of fire, and box magazines makes reloading in the heat of combat painless. Sure, it may not be as cool, but cool doesn't keep you out of the grave.",
         "authorsnotes": "",
         "designnotes": "A Saiga with an AR-15 charging handle and a somewhat Striker-ey overslung stock.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Mag Shotgun",
@@ -599,7 +599,7 @@ export default [
         "description": "A semi-automatic shotgun fitted with an electromagnetic muzzle device, making it deadly accurate even with regular buckshot. The magnets lose a portion of their effectiveness after each shot, but charge quickly after some downtime.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "40mm Shotgun",
@@ -614,7 +614,7 @@ export default [
         "description": "Like a snake biting its tail, this \"shotgun\" is actually a pump-action grenade-launcher, loaded with grenades that actually fire buckshot. Clunky and hard to use, at the very least it tends to calm down whatever is on the receiving end very quickly.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Gyrojet Shotgun",
@@ -629,7 +629,7 @@ export default [
         "description": "Gyrojet technology has been in limbo ever since its inception due to poor accuracy and legal issues. Decades later and with the constant threat of demonic attacks, research has progressed to the point where pump-action rocket-swarm-launchers are not only possible but effective as well.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Chromatic Shotgun",
@@ -644,7 +644,7 @@ export default [
         "description": "Killer colors! An arcane weapon that somehow shoots different projectiles without the need for different ammo types.",
         "authorsnotes": "Based on Alien Vendetta's Map31.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     
     {
@@ -660,7 +660,7 @@ export default [
         "description": "Who would have thought that double-barreled shotguns - a staple of the civilian market - would see widespread military use? Centuries of firearm evolution, tactical accessories, integrated computing, and what comes out on top? Two metal tubes loaded with buckshot.",
         "authorsnotes": "Yeah I didn't want to have Super Shotgun as both a category name and a weapon name.",
         "designnotes": "Generic side-by-side. The markings on the stock stand for 9, 4, and Romero.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Drilling Shotgun",
@@ -675,7 +675,7 @@ export default [
         "description": "A survival shotgun with an underbarrel(s) high-power rifle. Lacks the double-trigger system that normally allows both barrels to be fired at once.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Slayer Shotgun",
@@ -690,7 +690,7 @@ export default [
         "description": "A heavily modified side-by-size coach gun fitted with a grappling hook that provides fantastic mobility for daredevils, though its lack of stock or ability to fire single barrels tend to turn off who prefer not getting right in the demons' faces.",
         "authorsnotes": "",
         "designnotes": "I try to stay away from directly copying designs but I couldn't really with this one. The spike on the grip is my way of making it a bit less of a ripoff.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Harpooner",
@@ -705,7 +705,7 @@ export default [
         "description": "The Slayer Shotgun concept turned on its head. The harpoon brings the demons right to you, and a double fistfull of buckshot makes sure they won't dare try to bite back.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Hyper Shotgun",
@@ -720,7 +720,7 @@ export default [
         "description": "The firepower of a double-barrel with the fire rate of a pump-action. The bullpup design may be a pain to reload, but when it's loaded, it's out for blood.",
         "authorsnotes": "",
         "designnotes": "Based on the Quake 2 SSG, with a stock straight out of a KSG. Barrels are in an over-under configuration to work around the limitations of 2D drawings.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Quad Shotgun",
@@ -735,7 +735,7 @@ export default [
         "description": "2 barrels of buckshot can bruise the shoulder of an untrained shooter. 4 barrels will most likely relocate your shoulder and not be painless about it. But hey, at least you're not on the other end.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Shredder Shotgun",
@@ -750,7 +750,7 @@ export default [
         "description": "If you thought buckshot was too clean, then you might want to substitue it with small jagged slabs of metal. Rips right through the opposition but has a pitiful range due to the low velocity of the projectiles.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Flak Cannon",
@@ -765,7 +765,7 @@ export default [
         "description": "A heavy weapon with a dual purpose: it can either fire a spread of red hot shrapnel that bounces around corners, or send the entire package as a frag grenade. One of the finest additions to the shotgun family.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Sonic Blaster",
@@ -780,7 +780,7 @@ export default [
         "description": "This shotgun fires a high-powered supersonic shockwave over a very short distance. Normally, it would take some time for the capacitors to recharge between each shot, but it's also fitted with a kinetic supercharger, allowing you to manually accelerate the process using the lever.",
         "authorsnotes": "Blatant rip-off of the Machreaper from Final Doomer. I just love that gun.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Jackhammer",
@@ -795,7 +795,7 @@ export default [
         "description": "A tiny little gun that triples in weight when loaded, has nothing in terms of recoil reduction, basically zero precision, fires entirely too quickly due to how short the bolt is, and so crudely made it would make any gunsmith cry. The upside? Unparalleled flesh tenderiser.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
 
     {
@@ -811,7 +811,7 @@ export default [
         "description": "A mainstay of any solider's loadout since the middle of the 20th century. This jack-of-all-trades is good for precision and rapid-fire alike.",
         "authorsnotes": "",
         "designnotes": "Loosely based on the rifles found in the zombieman and player sprites. Features a G36-style charging handle on an otherwise pretty AR-15 looking gun.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Bullpup Rifle",
@@ -826,7 +826,7 @@ export default [
         "description": "An assault rifle with the magazine in the back, reducing the overall size while preserving accuracy. Tricky to handle, but surprisingly effective in capable hands.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Grenadier Rifle",
@@ -841,7 +841,7 @@ export default [
         "description": "Grenades and rifles share a long history together, starting with hand grenades fired using blanks rounds to underbarrel launchers attached to infantry rifles. Nothing like finishing off a job well done with a 40mm explosive.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Chimera",
@@ -856,7 +856,7 @@ export default [
         "description": "Multi-barreled rifles haven't really had any kind of success before hell invaded, but when the strategy revolves around dispensing as much lead as possible, who's gonna say no to something that does it twice as much?",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Hyperburst",
@@ -871,7 +871,7 @@ export default [
         "description": "Though mechanically complex and a pain to manufacture, this rifle has the distinct advantage of firing a burst of bullets quicker than the time it takes for the shooter to get hit with recoil. While not as strong individually, the rapid repeated bullet impacts have an easier time getting demons to flinch.",
         "authorsnotes": "",
         "designnotes": "We have the G11 at home. At least it's not BOCW's idiotic design.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Chaingun",
@@ -886,7 +886,7 @@ export default [
         "description": "The advantage of using electricity to power your gun it that you can directly control the rate of fire. In the case of prolonged rapid-fire, the gun has a quick-change rotating barrel assembly, allowing continued usage without damaging the overheated barrels.",
         "authorsnotes": "The multi-barrel gimmick is a riff on DOOM's \"chaingun\"",
         "designnotes": "Based on the minigun from Commando 2 with some M249 elements tacked on.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Pulse Rifle",
@@ -901,7 +901,7 @@ export default [
         "description": "Futuristic chaingun in the shape of an assault rifle. By using electronic pulses to fire caseless ammunition, it can chamber multiple rounds at once deliver a devastating volley of lead in a short controlled burst.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "GPMG",
@@ -916,7 +916,7 @@ export default [
         "description": "Stands for General Purpose Machine-Gun. Named this way due to its ammo being strong enough to give the gun versatility, such as suppressive fire, destroying unarmored vehicles, or spitting enough lead to make customers not need to come back for more. Somehow usable one-handed, as the high recoil is enough to perfectly counteract its weight.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Nailgun",
@@ -931,7 +931,7 @@ export default [
         "description": "Double-barreled pneumatic hardware dispenser. Nails are dense enough to pierce through flesh like a hot knife through butter, though the extra mass limits their velocity severely.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Metalstorm",
@@ -946,7 +946,7 @@ export default [
         "description": "Taking what the Hyperburst does and jacking it up even higher. The Metalstorm has dozens of barrels loaded with caseless ammo, ready to be fired synchronously through electric pulses and creating a wall of bullets dense enough to block out the sun.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Minigun",
@@ -961,7 +961,7 @@ export default [
         "description": "Often misnamed as chainguns, miniguns are functionally similar, but cycle through multiple barrels as they fire, whilst chainguns only use one at a time. Multiple barrels allows for massive uninterrupted streams of bullets, but make accurate aiming practically impossible.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Super Machinegun",
@@ -976,7 +976,7 @@ export default [
         "description": "Twin-barrel super gun with a super rate of fire, a super-size magazine firing super high-calibers. It is not a well made weapon by any means, but it delivers on every aspect, especially considering how cheap it is.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
 
     {
@@ -992,7 +992,7 @@ export default [
         "description": "A more precision-focused weapon platform. Even though the bigger ammunition was originally used for its range, it's its stopping power that got these rifles to keep a niche in the world of demon killing.",
         "authorsnotes": "",
         "designnotes": "I was originally going for a rectangular SVD kind of design, but decided to incorporate a bit of RX4 into it. I really like how sleek it looks.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Infantry Rifle",
@@ -1007,7 +1007,7 @@ export default [
         "description": "One the earliest mass-produced semi-automatic rifles in human history. Widely popular for its vintage wooden look and distinctive \"ping\" sound it makes when the clip has been emptied. Pointy stick included for good old infantry charges.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Gauss Rifle",
@@ -1022,7 +1022,7 @@ export default [
         "description": "With constant technological advancements in the fields of electricity and electronics came the democratisation of coilguns, where electromagnetic forces are used to sling bullets forwards at high enough velocities to pierce multiple layers of hellspawn. The quick charging and decharging of the coils also give this weapon its distinctive firing sound.",
         "authorsnotes": "",
         "designnotes": "Yeah that's an M16 stock with a Tavor grip. The circles on the side are supposed to be capacitors, the thing in the stock is the battery and whatever the sight rests on has an ammo counter in the back.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Sniper Rifle",
@@ -1037,7 +1037,7 @@ export default [
         "description": "A professional's weapon of choice. For the sedentary types and those who prefer shooting stuff without being shot back.",
         "authorsnotes": "Focus is based on the sniper rifle charge mechanic from TF2. Superior used to be explosive headshots, but I felt it went against the spirit of the game.",
         "designnotes": "You know what? Fuck you. *bullpups your AWM*",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Double Tap",
@@ -1052,7 +1052,7 @@ export default [
         "description": "A unique concept for a weapon that rewards skilled shooters with increased lethality. Bullets are briefly supercharged at different polarities when fired, causing an intense electric shock to the target after 2 successful consecutive hits. ",
         "authorsnotes": "Inspired by Advanced Warfare's NA-45. A CoD gun in my DOOM game, what has the world come to?",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Anti-Materiel Rifle",
@@ -1067,7 +1067,7 @@ export default [
         "description": "As the name implies, this kind of rifle is best used against armored equipment and tends to be overkill for target elimination - that is, if said target doesn't takes magnitudes more punishment than any human would. Mind the recoil.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Seeker Rifle",
@@ -1082,7 +1082,7 @@ export default [
         "description": `One-shot multi-kills made easy. The bullets are able to repropel themselves in new directions after impact, targetting new targets which may be out of view of the shooter. They are however incapable of targetting the same target twice, making that one assassination even more impressive in retrospect, assuming only one shot was fired of course.`,
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     
     {
@@ -1098,7 +1098,7 @@ export default [
         "description": "With bigger demons comes the need for bigger weaponry. Unlike older rocket launcher models, this one shoots slower rockets that consume less fuel and produce little to no back-blast, allowing usage in crowded environments.",
         "authorsnotes": "",
         "designnotes": "It's kind of a mess honestly. I almost gave it a muzzle brake before remembering rocket launchers don't need those.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Heat Seeker",
@@ -1113,7 +1113,7 @@ export default [
         "description": "The ever increasing frequency of flying enemies calls for a way to hit them with rockets more reliably. The targetting system causes a bit of delay between shots, but such the price of making missing your target an actual challenge.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "DPRL",
@@ -1128,7 +1128,7 @@ export default [
         "description": "Delayed Propulsion Rocket Launcher. A sort of hybrid between a standard rocket launcher and a recoiless rifle, rockets are propelled out of the barrel before rapidly accelerating. Highly damaging but with a very low splash radius.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Hellstorm",
@@ -1143,7 +1143,7 @@ export default [
         "description": "Another shining example of quantity over quality, this weapon launches a volley of missiles at a rate high enough to qualify as suppressive fire. It might be a pain to carry and on the shoulder, but firing is a such a rush that it just keeps you coming back for more.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Grenade Launcher",
@@ -1158,7 +1158,7 @@ export default [
         "description": "Sometimes, explosives need a little more subtlelty than destroying what directly in front of you. The grenades can be lobbed over wall, around corners, or worst case scenario, straight back at you. Someone could lose an eye.",
         "authorsnotes": "",
         "designnotes": "I really wanted to have the leaf sight on the front, but alas I chose practicality over style this time. The foregrip is foldable à la SR3-M, and the stock is just that generic AR-15 stock. Magazine is on the other side, it's basically that side revolving mag you can find on that one rocket launcher sprite.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Assault Launcher",
@@ -1173,7 +1173,7 @@ export default [
         "description": "Slow-moving projectiles might do the trick for crowds and more sluggish targets, but there are some just nimble enough to consistently dodge or worse create unnecessary danger close situations. Reduced explosive radius, increased rate of fire and high-capacity magazines should give you just the edge you need against these pesky buggers.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Napalm Launcher",
@@ -1188,7 +1188,7 @@ export default [
         "description": "It's a mystery why most of the inhabitants of a place filled with fire and brimstone aren't immune to said fire and brimstone, but it does provide a fantastic crowd control opportunity and the simple pleasures of the smell of cooked demonic meat.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Frag Launcher",
@@ -1203,7 +1203,7 @@ export default [
         "description": "Explosions are nice and all, but they tend to lose effectiveness over range. Fragmentation helps turn even the nastiest of misses into successful improvised acupuncture sessions. ",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Scorpion Crossbow",
@@ -1218,7 +1218,7 @@ export default [
         "description": "Modern propellants too fancy for you? Nostalgic for the 13th century? Maybe you're just longing for a little refinement to long-range explosive delivery. Either way, the Scorpion is the latest installement for the ones looking for an excuse to go full medieval.",
         "authorsnotes": "Inspired by the Commando 2 crossbow. It's actually named the Logan in that game, but Scorpion sounds cooler. Besides, Scorpion is the bow's name and they both work the same way, so who cares.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Howitzer",
@@ -1233,7 +1233,7 @@ export default [
         "description": "The term \"Howitzer\" generally designates a piece of artillery that can fire both directly forwards and high up in the air - in this case, man-portable artillery. You may not care about the math behind ballistic trajectories, but \"man-portable artillery\" is really all you need to remember.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Cyber Launcher",
@@ -1248,7 +1248,7 @@ export default [
         "description": "The might of a Cyberdemon in your hand. State of the art inertia reduction technolgy allows it to fire at a faster rate without the risk of the user losing control of the weapon and shooting rockets where they shouldn't be shot.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Rail Cannon",
@@ -1263,7 +1263,7 @@ export default [
         "description": "Another man-protable artillery piece, mixed with fancy electric techno-magic. There's no explosive in the payload, instead relying on the projectile's mass and the extreme velocity of the railgun system to pierce basically anything.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Dragon Destructor",
@@ -1278,7 +1278,7 @@ export default [
         "description": "A little bit of style in a world of utilitarian designs. Launches a supermassive explosive that barrels through fodder and explodes when it hits a wall - fleshy or otherwise. A good grip is required as to make sure Newton's third law doesn't cause the gun to smash into a wall.",
         "authorsnotes": "Another Commando 2 ripoff. Think of it as Serious Sam's cannon, but with rockets.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Skulltag",
@@ -1293,7 +1293,7 @@ export default [
         "description": "An unconventional weapon taking advantage of the chaotic nature of hell's armies. It fires a single drill-shaped projectiles than homes in on a demon's head, piercing its brain and crudely controlling it via electric pulses. The intent is to make the tagged demon retreat back to its brethren, at which point the projectile detonates a high-explosive charge.",
         "authorsnotes": "The Cerebral Bore from Turok. The mind-control gimmick comes from the Armadillo secondary fire in Xionic Madness.",
         "designnotes": "Made to look like the XM-345 Skull Drill, Thing Thing 4's interpretation of the Cerebral Bore.",
-        "isnew": false
+        "newstatus": 0
     },
     
     {
@@ -1309,7 +1309,7 @@ export default [
         "description": "Balls of superheated molecular soup straight out of the tap. Technically not a rifle, as plasma is a bit too amorphous to take advantage of barrel rifling, but lethality doesn't care about technicality.",
         "authorsnotes": "",
         "designnotes": "Didn't look too far for this one.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Laser Carbine",
@@ -1324,7 +1324,7 @@ export default [
         "description": "A traditional automatic rifle powered by laser technology; what anyone first thinks about when asked to come up with a sci-fi weapon. No spread, no recoil, no loss of effectiveness at range, no bullet casings, and no armor piercing capabilities.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Laser Cannon",
@@ -1339,7 +1339,7 @@ export default [
         "description": "Long range anything melter. Originally a bulky machine used in automated air defense systems to protect against missiles, it is now compact enough to see use in ground combat as well. Can serve as a very fancy - and very energy-intensive - photonic blowtorch in a pinch.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Plasma Railgun",
@@ -1354,7 +1354,7 @@ export default [
         "description": "A bit of a misnomer as there is no actual rail being fired, but uses the same concept of using electromagnetism to rapidly accelerate a concentrated mass of plasma.",
         "authorsnotes": "",
         "designnotes": "The battery is located right under the sight, which slides forwards when it needs to be reloaded. I also found the idea putting a shitty folding stock on an advanced space gun pretty funny.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Sonic Railgun",
@@ -1369,7 +1369,7 @@ export default [
         "description": "A railgun firing borderline magical resonating atomic particles that cause magnetic sonic booms at regular intervals. Or in laymans terms, an explosive railgun.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Auto Railgun",
@@ -1384,7 +1384,7 @@ export default [
         "description": "Cranking up the efficiency and speed of the capacitors sum up to an automatic tech-sniper rifle. Cooling was forgoed due to weight concerns, fortunately extra care was put into making the inevitable breakdowns painless to the user.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Ricochet Rifle",
@@ -1399,7 +1399,7 @@ export default [
         "description": "Concentrating plasma into a dense orb has the neat side effect of stabilising it enough to cause it to bounce a couple of times before dispersing. A nightmare for those worried about friendly fire, partially solved by a trajectory predictor connected to your HUD.",
         "authorsnotes": "Not a novel concept, but this particular design was inspired by the one in Endless War 3. Superior is based on the BTSX shotgun in Final Doomer.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Lightning Gun",
@@ -1414,7 +1414,7 @@ export default [
         "description": "One more added to the list of natural phenomena weaponised by mankind. This weapon has limited range but makes up for it with how easy it is to use : press the trigger and just let physics do the aiming for you.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Thunder Cannon",
@@ -1429,7 +1429,7 @@ export default [
         "description": "An unconventional weapon that promotes not shooting directly at targets. Lightning balls zaps nearby lifeforms as they go, only stopping upon contact with anything solid. Do not use in the rain.",
         "authorsnotes": "Superior should be obvious to anyone familiar with Unreal.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Eviscerator",
@@ -1444,7 +1444,7 @@ export default [
         "description": "An elegant solution to the classic problem \"I want to make demon sausage but getting close and personnal is hazardous to my health\". An integrated metal reshaper can turn contents of toolboxes into makeshift sawblades.",
         "authorsnotes": "The KF2 Eviscerator, minus the actual sawing. Durability here is a stand-in for the ammo reserves, with a little bit of lore to explain why you can repair sawblades into existence.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Assault Shield",
@@ -1459,7 +1459,7 @@ export default [
         "description": "Why bother with a shield if the best demon-killing strategy is shooting at it until it dies? Simple, just add plasma guns and you can now benefit from both offensive and defensive superiority.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Reflector Shield",
@@ -1474,7 +1474,7 @@ export default [
         "description": "Nothing says pacifism like letting the demons kill themselves. Proximity sensors, targetting modules, and enough kinetic energy to make a grown man stumble, just the ingredients needed to gaslight a group of fireball lobbers into solving their anger issues amongst themselves.",
         "authorsnotes": "Would that even count for pacifist speedruns?",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
 
     {
@@ -1490,7 +1490,7 @@ export default [
         "description": "Due to the demons' preference of cybernetic augments over conventional firearms, it was tricky to reverse-engineer their technology into usable weaponry. This weapon enhances the demon's magical abilities in order to shoot explosive balls of pure infernal energy.",
         "authorsnotes": "",
         "designnotes": "The stock and grip are supposed to look like they were grafted onto the weapon.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Demontech Rifle",
@@ -1505,7 +1505,7 @@ export default [
         "description": "A weapon developped by people overtaken by hell's influence, blending UAC technology and hellish magic. Thankfully harmless to the user and harmful to the manufacturers.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Soul Caliber",
@@ -1520,7 +1520,7 @@ export default [
         "description": "An otherworldy rifle that pierces right through physical armor and directly damage the target's soul. Fortunately what counts as a soul here is broad enough that you don't need to worry wether the gun will be effective or not.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 2
     },
     {
         "name": "Hell Repeater",
@@ -1535,7 +1535,7 @@ export default [
         "description": "4 barrels of rapid-fire delivery of refined hell energy. This is what counts as finesse in the world of demonic armaments.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Acid Lobber",
@@ -1550,7 +1550,7 @@ export default [
         "description": "Due to demonic energy being a form of magic, it can easily be transmuted into different forms with radically different physical and chemical attributes. By diluting it with water, it becomes a semi-liquid compound that becomes extremely caustic when exposed to air.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Crystalline Needler",
@@ -1565,7 +1565,7 @@ export default [
         "description": "A compact hell-gun condenses energy into crystal needles. The crystals don't have that much punch individually, but they react violently with each other once critical mass is achieved. The internal condenser takes a while to get going, causing a noticeable delay between the first shot and the storm of projectiles that follows.",
         "authorsnotes": "Inspired by the Needler from Halo.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Infernal Flamethrower",
@@ -1580,7 +1580,7 @@ export default [
         "description": "Most of hell's denizen use fire as their ranged attack of choice, so it only makes sense for a hell-powered weapon to do the same. The produced fire burns very quickly and doesn't stick to surfaces, so concentrated fire should be the prefered method of attack. (pun not intended)",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Gore Gun",
@@ -1595,7 +1595,7 @@ export default [
         "description": "A sweet little contraption that turns violence into more violence. Collecting blood charges the weapon, which is then infused with hell magic to form solid projectiles or further concentrated to create blood bombs.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 2
     },
     {
         "name": "Volcanus",
@@ -1610,7 +1610,7 @@ export default [
         "description": "A little hand-held armaggedon. Projectiles crash into the ground and spews fire and volcanic slag everywhere. Scorching the earth has never been so fun.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     
     {
@@ -1626,7 +1626,7 @@ export default [
         "description": "An autologism crafted into a weapon. Fires a massive ball of plasma followed an obscenely damaging burst of residual energy, strong enough to obliterate even the mightiest of adversaries. Oh yes!",
         "authorsnotes": "",
         "designnotes": "I added a bit of M41A pulse rifle to give the silhouette some more definition. Otherwise it's a pretty by-the-books BFG.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "BFG 2704",
@@ -1641,7 +1641,7 @@ export default [
         "description": "The first succesful attempt at a man-portable superweapon, the 2704 is what led to the serendipitous discovery of bouncy plasma. As the first of its kind, the barrage of plasma shots is somewhat unrefined, causing the power (and thus the color) of each individual shot to be a bit unpredictable.",
         "authorsnotes": "For those unaware, that's how the BFG was originally intended to work. Coming up with an explanation for the christmas balls made for a fun gimmick.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "BFG 10000",
@@ -1656,7 +1656,7 @@ export default [
         "description": "Despite the tremendous effectiveness of the BFG 9000, it has a noticeable skill requirement to use effectively. The 10k remedies this issue by being much more straightforward with a rapid-fire salvo high-intensity plasma.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Devastator",
@@ -1671,7 +1671,7 @@ export default [
         "description": 'A distant cousin to the BFG series of weapons. It follows a more "fire and forget" approach, with the projectile constantly firing plasma and lightning everywhere as it travels and direct impact damage being fairly minimal.',
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Tele-frag",
@@ -1686,7 +1686,7 @@ export default [
         "description": "Ever wanted to weaponise teleportation, but don't want to go through the trouble of setting up teleporter pads? With this masterpiece of engineering, you can now teleport highly unstable plasma right into the demons' guts. Ludicrous gibs!",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Galaxy Burst",
@@ -1701,7 +1701,7 @@ export default [
         "description": "The unmatched power of the universe into your tiny mortal hands. Can be charged to fire supernovas or even black holes - fortunately without any of the devastation that would occur with any of those celestials body so close to our planet.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Disintegrator",
@@ -1716,7 +1716,7 @@ export default [
         "description": "The final solution to problems you don't want to spend the time dealing with. Sluggish and ammo-inefficient compared to other superweapons, but makes up for it in raw \"fuck outta here\" potential.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Hellfire Annihilator",
@@ -1731,7 +1731,7 @@ export default [
         "description": "The BFG line of weapons definitely caught the attention of hell's armed forces, and thus they joined the arms race by fielding their own version to make their elite forces even deadlier.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Frostfire Annihilator",
@@ -1746,7 +1746,7 @@ export default [
         "description": "A variant of the demonic superweapon that defyies elemental classification by firing an explosive projectile of fire and ice. Hell freezing over is not good news for mankind.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "NUKE",
@@ -1761,7 +1761,7 @@ export default [
         "description": "No need for a lengthy explanation. It's a portable nuke launcher, what else is there to say.",
         "authorsnotes": "I don't know what NUKE is an acronym for and honestly I don't really care.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Mechanised Arm Cannon",
@@ -1776,7 +1776,7 @@ export default [
         "description": "In an attempt to get the most firepower possible, a mechanical arm was developped with weapons for all commonly used weapon types. A machine-gun, shotgun, rocket launcher and plasma beam caster can all be fired using the user's fingers, individually to fit the situation, or in most cases all at once.",
         "authorsnotes": "Yet another Commando 2 rip, with double the guns.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Megalaser",
@@ -1791,7 +1791,7 @@ export default [
         "description": "Originally a tank-mounted weapon for destroying aircraft, this nuclear-powered tool of destruction is strong enough to turn even the hardest of metals into slag, which has the unfortunate drawback of severly limiting how long you can have fun before frying all of its components, but oh boy do you have fun.",
         "authorsnotes": "Inspired by the powerup of the same name in Heavy Weapon. My favorite superweapon ever, mostly for the sound it makes.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
 
     {
@@ -1807,7 +1807,7 @@ export default [
         "description": "The prefered way of greeting a group of hellspawn, grenades are typically used to clear rooms without having to confront the danger directly, but are also an lightweight alternative to dedicated launchers. Articulated shoulder cannons also exist for those with not enough arms to hold their gun and throw grenades at the same time.",
         "authorsnotes": "",
         "designnotes": "It has a pin and looks like a grenade.",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Homing Grenade",
@@ -1822,7 +1822,7 @@ export default [
         "description": "An impact grenade flying towards the enemy with all the grace of a screeching flaming skull. The integrated electronics and fuel required for flight takes away valuable gunpowder space, reducing its effectiveness.",
         "authorsnotes": "Inspired by the Homing grenade modifier from Borderlands 2, and the superior is based on the Deliverance shotgun.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Spider Grenade",
@@ -1837,7 +1837,7 @@ export default [
         "description": "A devious little devices that scuttles towards its target before exploding it up high in the air. AI can be disabled to give the user more control over the location of the explosion, for example to be able to access high places without the aid of unholy devil magic.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Throwing Knife-Bombs",
@@ -1852,7 +1852,7 @@ export default [
         "description": "Combines the speed and accuracy of a throwing knife and the punch of a grenade. Close combat with these is not recommended if one prefers keeping 2 functioning arms.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Cryo Grenade",
@@ -1867,7 +1867,7 @@ export default [
         "description": "Bring the cold straight to hell. Flash-freezes a sizeable area, causing demons to have trouble moving around as their bodies fail to adapt to the sudden temperature drop. As an added bonus, frozen flesh breaks apart much more easily, causing tougher demons to fall more quickly to concentrated fire.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Tesla Field Generator",
@@ -1882,7 +1882,7 @@ export default [
         "description": "A single explosive is sometimes not enough to hold its own against swarms of angry monsters, but a long-lasting field of particularly excited electrons will do the trick just fine. Keep away from phones, pacemakers, computers and other kinds electronical devices.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Incendiary Grenade",
@@ -1897,7 +1897,7 @@ export default [
         "description": "A more traditional approach to denying and punishing unwanted movement through a specific area. A concept as old as throwing bottles of flammable liquids with a flaming piece of cloth attached.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Rolling Thunder",
@@ -1912,7 +1912,7 @@ export default [
         "description": "A surgical strike in a ball. Please refrain from trying to bounce these off walls, it was already hard enough to get them to explode in the correct direction.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Mini Turret",
@@ -1927,7 +1927,7 @@ export default [
         "description": "A cute little gun to throw at your problems. Take care of your turrets and they'll take care of you back. Sacrificing them in order to save yourself is fine too, they're dumb robots they don't have feelings." ,
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Micro Missile Swarm",
@@ -1942,7 +1942,7 @@ export default [
         "description": "The best of the best in indirect combat. Even the sloppiest grenade lobbers are guaranteed to deal some damage a swarm of deadly homing explosive angry bees.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Targetting Beacon",
@@ -1957,7 +1957,7 @@ export default [
         "description": "The closest humans got to outright casting divine judgement on their targets. Do not question how this works in hell or any other area without satellite access." ,
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     
     {
@@ -1973,7 +1973,7 @@ export default [
         "description": "A drill-dagger hybrid designed specifically to cause as much bleeding for the target as possible. This is one of the inspirations behind the creation of the Skulltag.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Duel Pistols",
@@ -1988,7 +1988,7 @@ export default [
         "description": "Vintage, old-fashioned and most definitely obsolete. These smoothbore beauties come from a time where some prefered shooting each other over going to court.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Pico Obliterator",
@@ -2003,7 +2003,7 @@ export default [
         "description": "A teeny pistol firing a tiny yet devastating unstable energy payload. Fire, get into cover, and if anything survive it probably means you shouldn't be shooting at it.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Liberator",
@@ -2018,7 +2018,7 @@ export default [
         "description": "Nothing says freedom more than 8 shotgun barrels surrounding a grenade launcher. Intended as a cheap, mass-produceable gun able to be airdropped en masse to civilians in occupied territory.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Dino Hunter",
@@ -2033,7 +2033,7 @@ export default [
         "description": `An absolute monstrosity of a gun that's somehow managed to be legally sold as a "hunting" rifle. Only a madman would consider shouldering this thing, let alone fire it.`,
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Remote Detonator",
@@ -2048,7 +2048,7 @@ export default [
         "description": 'A classic demolition package full of explosives. Remember to keep the term "safe distance" close to your heart.',
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Improvised Flamethrower",
@@ -2063,7 +2063,7 @@ export default [
         "description": "Spray cans and lighters go together like peanut butter and jelly. You can even light the can and throw it like a bundle of dynamite in a pinch.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
 
     {
@@ -2083,7 +2083,7 @@ export default [
         "description": "Hidden within the deepest darkest corners of hell, this weapon looks demonic yet no demon has been seen using it. Given how strong it is in human hands, maybe it's for the better.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "The Scythe",
@@ -2101,7 +2101,7 @@ export default [
         "description": "Harbinger of the apocalypse. Unavoidable finality. Impartial judgement. Dancing in an unending back and forth against the mortal masses like crops at harvest time. Go, and destroy some worlds.",
         "authorsnotes": "A tribute to Scythe 1 and 2 (the megawads). Secondary attack is based on the Afrit. And yes that one part of the description is taken straight from the dean.",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 2
     },
     {
         "name": "Fury of the Archangel",
@@ -2119,7 +2119,7 @@ export default [
         "description": "The reward for your triumph over the false angel. This sword, resonating with divine power, previously lead the army of heaven towards victory over the Devil himself.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 2
     },
     {
         "name": "Minigun MP5",
@@ -2137,7 +2137,7 @@ export default [
         "description": "By all intents and purposes this is a perfectly ordinary (yet legally distinct) MP5, and yet it is more akin to a bottomless bullet-hose than a submachine gun. Stripping the gun down to its base components show no signs of anomaly, so best course of action would be to not think about it.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
 
     {
@@ -2153,7 +2153,7 @@ export default [
         "description": "A beefed up Plasma Saber, capable of cutting through anything by also destroying itself. How an antimatter generator is able to fit in the palm of your hand without dematerialising itself is not something you should concern yourself about.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Pulsargun",
@@ -2168,7 +2168,7 @@ export default [
         "description": `Straight out of the 1950's idea of what a futuristic weapon looks like. Also gives the wielder a hightened sense of self-importance should they go down in battle.`,
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Legendary Shotgun",
@@ -2183,7 +2183,7 @@ export default [
         "description": "Neither demonic nor angelic, and it sure as hell doesn't look manmade. It's a gold and blue enigma shaped like a shotgun that fires exceptionally hard.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": 'Dual "Depredations" Machine-pistols',
@@ -2198,7 +2198,7 @@ export default [
         "description": "A pair of lightning-fast lead sprayers, guaranteed to stun-lock almost any adversary. These guns also grant the wielder superior reflexes and control over their muscles, causing them to feel as if time was slowing down.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Serious Cannon",
@@ -2213,7 +2213,7 @@ export default [
         "description": "A primitive bombard firing ultra-dense uranium cannonballs, mowing down fodder and perforating heavier targets. They also bounce against walls, laws of physics be damned.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": false
+        "newstatus": 0
     },
     {
         "name": "Vigdal Exoframe",
@@ -2228,7 +2228,7 @@ export default [
         "description": "A partial exoskeleton fitted with 4 hand-held and shoulder-mounted plasma cannons. Curiously, they operate semi-automatically, so mash those triggers.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Randomisator",
@@ -2243,7 +2243,7 @@ export default [
         "description": "Feeling lucky? Then this gun is for you. From the tiniest rockets to the mightiest superweapon projectiles. It can even fire what your opponents are throwing at you!",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Blast Field Generator",
@@ -2258,7 +2258,7 @@ export default [
         "description": `A modified BFG 9000, firing no projectile and instead focusing on the "obscenely damaging burst of residual energy". It's also faster than the original weapon, making it a sort of plasma automatic ultrashotgun of sorts.`,
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     },
     {
         "name": "Cacobombs",
@@ -2273,6 +2273,6 @@ export default [
         "description": "Throwable explosives in the shape of a cacodemon. They seek enemies and viciously bite them, and explode after a set or if the target decides to fight back. No, you can't keep them as pets, stop asking.",
         "authorsnotes": "",
         "designnotes": "",
-        "isnew": true
+        "newstatus": 1
     }
 ]

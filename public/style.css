@@ -50,6 +50,9 @@ table td {
 .concept_isnew {
   color: lime;
 }
+.concept_isupdated {
+  color: cyan;
+}
 .floater {
   position: fixed;
   top: 20px;
