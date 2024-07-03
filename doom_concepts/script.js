@@ -42,7 +42,11 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 <li>Demon energy is sometimes dropped by demons on death. Bigger demons drop more.</li>
 <li>Grenades are sometimes dropped by former humans. Backpacks give 5.</li>
 <li>Durability weapons can break and must be repaired with repair kits.</li>
-<li>Disposable and Partially Disposable weapons are temporary weapons using their own separate ammo types. Disposable weapons are discarded after use, and pressing Reload drops your current copy if it has a partially emptied magazine (discarded copies can't be picked back up).</li>
+<li>Disposable and Partially Disposable weapons are temporary weapons using their own separate ammo types.
+<ul>
+<li>You can hold multiple copies of Disposable weapons. Reloading drops your current copy and discarded copies cannot be picked back up.</li>
+<li>Partially Disposable weapons are reloaded conventionally or may not need to reload at all. If you have a Partially Disposable weapon in your inventory, then its drops are replaced with bigger ammunition packs.</li>
+</ul></li>
 <li>Upgrades are like Pandemonia Superior augments or Arcane keys. Basically a special upgrade unlocked by an item.</li>
 <li>Level 0 is the baseline for artifacts.</li>
 <li>Lore is whatever. The war against hell is still going and shooting at it until it dies is still the best combat strategy.</li>
