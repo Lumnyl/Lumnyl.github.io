@@ -24,6 +24,7 @@ export default [
     {"slot": 4, "name": "Nailgun", "ammo": "Bullets", "tags": [], "superior": "Nails deal more damage for every enemy pierced"},
     {"slot": 4, "name": "Atom Blaster", "ammo": "Bullets", "tags": [], "superior": "Projectiles duplicate when bouncing"},
     {"slot": 4, "name": "Light Machinegun", "ammo": "Bullets", "tags": ["Magazine"], "superior": "Faster fire rate, increased mag size, decreased accuracy"},
+    {"slot": 4, "name": "Vengeful Blade", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Consumes 1 less ammo per shot"},
     {"slot": 4, "name": "Firestorm", "ammo": "Bullets", "tags": ["Durability"], "superior": "None"},
 
     {"slot": 5, "name": "Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Laser-guided rockets"},
@@ -36,6 +37,7 @@ export default [
     {"slot": 5, "name": "HE Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Magazine size increases to 3"},
     {"slot": 5, "name": "Flamethrower", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Airblast altfire"},
     {"slot": 5, "name": "Flak Cannon", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Primary fire shoots additional explosive tracers. Secondary fire has increased impact damage and spawns more flames"},
+    {"slot": 5, "name": "Solarion", "ammo": "Demon", "tags": ["Gunlocker"], "superior": "Beams split into homing balls on impact"},
     {"slot": 5, "name": "Meteorite", "ammo": "Rockets", "tags": ["Durability"], "superior": "None"},
     
     {"slot": 6, "name": "Plasma Rifle", "ammo": "Cells", "tags": [], "superior": "No cooldown"},
