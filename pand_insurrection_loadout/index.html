@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insurrection Loadout Randomiser</title>
+    <title>Insurrection Loadout Randomizer</title>
     <link rel="stylesheet" href="/public/style.css">
     <link rel="stylesheet" href="/public/pand.css">
 </head>
 
 <body>
-    <h1 class="pand_title">Insurrection Loadout Randomiser</h1>
-    <h2>Last updated : 26 June 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
+    <h1 class="pand_title">Insurrection Loadout Randomizer</h1>
+    <h2>Last updated : 06 July 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
     <h3 class="italic">Compatible with version 2.5.2 (26 June 2024)</h3>
     <h3 class="italic">Compatible with <a href="https://visceralcxxiii.itch.io/pand-ins-gunlock" class="wpn_gunlocker">Gunlocker</a> version 0.3 (14 June 2024)</h3>
     <input type="range" id="input_weapon_amount" min="6" max="20" value="6">
@@ -33,7 +33,7 @@
     <br id="all_ammo_exclude_durability_br">
     <input type="checkbox" id="guarantee_durability"><label for="guarantee_durability">Guarantee at least 1 <span class="wpn_durability">Durability</span> weapon</label>
     <br>
-    <input type="checkbox" id="roll_augments"><label for="roll_augments">Randomise augments</label>
+    <input type="checkbox" id="roll_augments"><label for="roll_augments">Randomize augments</label>
     <br>
     <input type="checkbox" id="limit_capacity"><label for="limit_capacity">Don't roll <span class="augment augment_Capacity">Capacity</span> augments on weapons that don't benefit from them.</label>
     <br>
@@ -53,21 +53,21 @@
     <ul>
         <li>Reroll as much as you want before you start playing.</li>
         <li>Once you get a weapon from your loadout, you must keep it for the rest of the playthrough.</li>
-        <li>No limits on what augments you can use, unless of course you selected the "<i>Randomise augments</i>" option.</li>
+        <li>No limits on what augments you can use, unless of course you selected the "<i>Randomize augments</i>" option.</li>
         <li>You're allowed to drop a loadout weapon to grab a copy to try out a different build for example.</li>
         <li>You may use any weapon you want until as placeholders. Limit yourself to the Doom 2 arsenal, use sidegrades (e.g. an Auto Shotgun until you get a Riot Shotgun) or not even limit yourself at all, that's all up to you.</li>
         <li>You're allowed to disregard or add any rules if you feel like doing so. Those are just some basic guidelines to get you started.</li>
         <li>Have fun. This is the only rule you must follow. I <i>will</i> know if you don't.</li>
     </ul>
-    <h3>How the randomiser (and options) work :</h3>
+    <h3>How the randomizer (and options) work :</h3>
     <ul>
         <li>All weapons are chosen at random.</li>
-        <li>Options affect the randomisation in the order they are shown. This means it will first choose a <span class="wpn_durability">Durability</span> weapon, then roll weapons you have one for each ammo type, if the corresponding options are selected.</li>
+        <li>Options affect the randomization in the order they are shown. This means it will first choose a <span class="wpn_durability">Durability</span> weapon, then roll weapons you have one for each ammo type, if the corresponding options are selected.</li>
         <li>The Chainsaw is not included by default due to not being upgradable.</li>
         <li>The <span class="wpn_convergence">Convergence</span> is not included by default due to being unobtainable if you have pursuer bosses disabled.</li>
         <li>The <span class="wpn_staff">Sacrosanct Aeonstave</span> is not included by default because it makes spawn events more often.</li>
         <li>Chaos is not included in the ammo type check because it's only used by 1 weapon.</li>
-        <li>Augment randomisation is a bit more involved. :
+        <li>Augment randomization is a bit more involved. :
             <ul>
                 <li>The "upgrade path" is determined first. <span class="augment augment_Superior">Superior</span> will be chosen 2/3rds of the time, and <span class="augment augment_Formatter">Formatter</span> the other third. <span class="wpn_durability">Durability</span> weapons always use the <span class="augment augment_Formatter">Formatter</span> upgrade path.</li>
                 <li>Conversion augments have a 50% (67% for <span class="augment augment_Formatter">Formatted</span> weapons) chance to be included in the augment pool.</li>

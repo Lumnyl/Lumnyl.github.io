@@ -1,9 +1,9 @@
 var html_body = document.querySelector("body")
 var is_darkmode = (localStorage.getItem("is_darkmode") === null) ? false : localStorage.getItem("is_darkmode")
-var is_minimise = (localStorage.getItem("is_minimise") === null) ? false : localStorage.getItem("is_minimise")
+var is_minimize = (localStorage.getItem("is_minimize") === null) ? false : localStorage.getItem("is_minimize")
 if (is_darkmode === "true") html_body.classList.add("darkmode")
 
-var last_website_update = "03 July 2024"
+var last_website_update = "07 July 2024"
 
 var footer_separator = document.createElement("hr")
 var last_updated = document.createElement("p")
@@ -21,8 +21,8 @@ var floater = document.createElement("div")
 floater.classList.add("floater")
 
 var floater_elem1 = document.createElement("p")
-floater_elem1.classList.add("can_minimise")
-if (is_minimise === "true") floater_elem1.classList.add("hide")
+floater_elem1.classList.add("can_minimize")
+if (is_minimize === "true") floater_elem1.classList.add("hide")
 floater.appendChild(floater_elem1)
 
 var floater_darkmode_toggle = document.createElement("input")
@@ -45,8 +45,8 @@ floater_elem1.appendChild(floater_darkmode_toggle)
 floater_elem1.appendChild(floater_darkmode_label)
 
 var floater_elem2 = document.createElement("p")
-floater_elem2.classList.add("can_minimise")
-if (is_minimise === "true") floater_elem2.classList.add("hide")
+floater_elem2.classList.add("can_minimize")
+if (is_minimize === "true") floater_elem2.classList.add("hide")
 floater.appendChild(floater_elem2)
 
 var return_home = document.createElement("a")
@@ -55,27 +55,27 @@ return_home.classList.add("floater_clickable")
 return_home.href = "/"
 floater_elem2.appendChild(return_home)
 
-var floater_minimise = document.createElement("p")
-floater.appendChild(floater_minimise)
-var floater_minimise_toggle = document.createElement("input")
-floater_minimise_toggle.type = "checkbox"
-floater_minimise_toggle.checked = (is_minimise === "true")
-floater_minimise_toggle.id = "minimise_toggle"
+var floater_minimize = document.createElement("p")
+floater.appendChild(floater_minimize)
+var floater_minimize_toggle = document.createElement("input")
+floater_minimize_toggle.type = "checkbox"
+floater_minimize_toggle.checked = (is_minimize === "true")
+floater_minimize_toggle.id = "minimize_toggle"
 
-floater_minimise_toggle.addEventListener("click", function() {
-    let minimise_list = document.querySelectorAll(".can_minimise")
-    for (let elem of minimise_list) {
-        (floater_minimise_toggle.checked) ? elem.classList.add("hide") : elem.classList.remove("hide")
+floater_minimize_toggle.addEventListener("click", function() {
+    let minimize_list = document.querySelectorAll(".can_minimize")
+    for (let elem of minimize_list) {
+        (floater_minimize_toggle.checked) ? elem.classList.add("hide") : elem.classList.remove("hide")
     }
-    is_minimise = floater_minimise_toggle.checked
-    localStorage.setItem("is_minimise", is_minimise)
+    is_minimize = floater_minimize_toggle.checked
+    localStorage.setItem("is_minimize", is_minimize)
 })
 
-var floater_minimise_label = document.createElement("label")
-floater_minimise_label.setAttribute("for", "minimise_toggle")
-floater_minimise_label.classList.add("floater_clickable")
-floater_minimise_label.textContent = "Minimise"
-floater_minimise.appendChild(floater_minimise_toggle)
-floater_minimise.appendChild(floater_minimise_label)
+var floater_minimize_label = document.createElement("label")
+floater_minimize_label.setAttribute("for", "minimize_toggle")
+floater_minimize_label.classList.add("floater_clickable")
+floater_minimize_label.textContent = "Minimize"
+floater_minimize.appendChild(floater_minimize_toggle)
+floater_minimize.appendChild(floater_minimize_label)
 
 html_body.appendChild(floater)

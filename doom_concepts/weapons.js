@@ -9,7 +9,7 @@ export default [
         "notes" : "10x damage against unaware enemies.",
         "superior" : "Secondary attack parries enemy projectiles.",
         "durability": false,
-        "description": "Standard-issue CQC weapon for those seeking a stealthier approach, combat in ammo-scarce environements, or just plain old getting close and personnal. Cuts and punctures hellspawn skin like a hot... well, knife through butter.",
+        "description": "Standard-issue CQC weapon for those seeking a stealthier approach, combat in ammo-scarce environments, or just plain old getting close and personal. Cuts and punctures hellspawn skin like a hot... well, knife through butter.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -99,7 +99,7 @@ export default [
         "notes" : "No Berserk bonus on secondary attack.",
         "superior" : "Dual wielding.",
         "durability": false,
-        "description": "Combining police brutality with more police brutality. This contraption never caught on due to how easy it was for untrained users to injure themselves, but remains popular among the few who got profiencent enough to reap its superior damage potential.",
+        "description": "Combining police brutality with more police brutality. This contraption never caught on due to how easy it was for untrained users to injure themselves, but remains popular among the few who got proficient enough to reap its superior damage potential.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -114,7 +114,7 @@ export default [
         "notes" : "No Berserk bonus.",
         "superior" : "Shoots horizontal plasma beams.",
         "durability": false,
-        "description": "Prehistoric technology meets post-space age material developpement. This plasma-fueled magic wand will sever, melt, lacerate and immolate any and all things unfortunate enough to make contact with it.",
+        "description": "Prehistoric technology meets post-space age material development. This plasma-fueled magic wand will sever, melt, lacerate and immolate any and all things unfortunate enough to make contact with it.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -159,7 +159,7 @@ export default [
         "notes" : "Uppercut deals more damage; jab causes pellets to hit enemies behind the target on kill. Shotgun blast is affected by Berserk.",
         "superior" : "Can parry projectiles and triples the shotgun blast damage when doing so. Parrying with an uppercut makes you look cool but has no practical use.",
         "durability": false,
-        "description": "Typographic error turned monster tenderiser. Negates the inherent inaccuracy of shotgun shells by eliminating the range variable completely. Your money back if it explodes in your hand.",
+        "description": "Typographic error turned monster tenderizer. Negates the inherent inaccuracy of shotgun shells by eliminating the range variable completely. Your money back if it explodes in your hand.",
         "authorsnotes": "The GANTLET.",
         "designnotes": "",
         "newstatus": 0
@@ -204,7 +204,7 @@ export default [
         "notes" : "No Berserk bonus.",
         "superior" : "Target explodes on death, dealing heavy damage to nearby demons of the same species.",
         "durability": true,
-        "description": "Experimental knife developped for quickly eliminating difficult to kill targets. The blade can be detached, releasing a special chemical that violently reacts with demonic DNA. Spontaneous destruction of target usually occurs.",
+        "description": "Experimental knife developed for quickly eliminating difficult to kill targets. The blade can be detached, releasing a special chemical that violently reacts with demonic DNA. Spontaneous destruction of target usually occurs.",
         "authorsnotes": "Inspired by the Longinus Knife from Xionic Madness.",
         "designnotes": "",
         "newstatus": 0
@@ -250,7 +250,7 @@ export default [
         "notes" : "10% chance to deal 5x damage",
         "superior" : "Additional 5% chance to deal 10x damage. Stacks with the base effect.",
         "durability": false,
-        "description": "A gold-plated pistol with ivory grips and fitted with an engraved suppressor; most likely a collection piece. Altough obsolete and completely outclassed as a combat weapon, it gives off a certain aura that makes vital shots easier to hit.",
+        "description": "A gold-plated pistol with ivory grips and fitted with an engraved suppressor; most likely a collection piece. Although obsolete and completely outclassed as a combat weapon, it gives off a certain aura that makes vital shots easier to hit.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -325,7 +325,7 @@ export default [
         "notes" : "",
         "superior" : "Automatic and guns akimbo.",
         "durability": false,
-        "description": "Originally developped to give wounded soldiers a way to effectively defend themselves with only one arm, this little wonder of small arms developpement gives the shooter exceptional accuracy even without using the sights. A self-adjusting barrel-aligned laser system ensures you will always hit where you aim. Even better if you still have 2 functional arms.",
+        "description": "Originally developed to give wounded soldiers a way to effectively defend themselves with only one arm, this little wonder of small arms development gives the shooter exceptional accuracy even without using the sights. A self-adjusting barrel-aligned laser system ensures you will always hit where you aim. Even better if you still have 2 functional arms.",
         "authorsnotes": "",
         "designnotes": "The low bore axis is inspired by the Laugo Alien.",
         "newstatus": 0
@@ -370,7 +370,7 @@ export default [
         "notes" : "",
         "superior" : "Infinite ammo.",
         "durability": false,
-        "description": "A concept familiar to anyone who has seen a sci-fi movie. A conpact emitter of very angry particles-waves of light, so angry in fact that they burn whatever they come into contact with.",
+        "description": "A concept familiar to anyone who has seen a sci-fi movie. A compact emitter of very angry particles-waves of light, so angry in fact that they burn whatever they come into contact with.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -702,7 +702,7 @@ export default [
         "notes" : "Harpoon doesn't work on boss enemies.",
         "superior" : "Extra damage to harpooned enemies.",
         "durability": false,
-        "description": "The Slayer Shotgun concept turned on its head. The harpoon brings the demons right to you, and a double fistfull of buckshot makes sure they won't dare try to bite back.",
+        "description": "The Slayer Shotgun concept turned on its head. The harpoon brings the demons right to you, and a double fistful of buckshot makes sure they won't dare try to bite back.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -747,7 +747,7 @@ export default [
         "notes" : "",
         "superior" : "Each piece of shrapnel causes bleeding.",
         "durability": false,
-        "description": "If you thought buckshot was too clean, then you might want to substitue it with small jagged slabs of metal. Rips right through the opposition but has a pitiful range due to the low velocity of the projectiles.",
+        "description": "If you thought buckshot was too clean, then you might want to substitute it with small jagged slabs of metal. Rips right through the opposition but has a pitiful range due to the low velocity of the projectiles.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -792,7 +792,7 @@ export default [
         "notes" : "",
         "superior" : "Every 3rd shot is free.",
         "durability": true,
-        "description": "A tiny little gun that triples in weight when loaded, has nothing in terms of recoil reduction, basically zero precision, fires entirely too quickly due to how short the bolt is, and so crudely made it would make any gunsmith cry. The upside? Unparalleled flesh tenderiser.",
+        "description": "A tiny little gun that triples in weight when loaded, has nothing in terms of recoil reduction, basically zero precision, fires entirely too quickly due to how short the bolt is, and so crudely made it would make any gunsmith cry. The upside? Unparalleled flesh tenderizer.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1019,7 +1019,7 @@ export default [
         "notes" : "Infinite piercing",
         "superior" : "Damage increases for every enemy pierced.",
         "durability": false,
-        "description": "With constant technological advancements in the fields of electricity and electronics came the democratisation of coilguns, where electromagnetic forces are used to sling bullets forwards at high enough velocities to pierce multiple layers of hellspawn. The quick charging and decharging of the coils also give this weapon its distinctive firing sound.",
+        "description": "With constant technological advancements in the fields of electricity and electronics came the democratization of coilguns, where electromagnetic forces are used to sling bullets forwards at high enough velocities to pierce multiple layers of hellspawn. The quick charging and decharging of the coils also give this weapon its distinctive firing sound.",
         "authorsnotes": "",
         "designnotes": "Yeah that's an M16 stock with a Tavor grip. The circles on the side are supposed to be capacitors, the thing in the stock is the battery and whatever the sight rests on has an ammo counter in the back.",
         "newstatus": 0
@@ -1079,7 +1079,7 @@ export default [
         "notes" : "Bullets ricochets towards enemies, up to 2 times.",
         "superior" : "Bullets now ricochet up to 5 times.",
         "durability": false,
-        "description": `One-shot multi-kills made easy. The bullets are able to repropel themselves in new directions after impact, targetting new targets which may be out of view of the shooter. They are however incapable of targetting the same target twice, making that one assassination even more impressive in retrospect, assuming only one shot was fired of course.`,
+        "description": `One-shot multi-kills made easy. The bullets are able to repropel themselves in new directions after impact, targeting new targets which may be out of view of the shooter. They are however incapable of targeting the same target twice, making that one assassination even more impressive in retrospect, assuming only one shot was fired of course.`,
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -1110,7 +1110,7 @@ export default [
         "notes" : "",
         "superior" : "Increased damage to flying enemies.",
         "durability": false,
-        "description": "The ever increasing frequency of flying enemies calls for a way to hit them with rockets more reliably. The targetting system causes a bit of delay between shots, but such the price of making missing your target an actual challenge.",
+        "description": "The ever increasing frequency of flying enemies calls for a way to hit them with rockets more reliably. The targeting system causes a bit of delay between shots, but such the price of making missing your target an actual challenge.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1125,7 +1125,7 @@ export default [
         "notes" : "",
         "superior" : "Propulsion creates a damaging explosion and causes rockets to travel instantly.",
         "durability": false,
-        "description": "Delayed Propulsion Rocket Launcher. A sort of hybrid between a standard rocket launcher and a recoiless rifle, rockets are propelled out of the barrel before rapidly accelerating. Highly damaging but with a very low splash radius.",
+        "description": "Delayed Propulsion Rocket Launcher. A sort of hybrid between a standard rocket launcher and a recoilless rifle, rockets are propelled out of the barrel before rapidly accelerating. Highly damaging but with a very low splash radius.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1155,7 +1155,7 @@ export default [
         "notes" : "Grenades bounce against solid surfaces.",
         "superior" : "Increased damage after one bounce.",
         "durability": false,
-        "description": "Sometimes, explosives need a little more subtlelty than destroying what directly in front of you. The grenades can be lobbed over wall, around corners, or worst case scenario, straight back at you. Someone could lose an eye.",
+        "description": "Sometimes, explosives need a little more subtlety than destroying what directly in front of you. The grenades can be lobbed over wall, around corners, or worst case scenario, straight back at you. Someone could lose an eye.",
         "authorsnotes": "",
         "designnotes": "I really wanted to have the leaf sight on the front, but alas I chose practicality over style this time. The foregrip is foldable à la SR3-M, and the stock is just that generic AR-15 stock. Magazine is on the other side, it's basically that side revolving mag you can find on that one rocket launcher sprite.",
         "newstatus": 0
@@ -1215,7 +1215,7 @@ export default [
         "notes" : "",
         "superior" : "Bolts split into 2 after some travel time.",
         "durability": false,
-        "description": "Modern propellants too fancy for you? Nostalgic for the 13th century? Maybe you're just longing for a little refinement to long-range explosive delivery. Either way, the Scorpion is the latest installement for the ones looking for an excuse to go full medieval.",
+        "description": "Modern propellants too fancy for you? Nostalgic for the 13th century? Maybe you're just longing for a little refinement to long-range explosive delivery. Either way, the Scorpion is the latest installment for the ones looking for an excuse to go full medieval.",
         "authorsnotes": "Inspired by the Commando 2 crossbow. It's actually named the Logan in that game, but Scorpion sounds cooler. Besides, Scorpion is the bow's name and they both work the same way, so who cares.",
         "designnotes": "",
         "newstatus": 0
@@ -1245,7 +1245,7 @@ export default [
         "notes" : "",
         "superior" : "Last rocket in burst deals extra damage.",
         "durability": false,
-        "description": "The might of a Cyberdemon in your hand. State of the art inertia reduction technolgy allows it to fire at a faster rate without the risk of the user losing control of the weapon and shooting rockets where they shouldn't be shot.",
+        "description": "The might of a Cyberdemon in your hand. State of the art inertia reduction technology allows it to fire at a faster rate without the risk of the user losing control of the weapon and shooting rockets where they shouldn't be shot.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1260,7 +1260,7 @@ export default [
         "notes" : "Infinite piercing",
         "superior" : "Bounces twice against solid surfaces.",
         "durability": true,
-        "description": "Another man-protable artillery piece, mixed with fancy electric techno-magic. There's no explosive in the payload, instead relying on the projectile's mass and the extreme velocity of the railgun system to pierce basically anything.",
+        "description": "Another man-portable artillery piece, mixed with fancy electric techno-magic. There's no explosive in the payload, instead relying on the projectile's mass and the extreme velocity of the railgun system to pierce basically anything.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1366,7 +1366,7 @@ export default [
         "notes" : "",
         "superior" : "Creates an additional larger blast every time an enemy is hit.",
         "durability": false,
-        "description": "A railgun firing borderline magical resonating atomic particles that cause magnetic sonic booms at regular intervals. Or in laymans terms, an explosive railgun.",
+        "description": "A railgun firing borderline magical resonating atomic particles that cause magnetic sonic booms at regular intervals. Or in layman's terms, an explosive railgun.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1396,7 +1396,7 @@ export default [
         "notes" : "",
         "superior" : "Bouncing projectiles target enemies.",
         "durability": false,
-        "description": "Concentrating plasma into a dense orb has the neat side effect of stabilising it enough to cause it to bounce a couple of times before dispersing. A nightmare for those worried about friendly fire, partially solved by a trajectory predictor connected to your HUD.",
+        "description": "Concentrating plasma into a dense orb has the neat side effect of stabilizing it enough to cause it to bounce a couple of times before dispersing. A nightmare for those worried about friendly fire, partially solved by a trajectory predictor connected to your HUD.",
         "authorsnotes": "Not a novel concept, but this particular design was inspired by the one in Endless War 3. Superior is based on the BTSX shotgun in Final Doomer.",
         "designnotes": "",
         "newstatus": 0
@@ -1411,7 +1411,7 @@ export default [
         "notes" : "",
         "superior" : "Lightning spreads to nearby enemies.",
         "durability": false,
-        "description": "One more added to the list of natural phenomena weaponised by mankind. This weapon has limited range but makes up for it with how easy it is to use : press the trigger and just let physics do the aiming for you.",
+        "description": "One more added to the list of natural phenomena weaponized by mankind. This weapon has limited range but makes up for it with how easy it is to use : press the trigger and just let physics do the aiming for you.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1441,7 +1441,7 @@ export default [
         "notes" : "Sawblades on solid surfaces can be retrieved, restoring durability.",
         "superior" : "Pierces enemies and bounces against solid surfaces up to 3 times each.",
         "durability": true,
-        "description": "An elegant solution to the classic problem \"I want to make demon sausage but getting close and personnal is hazardous to my health\". An integrated metal reshaper can turn contents of toolboxes into makeshift sawblades.",
+        "description": "An elegant solution to the classic problem \"I want to make demon sausage but getting close and personal is hazardous to my health\". An integrated metal reshaper can turn contents of toolboxes into makeshift sawblades.",
         "authorsnotes": "The KF2 Eviscerator, minus the actual sawing. Durability here is a stand-in for the ammo reserves, with a little bit of lore to explain why you can repair sawblades into existence.",
         "designnotes": "",
         "newstatus": 0
@@ -1471,7 +1471,7 @@ export default [
         "notes" : "Requires cells to reflect projectiles. Drains durability if out of cells.",
         "superior" : "Reflected projectiles deals x3 damage to demons in the same class as the one who threw it.",
         "durability": true,
-        "description": "Nothing says pacifism like letting the demons kill themselves. Proximity sensors, targetting modules, and enough kinetic energy to make a grown man stumble, just the ingredients needed to gaslight a group of fireball lobbers into solving their anger issues amongst themselves.",
+        "description": "Nothing says pacifism like letting the demons kill themselves. Proximity sensors, targeting modules, and enough kinetic energy to make a grown man stumble, just the ingredients needed to gaslight a group of fireball lobbers into solving their anger issues amongst themselves.",
         "authorsnotes": "Would that even count for pacifist speedruns?",
         "designnotes": "",
         "newstatus": 0
@@ -1502,7 +1502,7 @@ export default [
         "notes" : "Requires reloading.",
         "superior" : "Increased fire rate for the first half of the magazine, and increased damage for the second half.",
         "durability": false,
-        "description": "A weapon developped by people overtaken by hell's influence, blending UAC technology and hellish magic. Thankfully harmless to the user and harmful to the manufacturers.",
+        "description": "A weapon developed by people overtaken by hell's influence, blending UAC technology and hellish magic. Thankfully harmless to the user and harmful to the manufacturers.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1517,7 +1517,7 @@ export default [
         "notes" : "Ignores resistances.",
         "superior" : "Heals you on hit.",
         "durability": false,
-        "description": "An otherworldy rifle that pierces right through physical armor and directly damage the target's soul. Fortunately what counts as a soul here is broad enough that you don't need to worry wether the gun will be effective or not.",
+        "description": "An otherworldly rifle that pierces right through physical armor and directly damage the target's soul. Fortunately what counts as a soul here is broad enough that you don't need to worry wether the gun will be effective or not.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 2
@@ -1577,7 +1577,7 @@ export default [
         "notes" : "",
         "superior" : "Decreased ammo consumption.",
         "durability": false,
-        "description": "Most of hell's denizen use fire as their ranged attack of choice, so it only makes sense for a hell-powered weapon to do the same. The produced fire burns very quickly and doesn't stick to surfaces, so concentrated fire should be the prefered method of attack. (pun not intended)",
+        "description": "Most of hell's denizen use fire as their ranged attack of choice, so it only makes sense for a hell-powered weapon to do the same. The produced fire burns very quickly and doesn't stick to surfaces, so concentrated fire should be the preferred method of attack. (pun not intended)",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1607,7 +1607,7 @@ export default [
         "notes" : "",
         "superior" : "Spreads more projectiles over a larger area.",
         "durability": true,
-        "description": "A little hand-held armaggedon. Projectiles crash into the ground and spews fire and volcanic slag everywhere. Scorching the earth has never been so fun.",
+        "description": "A little hand-held armageddon. Projectiles crash into the ground and spews fire and volcanic slag everywhere. Scorching the earth has never been so fun.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1638,7 +1638,7 @@ export default [
         "notes" : "",
         "superior" : "Each projectile fired has a chance to be duplicated.",
         "durability": false,
-        "description": "The first succesful attempt at a man-portable superweapon, the 2704 is what led to the serendipitous discovery of bouncy plasma. As the first of its kind, the barrage of plasma shots is somewhat unrefined, causing the power (and thus the color) of each individual shot to be a bit unpredictable.",
+        "description": "The first successful attempt at a man-portable superweapon, the 2704 is what led to the serendipitous discovery of bouncy plasma. As the first of its kind, the barrage of plasma shots is somewhat unrefined, causing the power (and thus the color) of each individual shot to be a bit unpredictable.",
         "authorsnotes": "For those unaware, that's how the BFG was originally intended to work. Coming up with an explanation for the christmas balls made for a fun gimmick.",
         "designnotes": "",
         "newstatus": 0
@@ -1683,7 +1683,7 @@ export default [
         "notes" : "",
         "superior" : "Overkill damage causes an explosion proportional to potential damage lost.",
         "durability": false,
-        "description": "Ever wanted to weaponise teleportation, but don't want to go through the trouble of setting up teleporter pads? With this masterpiece of engineering, you can now teleport highly unstable plasma right into the demons' guts. Ludicrous gibs!",
+        "description": "Ever wanted to weaponize teleportation, but don't want to go through the trouble of setting up teleporter pads? With this masterpiece of engineering, you can now teleport highly unstable plasma right into the demons' guts. Ludicrous gibs!",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1698,7 +1698,7 @@ export default [
         "notes" : "Projectile attracts enemies and deals constant damage. Weapon can be charged up to 3 times, increasing damage dealt and the intensity of attraction.",
         "superior" : "Star also shoots star-shaped projectiles in a horizontal circular pattern. Higher intensity stars shoot more projectiles.",
         "durability": false,
-        "description": "The unmatched power of the universe into your tiny mortal hands. Can be charged to fire supernovas or even black holes - fortunately without any of the devastation that would occur with any of those celestials body so close to our planet.",
+        "description": "The unmatched power of the universe into your tiny mortal hands. Can be charged to fire supernovas or even black holes - fortunately without any of the devastation that would occur with any of those celestial body so close to our planet.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1743,7 +1743,7 @@ export default [
         "notes" : "",
         "superior" : "Also fires either a spread of icicles or fireballs every shot, chosen at random.",
         "durability": false,
-        "description": "A variant of the demonic superweapon that defyies elemental classification by firing an explosive projectile of fire and ice. Hell freezing over is not good news for mankind.",
+        "description": "A variant of the demonic superweapon that defies elemental classification by firing an explosive projectile of fire and ice. Hell freezing over is not good news for mankind.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -1764,7 +1764,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Mechanised Arm Cannon",
+        "name": "Mechanized Arm Cannon",
         "fullname": "",
         "ammo": "Bullets | Shells | Rockets | Cells",
         "category": "Superweapon",
@@ -1773,7 +1773,7 @@ export default [
         "notes" : "Reload cycles through weapons",
         "superior" : "Rate of fire increases with continued fire. Cycling weapons provides a temporary fire rate boost.",
         "durability": false,
-        "description": "In an attempt to get the most firepower possible, a mechanical arm was developped with weapons for all commonly used weapon types. A machine-gun, shotgun, rocket launcher and plasma beam caster can all be fired using the user's fingers, individually to fit the situation, or in most cases all at once.",
+        "description": "In an attempt to get the most firepower possible, a mechanical arm was developed with weapons for all commonly used weapon types. A machine-gun, shotgun, rocket launcher and plasma beam caster can all be fired using the user's fingers, individually to fit the situation, or in most cases all at once.",
         "authorsnotes": "Yet another Commando 2 rip, with double the guns.",
         "designnotes": "",
         "newstatus": 0
@@ -1788,7 +1788,7 @@ export default [
         "notes" : "",
         "superior" : "Destroys enemy projectiles.",
         "durability": true,
-        "description": "Originally a tank-mounted weapon for destroying aircraft, this nuclear-powered tool of destruction is strong enough to turn even the hardest of metals into slag, which has the unfortunate drawback of severly limiting how long you can have fun before frying all of its components, but oh boy do you have fun.",
+        "description": "Originally a tank-mounted weapon for destroying aircraft, this nuclear-powered tool of destruction is strong enough to turn even the hardest of metals into slag, which has the unfortunate drawback of severely limiting how long you can have fun before frying all of its components, but oh boy do you have fun.",
         "authorsnotes": "Inspired by the powerup of the same name in Heavy Weapon. My favorite superweapon ever, mostly for the sound it makes.",
         "designnotes": "",
         "newstatus": 0
@@ -1804,7 +1804,7 @@ export default [
         "notes" : "",
         "superior" : "Spreads fragments when exploding.",
         "durability": false,
-        "description": "The prefered way of greeting a group of hellspawn, grenades are typically used to clear rooms without having to confront the danger directly, but are also an lightweight alternative to dedicated launchers. Articulated shoulder cannons also exist for those with not enough arms to hold their gun and throw grenades at the same time.",
+        "description": "The preferred way of greeting a group of hellspawn, grenades are typically used to clear rooms without having to confront the danger directly, but are also an lightweight alternative to dedicated launchers. Articulated shoulder cannons also exist for those with not enough arms to hold their gun and throw grenades at the same time.",
         "authorsnotes": "",
         "designnotes": "It has a pin and looks like a grenade.",
         "newstatus": 0
@@ -1817,7 +1817,7 @@ export default [
         "primary" : "Throw",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "Fires bullets towards the targetted enemy.",
+        "superior" : "Fires bullets towards the targeted enemy.",
         "durability": false,
         "description": "An impact grenade flying towards the enemy with all the grace of a screeching flaming skull. The integrated electronics and fuel required for flight takes away valuable gunpowder space, reducing its effectiveness.",
         "authorsnotes": "Inspired by the Homing grenade modifier from Borderlands 2, and the superior is based on the Deliverance shotgun.",
@@ -1879,7 +1879,7 @@ export default [
         "notes" : "",
         "superior" : "Enemies in the field stop moving.",
         "durability": false,
-        "description": "A single explosive is sometimes not enough to hold its own against swarms of angry monsters, but a long-lasting field of particularly excited electrons will do the trick just fine. Keep away from phones, pacemakers, computers and other kinds electronical devices.",
+        "description": "A single explosive is sometimes not enough to hold its own against swarms of angry monsters, but a long-lasting field of particularly excited electrons will do the trick just fine. Keep away from phones, pacemakers, computers and other kinds electronic devices.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1945,7 +1945,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Targetting Beacon",
+        "name": "Targeting Beacon",
         "fullname": "",
         "ammo": "Grenades x5",
         "category": "Throwable",
@@ -1985,7 +1985,7 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "Vintage, old-fashioned and most definitely obsolete. These smoothbore beauties come from a time where some prefered shooting each other over going to court.",
+        "description": "Vintage, old-fashioned and most definitely obsolete. These smoothbore beauties come from a time where some preferred shooting each other over going to court.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -2015,7 +2015,7 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "Nothing says freedom more than 8 shotgun barrels surrounding a grenade launcher. Intended as a cheap, mass-produceable gun able to be airdropped en masse to civilians in occupied territory.",
+        "description": "Nothing says freedom more than 8 shotgun barrels surrounding a grenade launcher. Intended as a cheap, mass-producible gun able to be airdropped en masse to civilians in occupied territory.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -2110,7 +2110,7 @@ export default [
         "category": "Artifact",
         "primary" : "Swing",
         "secondary" : "Smite",
-        "notes" : "Damaging enemies with this weapon builds up charge. Secondary attack consumes 100% to instantly kill any non-boss enemy and severly damage bosses. Primary attack is affected by Berserk.",
+        "notes" : "Damaging enemies with this weapon builds up charge. Secondary attack consumes 100% to instantly kill any non-boss enemy and severely damage bosses. Primary attack is affected by Berserk.",
         "superior" : [
             "Swinging the sword shoots waves of divine energy. You gain increased speed while this weapon is active.",
             "Secondary attack also temporarily buffs damage and attack speed. You gain increased defense while this weapon is active.",
@@ -2150,7 +2150,7 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "A beefed up Plasma Saber, capable of cutting through anything by also destroying itself. How an antimatter generator is able to fit in the palm of your hand without dematerialising itself is not something you should concern yourself about.",
+        "description": "A beefed up Plasma Saber, capable of cutting through anything by also destroying itself. How an antimatter generator is able to fit in the palm of your hand without dematerializing itself is not something you should concern yourself about.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -2165,7 +2165,7 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": `Straight out of the 1950's idea of what a futuristic weapon looks like. Also gives the wielder a hightened sense of self-importance should they go down in battle.`,
+        "description": `Straight out of the 1950's idea of what a futuristic weapon looks like. Also gives the wielder a heightened sense of self-importance should they go down in battle.`,
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -2231,7 +2231,7 @@ export default [
         "newstatus": 1
     },
     {
-        "name": "Randomisator",
+        "name": "Randomizator",
         "fullname": "",
         "ammo": "N/A",
         "category": "Powerup",
