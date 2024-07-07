@@ -82,7 +82,7 @@ const enemy_categ_list = [
 
 const quicknotesweapons = `<li>Melee weapons all deal double damage when under the effect of Berserk except when stated otherwise.</li>
 <li>Demon energy is sometimes dropped by demons on death. Bigger demons drop more.</li>
-<li>Grenades are sometimes dropped by former humans. Backpacks give 5.</li>
+<li>Grenades are sometimes dropped by former humans.</li>
 <li>Durability weapons can break and must be repaired with repair kits.</li>
 <li>Disposable and Partially Disposable weapons are temporary weapons that do not use regular ammo types.
 <ul>
@@ -94,8 +94,7 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 <li>Lore is whatever. The war against hell is still going and shooting at it until it dies is still the best combat strategy.</li>
 <li>I don't have any plans to turn them into functional weapons.</li>`
 
-const quicknotesitems = `<li>Items marked with a (*) go into your inventory when picked up.</li>
-<li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level. Unlike Pandemonia, runes are not consumed upon use.</li>`
+const quicknotesitems = `<li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level. Unlike Pandemonia, runes are not consumed upon use.</li>`
 const quicknotesenemies = `<li>I have to preface this part by saying that while this lore is influenced by christianity, it is most importantly just that: influenced. I am not trying to preach anything and I am not trying to be 100% accurate to religious texts.</li>
 <li>This is also not an attempt at explaining DOOM's lore and I am writing this entirely for fun.</li>
 <li>In this setting, only the truly bad people go to hell as a way to keep heaven clean. If someone worries they may be doing a bad thing, chances are they will be fine when they die. Writing this here because I don't know where else to write it.</li>
@@ -237,10 +236,12 @@ function build_item_table() {
             for (let currentitem of head_lists.items) {
                 let cell = document.createElement("td")
                 cell.textContent = item[currentitem[0]]
-                if (currentitem[0] == "name") {
+                if (currentitem[0] == "notes") {
                     if (item.carriable) {
-                        cell.innerHTML += " (*)"
+                        cell.innerHTML += " Carriable."
                     }
+                }
+                if (currentitem[0] == "name") {
                     if (item.newstatus == 1) {
                         cell.innerHTML += '<span class="concept_isnew"> (new!)</span>'
                     } else if (item.newstatus == 2) {

@@ -373,7 +373,7 @@ export default [
         "newstatus": 1
     },
     {
-        "name": "Grenade Belt",
+        "name": "Grenade Box",
         "type": "Large Grenade Pickup",
         "category": "Ammunition",
         "effect": "5 grenades.",
@@ -462,6 +462,18 @@ export default [
         "type": "Capacity Increase",
         "category": "Powerup",
         "effect": "Demonic ammo capacity increased by 15. Grants 15 demon energy. Stacks up to five times.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Grenade Belt",
+        "type": "Capacity Increase",
+        "category": "Powerup",
+        "effect": "Grenade capacity increased by 2. Grants 2 grenades. Stacks up to five times.",
         "notes": "",
         "carriable": false,
         "description": "",
