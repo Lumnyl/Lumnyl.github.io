@@ -631,7 +631,7 @@ export default [
         "name": "Reflection",
         "type": "Power Sphere",
         "category": "Powerup",
-        "effect": "Last 30 seconds. While active, you're immune to damage and all attacks bounce off of you towards the attacker, dealing triple the damage.",
+        "effect": "Lasts 30 seconds. While active, you're immune to damage and all attacks bounce off of you towards the attacker, dealing triple the damage.",
         "notes": "",
         "carriable": false,
         "description": "",

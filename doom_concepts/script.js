@@ -28,6 +28,7 @@ const head_lists = {
         ["category", "Category"],
         ["type", "Type"],
         ["effect", "Effect"],
+        ["notes", "Notes"],
         ["description", "Description"],
     ]
 }
