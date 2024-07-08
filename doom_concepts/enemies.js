@@ -27,8 +27,8 @@ export default [
         "name": "SSG Zombie",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Reanimated sergeant with a devastating double-barrel. Avoid close range engagements at all costs.",
-        "lore": "Given the unforeseen efficiency",
+        "description": "Reanimated sergeant with a devastating boomstick. Avoid close range engagements at all costs.",
+        "lore": "Given the astonishing efficacy of double-barrels, most sergeants switched out their favorite pump-actions in favor of those short-range lead sprayers. It was still not enough to keep them alive, but it was a good effort nonetheless.",
         "newstatus": 1
     },
     {
