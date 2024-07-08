@@ -94,13 +94,15 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 <li>Lore is whatever. The war against hell is still going and shooting at it until it dies is still the best combat strategy.</li>
 <li>I don't have any plans to turn them into functional weapons.</li>`
 
-const quicknotesitems = `<li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level. Unlike Pandemonia, runes are not consumed upon use.</li>`
+const quicknotesitems = `<li>Like Pandemonia, armor passively halves all damage dealt to it. For example, a 100 damage hit with 50% protection will deal 50 damage to health and 25 to armor.</li>
+<li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level, and up to 2 can be active at once. Unlike Pandemonia, runes are not consumed upon use because they come with downsides.</li>`
 const quicknotesenemies = `<li>I have to preface this part by saying that while this lore is influenced by christianity, it is most importantly just that: influenced. I am not trying to preach anything and I am not trying to be 100% accurate to religious texts.</li>
 <li>This is also not an attempt at explaining DOOM's lore and I am writing this entirely for fun.</li>
 <li>In this setting, only the truly bad people go to hell as a way to keep heaven clean. If someone worries they may be doing a bad thing, chances are they will be fine when they die. Writing this here because I don't know where else to write it.</li>
 <li>While they are former humans, demons do not keep their consciousness after their metamorphosis. They think of humans as targets rather than former brothers.</li>
 <li>Most demons are based on the 7 deadly sins, and while it goes against the idea of the sins being opposites to the 7 virtues, I am including Sadism as an unofficial 8th sin.</li>
-<li>If the material below sounds familiar, I found out that the <a href="https://forum.zdoom.org/viewtopic.php?t=76032">LEGION</a> mod has lore with many similarities as this page, like demons being affiliated with the aforementioned 7 sins. Obviously since I'm bringing this up means I was just not aware of this mod, so these resemblances are purely coincidental.</li>`
+<li>If the material below sounds familiar, I found out that the <a href="https://forum.zdoom.org/viewtopic.php?t=76032">LEGION</a> mod has lore with many similarities as this page, like demons being affiliated with the aforementioned 7 sins. Obviously since I'm bringing this up means I was just not aware of this mod, so these resemblances are purely coincidental.</li>
+<li>Categories are an arbitrary classification based on what would fit in a monster randomizer. I'm not really sure I want to keep them in but we'll see.</li>`
 
 import weapon_list from "./weapons.js"
 import item_list from "./items.js"

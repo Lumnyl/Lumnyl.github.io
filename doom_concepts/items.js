@@ -10,7 +10,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Strong Healing Vial",
@@ -20,6 +20,19 @@ export default [
         "notes": "",
         "carriable": false,
         // "description": "A small flask of mysterious green liquid. Has a more potent healing factor than the blue variety.",
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Greater Healing Vial",
+        "type": "Health Bonus",
+        "category": "Healing",
+        "effect": "Restores 6 health. Can overcharge up to +300.",
+        "notes": "",
+        "carriable": false,
+        // "description": "A small flask of mysterious yellow liquid. ",
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
@@ -36,13 +49,25 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Strong Armor Shard",
         "type": "Armor Bonus",
         "category": "Healing",
         "effect": "Restores 3 armor. Can overcharge up to +100.",
+        "notes": "Provides 20% protection if applied without armor.",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Greater Armor Shard",
+        "type": "Armor Bonus",
+        "category": "Healing",
+        "effect": "Restores 6 armor. Can overcharge up to +100.",
         "notes": "Provides 20% protection if applied without armor.",
         "carriable": false,
         "description": "",
@@ -61,7 +86,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Stabilizing Syringe",
@@ -73,7 +98,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Medikit",
@@ -85,7 +110,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Field Kit",
@@ -97,7 +122,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Trauma Kit",
@@ -109,7 +134,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Berserk Pack",
@@ -121,7 +146,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -134,13 +159,37 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Life Sphere",
         "type": "Supercharge",
         "category": "Healing",
         "effect": "Restores 150 health. Can overcharge up to +200.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Overcharge Sphere",
+        "type": "Supercharge",
+        "category": "Healing",
+        "effect": "Restores 200 health. Can overcharge up to +200.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Salvation Sphere",
+        "type": "Supercharge",
+        "category": "Healing",
+        "effect": "Saves you from death once. Grants 100 health and a few seconds of invincibility after use.",
         "notes": "",
         "carriable": false,
         "description": "",
@@ -158,7 +207,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ultra Sphere",
@@ -170,7 +219,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -184,7 +233,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Adaptive Kinetic Armor",
@@ -197,7 +246,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "0-M Armored Suit",
@@ -210,7 +259,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Elite Sentinel Armor",
@@ -223,7 +272,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "EOD Armored Suit",
@@ -236,7 +285,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -249,7 +298,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Bullet Box",
@@ -261,7 +310,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shotgun Shells",
@@ -274,7 +323,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shell Box",
@@ -286,7 +335,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rocket",
@@ -298,7 +347,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rocket Box",
@@ -310,7 +359,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Energy Cell",
@@ -322,7 +371,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Energy Cell Pack",
@@ -334,7 +383,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demonic Essence",
@@ -346,7 +395,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Large Demonic Essence",
@@ -358,7 +407,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Grenade",
@@ -370,7 +419,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Grenade Box",
@@ -382,7 +431,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -395,7 +444,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Resupply Pack",
@@ -407,7 +456,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Magazine Pouch",
@@ -419,7 +468,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shell Bandolier",
@@ -431,7 +480,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rocket Bag",
@@ -443,7 +492,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Portable Capacitor",
@@ -455,7 +504,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demonic Crystal",
@@ -467,7 +516,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Grenade Belt",
@@ -479,7 +528,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Computer Area Map",
@@ -491,7 +540,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Radiation Shielding Suit",
@@ -503,13 +552,25 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Hazardous Environment Suit",
         "type": "Hazard Protection",
         "category": "Powerup",
         "effect": "Protects against damaging floors for 90 seconds.",
+        "notes": "Cannot leak.",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Immuno-enhancer Suit",
+        "type": "Hazard Protection",
+        "category": "Powerup",
+        "effect": "Protects against damaging floors and negative status effects for 60 seconds.",
         "notes": "Cannot leak.",
         "carriable": false,
         "description": "",
@@ -527,7 +588,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Night-Vision Goggles",
@@ -539,13 +600,25 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Threat Detection Visor",
         "type": "Light Amplification",
         "category": "Powerup",
         "effect": "Full-bright vision and reveals invisible monsters for 120 seconds.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Weakness Scanner",
+        "type": "Light Amplification",
+        "category": "Powerup",
+        "effect": "Last 120 seconds. While active, grants full-bright vision and attacks have a 10% chance of dealing triple damage.",
         "notes": "",
         "carriable": false,
         "description": "",
@@ -565,7 +638,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Invisibility",
@@ -577,7 +650,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Double Damage",
@@ -589,7 +662,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shield",
@@ -601,7 +674,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Power Weapon",
@@ -609,6 +682,18 @@ export default [
         "category": "Powerup",
         "effect": "Grants you a random Powerup weapon for 45 seconds.",
         "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Momentum",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Grants you triple damage and invincibility until you take a hit.",
+        "notes": "Has a 5 seconds grace period after being picked up.",
         "carriable": false,
         "description": "",
         "authorsnotes": "",
@@ -625,7 +710,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Doom",
@@ -637,13 +722,25 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Reflection",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Lasts 30 seconds. While active, you're immune to damage and all attacks bounce off of you towards the attacker, dealing triple the damage.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Absorption",
+        "type": "Power Sphere",
+        "category": "Powerup",
+        "effect": "Lasts 30 seconds. While active, you're immune to damage and all attacks you take gives you health and armor regeneration until +200.",
         "notes": "",
         "carriable": false,
         "description": "",
@@ -661,6 +758,18 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "God",
+        "type": "Power Sphere",
+        "category": "Powerup",
+        "effect": "Lasts 30 seconds. While active, you're immune to damage and throw balls of divine energy that smite your enemies.",
+        "notes": "Smite effect is identical to the Fury of the Archangel.",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
         "newstatus": 1
     },
 
@@ -674,7 +783,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Herculeanism",
@@ -686,7 +795,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Resourcefulness",
@@ -698,7 +807,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Brute Force",
@@ -710,7 +819,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Insensitivity",
@@ -722,7 +831,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Hastiness",
@@ -734,7 +843,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Impact",
@@ -746,7 +855,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Noncommitment",
@@ -758,7 +867,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Acceleration",
@@ -770,6 +879,6 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 ]
