@@ -690,7 +690,7 @@ export default [
 
 
     {
-        "name": "Illusion",
+        "name": "Illusion Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
         "effect": "Lasts 60 seconds. While active, enemies targeting you have a chance to shoot in random directions",
@@ -702,7 +702,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Invisibility",
+        "name": "Invisibility Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
         "effect": "Lasts 60 seconds. While active, enemies go after the last spot you made a sound at.",
@@ -714,7 +714,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Double Damage",
+        "name": "Damage Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
         "effect": "Double damage with all weapons for 45 seconds.",
@@ -726,7 +726,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Shield",
+        "name": "Shield Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
         "effect": "Take half damage for 60 seconds.",
@@ -738,7 +738,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Power Weapon",
+        "name": "Weapon Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
         "effect": "Grants you a random Powerup weapon for 45 seconds.",
@@ -750,7 +750,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Momentum",
+        "name": "Momentum Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
         "effect": "Grants you triple damage and invincibility until you take a hit.",
@@ -762,7 +762,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Invulnerability",
+        "name": "Invulnerability Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Immune to all damage for 30 seconds.",
@@ -774,7 +774,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Doom",
+        "name": "Doom Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Quad damage with all weapons and 50% damage resistance for 30 seconds.",
@@ -786,7 +786,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Reflection",
+        "name": "Reflection Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Lasts 30 seconds. While active, you're immune to damage and all attacks bounce off of you towards the attacker, dealing triple the damage.",
@@ -798,7 +798,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Absorption",
+        "name": "Absorption Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Lasts 30 seconds. While active, you're immune to damage and all attacks you take gives you health and armor regeneration until +200.",
@@ -810,7 +810,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Nuke",
+        "name": "Nuke Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Immune to all damage for 30 seconds. Detonates a nuclear blast upon expiring.",
@@ -822,7 +822,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "God",
+        "name": "God Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Lasts 30 seconds. While active, you're immune to damage and throw balls of divine energy that smite your enemies.",
@@ -834,7 +834,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Glory",
+        "name": "Glory Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Lasts 30 seconds. While active, you're immune to damage and all melee attacks deal 5x the damage. Rip and tear!",
