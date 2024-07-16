@@ -12,7 +12,39 @@ export default [
         "category": "Zombieman",
         "species": "Zombie",
         "description": "UAC researcher carrying a Plasma Pistol. Higher damage output than regular pistols but easier to dodge.",
-        "lore": "Since the UAC has many research facilities, scientists everywhere were amongst the firsts to face hell's assault. As such, many of them started carrying Plasma Pistols for self-defense, increasing their survivability somewhat at the cost of making them more dangerous after their impending demise.",
+        "lore": "Since the UAC has many research facilities, scientists everywhere were amongst the firsts to face hell's assault. As such, many of them started carrying plasma pistols for self-defense, increasing their survivability somewhat at the cost of making them more dangerous after their impending demise.",
+        "newstatus": 0
+    },
+    {
+        "name": "Female Zombie Scientist",
+        "category": "Zombieman",
+        "species": "Zombie",
+        "description": "UAC researcher carrying a Laser Pistolette. Identical to the Zombie Scientist in terms of stats.",
+        "lore": "Demonic possession doesn't discriminate. Do not ask why UAC scientists pick their fancy pew pew sidearm based on gender.",
+        "newstatus": 1
+    },
+    {
+        "name": "Handcannon Zombie",
+        "category": "Zombieman",
+        "species": "Zombie",
+        "description": "Former human carrying a powerful Handcannon. Pay attention to the laser sight, it means one is aiming at you.",
+        "lore": "Super-sized pistols have already been proven to not be very useful in military applications, but that doesn't stop soldiers from carrying them trying to impress their mates. Bonus points for the unnecessarily cumbersome laser sight.",
+        "newstatus": 1
+    },
+    {
+        "name": "Zombie Rocketeer",
+        "category": "Zombieman",
+        "species": "Zombie",
+        "description": "Dangerous rocket-launcher-wielding zombie. No concept of friendly fire or danger close.",
+        "lore": "Combining a barely human being lacking rational thought and high explosives is just a disaster waiting to happen, but at least it's a disaster for the demons... most of the time.",
+        "newstatus": 1
+    },
+    {
+        "name": "HEP Agent",
+        "category": "Zombieman",
+        "species": "Zombie",
+        "description": "Augmented supersoldier with the ability to dodge out of the way of gunfire. Has an SMG for close encounters and a Magnum for long range engagements.",
+        "lore": "The Human Enhancement Protocol was an advanced training and physical augmentation program meant to push soldiers beyond the usual human limits. The physiological changes in the subjects have had the side effect of turning their blood yellow. ",
         "newstatus": 1
     },
     {
@@ -24,11 +56,43 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Slug Shotgunner",
+        "category": "Shotgunner",
+        "species": "Zombie",
+        "description": "Female zombie with a rifled shotgun. While slugs are easier to dodge than buckshot, they also hit hard and remain lethal even at range.",
+        "lore": "In a platoon full of shotgun users, a dedicated slugger is a requirement as to not end up being outranged. Women tend to fill these roles, either as a way to stand out or for much dumber reasons like \"visual variety\" or \"enemy recognition\".",
+        "newstatus": 1
+    },
+    {
         "name": "SSG Zombie",
         "category": "Shotgunner",
         "species": "Zombie",
         "description": "Reanimated sergeant with a devastating boomstick. Avoid close range engagements at all costs.",
         "lore": "Given the astonishing efficacy of double-barrels, most sergeants switched out their favorite pump-actions in favor of those short-range lead sprayers. It was still not enough to keep them alive, but it was a good effort nonetheless.",
+        "newstatus": 0
+    },
+    {
+        "name": "Assault Shotgunner",
+        "category": "Shotgunner",
+        "species": "Zombie",
+        "description": "Former lieutenant holding a semi automatic shotgun. Deal significant damage if you stay in his line of sight for too long.",
+        "lore": "A double-barrel is the gentleman's shotgun, but the pragmatist will prefer semi-automatics. Pragmatism wins wars, that's why these guys have the rank they have.",
+        "newstatus": 1
+    },
+    {
+        "name": "Quad Shotgunner",
+        "category": "Shotgunner",
+        "species": "Zombie",
+        "description": "Quad shotgun-toting armored bastard. Very few can take a full blast of their gun and survive.",
+        "lore": "Fighters willing to put themselves through the mastery of a quad-barrel are few and far between, but those who stick through become absolute monsters on the battlefield. Due to their rarity and sheer advantage they bring in terms of firepower, they are also granted extra-protective gear.",
+        "newstatus": 1
+    },
+    {
+        "name": "HEP Engineer",
+        "category": "Shotgunner",
+        "species": "Zombie",
+        "description": "HEP soldier with grenades, land mines and automated turrets. Defends himself with a Terminator Shotgun if the need arises.",
+        "lore": "Engineers are not the best combatants of the HEP program, but what they lack in prowess they make up in tactics. They are fond of indirect warfare and games of cat and mouse, but do indulge in a little shotgunning from time to time.",
         "newstatus": 1
     },
     {
@@ -45,6 +109,38 @@ export default [
         "species": "Zombie",
         "description": "Bulky commando with a rotary chaingun. Inaccurate but with an extremely high volume of fire.",
         "lore": "Rotary chainguns were a short-lived experiment to replace traditional machine-guns. Although they were more expensive and did not offer many substantial advantages over the competition, some soldiers loved the idea of an easy to use miniature minigun.",
+        "newstatus": 0
+    },
+    {
+        "name": "Nailgunner",
+        "category": "Chaingunner",
+        "species": "Zombie",
+        "description": "Armored zombie soldiers carrying nailguns. Their armor protects them well against low-caliber weaponry.",
+        "lore": "Nailguns aren't very popular but those who like them understand the importance of armor and, by extension, armor piercing. As zombies, their inability to avoid friendly fire combined with their remarkable ability to thin crowds makes them great allies of circumstances.",
+        "newstatus": 1
+    },
+    {
+        "name": "Plasma Gunner",
+        "category": "Chaingunner",
+        "species": "Zombie",
+        "description": "Plasma carbine-wielding soldiers, firing short bursts of high temperature plasma. Their suit also gives them some protection against plasma weaponry.",
+        "lore": "Plasma weapons are still a bit of a luxury and therefore are only granted to those who deserve them. The high firepower to weight ratio of plasma compared to traditional ammunition means they are also pretty mobile, further improved by the fancy armor they wear.",
+        "newstatus": 1
+    },
+    {
+        "name": "BFG Commando",
+        "category": "Chaingunner",
+        "species": "Zombie",
+        "description": "Highly trained commando carrying the almighty BFG 9000. No need to remind you how dangerous this thing is.",
+        "lore": "The BFG is a weapon you have to prove worthy of wielding, and as such is a symbol of might and prestige for those who earn the right to carry it. However, might, prestige, or even a big fucking gun does not make you invincible, and the respect they once had has turned into pure fright when their former comrades have realized they would be on the other end of the barrel.",
+        "newstatus": 1
+    },
+    {
+        "name": "HEP Vanguard",
+        "category": "Chaingunner",
+        "species": "Zombie",
+        "description": "HEP trooper with a shield and a Heavy Metal automatic pistol. The shield offers near absolute protection, but can be stunned momentarily with sufficient firepower.",
+        "lore": "Vanguards are the frontliners and close-combat specialists of the HEP. Their superior toughness and near unbreakable titanium shields makes them able to shrug off punishment that would kill a dozen lesser men. And yes, their wrists are able to withstand 2 kilojoules of force over 10 times per second",
         "newstatus": 1
     },
 
@@ -62,7 +158,7 @@ export default [
         "species": "Imp",
         "description": "A tougher version of the Imp, throwing stronger and faster fireballs.",
         "lore": "Darkness is a source of power in the underworld, although it is dangerous and hard to harness. Demons who chose to accept it are granted superior strength and magical abilities, but it comes with a cost. Unless care is taken into controlling this power, it will corrupt and consume the host's mind like a parasite.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pinky",
@@ -78,7 +174,7 @@ export default [
         "species": "Fiend",
         "description": "One-eye horned Fiend, sometimes seen leaping at their targets rather than chasing them. Be ready to sidestep when you hear them growl.",
         "lore": "Bulls are angrier, meaner, more territorial Pinkies. They are prone to outbursts of rage which cause them to charge indiscriminately at the slightest hint of aggression. They also only have a singular cyclopic eye, like a metaphor for their tendencies for tunnel vision.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spectre",
@@ -94,7 +190,7 @@ export default [
         "species": "Fiend",
         "description": "A Spectre with a weird, inverted color scheme. Can take more punishment than regular Spectres.",
         "lore": "Sometimes, genes go a bit out of control. In this case, the skin seems to distort and invert light, as if looking at the negative of a physical picture. This makes these Spectres less capable of hiding themselves, but more resistant to damage due to light essentially becoming darkness.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Lost Soul",
@@ -110,7 +206,7 @@ export default [
         "species": "Lost Soul",
         "description": "Flying flaming skull who seems to have lost hope. They charge more often and are able to track their target mid-flight.",
         "lore": "Lost Souls, when left unattended for extended periods of time, go through a handful of physical and behavioral changes. They become more aggressive, they get more comfortable maneuvering themselves, the light in their eyes dim and scream much more ferociously. Their skull also seems to change and harden, as if it was trying to protect their host.",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -127,7 +223,7 @@ export default [
         "species": "Revenant",
         "description": "Tall unarmored skeleton without the shoulder cannons. Able to close the distance very quickly if left unattended.",
         "lore": "Carcasses are essentially Revenants without the arsenal, either by lack of time or resources. But without that additional weight, they can run faster and lunge farther while punching. Treat them are lanky, boney Fiends.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mancubus",
@@ -142,8 +238,8 @@ export default [
         "category": "Mancubus",
         "species": "Mancubus",
         "description": "Dark skinned fatso with enhanced cannons, firing blasts of dark energy at the end of their bursts.",
-        "lore": "A Mancubus consumed by darkness. The flames from their weapons burn with a green tint and can be concentrated into explosive shots. They also get hungry faster.",
-        "newstatus": 1
+        "lore": "A Mancubus consumed by darkness. The flames from their weapons burn with a green tint and can be concentrated into explosive shots. They also get hungry faster but it's not like you were gonna starve them to death anyway.",
+        "newstatus": 0
     },
     {
         "name": "Arachnotron",
@@ -176,7 +272,7 @@ export default [
         "species": "Cacodemon",
         "description": "Big flying white ball with an inverted cross on its eye. Fires balls of dark lightning and that bite is still absolutely ferocious. They sometimes phase out to reach their target quicker.",
         "lore": "Cacodemons are not exclusively carnivorous, but lithovorous as well. Sometimes, some magically charged minerals find their way in their diet, causing physiological changes which makes them significantly more evil. Their signature red skin turns white and can now use more complex and powerful forms of magic.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pain Elemental",
@@ -192,7 +288,7 @@ export default [
         "species": "Pain Elemental",
         "description": "Even worse than the Pain Elemental, they replicate Forgotten Ones, belch fire at close range and explode violently when defeated.",
         "lore": "Just like Forgotten Ones, time doesn't make Pain Elementals any nicer. Their pain transmutes into bitter hatred, which burns them even harder. They resent humans beyond all, and seem to only find joy in causing suffering wherever they go. They know you hate them back, and that only makes them more powerful.",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -209,7 +305,7 @@ export default [
         "species": "Hell Noble",
         "description": "A lesser trained but more aggressive Hell Knight/ Launches two fireballs at a time, but their lack of training causes them to deviate like Mancubus fireballs.",
         "lore": "Squires are Knights who have not reached their full potential yet. Their magic is still strong, but lacks refinement. That combined with their generally shorter temper makes them bad at making precise shots, causing them to miss their targets even if it is standing completely still.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Baron of Hell",
@@ -225,7 +321,7 @@ export default [
         "species": "Hell Noble",
         "description": "A Baron of Hell using advanced magic to make themselves fly. Otherwise completely identical to regular Barons.",
         "lore": "Afrits are an exclusive caste of Nobles with superior knowledge of magic, and are highly respected for this reason. Instead of increasing their firepower, they use their abilities to give themselves to power of flight, allowing them to rain fire from above.",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -242,7 +338,7 @@ export default [
         "species": "Archvile",
         "description": "Specialists of void magic, their attacks do not launch their target upwards when they hit. They are also capable of teleporting away from danger.",
         "lore": "Void is an advanced form of magic centered around an eponymous dimension where rules aren't well understood, but seems to derive energy out of nothingness. Not many are able to use void magic and training is exceptionally difficult due to lack of information on the matter.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cyberdemon",
@@ -274,7 +370,7 @@ export default [
         "species": "Mastermind",
         "description": "Masterminds without the clunk and metal. Surprisingly nimble, they attack with rapid streams of plasma and can dodge projectiles sent their way.",
         "lore": "Unlike Cerebrals, Masterminds are not confined to their metal chassis and can leave them whenever they please. Like Cerebrals, they can fly and cast plasma bolts, however they are much more skilled at it. How two different classes of demons are so similar is unknown.",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -290,7 +386,7 @@ export default [
         "category": "Wolfenstein",
         "species": "Dog",
         "description": "A German Shepherd trained for warfare. Quick and a nightmare for your ankles.",
-        "lore": "Animals going to hell is a bit of weird one and I'm gonna avoid it for now because I'm not sure how I want to approach it.",
-        "newstatus": 1
+        "lore": "Animals do not got to hell when they die, so how come you can sometimes see dogs in there? Maybe it's just a hell creature that just happens to look and act like a dog, or it could be a human soul transmuted into a mutt, no one knows for sure.",
+        "newstatus": 2
     },
 ]

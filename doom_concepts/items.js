@@ -36,6 +36,30 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Minor Vitality Booster",
+        "type": "Health Bonus",
+        "category": "Healing",
+        "effect": "Restores 10 health. Can overcharge up to +200. Increases max health by 1, up to a total of 50.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Major Vitality Booster",
+        "type": "Health Bonus",
+        "category": "Healing",
+        "effect": "Restores 15 health. Can overcharge up to +200. Increases max health by 3, up to a total 50.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
         "newstatus": 1
     },
     {
@@ -73,7 +97,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -183,7 +207,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Salvation Sphere",
@@ -195,7 +219,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mega Sphere",
@@ -286,6 +310,19 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Demonic Plate Armor",
+        "type": "Combat Armor",
+        "category": "Armor",
+        "effect": "300 armor. 66% protection. 50% fire resistance.",
+        "notes": "",
+        "carriable": false,
+        // "description": "Full suit of polymer composite padded armor. Provides heavy protection to the wearer as well as resistance against explosives.",
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
@@ -543,6 +580,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Terrain Analyzer",
+        "type": "Map Reveal",
+        "category": "Powerup",
+        "effect": "Draws unvisited areas in the automap. 2 charges per pickup.",
+        "notes": "",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Radiation Shielding Suit",
         "type": "Hazard Protection",
         "category": "Powerup",
@@ -571,24 +620,36 @@ export default [
         "type": "Hazard Protection",
         "category": "Powerup",
         "effect": "Protects against damaging floors and negative status effects for 60 seconds.",
-        "notes": "Cannot leak.",
+        "notes": "",
         "carriable": false,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 2
     },
     {
         "name": "Speed Suit",
         "type": "Hazard Protection",
         "category": "Powerup",
-        "effect": "Protects against damaging floors and grants increases movement speed for 60 seconds.",
-        "notes": "Highly damaging floor types have a chance to bypass the suit's protection.",
+        "effect": "Protects against damaging floors and grants increased movement speed for 60 seconds.",
+        "notes": "",
         "carriable": false,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Blast Protection Suit",
+        "type": "Hazard Protection",
+        "category": "Powerup",
+        "effect": "Protects against damaging floors and reduces self-damage by 95%.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Night-Vision Goggles",
@@ -624,7 +685,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
 
@@ -698,7 +759,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Invulnerability",
@@ -746,7 +807,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Nuke",
@@ -766,6 +827,18 @@ export default [
         "category": "Powerup",
         "effect": "Lasts 30 seconds. While active, you're immune to damage and throw balls of divine energy that smite your enemies.",
         "notes": "Smite effect is identical to the Fury of the Archangel.",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Glory",
+        "type": "Power Sphere",
+        "category": "Powerup",
+        "effect": "Lasts 30 seconds. While active, you're immune to damage and all melee attacks deal 5x the damage. Rip and tear!",
+        "notes": "",
         "carriable": false,
         "description": "",
         "authorsnotes": "",
@@ -881,4 +954,138 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
+    {
+        "name": "Rune of Prudence",
+        "type": "Rune",
+        "category": "Rune",
+        "effect": "You gain an extra life, but your movement speed is reduced.",
+        "notes": "Movement speed penalty is removed after death. Stacks with and takes priority over Salvation Spheres.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Rune of Evasiveness",
+        "type": "Rune",
+        "category": "Rune",
+        "effect": "You have a chance to negate damage based on how fast you're running, but you take increased damage from all sources.",
+        "notes": "",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Rune of Purification",
+        "type": "Rune",
+        "category": "Rune",
+        "effect": "Use while under the effects of a rune to remove its negative effects. This and the affected rune are both removed from your inventory on use.",
+        "notes": "",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+
+    // {
+    //     "name": "Contract with Asmodeus",
+    //     "type": "Contract",
+    //     "category": "Contract",
+    //     "effect": "Temporary powerups last longer.",
+    //     "notes": "Dropped by Satyr variants.",
+    //     "carriable": true,
+    //     "description": "",
+    //     "authorsnotes": "",
+    //     "designnotes": "",
+    //     "newstatus": 1
+    // },
+    {
+        "name": "Contract with Beelzebub",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "All health and armor bonuses are twice as effective, and all medical supplies heal an additional 5 health. No overcharge limit.",
+        "notes": "Dropped by Mancubus variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    // {
+    //     "name": "Contract with Belial",
+    //     "type": "Contract",
+    //     "category": "Contract",
+    //     "effect": "Magic and Demonic weapons deal increased damage.",
+    //     "notes": "Dropped by Heretic variants.",
+    //     "carriable": true,
+    //     "description": "",
+    //     "authorsnotes": "",
+    //     "designnotes": "",
+    //     "newstatus": 1
+    // },
+    {
+        "name": "Contract with Belphegor",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Double damage while standing still.",
+        "notes": "Dropped by Arachnotron variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Contract with Leviathan",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "The lower your health, the faster you attack.",
+        "notes": "Dropped by Spiderdemon variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Contract with Lucifer",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Increased damage while at max health.",
+        "notes": "Dropped by Cyberdemon variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Contract with Mammon",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Enemies drop extra ammo when killed.",
+        "notes": "Dropped by Hell Knight variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Contract with Satan",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Permanent Berserk with increased effectiveness.",
+        "notes": "Dropped by Fiend variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+
 ]
