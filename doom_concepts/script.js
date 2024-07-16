@@ -273,7 +273,7 @@ function build_enemy_table() {
         enemy_head.appendChild(cell)
     }
     for (let enemy of enemy_list) {
-        if (subcategory_selector.value == 0 || enemy_categ_list[subcategory_selector.value - 1] == enemy.category || (subcategory_selector.value == 1 && enemy.newstatus > 0)) {
+        if (subcategory_selector.value == 0 || enemy_categ_list[subcategory_selector.value - 2] == enemy.category || (subcategory_selector.value == 1 && enemy.newstatus > 0)) {
             let row = document.createElement("tr")
             for (let currentenemy of head_lists.enemies) {
                 let cell = document.createElement("td")
