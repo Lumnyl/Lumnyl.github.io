@@ -21,7 +21,6 @@ const head_lists = {
         ["category", "Category"],
         ["species", "Species"],
         ["description", "Description"],
-        ["lore", "Lore"],
     ],
     "items": [
         ["name", "Name"],
@@ -29,6 +28,11 @@ const head_lists = {
         ["type", "Type"],
         ["effect", "Effect"],
         ["notes", "Notes"],
+        ["description", "Description"],
+    ],
+    "lore": [
+        ["subject", "Subject"],
+        ["category", "Category"],
         ["description", "Description"],
     ]
 }
@@ -56,7 +60,7 @@ const item_categ_list = [
     "Ammunition",
     "Powerup",
     "Rune",
-    "Misc"
+    "Contract"
 ]
 
 const enemy_categ_list = [
@@ -80,6 +84,11 @@ const enemy_categ_list = [
     "Wolfenstein"
 ]
 
+const lore_categ_list = [
+    "Concepts",
+    "Enemy Types",
+]
+
 const quicknotesweapons = `<li>Melee weapons all deal double damage when under the effect of Berserk except when stated otherwise.</li>
 <li>Demon energy is sometimes dropped by demons on death. Bigger demons drop more.</li>
 <li>Grenades are sometimes dropped by former humans.</li>
@@ -90,29 +99,26 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 <li>Partially Disposable weapons have their own ammo pool. If you have a Partially Disposable weapon in your inventory, then additional drops are replaced with ammunition packs which give out more ammo than weapon drops.</li>
 </ul></li>
 <li>Upgrades are like Pandemonia Superior augments or Arcane keys. Basically a special upgrade unlocked by an item.</li>
-<li>Level 0 is the baseline for artifacts.</li>
-<li>Lore is whatever. The war against hell is still going and shooting at it until it dies is still the best combat strategy.</li>
-<li>I don't have any plans to turn them into functional weapons.</li>`
+<li>Level 0 is the baseline for artifacts.</li>`
 
 const quicknotesitems = `<li>Like Pandemonia, armor passively halves all damage dealt to it. For example, a 100 damage hit with 50% protection will deal 50 damage to health and 25 to armor.</li>
 <li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level, and up to 2 can be active at once. Unlike Pandemonia, runes are not consumed upon use because they come with downsides.</li>
-<li>Contracts are rare drops, and whichever contract drop depends on the enemy category. They can be signed at the cost of 15 max health and last for the rest of the playthrough. There is no limit to how many contracts can be active at once, as long as you have enough max health.</li>`
+<li>Contracts are rare drops, and whichever contract drop depends on the enemy category. They can be signed at the cost of 20 max health and last for the rest of the playthrough. There is no limit to how many contracts can be active at once, as long as you have blood to spare.</li>`
 
-const quicknotesenemies = `<li>I have to preface this part by saying that while this lore is influenced by christianity, it is most importantly just that: influenced. I am not trying to preach anything and I am not trying to be 100% accurate to religious texts.</li>
-<li>This is also not an attempt at explaining DOOM's lore and I am writing this entirely for fun.</li>
-<li>In this setting, only the truly bad people go to hell as a way to keep heaven clean. If someone worries they may be doing a bad thing, chances are they will be fine when they die. Writing this here because I don't know where else to write it.</li>
-<li>While they are former humans, demons do not keep their consciousness after their metamorphosis. They think of humans as targets rather than former brothers.</li>
-<li>Most demons are based on the 7 deadly sins, and while it goes against the idea of the sins being opposites to the 7 virtues, I am including Sadism as an unofficial 8th sin.</li>
-<li>If the material below sounds familiar, I found out that the <a href="https://forum.zdoom.org/viewtopic.php?t=76032">LEGION</a> mod has lore with many similarities as this page, like demons being affiliated with the aforementioned 7 sins. Obviously since I'm bringing this up means I was just not aware of this mod, so these resemblances are purely coincidental.</li>
-<li>Categories are an arbitrary classification based on what would fit in a monster randomizer.</li>`
+const quicknotesenemies = `<li>Categories are an arbitrary classification based on what would fit in a monster randomizer.</li>`
+
+const quicknoteslore = `<li>I have to preface this part by saying that while this lore is influenced by christianity, it is most importantly just that: influenced. I am not trying to preach anything and I am not trying to be 100% accurate to religious texts.</li>
+<li>This is also not an attempt at explaining DOOM's lore and I am writing this entirely for fun.</li>`
 
 import weapon_list from "./weapons.js"
 import item_list from "./items.js"
 import enemy_list from "./enemies.js"
+import lore_list from "./lore.js"
 
 document.querySelector("#weapon_amount").textContent = weapon_list.length
 document.querySelector("#item_amount").textContent = item_list.length
 document.querySelector("#enemy_amount").textContent = enemy_list.length
+document.querySelector("#lore_amount").textContent = lore_list.length
 
 function change_selected_category() {
     let selected_category = category_selector.value
@@ -141,7 +147,7 @@ function change_selected_category() {
         for (let index in item_categ_list) {
             let option = document.createElement("option")
             option.textContent = `${item_categ_list[index]}`
-            option.value = `${eval(index) + 1}`
+            option.value = `${eval(index) + 2}`
             subcategory_selector.appendChild(option)
         }
         build_item_table()
@@ -151,11 +157,21 @@ function change_selected_category() {
         for (let index in enemy_categ_list) {
             let option = document.createElement("option")
             option.textContent = `${enemy_categ_list[index]}`
-            option.value = `${eval(index) + 1}`
+            option.value = `${eval(index) + 2}`
             subcategory_selector.appendChild(option)
         }
         build_enemy_table()
         document.querySelector("#quicknotes").innerHTML = quicknotesenemies
+    }
+    if (selected_category == "lore") {
+        for (let index in lore_categ_list) {
+            let option = document.createElement("option")
+            option.textContent = `${lore_categ_list[index]}`
+            option.value = `${eval(index) + 2}`
+            subcategory_selector.appendChild(option)
+        }
+        build_lore_table()
+        document.querySelector("#quicknotes").innerHTML = quicknoteslore
     }
 }
 
@@ -163,14 +179,17 @@ function change_selected_subcategory() {
     let selected_category = category_selector.value
     active_table.innerHTML = ""
     switch (selected_category) {
-        case "weapons" :
+        case "weapons":
             build_weapon_table()
             break
-        case "items" :
+        case "items":
             build_item_table()
             break
-        case "enemies" :
+        case "enemies":
             build_enemy_table()
+            break
+        case "lore":
+            build_lore_table()
             break
     }
 }
@@ -282,6 +301,40 @@ function build_enemy_table() {
                     if (enemy.newstatus == 1) {
                         cell.innerHTML += '<span class="concept_isnew"> (new!)</span>'
                     } else if (enemy.newstatus == 2) {
+                        cell.innerHTML += '<span class="concept_isupdated"> (updated!)</span>'
+                    }
+                }
+                row.appendChild(cell)
+            }
+            table_body.appendChild(row)
+        }
+    }
+}
+
+
+function build_lore_table() {
+    let table_head = document.createElement("thead")
+    let table_body = document.createElement("tbody")
+    active_table.appendChild(table_head)
+    active_table.appendChild(table_body)
+    let lore_head = document.createElement("tr")
+    table_head.appendChild(lore_head)
+    for (let lore of head_lists.lore) {
+        let cell = document.createElement("td")
+        cell.id = lore[0]
+        cell.textContent = lore[1]
+        lore_head.appendChild(cell)
+    }
+    for (let lore of lore_list) {
+        if (subcategory_selector.value == 0 || lore_categ_list[subcategory_selector.value - 2] == lore.category || (subcategory_selector.value == 1 && lore.newstatus > 0)) {
+            let row = document.createElement("tr")
+            for (let currentlore of head_lists.lore) {
+                let cell = document.createElement("td")
+                cell.textContent = lore[currentlore[0]]
+                if (currentlore[0] == "subject") {
+                    if (lore.newstatus == 1) {
+                        cell.innerHTML += '<span class="concept_isnew"> (new!)</span>'
+                    } else if (lore.newstatus == 2) {
                         cell.innerHTML += '<span class="concept_isupdated"> (updated!)</span>'
                     }
                 }

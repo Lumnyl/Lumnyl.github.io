@@ -991,6 +991,18 @@ export default [
         "newstatus": 1
     },
 
+    {
+        "name": "Contract with Aamon",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "You gain 2 Juvenile Cacodemon familiars.",
+        "notes": "Familiars respawn 15 seconds after dying. Dropped by Cacodemon variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     // {
     //     "name": "Contract with Asmodeus",
     //     "type": "Contract",
@@ -1003,6 +1015,54 @@ export default [
     //     "designnotes": "",
     //     "newstatus": 1
     // },
+    // {
+    //     "name": "Contract with Astaroth",
+    //     "type": "Contract",
+    //     "category": "Contract",
+    //     "effect": "",
+    //     "notes": "Dropped by Salamander variants.",
+    //     "carriable": true,
+    //     "description": "",
+    //     "authorsnotes": "",
+    //     "designnotes": "",
+    //     "newstatus": 1
+    // },
+    {
+        "name": "Contract with Azazel",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Enemies you kill have a chance of coming back to life on your side.",
+        "notes": "Dropped by Archvile variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Contract with Baal",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Occasionally gain the effect of the Invisibility Sphere for 5 seconds.",
+        "notes": "Dropped by Spectre variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Contract with Baphomet",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Having over 66% of a specific ammo type increases damage dealt by all weapons using that ammo type.",
+        "notes": "No effect on weapons with infinite ammo. Dropped by Baron of Hell variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Contract with Beelzebub",
         "type": "Contract",
@@ -1051,6 +1111,18 @@ export default [
         "designnotes": "",
         "newstatus": 1
     },
+    // {
+    //     "name": "Contract with Lilith",
+    //     "type": "Contract",
+    //     "category": "Contract",
+    //     "effect": "",
+    //     "notes": "Dropped by Succubus variants.",
+    //     "carriable": true,
+    //     "description": "",
+    //     "authorsnotes": "",
+    //     "designnotes": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Contract with Lucifer",
         "type": "Contract",
@@ -1069,6 +1141,42 @@ export default [
         "category": "Contract",
         "effect": "Enemies drop extra ammo when killed.",
         "notes": "Dropped by Hell Knight variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Contract with Moloch",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "Enemies flinch more often and for longer.",
+        "notes": "Dropped by Pain Elemental variants.",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    // {
+    //     "name": "Contract with Naberius",
+    //     "type": "Contract",
+    //     "category": "Contract",
+    //     "effect": "",
+    //     "notes": "Dropped by Hellhound variants.",
+    //     "carriable": true,
+    //     "description": "",
+    //     "authorsnotes": "",
+    //     "designnotes": "",
+    //     "newstatus": 1
+    // },
+    {
+        "name": "Contract with Paimon",
+        "type": "Contract",
+        "category": "Contract",
+        "effect": "You gain 25% global resistance when out of armor.",
+        "notes": "Dropped by Revenant variants.",
         "carriable": true,
         "description": "",
         "authorsnotes": "",
