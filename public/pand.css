@@ -1,17 +1,3 @@
-.wpn_raiden {
-  background: linear-gradient(purple, magenta);
-}
-.wpn_hakkero {
-  background: linear-gradient(#007FFF, cyan);
-}
-.wpn_maximum {
-  background: linear-gradient(darkred, red);
-}
-.wpn_arcane {
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-}
 .wpn_secret {
   background: linear-gradient(90deg, #ff0000 0%, #ff9a00 10%, #d0de21 20%, #4fdc4a 30%, #3fdad8 40%, #2fc9e2 50%, #1c7fee 60%, #5f15f2 70%, #ba0cf8 80%, #fb07d9 90%, #ff0000 100%);
   background-clip: text;
@@ -27,6 +13,30 @@
 }
 .wpn_gunlocker:visited {
   color: #AAA;
+}
+.player_class_1 {
+  color: #03a803;
+}
+.player_class_2 {
+  color: #960505;
+}
+.player_class_3 {
+  color: #e6e6e6;
+}
+.player_class_4 {
+  color: #e6ee78;
+}
+.player_class_5 {
+  color: #0a98cf;
+}
+.player_class_6 {
+  color: #df6f07;
+}
+.player_class_7 {
+  color: #73ff00;
+}
+.player_class_8 {
+  color: #3603af;
 }
 .pand_title {
   font-size: 48px;
@@ -46,6 +56,26 @@
   font-weight: bold;
   text-shadow: 1px 1px red, -1px -1px red, -1px 1px red, 1px -1px red, 1px 0px red, -1px 0px red, 0px 1px red, 0px -1px red, 0 0 10px red;
 }
+.wpn_raiden {
+  background: linear-gradient(purple, mediumorchid);
+}
+.wpn_hakkero {
+  background: linear-gradient(mediumturquoise, cyan);
+}
+.wpn_maximum {
+  background: linear-gradient(red, firebrick);
+}
+.wpn_boltacr {
+  background: linear-gradient(darkred, red);
+}
+.wpn_fantasystaff {
+  background: linear-gradient(lightpink, lightgoldenrodyellow);
+}
+.wpn_arcane {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
 .wpn_durability {
   font-weight: bold;
   text-decoration: underline;
@@ -61,6 +91,10 @@
   color: black;
   text-shadow: 1px 1px cyan, -1px -1px cyan, -1px 1px cyan, 1px -1px cyan, 1px 0px cyan, -1px 0px cyan, 0px 1px cyan, 0px -1px cyan, 0 0 10px cyan;
 }
+.augment_Magitech {
+  color: black;
+  text-shadow: 1px 1px purple, -1px -1px purple, -1px 1px purple, 1px -1px purple, 1px 0px purple, -1px 0px purple, 0px 1px purple, 0px -1px purple, 0 0 10px purple;
+}
 .augment_Blast {
   color: orange;
 }
@@ -69,6 +103,9 @@
 }
 .augment_Flame {
   color: orangered;
+}
+.augment_Scavenge {
+  color: #0AF;
 }
 .augment_Strength {
   color: red;

@@ -3,6 +3,13 @@ export default [
     {"slot": 1, "name": "Truck Wheel Launcher", "ammo": "None", "tags": ["Durability", "Secret"], "superior": "None"},
 
     {"slot": 2, "name": "Pistol", "ammo": "Bullets", "tags": [], "superior": "Fires explosive projectiles (4 ammo per shot)"},
+    {"slot": 2, "name": "Sheller", "ammo": "Shells", "tags": ["Magazine"], "superior": "Fires all shells at once and reloads when not equipped"},
+    {"slot": 2, "name": "Compact SMG", "ammo": "Bullets", "tags": ["Magazine"], "superior": "Mag size doubled and fires piercing flechettes at a faster rate"},
+    {"slot": 2, "name": "Firecracker", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Fires a stronger projectile that explodes several times (7 ammo per shot)"},
+    {"slot": 2, "name": "Plasma Handgun", "ammo": "None", "tags": [], "superior": "Fires chaining lightning"},
+    {"slot": 2, "name": "Immolator", "ammo": "Demon", "tags": [], "superior": "No cooldown and fires a spread of projectiles"},
+    {"slot": 2, "name": "Chaos Blaster", "ammo": "Chaos", "tags": [], "superior": "Fires homing flux projectiles at a faster rate"},
+    {"slot": 2, "name": "Sapphire Wand", "ammo": "Mana", "tags": [], "superior": ""},
     {"slot": 2, "name": "Security Pistol", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Alt-fire now stuns groups and direct hits can stun bosses"},
     {"slot": 2, "name": "Flare Gun", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Magazine size increases to 5. Alt-fire fires all flares in a horizontal spread"},
     {"slot": 2, "name": "Laser Rifle", "ammo": "Cells", "tags": [], "superior": "Full-auto and piercing beams (3 ammo per shot)"},
@@ -16,6 +23,7 @@ export default [
     {"slot": 3, "name": "Auto Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "No longer needs to reload"},
     {"slot": 3, "name": "Riot Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "Stabilized spread"},
     {"slot": 3, "name": "Quad Shotgun", "ammo": "Shells", "tags": [], "superior": "Fires a strong shockwave and increased self-knockback"},
+    {"slot": 3, "name": "Wrecker Shotgun", "ammo": "Shells", "tags": [], "superior": "Can fire up to three times in rapid succession (needs to pump for each shot)"},
     {"slot": 3, "name": "Raiden Electron Shotgun", "ammo": "Shells", "tags": ["Arcane", "Magazine"], "superior": "Shoots a large lightning bolt during alt-fire"},
     {"slot": 3, "name": "Streetsweeper", "ammo": "Shells", "tags": ["Durability"], "superior": "None"},
 
@@ -24,6 +32,8 @@ export default [
     {"slot": 4, "name": "Nailgun", "ammo": "Bullets", "tags": [], "superior": "Nails deal more damage for every enemy pierced"},
     {"slot": 4, "name": "Atom Blaster", "ammo": "Bullets", "tags": [], "superior": "Projectiles duplicate when bouncing"},
     {"slot": 4, "name": "Light Machinegun", "ammo": "Bullets", "tags": ["Magazine"], "superior": "Faster fire rate, increased mag size, decreased accuracy"},
+    {"slot": 4, "name": "DMR", "ammo": "Bullets", "tags": ["Magazine"], "superior": "Higher caliber bullets, slightly reduced mag size (3 ammo per shot)"},
+    {"slot": 4, "name": "Soul Spear", "ammo": "Mana", "tags": [], "superior": ""},
     // {"slot": 4, "name": "Vengeful Blade", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Consumes 1 less ammo per shot"},
     {"slot": 4, "name": "Firestorm", "ammo": "Bullets", "tags": ["Durability"], "superior": "None"},
 
@@ -36,6 +46,8 @@ export default [
     {"slot": 5, "name": "Dark Blaster", "ammo": "Demon", "tags": [], "superior": "Shoots a shockwave when cooling down and consumes 1 less ammo per shot"},
     {"slot": 5, "name": "HE Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Magazine size increases to 3"},
     {"slot": 5, "name": "Flamethrower", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Airblast altfire"},
+    {"slot": 5, "name": "Pulverizer", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Fires Cydestructor mini rockets (2 ammo per shot)"},
+    {"slot": 5, "name": "Incinerator", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Fires magma projectiles"},
     {"slot": 5, "name": "Flak Cannon", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Primary fire shoots additional explosive tracers. Secondary fire has increased impact damage and spawns more flames"},
     // {"slot": 5, "name": "Solarion", "ammo": "Demon", "tags": ["Gunlocker"], "superior": "Beams split into homing balls on impact"},
     {"slot": 5, "name": "Meteorite", "ammo": "Rockets", "tags": ["Durability"], "superior": "None"},
@@ -49,6 +61,7 @@ export default [
     {"slot": 6, "name": "Scourge Rifle", "ammo": "Demon", "tags": ["Magazine"], "superior": "No cooldown and projectiles create poison clouds"},
     {"slot": 6, "name": "Spinfusor", "ammo": "Cells", "tags": ["Magazine"], "superior": "Shoots stabilized bouncing projectiles"},
     {"slot": 6, "name": "Enlightener", "ammo": "Cells", "tags": ["Durability"], "superior": "None"},
+    {"slot": 6, "name": "Bolt ACR", "ammo": "Cells", "tags": ["Arcane"], "superior": "Spawns a stationary cloud upon firing."},
     {"slot": 6, "name": "Phase DMR", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "5-shot burst. Shots travel instantly and don't cause any self damage"},
     {"slot": 6, "name": "Silver Buster", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "No longer needs to pump"},
     
@@ -57,6 +70,7 @@ export default [
     {"slot": 7, "name": "BFG 10000", "ammo": "Cells", "tags": [], "superior": "Shoots tracers"},
     {"slot": 7, "name": "Perforator", "ammo": "Bullets", "tags": [], "superior": "Fires 5 additional piercing shots on first barrage"},
     {"slot": 7, "name": "Hakkero Magicannon", "ammo": "Cells", "tags": ["Arcane"], "superior": "Fires additional star projectiles"},
+    {"slot": 7, "name": "Fantasy Staff", "ammo": "Mana", "tags": ["Arcane"], "superior": ""},
     {"slot": 7, "name": "Heliacal Arc", "ammo": "Demon", "tags": ["Durability"], "superior": "None"},
     
     {"slot": 8, "name": "Sacrosanct Aeonstave", "ammo": "Chaos", "tags": ["No Augments"], "superior": "None"},

@@ -1,8 +1,22 @@
 import weapon_list from "./weapon_list.js"
 
+const player_classes = [
+    ["Marine", ""],
+    ["Sergeant", "Shells"],
+    ["Spec Ops", "Bullets"],
+    ["Demolition", "Rockets"],
+    ["Elite", "Cells"],
+    ["Exiled", "Demon"],
+    ["Acolyte", "Chaos"],
+    ["Heretic", "Mana"],
+]
+
 let input_amount = document.querySelector("#input_weapon_amount")
 let weapon_amount = document.querySelector('#weapon_amount')
+let reroll_chance = document.querySelector("#reroll_chance")
+let reroll_percent = document.querySelector('#reroll_percent')
 let button_generate = document.querySelector("#generate_loadout")
+let class_selection = document.querySelector("#class_select")
 
 if (localStorage.getItem("wpn_amount") !== null) input_amount.value = localStorage.getItem("wpn_amount")
 weapon_amount.textContent = input_amount.value
@@ -10,6 +24,15 @@ weapon_amount.textContent = input_amount.value
 input_amount.addEventListener("input", (event) => {
     weapon_amount.textContent = event.target.value;
     localStorage.setItem("wpn_amount", event.target.value)
+})
+
+
+if (localStorage.getItem("reroll_chance") !== null) reroll_chance.value = localStorage.getItem("reroll_chance")
+reroll_percent.textContent = Math.round(reroll_chance.value * 100)
+
+reroll_chance.addEventListener("input", (event) => {
+    reroll_percent.textContent = Math.round(event.target.value * 100);
+    localStorage.setItem("reroll_chance", event.target.value)
 })
 
 for (let setting of document.querySelectorAll("input[type=checkbox]")) {
@@ -21,13 +44,21 @@ for (let setting of document.querySelectorAll("input[type=checkbox]")) {
     }
 }
 
+
+if (localStorage.getItem("class_select") !== null) class_selection.value = localStorage.getItem("class_select")
+class_selection.addEventListener("change", () => {
+    localStorage.setItem(`class_select`, class_selection.value)
+})
+
+
+
 button_generate.addEventListener("click", generate_loadout)
 
 function random_item(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-function check_all_ammo () {
+function check_all_ammo() {
     if (document.querySelector("#guarantee_all_ammo").checked) {
         document.querySelector("#all_ammo_exclude_durability").classList.remove("hide")
         document.querySelector("#all_ammo_exclude_durability_label").classList.remove("hide")
@@ -40,8 +71,24 @@ function check_all_ammo () {
     }
 }
 
+function check_class_specific() {
+    if (document.querySelector("#more_class_weapons").checked) {
+        document.querySelector("#reroll_chance").classList.remove("hide")
+        document.querySelector("#reroll_chance_label").classList.remove("hide")
+        document.querySelector("#reroll_chance_br").classList.remove("hide")
+    } else {
+        document.querySelector("#reroll_chance").classList.add("hide")
+        document.querySelector("#reroll_chance_label").classList.add("hide")
+        document.querySelector("#reroll_chance_br").classList.add("hide")
+    }
+
+}
+
 document.querySelector("#guarantee_all_ammo").addEventListener("change", check_all_ammo)
 check_all_ammo()
+
+document.querySelector("#more_class_weapons").addEventListener("change", check_class_specific)
+check_class_specific()
 
 document.querySelector("#load_button").addEventListener("click", function () { document.getElementById('load_saved_loadout').click() })
 document.querySelector("#load_saved_loadout").addEventListener("change", load_loadout)
@@ -63,7 +110,7 @@ function load_loadout() {
             loadout.push(object.weapon)
             augments.push(object.augments)
         }
-        display_loadout(loadout, augments)
+        display_loadout(loadout, augments, 0)
     }
 
     fr.readAsText(document.querySelector("#load_saved_loadout").files[0]);
@@ -76,21 +123,21 @@ function generate_loadout() {
     let guarantee_all_ammo = document.querySelector('#guarantee_all_ammo').checked
     let all_ammo_exclude_durability = document.querySelector('#all_ammo_exclude_durability').checked
     let guarantee_durability = document.querySelector('#guarantee_durability').checked
-    let include_aeonstave = document.querySelector('#include_aeonstave').checked
     let include_convergence = document.querySelector('#include_convergence').checked
     let include_chainsaw = document.querySelector('#include_chainsaw').checked
     let include_secretweapons = document.querySelector('#include_secretweapons').checked
     let include_gunlocker = document.querySelector('#include_gunlocker').checked
     let roll_augments = document.querySelector('#roll_augments').checked
+    let more_class_weapons = document.querySelector('#more_class_weapons').checked
+    let reroll_chance = document.querySelector('#reroll_chance').value
+    let selected_class = document.querySelector('#class_select').value
+    console.log(selected_class)
+    if (selected_class == 9) {
+        selected_class = Math.ceil(Math.random() * 8)
+    }
+    let durability_counter = 0
 
     let final_weapon_list = [...weapon_list]
-    if (!include_aeonstave) {
-        for (let index in final_weapon_list) {
-            if (final_weapon_list[index].name == "Sacrosanct Aeonstave") {
-                final_weapon_list.splice(index, 1)
-            }
-        }
-    }
 
     if (!include_convergence) {
         for (let index in final_weapon_list) {
@@ -126,32 +173,61 @@ function generate_loadout() {
 
 
     if (guarantee_all_ammo) {
-        if (input_amount.value >= 5) {
-            while (ammo_types.size != 5) {
-                let weapon = random_item(final_weapon_list)
-                if (!ammo_types.has(weapon.ammo) && weapon.ammo != "Chaos" && weapon.ammo != "None" && !(all_ammo_exclude_durability && weapon.tags.includes("Durability"))) {
-                    ammo_types.add(weapon.ammo)
-                    loadout.add(weapon)
+        while (ammo_types.size != 5) {
+            let weapon = random_item(final_weapon_list)
+            if (!ammo_types.has(weapon.ammo) && weapon.ammo != "Chaos" && weapon.ammo != "Mana" && weapon.ammo != "None" && !(all_ammo_exclude_durability && weapon.tags.includes("Durability"))) {
+                ammo_types.add(weapon.ammo)
+                loadout.add(weapon)
+                if (weapon.tags.includes("Durability")) {
+                    durability_counter++
                 }
             }
         }
     }
 
+    if (more_class_weapons) {
+        var class_weapons = []
+        for (weapon of final_weapon_list) {
+            if (weapon.ammo == player_classes[selected_class - 1][1]) {
+                class_weapons.push(weapon)
+            }
+        }
+    }
 
     while (loadout.size < input_amount.value - 1) {
-        loadout.add(random_item(final_weapon_list))
+        var weapon
+        if (more_class_weapons && selected_class > 1 && reroll_chance >= Math.random() && class_weapons.length > 0) {
+            weapon = random_item(class_weapons)
+            class_weapons.splice(class_weapons.indexOf(weapon), 1)
+        } else {
+            weapon = random_item(final_weapon_list)
+        }
+        if (weapon.tags.includes("Durability")) {
+            durability_counter++
+        }
+        loadout.add(weapon)
     }
 
     while (loadout.size < input_amount.value) {
-        if (guarantee_durability) {
-            let weapon
+        let weapon
+        if (guarantee_durability && durability_counter == 0) {
             do {
-                weapon = random_item(final_weapon_list)
+                if (more_class_weapons && selected_class > 1 && reroll_chance >= Math.random() && class_weapons.length > 0) {
+                    weapon = random_item(class_weapons)
+                    class_weapons.splice(class_weapons.indexOf(weapon), 1)
+                } else {
+                    weapon = random_item(final_weapon_list)
+                }
             } while (!weapon.tags.includes("Durability"))
-            loadout.add(weapon)
         } else {
-            loadout.add(random_item(final_weapon_list))
+            if (more_class_weapons && selected_class > 1 && reroll_chance >= Math.random() && class_weapons.length > 0) {
+                weapon = random_item(class_weapons)
+                class_weapons.splice(class_weapons.indexOf(weapon), 1)
+            } else {
+                weapon = random_item(final_weapon_list)
+            }
         }
+        loadout.add(weapon)
     }
 
 
@@ -165,7 +241,7 @@ function generate_loadout() {
         }
     }
 
-    display_loadout(sorted_loadout, augments)
+    display_loadout(sorted_loadout, augments, selected_class)
 }
 var textFile = null
 
@@ -182,7 +258,7 @@ function rollAugments(weapon) {
     let limit_capacity = document.querySelector("#limit_capacity").checked
     let augment_list = { upgrade_path: "", conversion_type: "", conversion: 0, Strength: 0, Haste: 0, Capacity: 0, Precision: 0 }
     let used_slots = 0
-    augment_list["upgrade_path"] = (weapon.tags.includes("Durability")) ? "Formatter" : (Math.random() < 0.66) ? "Superior" : "Formatter"
+    augment_list["upgrade_path"] = (weapon.ammo == "Mana") ? "Magitech" : (weapon.tags.includes("Durability")) ? "Formatter" : (weapon.slot == 2) ? (Math.random() < 0.75) ? "Superior" : "Formatter" : (Math.random() < 0.67) ? "Superior" : "Formatter"
     let upgrade_slots = (weapon.tags.includes("Durability")) ? 3 : 5;
     if (augment_list["upgrade_path"] == "Formatter") upgrade_slots += 5
     let upgrade_choices = ["Strength", "Haste"]
@@ -196,7 +272,7 @@ function rollAugments(weapon) {
         let choice = random_item(upgrade_choices)
         if (choice == "conversion") {
             if (augment_list.conversion_type == "") {
-                let conv_choices = ["Blast", "Chaos"]
+                let conv_choices = ["Blast", "Chaos", "Scavenge"]
                 if (!weapon.tags.includes("No Flame")) { conv_choices.push("Flame") }
                 choice = random_item(conv_choices)
                 let required_slots = (choice == "Chaos") ? 3 : 2;
@@ -222,8 +298,19 @@ function rollAugments(weapon) {
     return augment_list
 }
 
-function display_loadout(loadout, augments) {
+function display_loadout(loadout, augments, pl_class) {
     document.querySelector("#loadout").innerHTML = ""
+    if (pl_class > 0) {
+        let random_class = document.createElement("h2")
+        let random_class_select = document.createElement("span")
+        random_class_select.textContent = "Class : "
+        let random_class_pick = document.createElement("span")
+        random_class_pick.textContent = player_classes[pl_class - 1][0]
+        random_class_pick.classList.add(`player_class_${pl_class}`)
+        random_class.appendChild(random_class_select)
+        random_class.appendChild(random_class_pick)
+        document.querySelector("#loadout").appendChild(random_class)
+    }
     let loadout_display = document.createElement("ul")
     var loadout_save = []
     var loadout_text = ""
@@ -260,6 +347,12 @@ function display_loadout(loadout, augments) {
         }
         if (weapon.name == "Maximum") {
             name.classList.add("wpn_maximum")
+        }
+        if (weapon.name == "Fantasy Staff") {
+            name.classList.add("wpn_fantasystaff")
+        }
+        if (weapon.name == "Bolt ACR") {
+            name.classList.add("wpn_boltacr")
         }
         if (weapon.tags.includes("Gunlocker")) {
             addon.textContent = "[G] "
