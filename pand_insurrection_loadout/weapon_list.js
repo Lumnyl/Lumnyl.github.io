@@ -6,7 +6,7 @@ export default [
     {"slot": 2, "name": "Sheller", "ammo": "Shells", "tags": ["Magazine"], "superior": "Fires all shells at once and reloads when not equipped"},
     {"slot": 2, "name": "Compact SMG", "ammo": "Bullets", "tags": ["Magazine"], "superior": "Mag size doubled and fires piercing flechettes at a faster rate"},
     {"slot": 2, "name": "Firecracker", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Fires a stronger projectile that explodes several times (7 ammo per shot)"},
-    {"slot": 2, "name": "Plasma Handgun", "ammo": "None", "tags": [], "superior": "Fires chaining lightning"},
+    {"slot": 2, "name": "Plasma Handgun", "ammo": "None", "tags": ["Elite"], "superior": "Fires chaining lightning"},
     {"slot": 2, "name": "Immolator", "ammo": "Demon", "tags": [], "superior": "No cooldown and fires a spread of projectiles"},
     {"slot": 2, "name": "Chaos Blaster", "ammo": "Chaos", "tags": [], "superior": "Fires homing flux projectiles at a faster rate"},
     {"slot": 2, "name": "Sapphire Wand", "ammo": "Mana", "tags": [], "superior": ""},

@@ -188,7 +188,8 @@ function generate_loadout() {
     if (more_class_weapons) {
         var class_weapons = []
         for (weapon of final_weapon_list) {
-            if (weapon.ammo == player_classes[selected_class - 1][1]) {
+            console.log(weapon.name, weapon.tags.includes(player_classes[selected_class - 1][0]))
+            if (weapon.ammo == player_classes[selected_class - 1][1] || weapon.tags.includes(player_classes[selected_class - 1][0])) {
                 class_weapons.push(weapon)
             }
         }
@@ -264,7 +265,7 @@ function rollAugments(weapon) {
     let upgrade_choices = ["Strength", "Haste"]
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
     if (!limit_capacity) { upgrade_choices.push("Capacity") }
-    else if (weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) { upgrade_choices.push("Capacity") }
+    else if ((weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) && weapon.ammo != "None" && weapon.ammo != "Mana" && weapon.ammo != "Chaos") { upgrade_choices.push("Capacity") }
     if (!weapon.tags.includes("Arcane") && (Math.random() < 0.5 || (Math.random() < 0.67 && augment_list["upgrade_path"] == "Formatter"))) {
         upgrade_choices.push("conversion")
     }
@@ -272,8 +273,9 @@ function rollAugments(weapon) {
         let choice = random_item(upgrade_choices)
         if (choice == "conversion") {
             if (augment_list.conversion_type == "") {
-                let conv_choices = ["Blast", "Chaos", "Scavenge"]
+                let conv_choices = ["Blast", "Chaos"]
                 if (!weapon.tags.includes("No Flame")) { conv_choices.push("Flame") }
+                if (weapon.ammo != "None" && weapon.ammo != "Mana" && weapon.ammo != "Chaos") { conv_choices.push("Scavenge") }
                 choice = random_item(conv_choices)
                 let required_slots = (choice == "Chaos") ? 3 : 2;
                 if (used_slots + required_slots <= upgrade_slots) {
