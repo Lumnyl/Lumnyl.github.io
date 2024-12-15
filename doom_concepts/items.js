@@ -1055,7 +1055,7 @@ export default [
         "type": "Rune",
         "category": "Rare Drop",
         "effect": "You cannot die while you have armor, but it no longer provides passive resistances.",
-        "notes": "Damage that would cause you to drop below 1 health is dealt to your armor instead. Passive armor damage reduction still applies.",
+        "notes": "Damage that would cause you to drop below 1 health is dealt to your armor instead, ignoring the effect of Rune of Bulwark. Passive armor damage reduction still applies.",
         "carriable": true,
         "description": "",
         "authorsnotes": "",
