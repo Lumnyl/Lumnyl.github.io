@@ -4,7 +4,7 @@ export default [
         "category": "Zombieman",
         "species": "Zombie",
         "description": "Simple security guards with semi-automatic pistols. Usually not a threat on their own, but can sneak in a shot or two if you're not careful.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Zombie Scientist",
@@ -18,28 +18,28 @@ export default [
         "category": "Zombieman",
         "species": "Zombie",
         "description": "Female scientists defend themselves with laser pistolettes. Don't ask why UAC scientists pick their fancy pew pew sidearms based on gender.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Handcannon Zombie",
         "category": "Zombieman",
         "species": "Zombie",
         "description": "A fervent defender of the saying \"bigger is better\". Watch for the laser sight if you don't wanna get domed.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Zombie Rocketeer",
         "category": "Zombieman",
         "species": "Zombie",
         "description": "A dangerous cocktail of lack of rational thought and high explosives. No concept of friendly fire or danger close.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "HEP Agent",
         "category": "Zombieman",
         "species": "Zombie",
         "description": "Augmented supersoldier with the ability to dodge out of the way of gunfire. Has an SMG for close encounters and a Magnum for long range engagements.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shotgun Zombie",
@@ -53,7 +53,7 @@ export default [
         "category": "Shotgunner",
         "species": "Zombie",
         "description": "Female officer with a rifled shotgun. While slugs are easier to dodge than buckshot, they also hit hard and remain lethal even at range.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "SSG Zombie",
@@ -67,21 +67,21 @@ export default [
         "category": "Shotgunner",
         "species": "Zombie",
         "description": "Former lieutenant who prefers the versatility of a semi-auto over the power of a double-barrel. Also wears a ballistic vest.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Quad Shotgunner",
         "category": "Shotgunner",
         "species": "Zombie",
         "description": "Quad shotgun-toting armored bastard. Very few can take four barrels of buckshot point-blank without turning into an unidentifiable assortment of flesh and blood.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "HEP Engineer",
         "category": "Shotgunner",
         "species": "Zombie",
         "description": "Specialist of indirect combat, using grenades, land mines and automated turrets. Defends himself with a terminator shotgun if the need arises.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Assault Rifle Zombie",
@@ -102,28 +102,28 @@ export default [
         "category": "Chaingunner",
         "species": "Zombie",
         "description": "Armored zombie soldiers carrying nailguns. Their armor protects them well against low-caliber weaponry.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Plasma Gunner",
         "category": "Chaingunner",
         "species": "Zombie",
         "description": "Plasma carbine-wielding soldiers, firing short bursts of high temperature plasma. The suit they wear also gives them some protection against plasma weaponry.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "BFG Commando",
         "category": "Chaingunner",
         "species": "Zombie",
         "description": "Highly trained commando who has proven himself worthy of carrying the almighty BFG 9000. No need to remind you how dangerous this thing is.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "HEP Vanguard",
         "category": "Chaingunner",
         "species": "Zombie",
         "description": "HEP trooper with a shield and a Heavy Metal automatic pistol. The shield offers near absolute protection, but can be stunned momentarily with sufficient firepower.",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -138,28 +138,28 @@ export default [
         "category": "Imp",
         "species": "Imp",
         "description": "Imp infused with the power of darkness. His fireballs are both stronger and faster.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Cyber Imp",
         "category": "Imp",
         "species": "Imp",
         "description": "What it says on the tin. Has one mechanical arm that can supplement his fireballs with bursts of plasma bolts.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pyro Imp",
         "category": "Imp",
         "species": "Imp",
         "description": "Red spiky imp that can throw flurries of fireballs or concentrate their magic into an explosive bolt.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Devil",
         "category": "Imp",
         "species": "Imp",
         "description": "Twitchy son of a bitch prioritizing volume over power when it comes to throwing fire. Capable of dashing away from danger.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Harvester",
@@ -167,35 +167,35 @@ export default [
         "species": "Imp",
         "description": "Barely alive husk of an imp in charge of capturing human souls. Its attacks bypass armor and hits your soul directly.",
         "lore": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pinky",
         "category": "Pinky",
         "species": "Fiend",
         "description": "Bipedal pig with a big gaping mouth and horrible breath. Somewhat tough but only a threat if you let them get close.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Bull Fiend",
         "category": "Pinky",
         "species": "Fiend",
         "description": "One-eye horned Fiend prone to outbursts of rage, sometimes heard growling before charging at top speed towards their target. Their cyclopic eye is a good metaphor for their tunnel vision.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Blood Fiend",
         "category": "Pinky",
         "species": "Fiend",
         "description": "Blood red Fiends with salivary glands that produce a blood-like, toxic substance they can spit in the face of danger.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mech Fiend",
         "category": "Pinky",
         "species": "Fiend",
         "description": "Pinky with mechanical legs. A combination of adrenaline injections and removal of security systems causes them to go into overdrive at low health.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Carrion",
@@ -203,21 +203,21 @@ export default [
         "species": "Fiend",
         "description": "Carrier of rot and disease. Its bite is infectious and it leaves a nasty plague cloud on death.",
         "lore": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mauler",
         "category": "Pinky",
         "species": "Fiend",
         "description": "If Fiends were capable of forming social groups, these gray menaces would be the alphas. Their charges are quick and send things flying on impact.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spectre",
         "category": "Spectre",
         "species": "Fiend",
         "description": "Fiends with an albinism-like genetic mishap, causing their skin to produce photorefractive pigments. Thrives in dark areas.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Delusion",
@@ -231,28 +231,28 @@ export default [
         "category": "Spectre",
         "species": "Fiend",
         "description": "Spectre variant that's able to create illusionary clones of itself that disappear upon taking any amount of damage.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Stalker",
         "category": "Spectre",
         "species": "Fiend",
         "description": "A skilled hunter capable to becoming entirely invisible. Only reveals itself while readying for a leap, and makes a distinct growl when doing so.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Phase Spectre",
         "category": "Spectre",
         "species": "Fiend",
         "description": "A rare Fiend capable of magic. Spits out purple projectiles and occasionally phases out to get to their target quicker.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Weeper",
         "category": "Spectre",
         "species": "Fiend",
         "description": "Half ghost stuck between the physical and ethereal realms. It goes absolutely mental when you look directly at it, but that's unfortunately the only way to get it to take physical form.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Lost Soul",
@@ -273,28 +273,28 @@ export default [
         "category": "Lost Soul",
         "species": "Lost Soul",
         "description": "A soul that has absorbed the Darkness's power. They charge quicker and explode after death and a small delay.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Terror",
         "category": "Lost Soul",
         "species": "Lost Soul",
-        "description": "Suicide bomber in all but name. If you let them charge up, they'll explode violently upon contact with anything, but quick reflexes will let you defuse them harmlessly.",
-        "newstatus": 1
+        "description": "Suicide bomber in all but name. If you let them charge up, they'll explode violently upon contact with any living creature, but quick reflexes will let you defuse them harmlessly.",
+        "newstatus": 0
     },
     {
         "name": "Drone",
         "category": "Lost Soul",
         "species": "Lost Soul",
         "description": "Soul trapped inside a mechanical skull instead of a cartilaginous one. Resists small arms fire and can fire lasers at you.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Plasma Drone",
         "category": "Lost Soul",
         "species": "Lost Soul",
         "description": "Upgraded Drone, firing spreads of plasma instead of lasers. They explode on death and initiate a kamikaze attack at low health.",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -311,6 +311,34 @@ export default [
         "description": "Tall unarmored skeleton without the shoulder cannons. Able to close the distance very quickly if left unattended.",
         "newstatus": 0
     },
+    // {
+    //     "name": "Kamikaze",
+    //     "category": "Revenant",
+    //     "species": "Revenant",
+    //     "description": "Like a Carcass, but carrying bombs in its hands. Runs at you at high speed screaming like a banshee, and can be used as a mobile explosive barrel with good enough timing.",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Fire Husk",
+    //     "category": "Revenant",
+    //     "species": "Revenant",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Sentry",
+    //     "category": "Revenant",
+    //     "species": "Revenant",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Legionary",
+    //     "category": "Revenant",
+    //     "species": "Revenant",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Mancubus",
         "category": "Mancubus",
@@ -323,8 +351,36 @@ export default [
         "category": "Mancubus",
         "species": "Mancubus",
         "description": "Fatso who have embraced the Darkness into them. Their attacks are punctuated by explosive blasts. They also get hungry quicker.",
-        "newstatus": 2
+        "newstatus": 0
     },
+    // {
+    //     "name": "Daedabus",
+    //     "category": "Mancubus",
+    //     "species": "Mancubus",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Mafibus",
+    //     "category": "Mancubus",
+    //     "species": "Mancubus",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Corpulent",
+    //     "category": "Mancubus",
+    //     "species": "Mancubus",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Tankubus",
+    //     "category": "Mancubus",
+    //     "species": "Mancubus",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Arachnotron",
         "category": "Arachnotron",
@@ -339,6 +395,34 @@ export default [
         "description": "Arachnotron minus the mechanical legs. They fly around firing bursts of plasma and sometimes break free after their cyber-anchors get destroyed.",
         "newstatus": 0
     },
+    // {
+    //     "name": "Fusion Arachnotron",
+    //     "category": "Arachnotron",
+    //     "species": "Cerebral",
+    //     "description": "Arachnotron with a fusion repeater, spraying slow projectiles over a wide area. With this volume of fire, who needs accuracy?",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Arachnotron Mk2",
+    //     "category": "Arachnotron",
+    //     "species": "Cerebral",
+    //     "description": "Upgraded Arachnotron with double the firepower and extra armor. A charging sound up close usually signifies a dozen of plasma bolts coming in a single blast.",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Scorpiotron",
+    //     "category": "Arachnotron",
+    //     "species": "Cerebral",
+    //     "description": "High mobility chassis, a stinger equipped with a railgun, plasma grenades, and the ability to fire an explosive plasma ball after some charge time.",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Arachknight",
+    //     "category": "Arachnotron",
+    //     "species": "Cerebral",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     
     {
         "name": "Cacodemon",
@@ -347,6 +431,20 @@ export default [
         "description": "Big flying red ball with one big ol' green eye. Belches lightning balls and has an absolutely ferocious bite.",
         "newstatus": 0
     },
+    // {
+    //     "name": "Juvenile Cacodemon",
+    //     "category": "Cacodemon",
+    //     "species": "Cacodemon",
+    //     "description": "Miniature cacodemons who haven't matured enough to cast lightning and favor aggressively swarming their targets. Do not attempt to pet them, as they are still vicious creatures capable of biting your hands off.",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Beholder",
+    //     "category": "Cacodemon",
+    //     "species": "Cacodemon",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Agathodemon",
         "category": "Cacodemon",
@@ -354,6 +452,20 @@ export default [
         "description": "Big flying white ball with an inverted cross on its eye. Fires spreads of lightning balls and that bite is still absolutely ferocious. They sometimes phase out to reach their target quicker.",
         "newstatus": 0
     },
+    // {
+    //     "name": "Malwrath",
+    //     "category": "Cacodemon",
+    //     "species": "Cacodemon",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Crackodemon",
+    //     "category": "Cacodemon",
+    //     "species": "Cacodemon",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Pain Elemental",
         "category": "Pain Elemental",
@@ -369,6 +481,34 @@ export default [
         "description": "Even worse than the Pain Elemental, they spew Forgotten Ones, belch fire at close range and explode violently when defeated.",
         "newstatus": 0
     },
+    // {
+    //     "name": "Rahovart",
+    //     "category": "Pain Elemental",
+    //     "species": "Pain Elemental",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Plasma Elemental",
+    //     "category": "Pain Elemental",
+    //     "species": "Pain Elemental",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Replicator",
+    //     "category": "Pain Elemental",
+    //     "species": "Pain Elemental",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Hades Elemental",
+    //     "category": "Pain Elemental",
+    //     "species": "Pain Elemental",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     
     {
         "name": "Hell Knight",
@@ -384,6 +524,34 @@ export default [
         "description": "A lesser trained but more aggressive Hell Knight. Launches two fireballs at a time, but their lack of training causes them to deviate like Mancubus fireballs. Stand still and you should be fine.",
         "newstatus": 0
     },
+    // {
+    //     "name": "",
+    //     "category": "Hell Knight",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Hell Knight",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Hell Knight",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Hell Knight",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Baron of Hell",
         "category": "Baron of Hell",
@@ -398,6 +566,34 @@ export default [
         "description": "An exclusive bloodline of nobles capable of flight. Otherwise identical to Barons in offensive and defensive capabilities.",
         "newstatus": 0
     },
+    // {
+    //     "name": "",
+    //     "category": "Baron of Hell",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Baron of Hell",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Baron of Hell",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Baron of Hell",
+    //     "species": "Hell Noble",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     
     {
         "name": "Archvile",
@@ -413,6 +609,34 @@ export default [
         "description": "Specialists of void magic, their attacks hit multiple times if the target is in their line of sight. They are also capable of teleporting away from danger.",
         "newstatus": 0
     },
+    // {
+    //     "name": "",
+    //     "category": "Archvile",
+    //     "species": "Archvile",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Archvile",
+    //     "species": "Archvile",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Archvile",
+    //     "species": "Archvile",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Archvile",
+    //     "species": "Archvile",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Cyberdemon",
         "category": "Cyberdemon",
@@ -427,6 +651,34 @@ export default [
         "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. They throw spreads and bursts of fireballs and while they are easy coerced into damaging other monsters, they will almost always come out on top.",
         "newstatus": 0
     },
+    // {
+    //     "name": "",
+    //     "category": "Cyberdemon",
+    //     "species": "Superdemon",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Cyberdemon",
+    //     "species": "Superdemon",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Cyberdemon",
+    //     "species": "Superdemon",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Cyberdemon",
+    //     "species": "Superdemon",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
     {
         "name": "Spider Mastermind",
         "category": "Spiderdemon",
@@ -439,8 +691,36 @@ export default [
         "category": "Spiderdemon",
         "species": "Sentient",
         "description": "Masterminds without the clunk and metal. Surprisingly nimble, they attack with rapid streams of plasma and can dodge out of the way of incoming projectiles.",
-        "newstatus": 2
+        "newstatus": 0
     },
+    // {
+    //     "name": "",
+    //     "category": "Spiderdemon",
+    //     "species": "Sentient",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Spiderdemon",
+    //     "species": "Sentient",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Spiderdemon",
+    //     "species": "Sentient",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Spiderdemon",
+    //     "species": "Sentient",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
 
     {
         "name": "Nazi Guard",
@@ -448,7 +728,7 @@ export default [
         "species": "Human",
         "description": "A completely normal human being, found in a very special place in hell. Peppers you with his sub-machinegun and German words.",
         "lore": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Attack Dog",
@@ -457,4 +737,32 @@ export default [
         "description": "A German Shepherd trained for warfare. Quick and a nightmare for your ankles.",
         "newstatus": 0
     },
+    // {
+    //     "name": "Rocket Dog",
+    //     "category": "Wolfenstein",
+    //     "species": "Dog",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Wolfenstein",
+    //     "species": "Human",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Wolfenstein",
+    //     "species": "Human",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "",
+    //     "category": "Wolfenstein",
+    //     "species": "Human",
+    //     "description": "",
+    //     "newstatus": 1
+    // },
 ]

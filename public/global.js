@@ -3,7 +3,7 @@ var is_darkmode = (localStorage.getItem("is_darkmode") === null) ? false : local
 var is_minimize = (localStorage.getItem("is_minimize") === null) ? false : localStorage.getItem("is_minimize")
 if (is_darkmode === "true") html_body.classList.add("darkmode")
 
-var last_website_update = "24 August 2024"
+var last_website_update = "15 December 2024"
 
 var footer_separator = document.createElement("hr")
 var last_updated = document.createElement("p")
@@ -55,6 +55,20 @@ return_home.classList.add("floater_clickable")
 return_home.href = "/"
 floater_elem2.appendChild(return_home)
 
+var floater_elem3 = document.createElement("p")
+floater_elem3.classList.add("can_minimize")
+if (is_minimize === "true") floater_elem3.classList.add("hide")
+floater.appendChild(floater_elem3)
+
+var scroll_top = document.createElement("span")
+scroll_top.textContent = "Scroll back to the top"
+scroll_top.classList.add("floater_clickable")
+floater_elem3.appendChild(scroll_top)
+
+scroll_top.addEventListener("click", function() {
+    window.scrollTo({top:0,behavior:'smooth'});
+})
+
 var floater_minimize = document.createElement("p")
 floater.appendChild(floater_minimize)
 var floater_minimize_toggle = document.createElement("input")
@@ -77,5 +91,7 @@ floater_minimize_label.classList.add("floater_clickable")
 floater_minimize_label.textContent = "Minimize"
 floater_minimize.appendChild(floater_minimize_toggle)
 floater_minimize.appendChild(floater_minimize_label)
+
+
 
 html_body.appendChild(floater)

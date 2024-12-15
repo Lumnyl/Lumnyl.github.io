@@ -50,8 +50,10 @@ const weapon_categ_list = [
     "Superweapon",
     "Throwable",
     "Disposable",
+    "Magic",
     "Artifact",
-    "Powerup"
+    "Powerup",
+    "Enhanced Powerup"
 ]
 
 const item_categ_list = [
@@ -59,8 +61,7 @@ const item_categ_list = [
     "Armor",
     "Ammunition",
     "Powerup",
-    "Rune",
-    "Contract"
+    "Rare Drop"
 ]
 
 const enemy_categ_list = [
@@ -89,8 +90,9 @@ const lore_categ_list = [
     "Enemy Types",
 ]
 
-const quicknotesweapons = `<li>Melee weapons all deal double damage when under the effect of Berserk except when stated otherwise.</li>
+const quicknotesweapons = `<li>Melee weapons all deal double damage when under the effect of Berserk unless stated otherwise.</li>
 <li>Demon energy is sometimes dropped by demons on death. Bigger demons drop more.</li>
+<li>Mana regenerates, with capacity increasing with each Magic weapon in inventory.</li>
 <li>Grenades are sometimes dropped by former humans.</li>
 <li>Durability weapons can break and must be repaired with repair kits.</li>
 <li>Disposable and Partially Disposable weapons are temporary weapons that do not use regular ammo types.
@@ -99,6 +101,7 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 <li>Partially Disposable weapons have their own ammo pool. If you have a Partially Disposable weapon in your inventory, then additional drops are replaced with ammunition packs which give out more ammo than weapon drops.</li>
 </ul></li>
 <li>Upgrades are like Pandemonia Superior augments or Arcane keys. Basically a special upgrade unlocked by an item.</li>
+<li>Magic weapons can only be upgraded with an Ace of Stars item, lasting for the rest of the map.</li>
 <li>Level 0 is the baseline for artifacts.</li>`
 
 const quicknotesitems = `<li>Like Pandemonia, armor passively halves all damage dealt to it. For example, a 100 damage hit with 50% protection will deal 50 damage to health and 25 to armor.</li>

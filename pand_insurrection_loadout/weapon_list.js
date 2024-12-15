@@ -24,7 +24,7 @@ export default [
     {"slot": 3, "name": "Riot Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "Stabilized spread"},
     {"slot": 3, "name": "Quad Shotgun", "ammo": "Shells", "tags": [], "superior": "Fires a strong shockwave and increased self-knockback"},
     {"slot": 3, "name": "Wrecker Shotgun", "ammo": "Shells", "tags": [], "superior": "Can fire up to three times in rapid succession (needs to pump for each shot)"},
-    {"slot": 3, "name": "Raiden Electron Shotgun", "ammo": "Shells", "tags": ["Arcane", "Magazine"], "superior": "Shoots a large lightning bolt during alt-fire"},
+    {"slot": 3, "name": "Raiden Electron Shotgun", "ammo": "Shells", "tags": ["Arcane", "Magazine", "Elite"], "superior": "Shoots a large lightning bolt during alt-fire"},
     {"slot": 3, "name": "Streetsweeper", "ammo": "Shells", "tags": ["Durability"], "superior": "None"},
 
     {"slot": 4, "name": "Assault Rifle", "ammo": "Bullets", "tags": [], "superior": "Fires 2 bullets at once with reduced damage"},

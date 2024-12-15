@@ -343,7 +343,7 @@ export default [
         "description": "An automatic pistol, artificially slowed down as to not spend the entire magazine under a second. A must for those not too fond of carpal tunnel syndrome.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Smart Gun",
@@ -418,7 +418,7 @@ export default [
         "description": "A weird little pistol that uses special caseless shotshells which fires buckshot sequentially instead of as a spread. Offers a crazy volume of fire for relatively little recoil, although the pellets are pretty weak individually.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Heavy Metal",
@@ -856,7 +856,7 @@ export default [
         "description": "A weapon type that didn't get much of a chance to prove itself originally, but as pistol cartridges got more powerful it finally managed to find a niche amongst users with a preference for more controllable, rapid-fire weapons.",
         "authorsnotes": "",
         "designnotes": "Some weird mash of a Kriss Vector and a UMP.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Burst Rifle",
@@ -871,7 +871,7 @@ export default [
         "description": "An accurate assault rifle for those who deem themselves too cool for full-auto, but don't want to give their trigger finger too much of a workout either.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Grenadier Rifle",
@@ -1021,7 +1021,7 @@ export default [
         "description": "An attempt at cramming the most firepower into something that could still be reasonably fielded to infantrymen. 10mm explosive caseless is just too much for a standard rifle to handle.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -1263,7 +1263,7 @@ export default [
         "description": "Gyrojet technology has been in limbo ever since its inception due to poor accuracy and legal issues. Decades later and with the constant threat of demonic attacks, research has progressed to the point where pump-action rocket-swarm-launchers are not only possible but effective as well.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Scorpion Crossbow",
@@ -1384,7 +1384,7 @@ export default [
         "description": "Plasma rotary cannon, able to fire hotter fusion plasma at a reasonable rate of fire. The sweeping firing pattern is great for suppression and crowd control, not so much for precision fire.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Laser Carbine",
@@ -1518,21 +1518,6 @@ export default [
         "durability": false,
         "description": "Nuclear fission tends to send a lot of particles flying around, so naturally it was turned into a carriable weapon as soon as it became feasible. Radioactive material enters the chamber, it starts reacting, and when enough atoms have broken down, the particles and radiation are released all at once.",
         "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 1
-    },
-    {
-        "name": "Eviscerator",
-        "fullname": "",
-        "ammo": "Sawblades",
-        "category": "Special",
-        "primary" : "Sawblade launch",
-        "secondary" : "N/A",
-        "notes" : "Sawblades on solid surfaces can be retrieved, restoring durability.",
-        "superior" : "Pierces enemies and bounces against solid surfaces up to 3 times each.",
-        "durability": true,
-        "description": "An elegant solution to the classic problem \"I want to make demon sausage but getting close and personal is hazardous to my health\". An integrated metal reshaper can turn contents of toolboxes into makeshift sawblades.",
-        "authorsnotes": "The KF2 Eviscerator, minus the actual sawing. Durability here is a stand-in for the ammo reserves, with a little bit of lore to explain why you can repair sawblades into existence.",
         "designnotes": "",
         "newstatus": 0
     },
@@ -1761,7 +1746,7 @@ export default [
         "description": "The grandfather of shotguns merged with demon tech. Surprisingly not as inaccurate as it could be; you aren't gonna win any sniping contests with it but at least it can hit things farther than a couple meters.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demontech Arquebus",
@@ -1776,7 +1761,7 @@ export default [
         "description": "Who knows what the deal is with hell fanatics and antique firearms. This is essentially a railgun, but shots leave a trail of demonic energy behind, dealing a little extra damage to those who didn't get the message already.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demontech Ballista",
@@ -1791,7 +1776,7 @@ export default [
         "description": "Shaped like a big medieval crossbow, it fires bolts of demonic energy that stick to their target and explodes after a short delay.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demontech Staff",
@@ -1806,7 +1791,7 @@ export default [
         "description": "Why bother designing a laser weapon that looks like an actual firearm when you can pretend to be some hell wizard instead? Maybe weapon designers can learn a thing or two from those cultists.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Soul Caliber",
@@ -1821,7 +1806,7 @@ export default [
         "description": "An otherworldly rifle that pierces right through physical armor and directly damage the target's soul. Fortunately what counts as a soul here is broad enough that you don't need to worry wether the gun will be effective or not.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hell Repeater",
@@ -1926,7 +1911,7 @@ export default [
         "description": "The BFG line of weapons definitely caught the attention of hell's armed forces, and thus they joined the arms race by fielding their own version to make their elite forces even deadlier.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Frostfire Annihilator",
@@ -1941,7 +1926,7 @@ export default [
         "description": "A variant of the demonic superweapon that defies elemental classification by firing an explosive projectile of fire and ice. Hell freezing over is not good news for mankind.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
 
 
@@ -2202,6 +2187,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Eviscerator",
+        "fullname": "",
+        "ammo": "Sawblades",
+        "category": "Partially Disposable",
+        "primary" : "Sawblade",
+        "secondary" : "N/A",
+        "notes" : "Pierces up to 3 enemies. Sawblades on solid surfaces can be retrieved.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "An elegant solution to the classic problem \"I want to make demon sausage but getting close and personal is hazardous to my health\". An integrated metal reshaper can turn contents of toolboxes into makeshift sawblades.",
+        "authorsnotes": "The KF2 Eviscerator, minus the actual sawing. Durability here is a stand-in for the ammo reserves, with a little bit of lore to explain why you can repair sawblades into existence.",
+        "designnotes": "",
+        "newstatus": 2
+    },
+    {
         "name": "Improvised Flamethrower",
         "fullname": "",
         "ammo": "Aerosol",
@@ -2215,6 +2215,172 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    
+    {
+        "name": "Amethyst Wand",
+        "fullname": "",
+        "ammo": "Mana x2",
+        "category": "Magic",
+        "primary" : "Homing bolt",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Creates additional homing projectiles on hit.",
+        "durability": false,
+        "description": "A copper wand inlaid with a purple amethyst on top, infused with the power of lightning.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Topaz Wand",
+        "fullname": "",
+        "ammo": "Mana x5",
+        "category": "Magic",
+        "primary" : "Heavy bolt",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Fires explosive bolts at a faster rate.",
+        "durability": false,
+        "description": "A bronze wand inlaid with a yellow topaz on top, infused with the might of earth.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Emerald Wand",
+        "fullname": "",
+        "ammo": "Mana x3",
+        "category": "Magic",
+        "primary" : "Spread bolt x3",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Projectiles per shot increased to 7.",
+        "durability": false,
+        "description": "A silver wand inlaid with a green emerald on top, infused with the vigor of nature.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Ruby Wand",
+        "fullname": "",
+        "ammo": "Mana x4",
+        "category": "Magic",
+        "primary" : "Burst bolt x4",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Fires an additional extra powerful bolt at the end of each burst.",
+        "durability": false,
+        "description": "A gold wand inlaid with a red ruby on top, infused with the fury of fire.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Sapphire Wand",
+        "fullname": "",
+        "ammo": "Mana",
+        "category": "Magic",
+        "primary" : "Rapid bolt",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Greatly increased rate of fire.",
+        "durability": false,
+        "description": "A cobalt wand inlaid with a blue sapphire on top, infused with the force of water.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Diamond Wand",
+        "fullname": "",
+        "ammo": "Mana x3",
+        "category": "Magic",
+        "primary" : "Dual bolt",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Bolts pierce enemies and bounce against solid surfaces.",
+        "durability": false,
+        "description": "A platinum wand inlaid with a white diamond on top, infused with the purity of light.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Onyx Wand",
+        "fullname": "",
+        "ammo": "Mana x3",
+        "category": "Magic",
+        "primary" : "Draining bolt",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Draining effect gets stronger every time it gets reapplied.",
+        "durability": false,
+        "description": "An obsidian wand inlaid with a black onyx on top, infused with the malice of darkness.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Pyro Staff",
+        "fullname": "",
+        "ammo": "Mana x4",
+        "category": "Magic",
+        "primary" : "Fireball",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Fires shotgun blasts of gravity-affected fireballs.",
+        "durability": false,
+        "description": "A fireproof fir staff for firing fireballs at your favorite fireball-firing unfriendly fiends. It's wizard time motherfucker!",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Icicle Storm",
+        "fullname": "",
+        "ammo": "Mana",
+        "category": "Magic",
+        "primary" : "Icicles",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : "Fires slow moving projectiles that fire icicles in all directions.",
+        "durability": false,
+        "description": "A magic tome firing a curtain fire of small yet sharp icicles. Prolonged usage may have adverse effects on the caster's intelligence.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Blood Syphon",
+        "fullname": "",
+        "ammo": "Mana",
+        "category": "Magic",
+        "primary" : "Drain beam",
+        "secondary" : "",
+        "notes" : "Beam locks onto the target as long as it stays within range and line of sight. A portion of the damage is transferred to the user as health.",
+        "superior" : "Beam can lock onto 3 targets at once. Enemies explode into viscera when killed.",
+        "durability": false,
+        "description": "Turns out you really can heal yourself by hurting others. Good thing no actual blood is being syphoned, as injecting yourself with demonic blood doesn't sound like a good idea.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Void Crush",
+        "fullname": "",
+        "ammo": "Mana x5",
+        "category": "Magic",
+        "primary" : "Crushing squeeze",
+        "secondary" : "",
+        "notes" : "Ammo cost is based on amount of targets in line of sight.",
+        "superior" : "Sends void holes that rapidly crush nearby enemies.",
+        "durability": false,
+        "description": "A spell that creates brief high intensity gravitational singularities inside targets within the caster's line of sight. Unfortunately useless as a trash compactor due to only working on living things.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
@@ -2337,7 +2503,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": 'Dual "Depredations" Machine-pistols',
+        "name": 'Dual "Depredation" Machine-pistols',
         "fullname": "",
         "ammo": "N/A",
         "category": "Powerup",
@@ -2361,7 +2527,7 @@ export default [
         "notes" : "Can be charged to increase projectile velocity.",
         "superior" : "N/A",
         "durability": false,
-        "description": "A primitive bombard firing ultra-dense uranium cannonballs, mowing down fodder and perforating heavier targets. They also bounce against walls, laws of physics be damned.",
+        "description": "A primitive bombard firing ultra-dense uranium cannonballs, mowing down fodder and decimating heavier targets. They also bounce against walls, laws of physics be damned.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -2371,15 +2537,15 @@ export default [
         "fullname": "",
         "ammo": "N/A",
         "category": "Powerup",
-        "primary" : "Triple plasma shots",
+        "primary" : "Plasma shots",
         "secondary" : "N/A",
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "A partial exoskeleton fitted with 4 hand-held and shoulder-mounted high-intensity plasma cannons. Curiously, they operate semi-automatically, so mash those triggers.",
+        "description": "A partial exoskeleton fitted with 4 hand-held and shoulder-mounted high-intensity plasma cannons. It's even strong enough to be used against spaceships, although those aren't a particularly common sight within your field of work.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Randomizator",
@@ -2388,7 +2554,7 @@ export default [
         "category": "Powerup",
         "primary" : "Random",
         "secondary" : "N/A",
-        "notes" : "Each shot fires 1 to 3 projectiles, dealing 1 to 3 times its base damage, and has a 7% chance of dealing 7x damage.",
+        "notes" : "Each shot fires 1 to 3 random projectiles, dealing 1 to 3 times its base damage, each with a 7% chance of dealing 7x damage.",
         "superior" : "N/A",
         "durability": false,
         "description": "Feeling lucky? Then this gun is for you. From the tiniest rockets to the mightiest superweapon projectiles. It can even fire what your opponents are throwing at you!",
@@ -2421,9 +2587,145 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "Throwable explosives in the shape of a cacodemon. They seek enemies and viciously bite them, and explode after a set or if the target decides to fight back. No, you can't keep them as pets, stop asking.",
+        "description": "Throwable explosives in the shape of a cacodemon. They seek enemies and viciously bite them, and explode after a set time or if the target decides to fight back. No, you can't keep them as pets, stop asking.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+
+    {
+        "name": "Reality Blade",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Slash",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A sword capable of cutting through the fabric of reality itself. Lucky for you that you are somehow completely unable to damage the universe itself while flailing this thing around.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Pulsargun Mark 2",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Gamma ray burst x3",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "The Pulsargun packed with extra punch. Superior rate of fire, piercing capabilities, and a slick stainless style camouflage complete with alien engravings.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Nemesis Autoshotgun",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Nemesis buckshot x12",
+        "secondary" : "Nemesis energy bolt",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A gold shotgun that glows with a dark aura, not dissimilar than its legendary counterpart. It is not dark as in \"evil\", but like an absence of light, rather than an opposite. Good thing all this energy is stored within your gun than your enemies, right?",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": 'Dissonance "Expurgation" Machine-pistols',
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Dissonance rapid-fire",
+        "secondary" : "Time Rift",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Top of the line elite improvements for your favorite lead sprayers. Homing, matter-destabilizing bullets and improved time distortion abilities that do not affect the user or their weapons.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Seriously Big Cannon",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Oversized cannonball",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A bigger cannon and even bigger balls, capable of smashing through legions of bulls like a football through ants. Complete with techno-magical improvements that allow you to fire this monster without even taking a step back.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Warblade Exoframe",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "War I. plasma shots",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A partial exoskeleton fitted with higher intensity plasma cannons totaling even higher firepower. Not even the biggest of trouble can withstand this volume of fire.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Rainbowmizator",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Random",
+        "secondary" : "N/A",
+        "notes" : "Each shot fires 1 to 5 random projectiles, dealing 1 to 5 times their base damage, each applying a random status effect on hit and with a 7% chance of dealing 77x damage.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A slot machine in the form of a gun filled with random colorful thingamabobs and blessed by the deity of random numbers. You never know what's gonna come out, but one thing is for certain : it's gonna hurt.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "DOOM",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Destroyer Blade",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Demonic Obliteration (in) One Machine; awkwardly named but second to none in terms to raw power. While it is a workout to even lift this bloody thing, it makes razing hell as easy as mowing the lawn.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Pain Grenades",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Enhanced Powerup",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Your second favorite floating cyclopic ball, now also in a handheld package. They charge and bite just like the red ones, but come packaged with a dozen of homing exploding flaming skulls that disperse and seek enemies on detonation. Like fireworks, but deadlier.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     }
 ]
