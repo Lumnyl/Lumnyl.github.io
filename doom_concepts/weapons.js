@@ -265,7 +265,7 @@ export default [
         "notes" : "Compensator mode increases rate of fire. Suppressor mode increases accuracy, silences gunshots and deals x2 damage against unaware enemies.",
         "superior" : "Compensator mode grants increased damage. Suppressor mode damage bonus rises to x5.",
         "durability": false,
-        "description": "A high caliber, low capacity semi-automatic. While this wouldn't be to outstanding on its own, it features an innovation muzzle device that can change between suppressor and compensator.",
+        "description": "A high caliber, low capacity semi-automatic. While this wouldn't be to outstanding on its own, it features an innovative muzzle device that can change between suppressor and compensator.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
