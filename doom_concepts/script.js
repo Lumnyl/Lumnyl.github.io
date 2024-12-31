@@ -93,6 +93,7 @@ const lore_categ_list = [
 const quicknotesweapons = `<li>Melee weapons all deal double damage when under the effect of Berserk unless stated otherwise.</li>
 <li>Demon energy is sometimes dropped by demons on death. Bigger demons drop more.</li>
 <li>Mana regenerates, with capacity increasing with each Magic weapon in inventory.</li>
+<li>Spirit is obtained 1-to-1 through kills. You can only gain spirit if you have a spirit weapon in your inventory.</li>
 <li>Grenades are sometimes dropped by former humans.</li>
 <li>Durability weapons can break and must be repaired with repair kits.</li>
 <li>Disposable and Partially Disposable weapons are temporary weapons that do not use regular ammo types.
@@ -105,6 +106,8 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 <li>Level 0 is the baseline for artifacts.</li>`
 
 const quicknotesitems = `<li>Like Pandemonia, armor passively halves all damage dealt to it. For example, a 100 damage hit with 50% protection will deal 50 damage to health and 25 to armor.</li>
+<li>If you have one or more spirit weapons in your inventory, Soul Spheres and its variants restore 100 spirit.</li>
+<li>Overcharging means increasing an attribute past its normal cap. Can be additive or multiplicative. 200 health in vanilla would be equivalent to +100 or x2 overcharge.</li>
 <li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level, and up to 2 can be active at once. Unlike Pandemonia, runes are not consumed upon use because they come with downsides.</li>
 <li>Contracts are rare drops, and whichever contract drop depends on the enemy category. They can be signed at the cost of 20 max health and last for the rest of the playthrough. There is no limit to how many contracts can be active at once, as long as you have blood to spare.</li>`
 

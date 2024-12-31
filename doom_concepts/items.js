@@ -246,6 +246,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Spirit Sphere",
+        "type": "Supercharge",
+        "category": "Healing",
+        "effect": "Restores 100 health. Can overcharge up to +100. Also overcharges your spirit to x3.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Mega Sphere",
         "type": "Megacharge",
         "category": "Healing",
@@ -520,6 +532,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Armory Pack",
+        "type": "Capacity Increase",
+        "category": "Powerup",
+        "effect": "Doubled ammo capacity. Grants 200 bullets, 50 shells, 50 rockets, 300 cells and 20 grenades.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Fully Loaded Pack",
+        "type": "Capacity Increase",
+        "category": "Powerup",
+        "effect": "Doubled ammo capacity. Grants 500 bullets, 140 shells, 125 rockets, 750 cells and 50 grenades.",
+        "notes": "",
+        "carriable": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Magazine Pouch",
         "type": "Capacity Increase",
         "category": "Powerup",
@@ -616,6 +652,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Motion Tracker",
+        "type": "Map Reveal",
+        "category": "Powerup",
+        "effect": "Draws unvisited areas in the automap. Highlights nearby enemies through walls for 120 seconds.",
+        "notes": "",
+        "carriable": true,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Radiation Shielding Suit",
         "type": "Hazard Protection",
         "category": "Powerup",
@@ -685,7 +733,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Night-Vision Goggles",
@@ -735,7 +783,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Invisibility Sphere",
@@ -747,7 +795,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Damage Sphere",
@@ -759,7 +807,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Shield Sphere",
@@ -771,7 +819,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Weapon Sphere",
@@ -783,7 +831,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Momentum Sphere",
@@ -795,7 +843,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Radiance Sphere",
@@ -807,7 +855,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ammo Sphere",
@@ -819,7 +867,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Invulnerability Sphere",
@@ -831,7 +879,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Doom Sphere",
@@ -843,7 +891,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Reflection Sphere",
@@ -855,7 +903,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Absorption Sphere",
@@ -867,7 +915,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Nuke Sphere",
@@ -879,7 +927,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "God Sphere",
@@ -891,7 +939,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Glory Sphere",
@@ -903,7 +951,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -1024,7 +1072,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Rune of Evasiveness",
@@ -1048,7 +1096,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of the Juggernaut",
@@ -1060,7 +1108,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rune of Purification",
@@ -1133,7 +1181,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Contract with Baphomet",
@@ -1290,7 +1338,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ace of Diamonds",
@@ -1302,7 +1350,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ace of Clubs",
@@ -1314,19 +1362,19 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ace of Spades",
         "type": "Misc",
         "category": "Rare Drop",
-        "effect": "Grants you mana equals to 10x your max amount.",
+        "effect": "Overcharges your mana to 10x.",
         "notes": "",
         "carriable": true,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ace of Stars",
@@ -1338,7 +1386,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ace of Crowns",
@@ -1350,7 +1398,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sphere Enhancer",
@@ -1362,7 +1410,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
 ]

@@ -311,34 +311,34 @@ export default [
         "description": "Tall unarmored skeleton without the shoulder cannons. Able to close the distance very quickly if left unattended.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Kamikaze",
-    //     "category": "Revenant",
-    //     "species": "Revenant",
-    //     "description": "Like a Carcass, but carrying bombs in its hands. Runs at you at high speed screaming like a banshee, and can be used as a mobile explosive barrel with good enough timing.",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Fire Husk",
-    //     "category": "Revenant",
-    //     "species": "Revenant",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Sentry",
-    //     "category": "Revenant",
-    //     "species": "Revenant",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Legionary",
-    //     "category": "Revenant",
-    //     "species": "Revenant",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Kamikaze",
+        "category": "Revenant",
+        "species": "Revenant",
+        "description": "Like a Carcass, but carrying bombs in its hands. Runs at you at high speed screaming like a banshee, and can be used as a mobile explosive barrel with good enough timing.",
+        "newstatus": 1
+    },
+    {
+        "name": "Fire Husk",
+        "category": "Revenant",
+        "species": "Revenant",
+        "description": "Fire-based Revenant with a hand-held fire cannon. Fires charged fireballs at a distance and sprays flames at close range. Self-destructs when at low health.",
+        "newstatus": 1
+    },
+    {
+        "name": "Sentry",
+        "category": "Revenant",
+        "species": "Revenant",
+        "description": "Upgraded skeleton with additional armor, rapid-fire rocket launchers and dual-wield auto-shotguns. Individual shots are fairly weak but it's the volume of fire you should be wary of.",
+        "newstatus": 1
+    },
+    {
+        "name": "Legionary",
+        "category": "Revenant",
+        "species": "Revenant",
+        "description": "War machine on legs, with cluster bombs, high-explosive rockets, even a chaingun with explosive ammo. They aren't blast-resistant, so skillful movement can get them to blow themselves up.",
+        "newstatus": 1
+    },
     {
         "name": "Mancubus",
         "category": "Mancubus",
@@ -350,37 +350,37 @@ export default [
         "name": "Hectebus",
         "category": "Mancubus",
         "species": "Mancubus",
-        "description": "Fatso who have embraced the Darkness into them. Their attacks are punctuated by explosive blasts. They also get hungry quicker.",
+        "description": "Fatsos who have embraced the Darkness into them. Their attacks are punctuated by explosive blasts. They also get hungry quicker.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Daedabus",
-    //     "category": "Mancubus",
-    //     "species": "Mancubus",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Mafibus",
-    //     "category": "Mancubus",
-    //     "species": "Mancubus",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Corpulent",
-    //     "category": "Mancubus",
-    //     "species": "Mancubus",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Tankubus",
-    //     "category": "Mancubus",
-    //     "species": "Mancubus",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Daedabus",
+        "category": "Mancubus",
+        "species": "Mancubus",
+        "description": "Less fire, more explosives. Lobs grenades, rains mortar shells, and sprays volleys of scrap.",
+        "newstatus": 1
+    },
+    {
+        "name": "Mafibus",
+        "category": "Mancubus",
+        "species": "Mancubus",
+        "description": "Red-skinned Mancubus with upgraded cannons capable of rapid fire. Sprays fire when in close proximity.",
+        "newstatus": 1
+    },
+    {
+        "name": "Corpulent",
+        "category": "Mancubus",
+        "species": "Mancubus",
+        "description": "Ancient, wicked and powerful. Their fireballs are explosive and spread flames everywhere.",
+        "newstatus": 1
+    },
+    {
+        "name": "Tankubus",
+        "category": "Mancubus",
+        "species": "Mancubus",
+        "description": "Half Daedabus, half motorized vehicle, half array of cannons, machine-guns and rocket launchers.",
+        "newstatus": 1
+    },
     {
         "name": "Arachnotron",
         "category": "Arachnotron",
@@ -395,34 +395,34 @@ export default [
         "description": "Arachnotron minus the mechanical legs. They fly around firing bursts of plasma and sometimes break free after their cyber-anchors get destroyed.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Fusion Arachnotron",
-    //     "category": "Arachnotron",
-    //     "species": "Cerebral",
-    //     "description": "Arachnotron with a fusion repeater, spraying slow projectiles over a wide area. With this volume of fire, who needs accuracy?",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Arachnotron Mk2",
-    //     "category": "Arachnotron",
-    //     "species": "Cerebral",
-    //     "description": "Upgraded Arachnotron with double the firepower and extra armor. A charging sound up close usually signifies a dozen of plasma bolts coming in a single blast.",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Scorpiotron",
-    //     "category": "Arachnotron",
-    //     "species": "Cerebral",
-    //     "description": "High mobility chassis, a stinger equipped with a railgun, plasma grenades, and the ability to fire an explosive plasma ball after some charge time.",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Arachknight",
-    //     "category": "Arachnotron",
-    //     "species": "Cerebral",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Fusion Arachnotron",
+        "category": "Arachnotron",
+        "species": "Cerebral",
+        "description": "Arachnotron with a fusion repeater, spraying slow projectiles over a wide area. With this volume of fire, who needs accuracy?",
+        "newstatus": 1
+    },
+    {
+        "name": "Arachnotron Mk2",
+        "category": "Arachnotron",
+        "species": "Cerebral",
+        "description": "Upgraded Arachnotron with double the firepower and extra armor. A charging sound up close usually signifies a dozen of plasma bolts coming in a single blast.",
+        "newstatus": 1
+    },
+    {
+        "name": "Arachknight",
+        "category": "Arachnotron",
+        "species": "Cerebral",
+        "description": "Lightweight Arachnotron with superior mobility allowing them to chase their targets. Their plasma weapons are able to recycle excess heat into energy, which can be used to temporarily increase their firepower.",
+        "newstatus": 1
+    },
+    {
+        "name": "Scorpiotron",
+        "category": "Arachnotron",
+        "species": "Cerebral",
+        "description": "Shaped like the spider's tailed cousin, it has a chassis made of high-durability allow, a stinger equipped with a railgun, plasma grenades, and the ability to fire an explosive plasma ball after some charge time.",
+        "newstatus": 1
+    },
     
     {
         "name": "Cacodemon",
@@ -463,7 +463,7 @@ export default [
     //     "name": "Crackodemon",
     //     "category": "Cacodemon",
     //     "species": "Cacodemon",
-    //     "description": "",
+    //     "description": "Superior variant of the cacodemon with an extra pair of eyes and enhanced magical abilities. Twitchy and highly dangerous.",
     //     "newstatus": 1
     // },
     {
