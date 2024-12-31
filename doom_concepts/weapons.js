@@ -2183,7 +2183,7 @@ export default [
         "description": "Instant cooling in a can. Flash-freezes everything in a sizeable radius into meat popsicles for immediate consumption, should that be your thing.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Tesla Field Generator",
