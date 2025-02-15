@@ -7,12 +7,12 @@ export default [
         "primary" : "Stab",
         "secondary" : "N/A",
         "notes" : "10x damage against unaware enemies.",
-        "superior" : "Crouching for a few seconds grants you complete invisibility and increased movement speed until you attack or change weapons.",
+        "superior" : "Grants you complete invisibility and increased movement speed after a few seconds without attacking, lost upon attacking or changing weapons.",
         "durability": false,
         "description": "Standard-issue CQC weapon for those seeking a stealthier approach, combat in ammo-scarce environments, or just plain old getting close and personal. Cuts and punctures hellspawn skin like a hot... well, knife through butter.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Brass Knuckles",
