@@ -316,28 +316,28 @@ export default [
         "category": "Revenant",
         "species": "Revenant",
         "description": "Like a Carcass, but carrying bombs in its hands. Runs at you at high speed screaming like a banshee, and can be used as a mobile explosive barrel with good enough timing.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Fire Husk",
         "category": "Revenant",
         "species": "Revenant",
         "description": "Fire-based Revenant with a hand-held fire cannon. Fires charged fireballs at a distance and sprays flames at close range. Self-destructs when at low health.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sentry",
         "category": "Revenant",
         "species": "Revenant",
         "description": "Upgraded skeleton with additional armor, rapid-fire rocket launchers and dual-wield auto-shotguns. Individual shots are fairly weak but it's the volume of fire you should be wary of.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Legionary",
         "category": "Revenant",
         "species": "Revenant",
         "description": "War machine on legs, with cluster bombs, high-explosive rockets, even a chaingun with explosive ammo. They aren't blast-resistant, so skillful movement can get them to blow themselves up.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mancubus",
@@ -358,28 +358,28 @@ export default [
         "category": "Mancubus",
         "species": "Mancubus",
         "description": "Less fire, more explosives. Lobs grenades, rains mortar shells, and sprays volleys of scrap.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mafibus",
         "category": "Mancubus",
         "species": "Mancubus",
         "description": "Red-skinned Mancubus with upgraded cannons capable of rapid fire. Sprays fire when in close proximity.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Corpulent",
         "category": "Mancubus",
         "species": "Mancubus",
         "description": "Ancient, wicked and powerful. Their fireballs are explosive and spread flames everywhere.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Tankubus",
         "category": "Mancubus",
         "species": "Mancubus",
         "description": "Half Daedabus, half motorized vehicle, half array of cannons, machine-guns and rocket launchers.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Arachnotron",
@@ -400,28 +400,28 @@ export default [
         "category": "Arachnotron",
         "species": "Cerebral",
         "description": "Arachnotron with a fusion repeater, spraying slow projectiles over a wide area. With this volume of fire, who needs accuracy?",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Arachnotron Mk2",
         "category": "Arachnotron",
         "species": "Cerebral",
         "description": "Upgraded Arachnotron with double the firepower and extra armor. A charging sound up close usually signifies a dozen of plasma bolts coming in a single blast.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Arachknight",
         "category": "Arachnotron",
         "species": "Cerebral",
         "description": "Lightweight Arachnotron with superior mobility allowing them to chase their targets. Their plasma weapons are able to recycle excess heat into energy, which can be used to temporarily increase their firepower.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Scorpiotron",
         "category": "Arachnotron",
         "species": "Cerebral",
         "description": "Shaped like the spider's tailed cousin, it has a chassis made of high-durability allow, a stinger equipped with a railgun, plasma grenades, and the ability to fire an explosive plasma ball after some charge time.",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -431,20 +431,13 @@ export default [
         "description": "Big flying red ball with one big ol' green eye. Belches lightning balls and has an absolutely ferocious bite.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Juvenile Cacodemon",
-    //     "category": "Cacodemon",
-    //     "species": "Cacodemon",
-    //     "description": "Miniature cacodemons who haven't matured enough to cast lightning and favor aggressively swarming their targets. Do not attempt to pet them, as they are still vicious creatures capable of biting your hands off.",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Beholder",
-    //     "category": "Cacodemon",
-    //     "species": "Cacodemon",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Juvenile Cacodemon",
+        "category": "Cacodemon",
+        "species": "Cacodemon",
+        "description": "Miniature Cacodemons who haven't matured enough to cast lightning and favor aggressively swarming their targets. Do not attempt to pet them, as they are still vicious creatures capable of biting your hands off.",
+        "newstatus": 1
+    },
     {
         "name": "Agathodemon",
         "category": "Cacodemon",
@@ -452,20 +445,34 @@ export default [
         "description": "Big flying white ball with an inverted cross on its eye. Fires spreads of lightning balls and that bite is still absolutely ferocious. They sometimes phase out to reach their target quicker.",
         "newstatus": 0
     },
+    {
+        "name": "Beholder",
+        "category": "Cacodemon",
+        "species": "Cacodemon",
+        "description": "A severely mutated Cacodemon, featuring plenty of eyestalks atop its round figure and regurgitating acidic bile instead of lightning. Common around nukage pools, which is believed to be the cause of its mutations.",
+        "newstatus": 1
+    },
     // {
     //     "name": "Malwrath",
     //     "category": "Cacodemon",
     //     "species": "Cacodemon",
-    //     "description": "",
+    //     "description": "Distant cousin of the common Caco with an affiliation towards the psychic rather than electric. They are smart enough to recognize infighting as something to be avoided, though will still retaliate if attacked.",
     //     "newstatus": 1
     // },
-    // {
-    //     "name": "Crackodemon",
-    //     "category": "Cacodemon",
-    //     "species": "Cacodemon",
-    //     "description": "Superior variant of the cacodemon with an extra pair of eyes and enhanced magical abilities. Twitchy and highly dangerous.",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Crackodemon",
+        "category": "Cacodemon",
+        "species": "Cacodemon",
+        "description": "Superior variant of the Cacodemon with an extra pair of eyes and enhanced magical abilities that allows it to reach even higher voltage attacks.",
+        "newstatus": 1
+    },
+    {
+        "name": "Cacobot",
+        "category": "Cacodemon",
+        "species": "Cacodemon",
+        "description": "Mechanized flying foe with similarly high-tech weaponry. It is unknown wether they are entirely robotic or just extremely cyberized Cacodemons.",
+        "newstatus": 1
+    },
     {
         "name": "Pain Elemental",
         "category": "Pain Elemental",
@@ -481,34 +488,34 @@ export default [
         "description": "Even worse than the Pain Elemental, they spew Forgotten Ones, belch fire at close range and explode violently when defeated.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Rahovart",
-    //     "category": "Pain Elemental",
-    //     "species": "Pain Elemental",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Plasma Elemental",
-    //     "category": "Pain Elemental",
-    //     "species": "Pain Elemental",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Replicator",
-    //     "category": "Pain Elemental",
-    //     "species": "Pain Elemental",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Hades Elemental",
-    //     "category": "Pain Elemental",
-    //     "species": "Pain Elemental",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Plasma Elemental",
+        "category": "Pain Elemental",
+        "species": "Pain Elemental",
+        "description": "When elementals live long enough without souls, they sometimes take properties of other elements. This one is obviously based on the same plasma featured in your arsenal, and as such should be treated with the same care as a sentient gun barrel actively shooting you.",
+        "newstatus": 1
+    },
+    {
+        "name": "Replicator",
+        "category": "Pain Elemental",
+        "species": "Pain Elemental",
+        "description": "Fully automated Drone factory, complete with laser weaponry for self defense. Like its Caco equivalent, no one knows if they are the result of invasive enhancements or just an inspired project.",
+        "newstatus": 1
+    },
+    {
+        "name": "Plasma Replicator",
+        "category": "Pain Elemental",
+        "species": "Pain Elemental",
+        "description": "Fully automated Drone factory, plasma-flavored. Like the thing they produce, they also tend to get very unstable when nearing destruction.",
+        "newstatus": 1
+    },
+    {
+        "name": "Hades Elemental",
+        "category": "Pain Elemental",
+        "species": "Pain Elemental",
+        "description": "An Elemental attuned to what can be only described as pure underworld energy. They're able to cast fully homing spheres of devastation which as thankfully very weak to gunfire.",
+        "newstatus": 1
+    },
     
     {
         "name": "Hell Knight",

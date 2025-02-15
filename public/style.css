@@ -34,6 +34,12 @@ table td {
   border: solid 1px black;
   padding: 3px;
 }
+.concept_isnew {
+  color: red;
+}
+.concept_isupdated {
+  color: blue;
+}
 .darkmode {
   color: white;
   background-color: #013;
@@ -47,10 +53,10 @@ table td {
 .darkmode table td {
   border: solid 1px white;
 }
-.concept_isnew {
+.darkmode .concept_isnew {
   color: lime;
 }
-.concept_isupdated {
+.darkmode .concept_isupdated {
   color: cyan;
 }
 .floater {

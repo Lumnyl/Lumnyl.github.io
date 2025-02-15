@@ -8,7 +8,7 @@ export default [
     {
         "subject": "Souls",
         "category": "Concepts",
-        "description": "Every living being has a soul, which is a formless slate of spiritual energy that's able to communicate with their body through their consciousness. After dying, human souls are judged to see if they are worthy of entering the heavens, need to work out their mistakes during their life, or are irredeemable and sent into hell. Souls entering hell this way have their memories wiped cleaned, their essence given a new physical form and can now begin a new life as a demon.",
+        "description": "Every living being has a soul, which is a formless slate of spiritual energy that's able to communicate with their body through their consciousness. After dying, human souls are judged to see if they are worthy of entering the heavens, need to work out their mistakes during their life, or are irredeemable and sent into hell. Souls entering hell this way have their memories wiped clean, their essence given a new physical form and can now begin a new life as a demon.",
         "newstatus": 0
     },
     {

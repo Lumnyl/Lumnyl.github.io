@@ -73,6 +73,6 @@ export default [
     {"slot": 7, "name": "Fantasy Staff", "ammo": "Mana", "tags": ["Arcane"], "superior": ""},
     {"slot": 7, "name": "Heliacal Arc", "ammo": "Demon", "tags": ["Durability"], "superior": "None"},
     
-    {"slot": 8, "name": "Sacrosanct Aeonstave", "ammo": "Chaos", "tags": ["No Augments"], "superior": "None"},
-    {"slot": 8, "name": "Convergence", "ammo": "Demon", "tags": ["No Augments"], "superior": "None"}
+    {"slot": 8, "name": "Sacrosanct Aeonstave", "ammo": "Chaos", "tags": ["Arcane", "No Superior", "No Capacity"], "superior": "None"},
+    {"slot": 8, "name": "Convergence", "ammo": "Demon", "tags": ["Arcane", "No Precision"], "superior": "Casts Evocations directly on your location. Casts a brief invulnerable dash when summoning Evocations!"}
 ]

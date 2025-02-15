@@ -49,7 +49,7 @@ const weapon_categ_list = [
     "Demonic",
     "Superweapon",
     "Throwable",
-    "Disposable",
+    "Unique",
     "Magic",
     "Artifact",
     "Powerup",
@@ -96,11 +96,8 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 <li>Spirit is obtained 1-to-1 through kills. You can only gain spirit if you have a spirit weapon in your inventory.</li>
 <li>Grenades are sometimes dropped by former humans.</li>
 <li>Durability weapons can break and must be repaired with repair kits.</li>
-<li>Disposable and Partially Disposable weapons are temporary weapons that do not use regular ammo types.
-<ul>
-<li>You can hold multiple copies of Disposable weapons. Reloading drops your current copy and discarded copies cannot be picked back up.</li>
-<li>Partially Disposable weapons have their own ammo pool. If you have a Partially Disposable weapon in your inventory, then additional drops are replaced with ammunition packs which give out more ammo than weapon drops.</li>
-</ul></li>
+<li>Unique weapons have their own dedicated ammo type. Anything that would spawn a Unique weapon will spawn its corresponding ammo pickup instead if you have that weapon in your inventory.</li>
+<li>Disposable weapons are like Unique weapons but don't have a separate ammo pickup and are instead discarded after use. In the context of a limited weapon inventory, they would not take a weapon slot.</li>
 <li>Upgrades are like Pandemonia Superior augments or Arcane keys. Basically a special upgrade unlocked by an item.</li>
 <li>Magic weapons can only be upgraded with an Ace of Stars item, lasting for the rest of the map.</li>
 <li>Level 0 is the baseline for artifacts.</li>`
@@ -108,7 +105,7 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 const quicknotesitems = `<li>Like Pandemonia, armor passively halves all damage dealt to it. For example, a 100 damage hit with 50% protection will deal 50 damage to health and 25 to armor.</li>
 <li>If you have one or more spirit weapons in your inventory, Soul Spheres and its variants restore 100 spirit.</li>
 <li>Overcharging means increasing an attribute past its normal cap. Can be additive or multiplicative. 200 health in vanilla would be equivalent to +100 or x2 overcharge.</li>
-<li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level, and up to 2 can be active at once. Unlike Pandemonia, runes are not consumed upon use because they come with downsides.</li>
+<li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level, and up to 2 can be active at once.</li>
 <li>Contracts are rare drops, and whichever contract drop depends on the enemy category. They can be signed at the cost of 20 max health and last for the rest of the playthrough. There is no limit to how many contracts can be active at once, as long as you have blood to spare.</li>`
 
 const quicknotesenemies = `<li>Categories are an arbitrary classification based on what would fit in a monster randomizer.</li>`
@@ -214,7 +211,7 @@ function build_weapon_table() {
         weapon_head.appendChild(cell)
     }
     for (let weapon of weapon_list) {
-        if (subcategory_selector.value == 0 || weapon_categ_list[subcategory_selector.value - 2] == weapon.category || (weapon_categ_list[subcategory_selector.value - 2] == "Disposable" && weapon.category == "Partially Disposable") || (subcategory_selector.value == 1 && weapon.newstatus > 0)) {
+        if (subcategory_selector.value == 0 || weapon_categ_list[subcategory_selector.value - 2] == weapon.category || (weapon_categ_list[subcategory_selector.value - 2] == "Unique" && weapon.category == "Disposable") || (subcategory_selector.value == 1 && weapon.newstatus > 0)) {
             let row = document.createElement("tr")
             for (let currentitem of head_lists.weapons) {
                 let cell = document.createElement("td")
@@ -264,12 +261,14 @@ function build_item_table() {
             let row = document.createElement("tr")
             for (let currentitem of head_lists.items) {
                 let cell = document.createElement("td")
-                cell.textContent = item[currentitem[0]]
                 if (currentitem[0] == "notes") {
-                    if (item.carriable) {
-                        cell.innerHTML += " Carriable."
+                    if (item.carriable == 1) {
+                        cell.textContent = "Carriable. "
+                    } else if (item.carriable == 2) {
+                        cell.textContent = "Carriable and reusable. "
                     }
                 }
+                cell.textContent += item[currentitem[0]]
                 if (currentitem[0] == "name") {
                     if (item.newstatus == 1) {
                         cell.innerHTML += '<span class="concept_isnew"> (new!)</span>'

@@ -259,7 +259,7 @@ function rollAugments(weapon) {
     let limit_capacity = document.querySelector("#limit_capacity").checked
     let augment_list = { upgrade_path: "", conversion_type: "", conversion: 0, Strength: 0, Haste: 0, Capacity: 0, Precision: 0 }
     let used_slots = 0
-    augment_list["upgrade_path"] = (weapon.ammo == "Mana") ? "Magitech" : (weapon.tags.includes("Durability")) ? "Formatter" : (weapon.slot == 2) ? (Math.random() < 0.75) ? "Superior" : "Formatter" : (Math.random() < 0.67) ? "Superior" : "Formatter"
+    augment_list["upgrade_path"] = (weapon.ammo == "Mana") ? "Magitech" : (weapon.tags.includes("Durability") || weapon.tags.includes("No Superior")) ? "Formatter" : (weapon.slot == 2) ? (Math.random() < 0.75) ? "Superior" : "Formatter" : (Math.random() < 0.67) ? "Superior" : "Formatter"
     let upgrade_slots = (weapon.tags.includes("Durability")) ? 3 : 5;
     if (augment_list["upgrade_path"] == "Formatter") upgrade_slots += 5
     let upgrade_choices = ["Strength", "Haste"]
@@ -275,20 +275,24 @@ function rollAugments(weapon) {
             if (augment_list.conversion_type == "") {
                 let conv_choices = ["Blast", "Chaos"]
                 if (!weapon.tags.includes("No Flame")) { conv_choices.push("Flame") }
-                if (weapon.ammo != "None" && weapon.ammo != "Mana" && weapon.ammo != "Chaos") { conv_choices.push("Scavenge") }
+                if (weapon.ammo != "None" && weapon.ammo != "Mana" && !weapon.tags.includes("No Scavenge")) { conv_choices.push("Scavenge") }
                 choice = random_item(conv_choices)
-                let required_slots = (choice == "Chaos") ? 3 : 2;
+                let required_slots = (choice == "Chaos") ? 3 : (choice == "Scavenge") ? 1 : 2;
                 if (used_slots + required_slots <= upgrade_slots) {
                     augment_list.conversion_type = choice
                     augment_list.conversion += 1
                     used_slots += required_slots
                 }
             } else {
-                let required_slots = (augment_list.conversion_type == "Chaos") ? 3 : 2;
+                if (!(augment_list.conversion_type == "Scavenge" && augment_list.conversion > 4)) {
+                let required_slots = (augment_list.conversion_type == "Chaos") ? 3 : (augment_list.conversion_type == "Scavenge") ? 1 : 2;
+                console.log(required_slots)
+                console.log(augment_list.conversion_type)
                 if (used_slots + required_slots <= upgrade_slots) {
                     augment_list.conversion += 1
                     used_slots += required_slots
                 }
+            }
             }
 
         } else {
