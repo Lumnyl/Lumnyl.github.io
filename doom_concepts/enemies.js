@@ -647,42 +647,42 @@ export default [
     {
         "name": "Cyberdemon",
         "category": "Cyberdemon",
-        "species": "Superdemon",
-        "description": "Superdemon meets cybernetic rocket launcher. A formidable ally should you manage to trick demons into fighting it, but avoid those rockets at all costs if you plan on staying alive.",
-        "newstatus": 0
+        "species": "Tyrant",
+        "description": "Tyrant meets cybernetic rocket launcher. A formidable ally should you manage to trick demons into fighting it, but avoid those rockets at all costs if you plan on staying alive.",
+        "newstatus": 2
     },
     {
-        "name": "Superdemon",
+        "name": "Tyrant",
         "category": "Cyberdemon",
-        "species": "Superdemon",
+        "species": "Tyrant",
         "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. They throw spreads and bursts of fireballs and while they are easy coerced into damaging other monsters, they will almost always come out on top.",
-        "newstatus": 0
+        "newstatus": 2
     },
     // {
     //     "name": "",
     //     "category": "Cyberdemon",
-    //     "species": "Superdemon",
+    //     "species": "Tyrant",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
     //     "name": "",
     //     "category": "Cyberdemon",
-    //     "species": "Superdemon",
+    //     "species": "Tyrant",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
     //     "name": "",
     //     "category": "Cyberdemon",
-    //     "species": "Superdemon",
+    //     "species": "Tyrant",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
     //     "name": "",
     //     "category": "Cyberdemon",
-    //     "species": "Superdemon",
+    //     "species": "Tyrant",
     //     "description": "",
     //     "newstatus": 1
     // },

@@ -103,10 +103,10 @@ export default [
         "newstatus": 0
     },
     {
-        "subject": "Superdemons",
+        "subject": "Tyrants",
         "category": "Enemy Types",
-        "description": "Superdemons are Pride incarnate. A super-sized Hell Noble with a body comparable in size to their ego. They relentlessly bully other hell inhabitants and are easily provoked into fighting those they deem inferior. Lucifer's favorite little big hellspawn.",
-        "newstatus": 0
+        "description": "Tyrants are Pride incarnate. A super-sized Hell Noble with a body comparable in size to their ego. They relentlessly bully other hell inhabitants and are easily provoked into fighting those they deem inferior. Lucifer's favorite little big hellspawn.",
+        "newstatus": 2
     },
     {
         "subject": "Sentients",

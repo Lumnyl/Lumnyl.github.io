@@ -218,7 +218,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -279,7 +279,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Phoenix Sphere",
@@ -291,7 +291,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spirit Sphere",
@@ -918,6 +918,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Lucky Sphere",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Grants you the effect of an Enhanced Buff Sphere. Enhanced : Grants you the effect of an Enhanced Power Sphere instead.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Invulnerability Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
@@ -1376,6 +1388,7 @@ export default [
         "newstatus": 0
     },
 
+    // health/armor
     {
         "name": "Ace of Hearts",
         "type": "Misc",
@@ -1400,6 +1413,7 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
+    // mana/ammo
     {
         "name": "Ace of Clubs",
         "type": "Misc",
@@ -1424,11 +1438,12 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
+    // perm boost to magic
     {
         "name": "Ace of Stars",
         "type": "Misc",
         "category": "Rare Drop",
-        "effect": "Upgrades Magic weapons until the end of the level.",
+        "effect": "Upgrades Magic weapons for the rest of the level.",
         "notes": "",
         "carriable": 1,
         "description": "",
@@ -1440,13 +1455,63 @@ export default [
         "name": "Ace of Crowns",
         "type": "Misc",
         "category": "Rare Drop",
-        "effect": "Doubles your max mana until the end of the level.",
+        "effect": "Magic weapons deal increased damage for the rest of the level.",
         "notes": "",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
+    },
+    // use mana as boost
+    {
+        "name": "Ace of Shields",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "For the rest of the level, automatically use mana to reduce damage taken.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Ace of Swords",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "For the rest of the level, automatically use mana to increase damage dealt.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    // spirit
+    {
+        "name": "Ace of Moons",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Regenerates spirit for 60 seconds.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Ace of Fleurs",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Overcharges your spirit to 3x.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Sphere Enhancer",
@@ -1467,6 +1532,54 @@ export default [
         "effect": "Grants you the Ephialtic Curse, which gives you access to multiple spells to use for the rest of the map at the cost of 100 health points.",
         "notes": "Each contract active increases the power of the curse, and takes away 5 additional max health.",
         "carriable": 2,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Gambler's Deck",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Grants you a random \"Ace\" card, but reduces your max mana by 50 for the rest of the level. Cards gained by this effect are lost upon exiting a level.",
+        "notes": "",
+        "carriable": 2,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Eye of Destiny",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Allows you to pick and choose the effect of randomness-based items.",
+        "notes": "Affects the Lucky Sphere, Weapon Sphere, and Gambler's Deck.",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Spiritual Artifact",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Restores half your spirit at the start of each level.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Overkill Medal",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Carry one additional weapon.",
+        "notes": "",
+        "carriable": 3,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",

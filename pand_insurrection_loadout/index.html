@@ -11,8 +11,8 @@
 
 <body>
     <h1 class="pand_title">Insurrection Loadout Randomizer</h1>
-    <h2>Last updated : 24 August 2024 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
-    <h3 class="italic">Compatible with version 2.5.4 (24 August 2024)</h3>
+    <h2>Last updated : 8 March 2025 (<a href="/pand_insurrection_loadout/changelog.html">View changelog</a>)</h2>
+    <h3 class="italic">Compatible with version 2.6.1 (10 February 2025)</h3>
     <h3 class="italic">Compatible with <a href="https://visceralcxxiii.itch.io/pand-ins-gunlock" class="wpn_gunlocker">Gunlocker</a> version 0.3 (14 June 2024)</h3>
     <input type="range" id="input_weapon_amount" min="6" max="20" value="6">
     <label for="input_weapon_amount">Max allowed weapons : <span id="weapon_amount"></span></label>
@@ -51,7 +51,7 @@
     <input type="checkbox" id="more_class_weapons"><label for="more_class_weapons">Pick class-specific weapons more often.</label>
     <br>
     <input type="range" id="reroll_chance" min="0.01" max="1" value="0.2" step="0.01">
-    <label for="reroll_chance" id="reroll_chance_label">Chance to pick a class-specific weapon : <span id="reroll_percent"></span>%</label>
+    <label for="reroll_chance" id="reroll_chance_label">Chance to pick a class-specific weapon instead of a random one : <span id="reroll_percent"></span>%</label>
     <br id="reroll_chance_br">
     <button id="generate_loadout">Generate Loadout</button>
     <br>
@@ -86,9 +86,10 @@
                 <li>The "upgrade path" is determined first. <span class="augment augment_Superior">Superior</span> will be chosen 2/3rds of the time, and <span class="augment augment_Formatter">Formatter</span> the other third (slot 2 weapons choose <span class="augment augment_Superior">Superior</span> 3/4ths of the time). <span class="wpn_durability">Durability</span> weapons always use the <span class="augment augment_Formatter">Formatter</span> upgrade path, and Magic weapons can only use the <span class="augment augment_Magitech">Magitech</span> upgrade path.</li>
                 <li>Conversion augments have a 50% (67% for <span class="augment augment_Formatter">Formatted</span> weapons) chance to be included in the augment pool.</li>
                 <li>All augments in the pool have an equal chance to be chosen, with conversion augments counted as one.</li>
-                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.5.4 this includes the Compact SMG, the Sheller, the Firecracker, the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the Jagdpanzer (from <a href="https://visceralcxxiii.itch.io/pand-ins-gunlock" class="wpn_gunlocker">Gunlocker</a>) the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the DMR, the Flamethrower, the Incinerator, the Pulverizer, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
+                <li>Weapons that benefit from <span class="augment augment_Capacity">Capacity</span> augments are ones that get a magazine size or a durability increase. As of 2.6.1 this includes the Compact SMG, the Sheller, the Firecracker, the Auto and Riot Shotguns (except <span title="No longer needs to reload" class="augment augment_Superior">Superior</span> Auto Shotgun), the Jagdpanzer (from <a href="https://visceralcxxiii.itch.io/pand-ins-gunlock" class="wpn_gunlocker">Gunlocker</a>) the <span class="wpn_arcane wpn_raiden">Raiden Electron Shotgun</span>, the LMG, the DMR, the Flamethrower, the Incinerator, the Pulverizer, the Spinfusor, the Scourge Rifle, and all <span class="wpn_durability">Durability</span> weapons.</li>
                 <li>The Napalm Bomber cannot roll <span class="augment augment_Flame">Flame</span> augments.</li>
-                <li>The Railgun, Railbeam and Gauss Annihilator cannot roll <span class="augment augment_Precision">Precision</span> augments.</li>
+                <li>The Railgun, Railbeam, Gauss Annihilator and <span class="wpn_convergence">Convergence</span> cannot roll <span class="augment augment_Precision">Precision</span> augments.</li>
+                <li>The <span class="wpn_aeonstave">Sacrosanct Aeonstave</span> cannot roll <span class="augment augment_Superior">Superior</span> or <span class="augment augment_Capacity">Capacity</span> augments.</li>
             </ul>
         </li>
     </ul>

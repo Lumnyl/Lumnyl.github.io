@@ -264,7 +264,7 @@ function rollAugments(weapon) {
     if (augment_list["upgrade_path"] == "Formatter") upgrade_slots += 5
     let upgrade_choices = ["Strength", "Haste"]
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
-    if (!limit_capacity) { upgrade_choices.push("Capacity") }
+    if (!limit_capacity && !weapon.tags.includes("No Capacity")) upgrade_choices.push("Capacity")
     else if ((weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) && weapon.ammo != "None" && weapon.ammo != "Mana" && weapon.ammo != "Chaos") { upgrade_choices.push("Capacity") }
     if (!weapon.tags.includes("Arcane") && (Math.random() < 0.5 || (Math.random() < 0.67 && augment_list["upgrade_path"] == "Formatter"))) {
         upgrade_choices.push("conversion")
@@ -337,7 +337,7 @@ function display_loadout(loadout, augments, pl_class) {
         slot.textContent = ` Slot ${weapon.slot} - `
         name.textContent = weapon.name
         if (weapon.name == "Sacrosanct Aeonstave") {
-            name.classList.add("wpn_staff")
+            name.classList.add("wpn_aeonstave")
         }
         if (weapon.name == "Convergence") {
             name.classList.add("wpn_convergence")

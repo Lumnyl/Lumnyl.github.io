@@ -45,12 +45,12 @@ const weapon_categ_list = [
     "Automatic",
     "Precision",
     "Launcher",
-    "Special",
+    "Energy",
     "Demonic",
     "Superweapon",
-    "Throwable",
-    "Unique",
+    "Grenade",
     "Magic",
+    "Unique",
     "Artifact",
     "Powerup",
     "Enhanced Powerup"
@@ -266,6 +266,8 @@ function build_item_table() {
                         cell.textContent = "Carriable. "
                     } else if (item.carriable == 2) {
                         cell.textContent = "Carriable and reusable. "
+                    } else if (item.carriable == 3) {
+                        cell.textContent = "Passive. "
                     }
                 }
                 cell.textContent += item[currentitem[0]]
