@@ -185,6 +185,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Doctor Bag",
+        "type": "Large Health Pack",
+        "category": "Healing",
+        "effect": "Grants 2 Field Kits and 2 Stabilizing Syringes.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Berserk Pack",
         "type": "Booster Pack",
         "category": "Healing",
@@ -219,6 +231,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Super Berserk Pack",
+        "type": "Booster Pack",
+        "category": "Healing",
+        "effect": "Restores 150 health, grants Berserk and increases melee attack speed for the rest of the level.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
