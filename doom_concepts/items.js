@@ -194,7 +194,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Berserk Pack",
@@ -242,7 +242,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -942,16 +942,40 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Lucky Sphere",
+        "name": "Nightmare Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
-        "effect": "Grants you the effect of an Enhanced Buff Sphere. Enhanced : Grants you the effect of an Enhanced Power Sphere instead.",
+        "effect": "Grants a random spell from the Ephialtic Curse for the rest of the level. Enhanced : Grants you all spells.",
         "notes": "",
         "carriable": 0,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
+    },
+    {
+        "name": "Time Sphere",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Slows down all enemies for 45 seconds. Enhanced : Slowdown effect is stronger.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Lucky Sphere",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Grants you the effect of a random Enhanced Buff Sphere. Enhanced : Grants you the effect of an Enhanced Power Sphere instead.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
     },
     {
         "name": "Invulnerability Sphere",
@@ -1029,7 +1053,7 @@ export default [
         "name": "Glory Sphere",
         "type": "Power Sphere",
         "category": "Powerup",
-        "effect": "Lasts 30 seconds. While active, you're immune to damage and all melee attacks deal 5x the damage. Rip and tear! Enhanced : Enemies drop healing items when killed.",
+        "effect": "Lasts 30 seconds. While active, you're immune to damage and all melee attacks deal 5x as much damage. Rip and tear! Enhanced : Enemies drop healing items when killed.",
         "notes": "",
         "carriable": 0,
         "description": "",
@@ -1485,7 +1509,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     // use mana as boost
     {
@@ -1498,7 +1522,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ace of Swords",
@@ -1510,7 +1534,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     // spirit
     {
@@ -1523,7 +1547,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ace of Fleurs",
@@ -1535,7 +1559,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sphere Enhancer",
@@ -1571,7 +1595,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Eye of Destiny",
@@ -1583,7 +1607,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spiritual Artifact",
@@ -1595,7 +1619,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Overkill Medal",
@@ -1607,7 +1631,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
 ]

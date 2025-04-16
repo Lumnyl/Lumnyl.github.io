@@ -436,7 +436,7 @@ export default [
         "category": "Cacodemon",
         "species": "Cacodemon",
         "description": "Miniature Cacodemons who haven't matured enough to cast lightning and favor aggressively swarming their targets. Do not attempt to pet them, as they are still vicious creatures capable of biting your hands off.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Agathodemon",
@@ -450,7 +450,7 @@ export default [
         "category": "Cacodemon",
         "species": "Cacodemon",
         "description": "A severely mutated Cacodemon, featuring plenty of eyestalks atop its round figure and regurgitating acidic bile instead of lightning. Common around nukage pools, which is believed to be the cause of its mutations.",
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Malwrath",
@@ -464,14 +464,14 @@ export default [
         "category": "Cacodemon",
         "species": "Cacodemon",
         "description": "Superior variant of the Cacodemon with an extra pair of eyes and enhanced magical abilities that allows it to reach even higher voltage attacks.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cacobot",
         "category": "Cacodemon",
         "species": "Cacodemon",
         "description": "Mechanized flying foe with similarly high-tech weaponry. It is unknown wether they are entirely robotic or just extremely cyberized Cacodemons.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pain Elemental",
@@ -493,28 +493,28 @@ export default [
         "category": "Pain Elemental",
         "species": "Pain Elemental",
         "description": "When elementals live long enough without souls, they sometimes take properties of other elements. This one is obviously based on the same plasma featured in your arsenal, and as such should be treated with the same care as a sentient gun barrel actively shooting you.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Replicator",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
         "description": "Fully automated Drone factory, complete with laser weaponry for self defense. Like its Caco equivalent, no one knows if they are the result of invasive enhancements or just an inspired project.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Plasma Replicator",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
         "description": "Fully automated Drone factory, plasma-flavored. Like the thing they produce, they also tend to get very unstable when nearing destruction.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Hades Elemental",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
         "description": "An Elemental attuned to what can be only described as pure underworld energy. They're able to cast fully homing spheres of devastation which as thankfully very weak to gunfire.",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -649,14 +649,14 @@ export default [
         "category": "Cyberdemon",
         "species": "Tyrant",
         "description": "Tyrant meets cybernetic rocket launcher. A formidable ally should you manage to trick demons into fighting it, but avoid those rockets at all costs if you plan on staying alive.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Tyrant",
         "category": "Cyberdemon",
         "species": "Tyrant",
         "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. They throw spreads and bursts of fireballs and while they are easy coerced into damaging other monsters, they will almost always come out on top.",
-        "newstatus": 2
+        "newstatus": 0
     },
     // {
     //     "name": "",
