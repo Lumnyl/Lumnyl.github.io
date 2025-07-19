@@ -101,9 +101,9 @@ function load_loadout() {
     var fr = new FileReader();
 
     fr.onload = function (e) {
-        console.log(e);
+        // console.log(e);
         var result = JSON.parse(e.target.result);
-        console.log(result)
+        // console.log(result)
         var loadout = []
         var augments = []
         for (let object of result) {
@@ -131,7 +131,7 @@ function generate_loadout() {
     let more_class_weapons = document.querySelector('#more_class_weapons').checked
     let reroll_chance = document.querySelector('#reroll_chance').value
     let selected_class = document.querySelector('#class_select').value
-    console.log(selected_class)
+    // console.log(selected_class)
     if (selected_class == 9) {
         selected_class = Math.ceil(Math.random() * 8)
     }
@@ -188,7 +188,7 @@ function generate_loadout() {
     if (more_class_weapons) {
         var class_weapons = []
         for (weapon of final_weapon_list) {
-            console.log(weapon.name, weapon.tags.includes(player_classes[selected_class - 1][0]))
+            // console.log(weapon.name, weapon.tags.includes(player_classes[selected_class - 1][0]))
             if (weapon.ammo == player_classes[selected_class - 1][1] || weapon.tags.includes(player_classes[selected_class - 1][0])) {
                 class_weapons.push(weapon)
             }
@@ -260,7 +260,7 @@ function rollAugments(weapon) {
     let augment_list = { upgrade_path: "", conversion_type: "", conversion: 0, Strength: 0, Haste: 0, Capacity: 0, Precision: 0 }
     let used_slots = 0
     augment_list["upgrade_path"] = (weapon.ammo == "Mana") ? "Magitech" : (weapon.tags.includes("Durability") || weapon.tags.includes("No Superior")) ? "Formatter" : (weapon.slot == 2) ? (Math.random() < 0.75) ? "Superior" : "Formatter" : (Math.random() < 0.67) ? "Superior" : "Formatter"
-    let upgrade_slots = (weapon.tags.includes("Durability")) ? 3 : 5;
+    let upgrade_slots = (weapon.tags.includes("Durability") || weapon.name == "Sacrosanct Aeonstave") ? 3 : 5;
     if (augment_list["upgrade_path"] == "Formatter") upgrade_slots += 5
     let upgrade_choices = ["Strength", "Haste"]
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
@@ -286,8 +286,8 @@ function rollAugments(weapon) {
             } else {
                 if (!(augment_list.conversion_type == "Scavenge" && augment_list.conversion > 4)) {
                 let required_slots = (augment_list.conversion_type == "Chaos") ? 3 : (augment_list.conversion_type == "Scavenge") ? 1 : 2;
-                console.log(required_slots)
-                console.log(augment_list.conversion_type)
+                // console.log(required_slots)
+                // console.log(augment_list.conversion_type)
                 if (used_slots + required_slots <= upgrade_slots) {
                     augment_list.conversion += 1
                     used_slots += required_slots
@@ -334,6 +334,9 @@ function display_loadout(loadout, augments, pl_class) {
         let name = document.createElement("span")
         let addon = document.createElement("span")
         img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
+        if (weapon.name == "Basilisk" && wpn_augments.upgrade_path == "Superior") {
+            img.src = `img/${weapon.name.replace(/ /g, "_")}2.png`
+        }
         slot.textContent = ` Slot ${weapon.slot} - `
         name.textContent = weapon.name
         if (weapon.name == "Sacrosanct Aeonstave") {
@@ -420,7 +423,7 @@ function display_loadout(loadout, augments, pl_class) {
         loadout_display.appendChild(listelem)
     }
 
-    console.log(loadout_text)
+    // console.log(loadout_text)
 
     document.querySelector("#loadout").appendChild(loadout_display)
 
