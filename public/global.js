@@ -3,7 +3,7 @@ var is_darkmode = (localStorage.getItem("is_darkmode") === null) ? false : local
 var is_minimize = (localStorage.getItem("is_minimize") === null) ? false : localStorage.getItem("is_minimize")
 if (is_darkmode === "true") html_body.classList.add("darkmode")
 
-var last_website_update = "19 July 2025"
+var last_website_update = "8 August 2025"
 
 var footer_separator = document.createElement("hr")
 var last_updated = document.createElement("p")
@@ -14,8 +14,16 @@ last_updated.classList.add("italic")
 last_updated.textContent = "Latest website update : "
 last_updated.appendChild(changelog_link)
 
+var source_code = document.createElement("p")
+var source_link = document.createElement("a")
+source_link.textContent = "Source code on github"
+source_link.href = "https://github.com/Lumnyl/Lumnyl.github.io"
+source_code.appendChild(source_link)
+source_code.classList.add("italic")
+
 html_body.appendChild(footer_separator)
 html_body.appendChild(last_updated)
+html_body.appendChild(source_code)
 
 var floater = document.createElement("div")
 floater.classList.add("floater")
