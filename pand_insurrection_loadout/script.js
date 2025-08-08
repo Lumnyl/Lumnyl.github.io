@@ -1,14 +1,14 @@
 import weapon_list from "./weapon_list.js"
 
 const player_classes = [
-    ["Marine", ""],
-    ["Sergeant", "Shells"],
-    ["Spec Ops", "Bullets"],
-    ["Demolition", "Rockets"],
-    ["Elite", "Cells"],
-    ["Exiled", "Demon"],
-    ["Acolyte", "Chaos"],
-    ["Heretic", "Mana"],
+    ["Marine", "", "Pistol"],
+    ["Sergeant", "Shells", "Sheller"],
+    ["Spec Ops", "Bullets", "Compact SMG"],
+    ["Demolition", "Rockets", "Firecracker"],
+    ["Elite", "Cells", "Plasma Handgun"],
+    ["Exiled", "Demon", "Immolator"],
+    ["Acolyte", "Chaos", "Chaos Blaster"],
+    ["Heretic", "Mana", "Sapphire Wand"],
 ]
 
 let input_amount = document.querySelector("#input_weapon_amount")
@@ -129,6 +129,7 @@ function generate_loadout() {
     let include_gunlocker = document.querySelector('#include_gunlocker').checked
     let roll_augments = document.querySelector('#roll_augments').checked
     let more_class_weapons = document.querySelector('#more_class_weapons').checked
+    let keep_starter = document.querySelector('#keep_starter').checked
     let reroll_chance = document.querySelector('#reroll_chance').value
     let selected_class = document.querySelector('#class_select').value
     // console.log(selected_class)
@@ -171,6 +172,16 @@ function generate_loadout() {
         }
     }
 
+    if (keep_starter) {
+        for (weapon of final_weapon_list) {
+            if (weapon.name == player_classes[selected_class - 1][2]) {
+                loadout.add(weapon)
+                if (weapon.ammo != "Chaos" && weapon.ammo != "Mana" && weapon.ammo != "None") {
+                    ammo_types.add(weapon.ammo)
+                }
+            }
+        }
+    }
 
     if (guarantee_all_ammo) {
         while (ammo_types.size != 5) {
@@ -266,7 +277,7 @@ function rollAugments(weapon) {
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
     if (!limit_capacity && !weapon.tags.includes("No Capacity")) upgrade_choices.push("Capacity")
     else if ((weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) && weapon.ammo != "None" && weapon.ammo != "Mana" && weapon.ammo != "Chaos") { upgrade_choices.push("Capacity") }
-    if (!weapon.tags.includes("Arcane") && (Math.random() < 0.5 || (Math.random() < 0.67 && augment_list["upgrade_path"] == "Formatter"))) {
+    if (!weapon.tags.includes("Arcane") && !weapon.tags.includes("No Conversion") && (Math.random() < 0.5 || (Math.random() < 0.67 && augment_list["upgrade_path"] == "Formatter"))) {
         upgrade_choices.push("conversion")
     }
     while (used_slots < upgrade_slots) {

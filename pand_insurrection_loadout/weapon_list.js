@@ -1,5 +1,5 @@
 export default [
-    {"slot": 1, "name": "Chainsaw", "ammo": "None", "tags": ["No Capacity", "No Superior", "No Precision"], "superior": "None"},
+    {"slot": 1, "name": "Chainsaw", "ammo": "None", "tags": ["No Capacity", "No Superior", "No Precision", "No Conversion"], "superior": "None"},
     {"slot": 1, "name": "Super Taser", "ammo": "None", "tags": ["No Capacity"], "superior": "Deals damage over time and stun any enemy type"},
     {"slot": 1, "name": "Truck Wheel Launcher", "ammo": "None", "tags": ["Durability", "Secret"], "superior": "None"},
 
