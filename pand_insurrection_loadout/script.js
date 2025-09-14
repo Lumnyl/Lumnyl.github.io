@@ -127,6 +127,7 @@ function generate_loadout() {
     let include_chainsaw = document.querySelector('#include_chainsaw').checked
     let include_secretweapons = document.querySelector('#include_secretweapons').checked
     let include_gunlocker = document.querySelector('#include_gunlocker').checked
+    let include_warmachines = document.querySelector('#include_warmachines').checked
     let roll_augments = document.querySelector('#roll_augments').checked
     let more_class_weapons = document.querySelector('#more_class_weapons').checked
     let keep_starter = document.querySelector('#keep_starter').checked
@@ -167,6 +168,14 @@ function generate_loadout() {
     if (!include_gunlocker) {
         for (let index in final_weapon_list) {
             if (final_weapon_list[index].tags.includes("Gunlocker")) {
+                final_weapon_list.splice(index, 1)
+            }
+        }
+    }
+
+    if (!include_warmachines) {
+        for (let index in final_weapon_list) {
+            if (final_weapon_list[index].tags.includes("Warmachines")) {
                 final_weapon_list.splice(index, 1)
             }
         }
