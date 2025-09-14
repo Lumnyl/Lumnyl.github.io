@@ -158,27 +158,18 @@ function generate_loadout() {
     }
 
     if (!include_secretweapons) {
-        for (let index in final_weapon_list) {
-            if (final_weapon_list[index].tags.includes("Secret")) {
-                final_weapon_list.splice(index, 1)
-            }
-        }
+        let temp = final_weapon_list.filter(item => item.tags.includes("Secret") == false)
+        final_weapon_list = [...temp]
     }
 
     if (!include_gunlocker) {
-        for (let index in final_weapon_list) {
-            if (final_weapon_list[index].tags.includes("Gunlocker")) {
-                final_weapon_list.splice(index, 1)
-            }
-        }
+        let temp = final_weapon_list.filter(item => item.tags.includes("Gunlocker") == false)
+        final_weapon_list = [...temp]
     }
 
     if (!include_warmachines) {
-        for (let index in final_weapon_list) {
-            if (final_weapon_list[index].tags.includes("Warmachines")) {
-                final_weapon_list.splice(index, 1)
-            }
-        }
+        let temp = final_weapon_list.filter(item => item.tags.includes("Warmachines") == false)
+        final_weapon_list = [...temp]
     }
 
     if (keep_starter) {
