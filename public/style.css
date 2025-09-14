@@ -22,6 +22,9 @@ a:active {
 .hide {
   display: none;
 }
+.bold {
+  font-weight: bold;
+}
 table {
   border: solid 2px black;
   border-collapse: collapse;

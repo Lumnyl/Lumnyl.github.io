@@ -374,11 +374,22 @@ function display_loadout(loadout, augments, pl_class) {
         if (weapon.name == "Bolt ACR") {
             name.classList.add("wpn_boltacr")
         }
+        if (weapon.name == "Vitaphage") {
+            name.classList.add("wpn_vitaphage")
+        }
         if (weapon.tags.includes("Gunlocker")) {
             addon.textContent = "[G] "
             addon.classList.add("wpn_gunlocker")
+            addon.classList.add("bold")
             addon.title = "Part of the Gunlocker addon"
             loadout_text += `[G] `
+        }
+        if (weapon.tags.includes("Warmachines")) {
+            addon.textContent = "[W] "
+            addon.classList.add("wpn_warmachines")
+            addon.classList.add("bold")
+            addon.title = "Part of the Warmachines addon"
+            loadout_text += `[W] `
         }
         if (weapon.tags.includes("Durability")) {
             name.classList.add("wpn_durability")

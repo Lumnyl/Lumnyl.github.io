@@ -1,6 +1,7 @@
 export default [
     {"slot": 1, "name": "Chainsaw", "ammo": "None", "tags": ["No Capacity", "No Superior", "No Precision", "No Conversion"], "superior": "None"},
     {"slot": 1, "name": "Super Taser", "ammo": "None", "tags": ["No Capacity"], "superior": "Deals damage over time and stun any enemy type"},
+    {"slot": 1, "name": "Charge Hammer", "ammo": "None", "tags": ["Warmachines", "No Capacity"], "superior": "Blast extends further forward"},
     {"slot": 1, "name": "Truck Wheel Launcher", "ammo": "None", "tags": ["Durability", "Secret"], "superior": "None"},
 
     {"slot": 2, "name": "Pistol", "ammo": "Bullets", "tags": [], "superior": "Fires explosive projectiles (4 ammo per shot)"},
@@ -14,6 +15,7 @@ export default [
     {"slot": 2, "name": "Security Pistol", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Alt-fire now stuns groups and direct hits can stun bosses"},
     {"slot": 2, "name": "Flare Gun", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Fires a localized sun (4 ammo per shot)"},
     {"slot": 2, "name": "Laser Rifle", "ammo": "Cells", "tags": [], "superior": "Full-auto and piercing beams (3 ammo per shot)"},
+    {"slot": 2, "name": "Converted PCC", "ammo": "Bullets", "tags": ["Warmachines", "Magazine"], "superior": "Increase accuracy as you fire, minor fire rate increase"},
     {"slot": 2, "name": "Maximum", "ammo": "Bullets", "tags": ["Gunlocker", "Arcane"], "superior": "Alt-fire shoots a gigantic supersonic bullet (90 ammo per shot)"},
 
     {"slot": 3, "name": "Shotgun", "ammo": "Shells", "tags": [], "superior": "Dragon's breath rounds"},
@@ -21,6 +23,8 @@ export default [
     {"slot": 3, "name": "Super Shotgun", "ammo": "Shells", "tags": [], "superior": "Extra short-range pellets"},
     {"slot": 3, "name": "Wrecker Shotgun", "ammo": "Shells", "tags": [], "superior": "Can fire up to three times in rapid succession (needs to pump for each shot)"},
     {"slot": 3, "name": "Shrapnel Shotgun", "ammo": "Shells", "tags": [], "superior": "Projectiles are no longer affected by gravity"},
+    {"slot": 3, "name": "Hunting Shotgun", "ammo": "Shells", "tags": ["Warmachines"], "superior": "Fires super heavy slugs (2 ammo per shot)"},
+    {"slot": 3, "name": "Burst Injector", "ammo": "Shells", "tags": ["Warmachines", "Magazine", "No Flame"], "superior": "Pathogen Cultivator expanded to spit out clouds"},
     {"slot": 3, "name": "Auto Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "No longer needs to reload"},
     {"slot": 3, "name": "Riot Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "Stabilized spread"},
     {"slot": 3, "name": "Jagdpanzer", "ammo": "Shells", "tags": ["Magazine", "Gunlocker"], "superior": "Fires an extra high-damage piercing shot"},
@@ -40,14 +44,17 @@ export default [
     {"slot": 4, "name": "Basilisk", "ammo": "Demon", "tags": [], "superior": "Fires comets that seek towards targets after bouncing"},
     {"slot": 4, "name": "Soul Spear", "ammo": "Mana", "tags": [], "superior": ""},
     // {"slot": 4, "name": "Vengeful Blade", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Consumes 1 less ammo per shot"},
+    {"slot": 4, "name": "Hex Weaver", "ammo": "Demon", "tags": ["Warmachines", "No Precision"], "superior": "Unlock a 4th charge state"},
     {"slot": 4, "name": "Firestorm", "ammo": "Bullets", "tags": ["Durability"], "superior": "None"},
-
+    {"slot": 4, "name": "Sniper Rifle", "ammo": "Bullets", "tags": ["Warmachines", "No Precision", "Magazine"], "superior": "Reloading while full will load all bullets"},
+    
     {"slot": 5, "name": "Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Laser-guided rockets"},
     {"slot": 5, "name": "Direct Hit", "ammo": "Rockets", "tags": [], "superior": "Rocket damage increases while traveling"},
     {"slot": 5, "name": "Grenade Launcher", "ammo": "Rockets", "tags": [], "superior": "Grenades deal more damage and explode on impact"},
     {"slot": 5, "name": "Napalm Bomber", "ammo": "Rockets", "tags": ["No Flame"], "superior": "Fires Conflagrator torpedoes"},
     {"slot": 5, "name": "Stickybomb Launcher", "ammo": "Rockets", "tags": [], "superior": "Grenades explode multiple times"},
     {"slot": 5, "name": "Flak Cannon", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Primary fire explosive tracers. Secondary fire explodes into fiery shrapnel"},
+    {"slot": 5, "name": "Stellar Cradle", "ammo": "Mana", "tags": ["Warmachines"], "superior": "None"},
     {"slot": 5, "name": "Dual Missile Launcher", "ammo": "Rockets", "tags": [], "superior": "Fires 4 missiles that accelerate and home in more aggressively"},
     {"slot": 5, "name": "Pulverizer", "ammo": "Rockets", "tags": ["Magazine"], "superior": "Fires Cydestructor mini rockets (2 ammo per shot)"},
     {"slot": 5, "name": "Dark Blaster", "ammo": "Demon", "tags": [], "superior": "Shoots a shockwave when cooling down and consumes 1 less ammo per shot"},
@@ -56,9 +63,11 @@ export default [
     // {"slot": 5, "name": "Solarion", "ammo": "Demon", "tags": ["Gunlocker"], "superior": "Beams split into homing balls on impact"},
     {"slot": 5, "name": "HE Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Magazine size increases to 3"},
     {"slot": 5, "name": "Meteorite", "ammo": "Rockets", "tags": ["Durability"], "superior": "None"},
+    {"slot": 5, "name": "Vitaphage", "ammo": "Rockets", "tags": ["Warmachines", "Arcane", "No Precision"], "superior": "Fires 6 Plague bolts with the main rocket"},
     
     {"slot": 6, "name": "Plasma Rifle", "ammo": "Cells", "tags": [], "superior": "No cooldown"},
     {"slot": 6, "name": "Overcharge Rifle", "ammo": "Cells", "tags": [], "superior": "Charges passively over time (even when holstered)"},
+    {"slot": 6, "name": "Soul Grinder", "ammo": "Demon", "tags": ["Warmachines", "No Superior"], "superior": "Sustained fire will increase fire rate"},
     {"slot": 6, "name": "Railgun", "ammo": "Cells", "tags": ["No Precision"], "superior": "Damage increases over distance"},
     {"slot": 6, "name": "Railbeam", "ammo": "Cells", "tags": ["No Precision"], "superior": "Piercing beam"},
     {"slot": 6, "name": "Plasma Repeater", "ammo": "Cells", "tags": [], "superior": "No longer winds up"},
@@ -68,6 +77,7 @@ export default [
     {"slot": 6, "name": "Silver Buster", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "No longer needs to pump"},
     {"slot": 6, "name": "Plasma DMR", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "5-shot burst with a chain-lightning on the last shot"},
     {"slot": 6, "name": "Bolt ACR", "ammo": "Cells", "tags": ["Arcane"], "superior": "Spawns a stationary cloud upon firing."},
+    {"slot": 6, "name": "Resonant Stele", "ammo": "Mana", "tags": ["Warmachines"], "superior": "None"},
     {"slot": 6, "name": "Enlightener", "ammo": "Cells", "tags": ["Durability"], "superior": "None"},
     
     {"slot": 7, "name": "BFG 9000", "ammo": "Cells", "tags": [], "superior": "Projectiles now shoots extra tracers on impact"},
