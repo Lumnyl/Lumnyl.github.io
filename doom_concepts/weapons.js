@@ -237,6 +237,51 @@ export default [
         "description": "Another ancient sword of unknown origin. Looks completely pristine despite its apparent age. It imbues the wielder with unmatched courage.",
         "authorsnotes": "",
         "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Venom Dagger",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Stab",
+        "secondary" : "N/A",
+        "notes" : "Venom deals damage until the target is dead. Effect can stack.",
+        "superior" : "Applies thrice as much venom per stab.",
+        "durability": false,
+        "description": "A kris-styled sacrificial dagger with a vial of deadly poison hidden in the hilt. Massively raises the stakes of any five finger fillet session.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Sickle With Chain",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Swing",
+        "secondary" : "Throw",
+        "notes" : "Stuns and pulls enemies towards you when hit with the throw. No effect on bosses.",
+        "superior" : "Sets target on fire. Enemies under the burn effect explode into flames when they die.",
+        "durability": false,
+        "description": "Forged in hellfire and possessed by a specter of vengeance. The ideal tool for delivering uppercuts to targets too cowardly to come to you.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Titan Mace",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Swing",
+        "secondary" : "Slam",
+        "notes" : "Slam is slower but has splash damage. Berserk affects swing speed rather than damage.",
+        "superior" : "Stuns targets on hit.",
+        "durability": false,
+        "description": "A weapon that was clearly not made with human wielders in mind. Good thing you've always been the kind of person to eat all of their greens while growing up.",
+        "authorsnotes": "",
+        "designnotes": "",
         "newstatus": 1
     },
     {
@@ -252,7 +297,7 @@ export default [
         "description": "Modified jump-boot used to kick down reinforced doors without using dedicated breaching tools. The left boot seems to be missing, to the dismay of all of those fond of dropkicking.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Laser Drill",
@@ -293,7 +338,7 @@ export default [
         "primary" : "Fire",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "Fires rockets, consumes 4 bullets.",
+        "superior" : "Fires rockets, consuming 4 bullets per shot.",
         "durability": false,
         "description": "Nothing wrong with a good old self-loader. One of these and 50 bullets, that's just enough to get the party started.",
         "authorsnotes": "",
@@ -360,21 +405,21 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Competition Pistol",
-    //     "fullname": "",
-    //     "ammo": "Bullets",
-    //     "category": "Sidearm",
-    //     "primary" : "Fire",
-    //     "secondary" : "N/A",
-    //     "notes" : "Requires reloading.",
-    //     "superior" : "Hitting 3 different targets without missing drastically increases damage and fire rate, lasting until reloading.",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Competition Pistol",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Sidearm",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Requires reloading.",
+        "superior" : "Hitting 3 different targets without missing drastically increases damage and fire rate, lasting until a reload.",
+        "durability": false,
+        "description": "Designed with accuracy and swiftness in mind, no expense spared. Unmatched when it comes to hitting targets as quickly as possible.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Red Nine",
         "fullname": "",
@@ -404,6 +449,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Twin-Barrel Pistol",
+        "fullname": "",
+        "ammo": "Bullets x4",
+        "category": "Sidearm",
+        "primary" : "Fire x2",
+        "secondary" : "N/A",
+        "notes" : "Requires reloading.",
+        "superior" : "Fires 2 grenades per shot, consuming 12 bullets per shot.",
+        "durability": false,
+        "description": "A revitalized classic with a twist, possessing the firepower of dual-wielding without the unwieldiness that comes with it.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Security Pistol",
@@ -463,7 +523,7 @@ export default [
         "description": "Bolt-action rifle cut down to a ridiculously short size, completely gutting effective range in favor of concealment. Not the most practical handgun out there but stick packs a decently accurate wallop.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Handcannon",
@@ -658,7 +718,7 @@ export default [
         "description": "High-tech pistol from a long defunct corporation specializing in armaments and bio-weapons. Never went past prototype stage due to the fragility of its components.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -841,21 +901,21 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Shockgun",
-    //     "fullname": "",
-    //     "ammo": "Shells",
-    //     "category": "Shotgun",
-    //     "primary" : "",
-    //     "secondary" : "N/A",
-    //     "notes" : "",
-    //     "superior" : "",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Shockgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "primary" : "Taser shell",
+        "secondary" : "N/A",
+        "notes" : "Shots deal continuous damage to their target for a few seconds.",
+        "superior" : "Tasing effect lasts longer. Electricity arcs between targets, dealing damage to enemies in between them.",
+        "durability": false,
+        "description": "Another pacifier turned undertaker in the advent of demonic takeover. Nicknamed \"The Bee\" for its yellow color scheme and highly effective sting.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Combat Shotgun",
         "fullname": "",
@@ -1062,7 +1122,22 @@ export default [
         "notes" : "Consumes pressure to deal increased damage.",
         "superior" : "Passively builds pressure over time.",
         "durability": false,
-        "description": "Brass, wood, gears and valves. Uses a lever to build up pressure, increasing the \"oompf\" behind the buckshot. Remember that steam is hot before fiddling with it.",
+        "description": "Brass, wood, gears and valves. Uses a lever to build up pressure, increasing the \"oompf\" of each blast of buckshot. Remember that steam is hot before fiddling with it.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Regal Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "SSG",
+        "primary" : "Double-barrel (x20)",
+        "secondary" : "Single barrel (x10)",
+        "notes" : "",
+        "superior" : "Deals extra damage when all pellets hit the same target.",
+        "durability": false,
+        "description": "A work of art that happens to fire shotgun shells. Made out of the finest gold and covered in gemstones and engravings, this is one beauty you wish you didn't have to pull the trigger of.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -1090,28 +1165,28 @@ export default [
         "primary" : "Quad-barrel (x40)",
         "secondary" : "Double-barrel (x20)",
         "notes" : "",
-        "superior" : "Meatshots stun and knock back the target. Also knocks the user backward when airborne.",
+        "superior" : "Meatshots stun and knock back the target. Also knocks the user backwards when airborne.",
         "durability": false,
         "description": "2 barrels of buckshot can bruise the shoulder of an untrained shooter. 4 barrels will most likely relocate your shoulder and not be painless about it. But hey, at least you're not on the other end.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Hell Sweeper",
-    //     "fullname": "",
-    //     "ammo": "Shells",
-    //     "category": "SSG",
-    //     "primary" : "Buckshot (x10)",
-    //     "secondary" : "N/A",
-    //     "notes" : "Requires reloading.",
-    //     "superior" : "Now uses a detachable drum, massively increasing reload speed.",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Hell Sweeper",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "SSG",
+        "primary" : "Buckshot (x10)",
+        "secondary" : "N/A",
+        "notes" : "Requires reloading.",
+        "superior" : "Now uses a detachable drum, massively increasing reload speed.",
+        "durability": false,
+        "description": "A bulky destructive device that demands a lengthy reload between two symphonies of buckshot. Killing is an art and this will be your instrument.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Shredder Shotgun",
         "fullname": "",
@@ -1234,6 +1309,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Golden Guerilla Rifle",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Automatic",
+        "primary" : "Auto-fire",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Damage increases the higher your health is, and fire rate increases the higher your armor is.",
+        "durability": false,
+        "description": "What's a dictator without a gaudy gold-plated rifle? Unlike a certain other auric-themed firearm, this gun isn't any more powerful than its proletarian counterpart, but the added weight does make it marginally easier to control.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Chimera",
         "fullname": "",
         "ammo": "Bullets x2",
@@ -1288,7 +1378,7 @@ export default [
         "notes" : "Fires fast projectiles instead of hitscan. Deals double damage against unaware enemies.",
         "superior" : "Bullets gain slight homing capabilities. Secondary attack grants a few seconds of partial invisibility, recharged through time and kills.",
         "durability": false,
-        "description": "Integrally suppressed rifle loaded heavy subsonic bullets, used in the rare instances where stealth is necessary. Hits hard but the low muzzle velocity makes it tricky to use at longer ranges.",
+        "description": "Integrally suppressed rifle loaded with heavy subsonic bullets, used in the rare instances where stealth is necessary. Hits hard but the low muzzle velocity makes it tricky to use at longer ranges.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -1625,6 +1715,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Cowboy Repeater",
+        "fullname": "",
+        "ammo": "Bullets x2",
+        "category": "Precision",
+        "primary" : "Fire",
+        "secondary" : "",
+        "notes" : "Requires reloading. Sometimes loads in a lucky bullet that deals 3x the damage.",
+        "superior" : "Increased chance of loading lucky bullets. Lucky bullets ricochet against walls towards the nearest target.",
+        "durability": false,
+        "description": "Who doesn't love a good ol' lever-action? Not an exceptional long-range hitter, nor a particularly swift weapon either, but it does have that \"thing\" that sometimes make it hit things in just the right way.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Gauss Rifle",
         "fullname": "",
         "ammo": "Bullets x2",
@@ -1742,7 +1847,7 @@ export default [
         "description": "A flak gun scaled down due to hell's flying threats being significantly less armored than WW2 planes. Uses smart \"airburst\" ammunition to remove the need for pinpoint precision.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Anti-Materiel Rifle",
@@ -1802,7 +1907,7 @@ export default [
         "description": "A powerful weapon made out of some sort of arcane transparent material similar to glass. Highly resistant to internal stress caused by fired ammunition, but doesn't take blunt force to its externals very well.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     
     {
@@ -1953,7 +2058,7 @@ export default [
         "description": "The lobber of choice for those who want a little more control over when and where their explosives do their thing. The grenades don't explode on contact with a live target, but can be detonated at the user's discretion.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sub-Munitions Launcher",
@@ -2224,7 +2329,7 @@ export default [
         "description": "Experimental weapon using ionized plasma to administer high voltage electric jolts on top of the searing heat delivered by the projectiles. Very effective against cyborgs.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ice Thrower",
@@ -2329,7 +2434,7 @@ export default [
         "description": "Prototype heavy energy pistol. Nicknamed \"Russian Roulette\" due to its crummy plasma regulator causing unpredictable results when the trigger is pulled.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Auto Railgun",
@@ -2570,7 +2675,7 @@ export default [
         "description": "Weapon made out of the faint leftover divine energy harbored by Lucifer and his followers. Unsurprising that forces of evil would use what good there was left in them to create weapons.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Gore Gun",
@@ -2646,6 +2751,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Shadowfire Annihilator",
+        "fullname": "",
+        "ammo": "Demon Energy x12",
+        "category": "Demonic",
+        "primary" : "Shadowfire bolts x6",
+        "secondary" : "N/A",
+        "notes" : "Bolts home in on enemies and set them on fire.",
+        "superior" : "Enemies drop Shadowflame orbs on death, which can be picked up to charge the weapon. Charge is used with secondary fire to empower the weapon, firing explosive shots that deal more damage.",
+        "durability": false,
+        "description": "The next step in the ever accelerating arms race between humanity and hellkind. The kind of fire this weapon outputs burns ever more vividly when souls enter the mix, which means it can burn straight through most common armor types.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
@@ -2811,7 +2931,7 @@ export default [
         "description": "The culmination of years of research to create the ultimate mining tool. This machine breaks down the structural integrity between chemical components, yielding a mass of isolated molecules with 100% efficiency.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "NUKE",
@@ -2841,7 +2961,7 @@ export default [
         "description": "Become the war machine you've always yearned to be with two arm-mounted weapons of destruction, and supplement whatever flavor of mayhem you've chosen with an extra rocket or two.",
         "authorsnotes": "Yet another Commando 2 rip.",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Megalaser",
@@ -3034,7 +3154,7 @@ export default [
         "notes" : "",
         "superior" : "Spawns even more missiles.",
         "durability": false,
-        "description": "The best of the best in indirect combat. Even the sloppiest grenade lobbers are guaranteed to deal some damage a swarm of deadly homing explosive angry bees.",
+        "description": "The best of the best in indirect combat. A swarm of deadly homing explosive angry bees will turn even the sloppiest grenade lobbers into professional demolitionists.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -3200,7 +3320,7 @@ export default [
         "notes" : "Projectiles are spread over a very large angle.",
         "superior" : "Bolts become homing after some distance.",
         "durability": false,
-        "description": "A platinum wand inlaid with a white diamond on top, infused with the purity of light.",
+        "description": "A platinum wand inlaid with a white diamond on top, infused with the radiance of light.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -3220,21 +3340,21 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Moonstone Wand",
-    //     "fullname": "",
-    //     "ammo": "Mana x",
-    //     "category": "Magic",
-    //     "primary" : "",
-    //     "secondary" : "N/A",
-    //     "notes" : "",
-    //     "superior" : "",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Moonstone Wand",
+        "fullname": "",
+        "ammo": "Mana x3",
+        "category": "Magic",
+        "primary" : "Pure bolt",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Increase in all stats.",
+        "durability": false,
+        "description": "A glass wand inlaid with a cerulean moonstone on top, infused with the purity of the moon.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Magic Missile",
         "fullname": "",
@@ -3245,7 +3365,7 @@ export default [
         "notes" : "",
         "superior" : "Shots become homing and explosive.",
         "durability": false,
-        "description": "A scepter that casts of pure magical energy. It's a very simple spell, favored by novices, but lacks refinement, and is somewhat akin to throwing arrows instead of using a bow.",
+        "description": "A scepter that casts pure magical energy. It's a very simple spell, favored by novices, but lacks refinement, and is somewhat akin to throwing arrows instead of using a bow.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -3443,7 +3563,7 @@ export default [
         "description": "A scintillating crystal that diffracts and duplicates beams of light into several, yet equally powerful beams of light, breaking several laws of physics in the process as magical artifacts tend to do.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Snare of Dismemberment",
@@ -3458,7 +3578,7 @@ export default [
         "description": "Vaguely Egyptian golden bracelet, capable of projecting an energy lasso capable of shredding through anything, be it sandstone columns, bulls or space monkeys.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Savior's Shield",
@@ -3471,6 +3591,36 @@ export default [
         "superior" : "Bullets and projectiles are sent back when the shield disappears.",
         "durability": false,
         "description": "Broken remains of a halo-shaped artifact that would give its wearer flight, telekinesis and other fancy powers. Now only the ability to create a bulletproof shield remains.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Songs of Storms",
+        "fullname": "",
+        "ammo": "Mana",
+        "category": "Magic",
+        "primary" : "Rain",
+        "secondary" : "Lightning",
+        "notes" : "Enemies hit by the rain become wet, causing lightning to deal increased damage and chain between all nearby wet targets.",
+        "superior" : "Chain lightning increases in power for each target in the chain.",
+        "durability": false,
+        "description": "A purple embroidered poetry book that can create and control storm clouds by chanting its contents, although it only seems to react if the caster intends to use its power for combat.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Lunar Pocket Watch",
+        "fullname": "",
+        "ammo": "Mana x100",
+        "category": "Magic",
+        "primary" : "Stop time",
+        "secondary" : "N/A",
+        "notes" : "Lasts 10 seconds. Mana doesn't regenerate while time is stopped.",
+        "superior" : "Repairs itself after a few minutes.",
+        "durability": true,
+        "description": "An old-timey yet elegant pocket watch which can be used to stop time around the wielder. Curiously, even though the glass is partially reflective, you can't quite seem to tell if you can see your own reflection.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -3534,6 +3684,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Ephialtic Curse - Malevolent Gaze",
+        "fullname": "",
+        "ammo": "Mana x15",
+        "category": "Magic",
+        "primary" : "Summon Evil Eye",
+        "secondary" : "N/A",
+        "notes" : "Eyes shoot beams at targets facing away from them.",
+        "superior" : "Beams now cause the target to flee from the eye.",
+        "durability": false,
+        "description": "The eyes. They're everywhere. They're watching me but I can't see them but I know they are here and they are watching me they are waiting for me to make a mistake they are gazing into my soul I want out of this nightmare please someone wake me up I scream into the void and I can't even hear the echo of my voice I can't stand it they are piercing my brain with red hot needles I promise I will never sleep again I just want it to stop please please please please please please please please",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Spirit of Damocles",
@@ -3608,7 +3773,7 @@ export default [
         "description": "A wooden staff with a skull tied to the end that projects wide bursts of eldritch fire, drawing its power from the life energy of your foes. Run low on ammo and it saps your own strength!",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Death's Calling",
@@ -3623,7 +3788,7 @@ export default [
         "description": "A spell that turns killing from an art form to a triviality. A simple spell that has been yet to meet its match.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -3714,7 +3879,7 @@ export default [
         "description": "Crazy people make the best gunsmiths. A tridecuple-barreled flintlock smoothbore musket for those too fancy for blunderbusses. Takes ages to reload as you would expect.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Anti-Tank Launcher",
@@ -3789,7 +3954,7 @@ export default [
         "description": "Classic high explosive potato masher from early 20th century Germany. Only a complete drunk would use it as a melee weapon.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Divine Grenade",
@@ -3804,7 +3969,7 @@ export default [
         "description": "Globus cruciger repurposed into an explosive contraption. Pull the pin, count to three, and if you need any further instructions then maybe demon slaying isn't the job for you.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Solar Flare Scroll",
@@ -3820,6 +3985,51 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Monster Downgrade Scroll",
+        "fullname": "",
+        "ammo": "Mana x50",
+        "category": "Disposable",
+        "primary" : "Bolt spread x5",
+        "secondary" : "N/A",
+        "notes" : "Enemies hit by a bolt are downgraded to their weakest variation.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Transmogrification spells are among the strangest and least understood kind of magic. This one strips the magic and cybernetic augmentations from the target, turning it into its least \"powerful form\" (a term that cannot be scientifically quantified as of now).",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Vile Scroll",
+        "fullname": "",
+        "ammo": "Mana x50",
+        "category": "Disposable",
+        "primary" : "Cast",
+        "secondary" : "N/A",
+        "notes" : "Resurrects nearby enemies and makes them fight by your side. No effect on bosses.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A more powerful variant of the Archviles' resurrection spell, written on a parchment of human leather. You feel sick to your stomach just looking at the written words.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Hotswitch Scroll",
+        "fullname": "",
+        "ammo": "Mana x50",
+        "category": "Disposable",
+        "primary" : "Cast",
+        "secondary" : "N/A",
+        "notes" : "Swap position with your target, telefragging them in the process.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Golden Gun",
@@ -3939,7 +4149,7 @@ export default [
         "description": "Artisanal crossbow using high-voltage electricity to heat rebar to red hot. Engineered by a pocket of resistance fighters who managed to hold out a 7-hour long continuous assault on an industrial warehouse.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Compound Bow",
@@ -3984,7 +4194,7 @@ export default [
         "description": "A German bolt-action rifle with an infinite supply of blank rounds. It appears to have been modified to launch Stielhandgranates instead of its regular grenades.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dino Hunter",
@@ -4030,6 +4240,66 @@ export default [
         "authorsnotes": "The KF2 Eviscerator, minus the actual sawing.",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Dart Rifle - Ichor",
+        "fullname": "",
+        "ammo": "Ichor Darts",
+        "category": "Unique",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Affected target takes increased damage. Effect is stronger with each dose.",
+        "superior" : "Additionally slows down the target.",
+        "durability": false,
+        "description": "Air-powered rifle taken straight out of a zoo's vet clinic, and upgraded to pierce demon skin. Instead of tranquilizer (because no such thing exists for demons), it injects a glowing yellow serum that causes rapid muscle atrophy, causing trauma to hit even harder.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Dart Rifle - Nanobots",
+        "fullname": "",
+        "ammo": "Nanobots Darts",
+        "category": "Unique",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Builds up damage over time, which instantly kills the target once its threshold goes over the target's health. Threshold increases with each dose.",
+        "superior" : "Effect builds up faster and threshold is higher.",
+        "durability": false,
+        "description": "These darts are full of killer nanobots which fight the target's immune system. Once the target is defenseless, the nanobots are able to replicate at an incredible speed and cause complete organ failure within seconds.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Dart Rifle - Nitroglycerin",
+        "fullname": "",
+        "ammo": "Nitro Darts",
+        "category": "Unique",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Affected target explodes on death. Size of explosion increases with each dose.",
+        "superior" : "Explosion now stuns all targets within its range. Stun duration increases with explosion size.",
+        "durability": false,
+        "description": "One of the more straightforward compounds you can inject into hellspawn. Sludge goes into bloodstream, and host goes boom. Simple, effective, gory.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Dart Rifle - Rage Serum",
+        "fullname": "",
+        "ammo": "Rage Darts",
+        "category": "Unique",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Affected target infights with other enemies. Additional doses increase the target's damage.",
+        "superior" : "Additional doses now also gives the target regeneration and damage resistance.",
+        "durability": false,
+        "description": "An unhealthy mix of hormones, combat stimulants and hallucinogenics strong enough to put any unsuspecting victim into an unending frenzy. Rumors are saying this particular cocktail is present (albeit very dilluted) in UAC Berserk kits, but research has been unconclusive thus far.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Flamethrower",
@@ -4104,7 +4374,7 @@ export default [
         "description": "Your average security stun gun this is not. Once attached, the electrodes conduct electricity at rates comparable to electric chairs, and only come off upon the target's demise or if line of sight is broken. As a safety measure, the battery must be changed after each shot, regardless of the length of the previous discharge.",
         "authorsnotes": "Inspired by the Taser from the Heli Attack series.",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Assault Shield",
@@ -4119,7 +4389,7 @@ export default [
         "description": "Why bother with a shield if the best demon-killing strategy is shooting at it until it dies? Simple, just add plasma guns and you can now benefit from both offensive and defensive superiority.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Reflector Shield",
@@ -4134,7 +4404,7 @@ export default [
         "description": "Nothing says pacifism like letting the demons kill themselves. Proximity sensors, targeting modules, and enough kinetic energy to make a grown man stumble, just the ingredients needed to gaslight a group of fireball lobbers into solving their anger issues amongst themselves.",
         "authorsnotes": "Would that even count for pacifist speedruns?",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -4192,6 +4462,42 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
+    // {
+    //     "name": "The Executor",
+    //     "fullname": "",
+    //     "ammo": "Bullets",
+    //     "category": "Artifact",
+    //     "primary" : "Fire",
+    //     "secondary" : "",
+    //     "notes" : "Requires reloading. Shots inflict bleed for 8 seconds.",
+    //     "superior" : [
+    //         "",
+    //         "",
+    //         ""],
+    //     "durability": false,
+    //     "description": "",
+    //     "authorsnotes": "",
+    //     "designnotes": "",
+    //     "newstatus": 1
+    // },
+    {
+        "name": "ROMERO",
+        "fullname": "",
+        "ammo": "Shells x6",
+        "category": "Artifact",
+        "primary" : "Buckshot x66",
+        "secondary" : "",
+        "notes" : "",
+        "superior" : [
+            "Becomes more powerful after each kill in a level. Shots now burn with hellfire.",
+            "Reloads faster after each kill in a level. Shots now penetrate through a single target.",
+            "Preserve half of the weapon's power through level exits. Shots cause enemies to flinch for longer."],
+        "durability": false,
+        "description": "Six gauge six-barreled shotgun, crafted with hatred and refined to perfection over the course of six decades. It's yours now. Make hell your bitch.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Minigun MP5",
         "fullname": "",
@@ -4244,7 +4550,7 @@ export default [
         "description": "Incredibly magically potent four-dimensional cube. At this point, who cares about how many laws of physics this breaks?",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Soul Cube",
@@ -4404,7 +4710,7 @@ export default [
         "description": "Iconic torture instrument imbued with the pain of the persecuted spirits of hell. Not too useful as a melee weapon due to decades of poking flesh leading to dulled pointy ends.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Randomizator",
@@ -4450,6 +4756,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Victory Sword",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Powerup",
+        "primary" : "Slash",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A holy sword that tunes itself to the will of its wielder, able to slashing through hundreds of monsters a minute  without the need to ever lift the blade.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
@@ -4555,7 +4876,7 @@ export default [
         "description": "The Devil's twin spirit's armament of choice. Hasn't had the chance to see combat after the prince infused all of his rage and resentment into it, until now.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rainbowmizator",
@@ -4601,5 +4922,20 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Sole Solution",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Powerup",
+        "primary" : "Slash",
+        "secondary" : "N/A",
+        "notes" : "Invincible and untangible while active.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "You are no mere mortal, you are the sum of every life you have taken, the sum of every army you have felled, the sum of every legion you have crushed. Never were you ever not outnumbered, never were you not fighting an uphill battle, never were your odds ever in your favor, but in spite of it all, you climbed a mountain of glory built from the cadavers of Hell, and you sat on your throne at its peak, and you claimed Victory.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     }
 ]

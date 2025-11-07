@@ -105,6 +105,7 @@ const quicknotesweapons = `<li>Melee weapons all deal double damage when under t
 const quicknotesitems = `<li>Like Pandemonia, armor passively halves all damage dealt to it. For example, a 100 damage hit with 50% protection will deal 50 damage to health and 25 to armor.</li>
 <li>If you have one or more spirit weapons in your inventory, Soul Spheres and its variants restore 100 spirit.</li>
 <li>Overcharging means increasing an attribute past its normal cap. Can be additive or multiplicative. 200 health in vanilla would be equivalent to +100 or x2 overcharge.</li>
+<li>Upgraded ammo capacity is half of its regular counterpart.</li>
 <li>Runes are dropped by certain strong enemies. Activating a rune grants you its effects for the rest of the level, and up to 2 can be active at once.</li>
 <li>Contracts are rare drops, and whichever contract drop depends on the enemy category. They can be signed at the cost of 20 max health and last for the rest of the playthrough. There is no limit to how many contracts can be active at once, as long as you have blood to spare.</li>`
 

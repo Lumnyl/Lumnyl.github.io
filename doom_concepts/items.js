@@ -63,6 +63,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Minor Regenerative Booster",
+        "type": "Health Bonus",
+        "category": "Healing",
+        "effect": "Restores 10 health. Can overcharge up to +200. Grants you 1 point of regenerating health, up to a total of 30.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Major Regenerative Booster",
+        "type": "Health Bonus",
+        "category": "Healing",
+        "effect": "Restores 15 health. Can overcharge up to +200. Grants you 2 points of regenerating health, up to a total of 30.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Armor Shard",
         "type": "Armor Bonus",
         "category": "Healing",
@@ -123,6 +147,30 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
+    {
+        "name": "Minor Liquid Shield",
+        "type": "Armor Bonus",
+        "category": "Healing",
+        "effect": "Restores 10 armor. Can overcharge up to +200. Grants you 1 point of regenerating armor, up to a total of 30.",
+        "notes": "Provides 20% protection if applied without armor.",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Major Liquid Shield",
+        "type": "Armor Bonus",
+        "category": "Healing",
+        "effect": "Restores 15 armor. Can overcharge up to +200. Grants you 2 points of regenerating armor, up to a total of 30.",
+        "notes": "Provides 20% protection if applied without armor.",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
 
     {
         "name": "Stimpack",
@@ -137,6 +185,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Super Stimpack",
+        "type": "Small Health Pack",
+        "category": "Healing",
+        "effect": "Restores 20 health.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Stabilizing Syringe",
         "type": "Small Health Pack",
         "category": "Healing",
@@ -147,6 +207,42 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Overcharge Kit",
+        "type": "Small Health Pack",
+        "category": "Healing",
+        "effect": "Restores 25 health. Can overcharge up to +100. Only usable while at full health.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Emergency Kit",
+        "type": "Small Health Pack",
+        "category": "Healing",
+        "effect": "Restores 10 to 40 health, based on how low your health is.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Painkiller Kit",
+        "type": "Small Health Pack",
+        "category": "Healing",
+        "effect": "Grants you 100 points of temporary health. Decays rapidly after a few seconds.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Medikit",
@@ -185,10 +281,22 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Nanomeds Kit",
+        "type": "Large Health Pack",
+        "category": "Healing",
+        "effect": "Restores 25 health and restores health over time. Lasts until full or when taking damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Doctor Bag",
         "type": "Large Health Pack",
         "category": "Healing",
-        "effect": "Grants 2 Field Kits and 2 Stabilizing Syringes.",
+        "effect": "Grants 2 Field Kits.",
         "notes": "",
         "carriable": 0,
         "description": "",
@@ -280,6 +388,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Restoration Sphere",
+        "type": "Supercharge",
+        "category": "Healing",
+        "effect": "Restores 100 health and armor. Can overcharge up to +200.",
+        "notes": "Grants a UAC Ballistic Vest if out of armor.",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Salvation Sphere",
@@ -446,6 +566,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Tungsten Bullet Pile",
+        "type": "Small Bullet Pickup",
+        "category": "Ammunition",
+        "effect": "10 bullets that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Bullet Box",
         "type": "Large Bullet Pickup",
         "category": "Ammunition",
@@ -456,6 +588,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Tungsten Ammo Box",
+        "type": "Large Bullet Pickup",
+        "category": "Ammunition",
+        "effect": "50 bullets that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Shotgun Shells",
@@ -471,6 +615,19 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Magnum Shotshells",
+        "type": "Small Shell Pickup",
+        "category": "Ammunition",
+        "effect": "4 shells that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        // "description": "A handful of shotgun shells made to be stuffed into shotguns.",
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Shell Box",
         "type": "Large Shell Pickup",
         "category": "Ammunition",
@@ -481,6 +638,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Magnum Shotshell Box",
+        "type": "Large Shell Pickup",
+        "category": "Ammunition",
+        "effect": "20 shells that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Rocket",
@@ -495,6 +664,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Nitro Rocket",
+        "type": "Small Rocket Pickup",
+        "category": "Ammunition",
+        "effect": "1 rocket that deals 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Rocket Box",
         "type": "Large Rocket Pickup",
         "category": "Ammunition",
@@ -505,6 +686,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Nitro Rocket Box",
+        "type": "Large Rocket Pickup",
+        "category": "Ammunition",
+        "effect": "5 rockets that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Energy Cell",
@@ -519,6 +712,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Supercharged Energy Cell",
+        "type": "Small Cell Pickup",
+        "category": "Ammunition",
+        "effect": "20 cells that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Energy Cell Pack",
         "type": "Large Cell Pickup",
         "category": "Ammunition",
@@ -529,6 +734,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Supercharged Energy Cell Pack",
+        "type": "Large Cell Pickup",
+        "category": "Ammunition",
+        "effect": "100 cells that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Demonic Essence",
@@ -543,6 +760,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Hades Essence",
+        "type": "Small Demonic Pickup",
+        "category": "Ammunition",
+        "effect": "5 demon energy that deals 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Large Demonic Essence",
         "type": "Large Demonic Pickup",
         "category": "Ammunition",
@@ -553,6 +782,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Large Hades Essence",
+        "type": "Large Demonic Pickup",
+        "category": "Ammunition",
+        "effect": "25 demon energy that deals 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Grenade",
@@ -1453,7 +1694,7 @@ export default [
         "name": "Ace of Diamonds",
         "type": "Misc",
         "category": "Rare Drop",
-        "effect": "Instantly gives you health and armor equals to 50% of your mana capacity, each.",
+        "effect": "Instantly gives you health and armor equal to 50% of your mana capacity, each.",
         "notes": "",
         "carriable": 1,
         "description": "",
@@ -1598,6 +1839,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Ammo Recycler",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "When active, picking up upgraded ammo converts it into double the amount of its regular counterpart.",
+        "notes": "",
+        "carriable": 2,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Vessel of Rebirth",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "When active, any health gained from Health Bonuses, Supercharges and Megacharges is instead converted to Rebith Essence. Using this item while at 500 Rebirth Essence empties it and spawns a Salvation Sphere in front of you.",
+        "notes": "",
+        "carriable": 2,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Eye of Destiny",
         "type": "Misc",
         "category": "Rare Drop",
@@ -1632,6 +1897,162 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Enchanted Ring",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "All spheres restore 25 health and armor on top of their original effects.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Crystal of Dimensional Storage",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Picking up ammo (if able) always gives you the full amount, exceeding your max capacity if necessary.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Quickdraw Holster",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Sidearms draw faster and gain an increase in fire rate and reload speed for a few seconds after drawing.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Ultraviolence Muzzle Extension",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Shotguns fire 25% more pellets.",
+        "notes": "Instead increases damage by 25% on incompatible weapons.",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Fast Hands Medal",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "SSG reloads can be interrupted by swapping weapons, instantly finishing them.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Mana-infused Ammo Belt",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Automatic weapons have a chance to not consume ammo when firing.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Vital Signs Analyzer",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Precision weapons have a chance to deal triple damage.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Momentum Boosting Unit",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Launchers deal extra damage on impact.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Mk2 Energy Processor",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Energy weapons get a small increase in all stats.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Hell Amulet",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Demonic weapons heal you for a small portion of the damage dealt.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Quantum Efficiency Device",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Superweapons consume less ammo.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Scavenger Medal",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Enemies sometimes drop ammo for your Unique weapons.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Power UP!!",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Powerup weapons last longer.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
 ]

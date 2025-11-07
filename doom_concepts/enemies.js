@@ -532,28 +532,28 @@ export default [
         "newstatus": 0
     },
     // {
-    //     "name": "",
+    //     "name": "Hell Viscount",
     //     "category": "Hell Knight",
     //     "species": "Hell Noble",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Cyber Hell Knight",
     //     "category": "Hell Knight",
     //     "species": "Hell Noble",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Pyro Knight",
     //     "category": "Hell Knight",
     //     "species": "Hell Noble",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Hell Paladin",
     //     "category": "Hell Knight",
     //     "species": "Hell Noble",
     //     "description": "",
@@ -574,28 +574,28 @@ export default [
         "newstatus": 0
     },
     // {
-    //     "name": "",
+    //     "name": "Archon of Hell",
     //     "category": "Baron of Hell",
     //     "species": "Hell Noble",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Cyber Baron",
     //     "category": "Baron of Hell",
     //     "species": "Hell Noble",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Bruiser Demon",
     //     "category": "Baron of Hell",
     //     "species": "Hell Noble",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Cybruiser",
     //     "category": "Baron of Hell",
     //     "species": "Hell Noble",
     //     "description": "",
@@ -617,28 +617,28 @@ export default [
         "newstatus": 0
     },
     // {
-    //     "name": "",
+    //     "name": "Summoner",
     //     "category": "Archvile",
     //     "species": "Archvile",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Diabolist",
     //     "category": "Archvile",
     //     "species": "Archvile",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Illusionist",
     //     "category": "Archvile",
     //     "species": "Archvile",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Infernalist",
     //     "category": "Archvile",
     //     "species": "Archvile",
     //     "description": "",
@@ -659,28 +659,28 @@ export default [
         "newstatus": 0
     },
     // {
-    //     "name": "",
+    //     "name": "Annihilator",
     //     "category": "Cyberdemon",
     //     "species": "Tyrant",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Emperor",
     //     "category": "Cyberdemon",
     //     "species": "Tyrant",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Cyber Emperor",
     //     "category": "Cyberdemon",
     //     "species": "Tyrant",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Cardinal",
     //     "category": "Cyberdemon",
     //     "species": "Tyrant",
     //     "description": "",
@@ -701,14 +701,14 @@ export default [
         "newstatus": 0
     },
     // {
-    //     "name": "",
+    //     "name": "Arachnophyte",
     //     "category": "Spiderdemon",
     //     "species": "Sentient",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Demolisher",
     //     "category": "Spiderdemon",
     //     "species": "Sentient",
     //     "description": "",
@@ -752,21 +752,21 @@ export default [
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "SS",
     //     "category": "Wolfenstein",
     //     "species": "Human",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Enforcer",
     //     "category": "Wolfenstein",
     //     "species": "Human",
     //     "description": "",
     //     "newstatus": 1
     // },
     // {
-    //     "name": "",
+    //     "name": "Supersoldat",
     //     "category": "Wolfenstein",
     //     "species": "Human",
     //     "description": "",
