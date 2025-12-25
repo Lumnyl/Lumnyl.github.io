@@ -345,7 +345,7 @@ function display_loadout(loadout, augments, pl_class) {
         let name = document.createElement("span")
         let addon = document.createElement("span")
         img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
-        if (weapon.name == "Basilisk" && typeof wpn_augments !== 'undefined' && 'upgrade_path' in wpn_augments && wpn_augments.upgrade_path == "Superior") {
+        if (weapon.tags.includes("SuperiorAlt") && typeof wpn_augments !== 'undefined' && 'upgrade_path' in wpn_augments && wpn_augments.upgrade_path == "Superior") {
             img.src = `img/${weapon.name.replace(/ /g, "_")}2.png`
         }
         slot.textContent = ` Slot ${weapon.slot} - `
