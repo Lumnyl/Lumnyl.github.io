@@ -268,6 +268,7 @@ function makeTextFile(text) {
 
 function rollAugments(weapon) {
     let limit_capacity = document.querySelector("#limit_capacity").checked
+    let free_capacity = document.querySelector("#free_capacity").checked
     let augment_list = { upgrade_path: "", conversion_type: "", conversion: 0, Strength: 0, Haste: 0, Capacity: 0, Precision: 0 }
     let used_slots = 0
     augment_list["upgrade_path"] = (weapon.ammo == "Mana") ? "Magitech" : (weapon.tags.includes("Durability") || weapon.tags.includes("No Superior")) ? "Formatter" : (weapon.slot == 2) ? (Math.random() < 0.75) ? "Superior" : "Formatter" : (Math.random() < 0.67) ? "Superior" : "Formatter"
@@ -276,7 +277,7 @@ function rollAugments(weapon) {
     let upgrade_choices = ["Strength", "Haste"]
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
     if (!limit_capacity && !weapon.tags.includes("No Capacity")) upgrade_choices.push("Capacity")
-    else if ((weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) && weapon.ammo != "None" && weapon.ammo != "Mana" && weapon.ammo != "Chaos") { upgrade_choices.push("Capacity") }
+    else if ((weapon.tags.includes("Durability") || (weapon.tags.includes("Magazine") && !(weapon.name == "Auto Shotgun" && augment_list["upgrade_path"] == "Superior"))) && weapon.ammo != "None" && weapon.ammo != "Chaos") { upgrade_choices.push("Capacity") }
     if (!weapon.tags.includes("Arcane") && !weapon.tags.includes("No Conversion") && (Math.random() < 0.5 || (Math.random() < 0.67 && augment_list["upgrade_path"] == "Formatter"))) {
         upgrade_choices.push("conversion")
     }
@@ -310,6 +311,9 @@ function rollAugments(weapon) {
             augment_list[choice] += 1
             used_slots += 1
         }
+    }
+    if (free_capacity && weapon.ammo != "None" && weapon.ammo != "Chaos") {
+        augment_list["Capacity"] += 1
     }
 
     return augment_list
