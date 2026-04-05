@@ -2,7 +2,7 @@ export default [
     {
         "subject": "Hell",
         "category": "Concepts",
-        "description": "Hell is where bad guys go when they die. It's a dimension of all places each more awful than the last, filled demons each more awful than the last. The advent of teleportation technology by the UAC has created a rupture in the metaphysical barrier between Hell and our world, allowing physical passage between each other and dooming humanity for a long time.",
+        "description": "Hell is where bad guys go when they die. It's a dimension of all places each more awful than the last, filled with demons each more awful than the last. The advent of teleportation technology by the UAC has created a rupture in the metaphysical barrier between Hell and our world, allowing physical passage between each other and dooming humanity for a long time.",
         "newstatus": 0
     },
     {
@@ -106,7 +106,7 @@ export default [
         "subject": "Tyrants",
         "category": "Enemy Types",
         "description": "Tyrants are Pride incarnate. A super-sized Hell Noble with a body comparable in size to their ego. They relentlessly bully other hell inhabitants and are easily provoked into fighting those they deem inferior. Lucifer's favorite little big hellspawn.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Sentients",

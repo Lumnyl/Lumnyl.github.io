@@ -2,6 +2,8 @@ const category_selector = document.querySelector("#category_select")
 category_selector.addEventListener("change", change_selected_category)
 const subcategory_selector = document.querySelector("#subcategory_select")
 subcategory_selector.addEventListener("change", change_selected_subcategory)
+const weapon_amount_button = document.querySelector("#weapon_amount_button")
+weapon_amount_button.addEventListener("click", display_weapon_amount_details)
 
 const active_table = document.querySelector("#active_table")
 
@@ -55,6 +57,27 @@ const weapon_categ_list = [
     "Powerup",
     "Enhanced Powerup"
 ]
+
+var weapon_categ_amount = {
+    Melee : 0,
+    Sidearm : 0,
+    Shotgun : 0,
+    SSG : 0,
+    Automatic : 0,
+    Precision : 0,
+    Launcher : 0,
+    Energy : 0,
+    Demonic : 0,
+    Superweapon : 0,
+    Grenade : 0,
+    Magic : 0,
+    Unique : 0,
+    Disposable : 0,
+    Artifact : 0,
+    Powerup : 0,
+    'Enhanced Powerup' : 0,
+    Total : 0
+}
 
 const item_categ_list = [
     "Healing",
@@ -123,6 +146,12 @@ document.querySelector("#weapon_amount").textContent = weapon_list.length
 document.querySelector("#item_amount").textContent = item_list.length
 document.querySelector("#enemy_amount").textContent = enemy_list.length
 document.querySelector("#lore_amount").textContent = lore_list.length
+
+for (let weapon of weapon_list) {
+    weapon_categ_amount[weapon.category] += 1
+    weapon_categ_amount['Total'] += 1
+}
+console.log(weapon_categ_amount)
 
 function change_selected_category() {
     let selected_category = category_selector.value
@@ -197,6 +226,27 @@ function change_selected_subcategory() {
             break
     }
 }
+
+function build_weapon_categ_details() {
+    let details = document.querySelector("#weapon_amount_detail")
+    for (let item in weapon_categ_amount) {
+        if (item != "Total") {
+            let elem = document.createElement("li")
+            elem.textContent = item + " = " + weapon_categ_amount[item]
+            details.appendChild(elem)
+        }
+    }
+}
+
+function display_weapon_amount_details() {
+    let details = document.querySelector("#weapon_amount_detail")
+    if (details.classList.contains("hide")){
+        details.classList.remove("hide")
+    } else {
+        details.classList.add("hide")
+    }
+}
+build_weapon_categ_details()
 
 function build_weapon_table() {
     let table_head = document.createElement("thead")

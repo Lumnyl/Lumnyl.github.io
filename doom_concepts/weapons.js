@@ -252,7 +252,7 @@ export default [
         "description": "A kris-styled sacrificial dagger with a vial of deadly poison hidden in the hilt. Massively raises the stakes of any five finger fillet session.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sickle With Chain",
@@ -267,7 +267,7 @@ export default [
         "description": "Forged in hellfire and possessed by a specter of vengeance. The ideal tool for delivering uppercuts to targets too cowardly to come to you.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Titan Mace",
@@ -282,7 +282,7 @@ export default [
         "description": "A weapon that was clearly not made with human wielders in mind. Good thing you've always been the kind of person to eat all of their greens while growing up.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spartan Kick",
@@ -367,7 +367,7 @@ export default [
         "category": "Sidearm",
         "primary" : "Fire",
         "secondary" : "N/A",
-        "notes" : "10% chance to deal 5x damage.",
+        "notes" : "Gunshots are silent. 10% chance to deal 5x damage.",
         "superior" : "Additional 5% chance to deal 10x damage. Stacks with the base effect.",
         "durability": false,
         "description": "A gold-plated pistol with ivory grips and fitted with an engraved suppressor; most likely a collection piece. Although obsolete and completely outclassed as a combat weapon, it gives off a certain aura that makes vital shots easier to hit.",
@@ -383,12 +383,12 @@ export default [
         "primary" : "Fire",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "Automatic and guns akimbo.",
+        "superior" : "Massive damage increase against far away targets.",
         "durability": false,
         "description": "This little wonder of small arms development has been developed for one thing : exceptional accuracy. Rather than raw stopping power, it focuses on recoil control to give its shooter the best hit probabilities, featuring a self-adjusting laser pointer system which can be hooked to most available heads-up displays.",
         "authorsnotes": "",
         "designnotes": "The low bore axis is inspired by the Laugo Alien.",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Tactical Pistol",
@@ -418,7 +418,7 @@ export default [
         "description": "Designed with accuracy and swiftness in mind, no expense spared. Unmatched when it comes to hitting targets as quickly as possible.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Red Nine",
@@ -463,7 +463,7 @@ export default [
         "description": "A revitalized classic with a twist, possessing the firepower of dual-wielding without the unwieldiness that comes with it.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Security Pistol",
@@ -706,7 +706,37 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Prototype 345",
+        "name": "Snakebite",
+        "fullname": "",
+        "ammo": "Bullets x4",
+        "category": "Sidearm",
+        "primary" : "Spreadshot x20",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Inflicts poison on targets.",
+        "durability": false,
+        "description": "Snub-nosed revolver loaded with downscaled shotgun shells meant for executing pesky garden slitherers. Hurts about as much as equivalent ammunition, just spread over a cumulus of lead.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    // {
+    //     "name": "Xionic Magnum",
+    //     "fullname": "",
+    //     "ammo": "Bullets x4",
+    //     "category": "Sidearm",
+    //     "primary" : "Fire",
+    //     "secondary" : "N/A",
+    //     "notes" : "Requires reloading. Primary fire changes to a highly damaging pistol whip (affected by Berserk) when empty.",
+    //     "superior" : "",
+    //     "durability": false,
+    //     "description": "",
+    //     "authorsnotes": "",
+    //     "designnotes": "",
+    //     "newstatus": 1
+    // },
+    {
+        "name": "Prototype 435",
         "fullname": "",
         "ammo": "Bullets x2",
         "category": "Sidearm",
@@ -720,7 +750,7 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    
+
     {
         "name": "Shotgun",
         "fullname": "",
@@ -914,7 +944,7 @@ export default [
         "description": "Another pacifier turned undertaker in the advent of demonic takeover. Nicknamed \"The Bee\" for its yellow color scheme and highly effective sting.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Combat Shotgun",
@@ -930,6 +960,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "A Saiga with an AR-15 charging handle and a somewhat Striker-ey overslung stock.",
         "newstatus": 0
+    },
+    {
+        "name": "Spec-ops Shotgun",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "primary" : "Buckshot x8",
+        "secondary" : "N/A",
+        "notes" : "Gunshots are silent. Requires reloading, 2 shells at a time.",
+        "superior" : "Reloads half of its magazine on kill.",
+        "durability": false,
+        "description": "Lightweight, swift, accurate, and strapped head to toe with all kinds of attachments. Its delightful engineering makes inserting shells a breeze and automatically chambers a round when reloading from empty, making the process rival even magazine-fed shotguns in terms of speed.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Mag Shotgun",
@@ -992,6 +1037,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "SG-2112 \"Alma\"",
+        "fullname": "",
+        "ammo": "Shells",
+        "category": "Shotgun",
+        "primary" : "Plasma buckshot x8",
+        "secondary" : "N/A",
+        "notes" : "Also fires a short-range plasma blast.",
+        "superior" : "Enemies explode on kill.",
+        "durability": false,
+        "description": "Ultra advanced purple shark-looking shotgun, which somehow manages to turn lead pellets into plasma as well as blasting away all the the excess heat that comes with instantaneous nuclear fusion.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Jackhammer",
         "fullname": "",
         "ammo": "Shells",
@@ -1006,7 +1066,7 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    
+
     {
         "name": "Boomstick",
         "fullname": "",
@@ -1140,7 +1200,7 @@ export default [
         "description": "A work of art that happens to fire shotgun shells. Made out of the finest gold and covered in gemstones and engravings, this is one beauty you wish you didn't have to pull the trigger of.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Superheavy Shotgun",
@@ -1185,7 +1245,7 @@ export default [
         "description": "A bulky destructive device that demands a lengthy reload between two symphonies of buckshot. Killing is an art and this will be your instrument.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shredder Shotgun",
@@ -1321,7 +1381,7 @@ export default [
         "description": "What's a dictator without a gaudy gold-plated rifle? Unlike a certain other auric-themed firearm, this gun isn't any more powerful than its proletarian counterpart, but the added weight does make it marginally easier to control.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Chimera",
@@ -1450,13 +1510,28 @@ export default [
         "category": "Automatic",
         "primary" : "Auto-fire",
         "secondary" : "N/A",
-        "notes" : "Deals triple damage against unaware enemies.",
+        "notes" : "Gunshots are silent. Deals triple damage against unaware enemies.",
         "superior" : "Now deals quintuple damage against unaware enemies.",
         "durability": false,
         "description": "Sleek, silent, speedy, and fitted with the latest development in small arms accessories. A little on the weak side, but exceptionally powerful when used correctly.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "PDW",
+        "fullname": "",
+        "ammo": "Bullets",
+        "category": "Automatic",
+        "primary" : "Auto-fire",
+        "secondary" : "N/A",
+        "notes" : "Pierces a single target.",
+        "superior" : "Infinite piercing and inflicts bleeding.",
+        "durability": false,
+        "description": "When papa rifle and mama SMG love each other very much, this is the offspring they produce. Very good range and armor piercing capabilities despite its petite stature, with only a small reduction in stopping power.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "LMG",
@@ -1727,7 +1802,7 @@ export default [
         "description": "Who doesn't love a good ol' lever-action? Not an exceptional long-range hitter, nor a particularly swift weapon either, but it does have that \"thing\" that sometimes make it hit things in just the right way.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Gauss Rifle",
@@ -1781,7 +1856,7 @@ export default [
         "category": "Precision",
         "primary" : "Fire",
         "secondary" : "Focus",
-        "notes" : "Fires fast projectiles instead of hitscan, unless at full focus. Lower FOV and slower movement while focused. Deals double damage against unaware enemies.",
+        "notes" : "Gunshots are silent. Fires fast projectiles instead of hitscan, unless at full focus. Lower FOV and slower movement while focused. Deals double damage against unaware enemies.",
         "superior" : "Focus is instant. Partial invisibility effect while focused.",
         "durability": false,
         "description": "If you're gonna assassinate someone/something, might as well make sure nobody/nothing else knows where you're shooting from. Not too well suited for very far away shots, but you don't really need the concealment at that range.",
@@ -2227,6 +2302,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Super Plasma Gun",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Energy",
+        "primary" : "Rapid plasma shots",
+        "secondary" : "N/A",
+        "notes" : "Builds up heat as it fires. Has a delay after firing based on accumulated heat.",
+        "superior" : "Heat increases damage.",
+        "durability": false,
+        "description": "If a gun doesn't solve your problem, try using more gun! Has a noticeable whine coming from the heatsinks desperately trying to keep this thing from melting itself down.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Laser Carbine",
         "fullname": "",
         "ammo": "Cells",
@@ -2422,6 +2512,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Photon Swarmer",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Energy",
+        "primary" : "Photon swarm x8",
+        "secondary" : "N/A",
+        "notes" : "Projectiles home in on enemies. Each projectile has a chance to be supercharged, having increased damage and homing capabilities.",
+        "superior" : "Passively builds up charge. Charge can be used to fire faster at no ammo cost.",
+        "durability": false,
+        "description": "Automatic spreadgun firing swarms of high-intensity, low-velocity photons over a wide area. Also very effective at cooking chicken.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Plasma Handcannon",
         "fullname": "",
         "ammo": "Cells x5",
@@ -2451,7 +2556,7 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    
+
     {
         "name": "Demon Blaster",
         "fullname": "",
@@ -2678,6 +2783,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Centipede",
+        "fullname": "",
+        "ammo": "Demon Energy",
+        "category": "Demonic",
+        "primary" : "Micro stinger burst x10",
+        "secondary" : "N/A",
+        "notes" : "Consumes 1 ammo per 10 shots.",
+        "superior" : "Increased rate of fire, length of burst to 25, and projectiles per shot to 4 at the cost of raw damage.",
+        "durability": false,
+        "description": "This nasty piece of demonic weaponry is by all intends and purposes an organic minigun made out of parts of its namesake arthropod. Not for the faint of heart.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Gore Gun",
         "fullname": "",
         "ammo": "Blood",
@@ -2765,7 +2885,7 @@ export default [
         "description": "The next step in the ever accelerating arms race between humanity and hellkind. The kind of fire this weapon outputs burns ever more vividly when souls enter the mix, which means it can burn straight through most common armor types.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -2964,6 +3084,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "The Beast",
+        "fullname": "",
+        "ammo": "Bullets x4",
+        "category": "Superweapon",
+        "primary" : "BRRRRRRRRRRRRRRT",
+        "secondary" : "N/A",
+        "notes" : "Lowers movement speed when firing.",
+        "superior" : "Reduced ammo usage.",
+        "durability": false,
+        "description": "A lead spitter that makes miniguns look very \"mini\" in comparison. This is made for airplanes, not mortal arms.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Megalaser",
         "fullname": "",
         "ammo": "Cells",
@@ -2993,6 +3128,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "It has a pin and looks like a grenade.",
         "newstatus": 0
+    },
+    {
+        "name": "Nail Grenade",
+        "fullname": "",
+        "ammo": "Grenades",
+        "category": "Grenade",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Fires nails in all directions when exploding.",
+        "superior" : "Fires a hell of a lot more nails.",
+        "durability": false,
+        "description": "Similar in concept to a fragmentation grenade, with the added benefit of covering everything in the room with a nice coat of nails. A carpenter's wet dream.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Concussion Grenade",
@@ -3115,6 +3265,36 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Tri-nade",
+        "fullname": "",
+        "ammo": "Grenades x3",
+        "category": "Grenade",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Explodes thrice in quick succession.",
+        "superior" : "Explosion strength increased with each detonation.",
+        "durability": false,
+        "description": "A one-two-three punch combo of explosives to minimize the chances of anything staying recognizable on the area of effect. Earlier versions had the nasty habit of propelling the device wherever it pleases, resulting in an uncomfortable amount of backfires.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Firecracker Bomb",
+        "fullname": "",
+        "ammo": "Grenades x3",
+        "category": "Grenade",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Spreads into 10 impact sub-munitions shortly after throwing.",
+        "superior" : "Increased sub-munition impact damage.",
+        "durability": false,
+        "description": "Makes the process of throwing 10 grenades at once much more manageable. Named so after the distinct crackling sound of multiple bombs exploding.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Rolling Thunder",
         "fullname": "",
         "ammo": "Grenades x3",
@@ -3132,7 +3312,7 @@ export default [
     {
         "name": "Mini Turret",
         "fullname": "",
-        "ammo": "Grenades",
+        "ammo": "Grenades x2",
         "category": "Grenade",
         "primary" : "Throw",
         "secondary" : "N/A",
@@ -3174,7 +3354,7 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    
+
     {
         "name": "Garnet Wand",
         "fullname": "",
@@ -3353,7 +3533,7 @@ export default [
         "description": "A glass wand inlaid with a cerulean moonstone on top, infused with the purity of the moon.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Magic Missile",
@@ -3608,7 +3788,7 @@ export default [
         "description": "A purple embroidered poetry book that can create and control storm clouds by chanting its contents, although it only seems to react if the caster intends to use its power for combat.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Lunar Pocket Watch",
@@ -3623,7 +3803,7 @@ export default [
         "description": "An old-timey yet elegant pocket watch which can be used to stop time around the wielder. Curiously, even though the glass is partially reflective, you can't quite seem to tell if you can see your own reflection.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ephialtic Curse - Caustic Talon",
@@ -3698,7 +3878,7 @@ export default [
         "description": "The eyes. They're everywhere. They're watching me but I can't see them but I know they are here and they are watching me they are waiting for me to make a mistake they are gazing into my soul I want out of this nightmare please someone wake me up I scream into the void and I can't even hear the echo of my voice I can't stand it they are piercing my brain with red hot needles I promise I will never sleep again I just want it to stop please please please please please please please please",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spirit of Damocles",
@@ -3789,6 +3969,156 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Staff of Plagues - Rivers of Blood",
+        "fullname": "",
+        "ammo": "Spirit x40",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "For the rest of the level, all liquids turn to blood and blood-based weapons have infinite ammo.",
+        "superior" : "All blood becomes toxic to enemies.",
+        "durability": false,
+        "description": "\"With the staff that is in my hands I will strike the water of the Nile, and it will be changed into blood. The fish in the Nile will die, and the river will stink and the Egyptians will not be able to drink its water.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Invasion of Frogs",
+        "fullname": "",
+        "ammo": "Spirit x40",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "Summons an army of frogs. Frogs seek and explode on contact with enemies, inflicting poison.",
+        "superior" : "Poison is much more potent.",
+        "durability": false,
+        "description": "\"I will plague your whole country with frogs. The Nile will teem with frogs. They will come up into your palace and your bedroom and onto your bed, into the houses of your officials and on your people, and into your ovens and kneading troughs. The frogs will go up on you and your people and all your officials.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Lice From the Dust",
+        "fullname": "",
+        "ammo": "Spirit x80",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "For the rest of the level, your footsteps have a chance to spawning lice. Lice seek and attach themselves to enemies, dealing damage until they burst.",
+        "superior" : "Lice cause the target to keep bleeding after bursting.",
+        "durability": false,
+        "description": "\"When Aaron stretched out his hand with the rod and struck the dust of the ground, gnats came upon men and animals. All the dust throughout the land of Egypt became lice.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Teems of Flies",
+        "fullname": "",
+        "ammo": "Spirit x80",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "For the rest of the level, enemies spawn flies on death. Flies seek and damage enemies, dying on impact.",
+        "superior" : "Flies become stronger. You also spawn flies upon taking damage.",
+        "durability": false,
+        "description": "\"I will send swarms of flies on you, your officials, and your people, and into your houses; and the houses of the Egyptians shall be filled with swarms of flies; so also the land where they live.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Pestilence of Livestock",
+        "fullname": "",
+        "ammo": "Spirit x40",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "Grants you a throwable cow head, which has a lingering cloud of disease. Disease damages and can spread between enemies.",
+        "superior" : "Disease now spreads through corpses as well.",
+        "durability": false,
+        "description": "\"The hand of the LORD will bring a terrible plague on your livestock in the field — on your horses and donkeys and camels and on your cattle and sheep and goats.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Infection of Boils",
+        "fullname": "",
+        "ammo": "Spirit x80",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "For the rest of the level, active enemies start developing boils at random, which get popped by damage, dealing additional damage.",
+        "superior" : "Boils grow faster and can pop by themselves.",
+        "durability": false,
+        "description": "\"Take handfuls of soot from a furnace and have Moses toss it into the air in the presence of Pharaoh. It will become fine dust over the whole land of Egypt, and festering boils will break out on men and animals throughout the land.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Storm of Hail",
+        "fullname": "",
+        "ammo": "Spirit x40",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "For the rest of the level, hail falls around you, damaging enemies it hits.",
+        "superior" : "Icicles fall instead of hail, dealing more damage.",
+        "durability": false,
+        "description": "\"I will send the worst hailstorm that has ever fallen on Egypt, from the day it was founded till now. The hail will fall on every man and animal that has not been brought in and is still out in the field, and they will die.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Swarms of Locusts",
+        "fullname": "",
+        "ammo": "Spirit x40",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "Summons a locust swarm that seeks and devours enemies. Goes away when there is nothing left nearby to devour.",
+        "superior" : "Locusts now fly.",
+        "durability": false,
+        "description": "\"I will bring locusts into your country tomorrow. They will cover the face of the ground so that it cannot be seen. They will devour what little you have left after the hail, including every tree that is growing in your fields. They will fill your houses and those of all your officials and all the Egyptians.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Days of Darkness",
+        "fullname": "",
+        "ammo": "Spirit x80",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "For the rest of the level, surrounds you with darkness, causing distant enemies to lose track of you.",
+        "superior" : "Darkness-based weapons deal additional damage.",
+        "durability": false,
+        "description": "\"So Moses stretched out his hand toward heaven, and there was dense darkness in all the land of Egypt for three days. People could not see one another, and for three days they could not move from where they were.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Staff of Plagues - Death of the Firstborn",
+        "fullname": "",
+        "ammo": "Spirit x80",
+        "category": "Magic",
+        "primary" : "Cast plague",
+        "secondary" : "Cycle through plagues",
+        "notes" : "For the rest of the level, the first Lost Soul spawned by each Pain Elemental explodes violently.",
+        "superior" : "Pain Elementals become incapable of spawning Lost Souls after the first one.",
+        "durability": false,
+        "description": "\"I will go throughout Egypt. Every firstborn in Egypt will die, from the firstborn of Pharaoh, who sits on the throne, to the firstborn of the slave girl, who is at her hand mill, and all the firstborn of the cattle as well. There will be loud wailing throughout Egypt — worse than there has ever been or ever will be again.\"",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
@@ -3999,7 +4329,7 @@ export default [
         "description": "Transmogrification spells are among the strangest and least understood kind of magic. This one strips the magic and cybernetic augmentations from the target, turning it into its least \"powerful form\" (a term that cannot be scientifically quantified as of now).",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Vile Scroll",
@@ -4014,7 +4344,7 @@ export default [
         "description": "A more powerful variant of the Archviles' resurrection spell, written on a parchment of human leather. You feel sick to your stomach just looking at the written words.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Hotswitch Scroll",
@@ -4029,7 +4359,7 @@ export default [
         "description": "SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT SUPER HOT",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Golden Gun",
@@ -4120,6 +4450,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Hornet Shotgun",
+        "fullname": "",
+        "ammo": "4mm Varmint x12",
+        "category": "Unique",
+        "primary" : "Spreadshot x12",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Refunds ammo on kill, based on the target's health.",
+        "durability": false,
+        "description": "Custom-made belt-fed semi-auto shotgun loaded with canisters of 4mm Varmint instead of shells. A very roundabout way of achieving the same effect, though it does manage to get a lot of power out of each shot.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Repeater Crossbow",
@@ -4254,7 +4599,7 @@ export default [
         "description": "Air-powered rifle taken straight out of a zoo's vet clinic, and upgraded to pierce demon skin. Instead of tranquilizer (because no such thing exists for demons), it injects a glowing yellow serum that causes rapid muscle atrophy, causing trauma to hit even harder.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dart Rifle - Nanobots",
@@ -4269,7 +4614,7 @@ export default [
         "description": "These darts are full of killer nanobots which fight the target's immune system. Once the target is defenseless, the nanobots are able to replicate at an incredible speed and cause complete organ failure within seconds.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dart Rifle - Nitroglycerin",
@@ -4284,7 +4629,7 @@ export default [
         "description": "One of the more straightforward compounds you can inject into hellspawn. Sludge goes into bloodstream, and host goes boom. Simple, effective, gory.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dart Rifle - Rage Serum",
@@ -4297,6 +4642,36 @@ export default [
         "superior" : "Additional doses now also gives the target regeneration and damage resistance.",
         "durability": false,
         "description": "An unhealthy mix of hormones, combat stimulants and hallucinogenics strong enough to put any unsuspecting victim into an unending frenzy. Rumors are saying this particular cocktail is present (albeit very dilluted) in UAC Berserk kits, but research has been unconclusive thus far.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Dragon Fist",
+        "fullname": "",
+        "ammo": "Fuel x15",
+        "category": "Unique",
+        "primary" : "Fire punch",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Knocks the target back, causing it to explode and set all nearby enemies on fire.",
+        "durability": false,
+        "description": "Rocket-powered flaming gauntlet for those who think only wimps concern themselves with self-preservation. It also looks like a dragon head, which is always a plus.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Gore Trimmer",
+        "fullname": "",
+        "ammo": "Fuel",
+        "category": "Unique",
+        "primary" : "Trim gore",
+        "secondary" : "N/A",
+        "notes" : "If you have a Gore Gun in your inventory, damage dealt with this weapon causes it to charge twice as fast.",
+        "superior" : "Increased pain chance. Deals increasingly more damage to the target it's currently maiming.",
+        "durability": false,
+        "description": "Diesel-powered monstrosity designed to shred flesh and use the gratuitous amount of viscera to lubricate and cool itself, because this is a war zone, not brain surgery.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -4462,24 +4837,24 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "The Executor",
-    //     "fullname": "",
-    //     "ammo": "Bullets",
-    //     "category": "Artifact",
-    //     "primary" : "Fire",
-    //     "secondary" : "",
-    //     "notes" : "Requires reloading. Shots inflict bleed for 8 seconds.",
-    //     "superior" : [
-    //         "",
-    //         "",
-    //         ""],
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Doomsday Gun",
+        "fullname": "",
+        "ammo": "Bullets x24",
+        "category": "Artifact",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Instantly kills targets that drop below 10% health.",
+        "superior" : [
+            "Instant kill threshold is increased to 20%. Gains infinite piercing.",
+            "Instant kill threshold is increased to 30%. Ammo cost is reduced to 12.",
+            "Instant kill threshold is increased to 40%. Now has a chance to instantly kill any target."],
+        "durability": false,
+        "description": "Shiny yet ominously devastating handgun, where each shot is rumored to count down toward the end of time.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "ROMERO",
         "fullname": "",
@@ -4496,7 +4871,7 @@ export default [
         "description": "Six gauge six-barreled shotgun, crafted with hatred and refined to perfection over the course of six decades. It's yours now. Make hell your bitch.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Minigun MP5",
@@ -4692,7 +5067,7 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "A partial exoskeleton fitted with 4 hand-held and shoulder-mounted high-intensity plasma cannons. It's even strong enough to be used against spaceships, although those aren't a particularly common sight within your field of work.",
+        "description": "A partial exoskeleton fitted with 4 hand-held and shoulder-mounted high-intensity plasma cannons. Strong enough to be used against spaceships, although those aren't a particularly common sight within your field of work.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -4767,10 +5142,10 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "A holy sword that tunes itself to the will of its wielder, able to slashing through hundreds of monsters a minute  without the need to ever lift the blade.",
+        "description": "A holy sword that tunes itself to the will of its wielder, able to slashing through hundreds of monsters a minute without the need to ever lift the blade.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -4927,7 +5302,7 @@ export default [
         "name": "Sole Solution",
         "fullname": "",
         "ammo": "N/A",
-        "category": "Powerup",
+        "category": "Enhanced Powerup",
         "primary" : "Slash",
         "secondary" : "N/A",
         "notes" : "Invincible and untangible while active.",
@@ -4936,6 +5311,6 @@ export default [
         "description": "You are no mere mortal, you are the sum of every life you have taken, the sum of every army you have felled, the sum of every legion you have crushed. Never were you ever not outnumbered, never were you not fighting an uphill battle, never were your odds ever in your favor, but in spite of it all, you climbed a mountain of glory built from the cadavers of Hell, and you sat on your throne at its peak, and you claimed Victory.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     }
 ]
