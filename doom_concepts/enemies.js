@@ -3,21 +3,21 @@ export default [
         "name": "Pistol Zombie",
         "category": "Zombieman",
         "species": "Zombie",
-        "description": "Simple security guards with semi-automatic pistols. Usually not a threat on their own, but can sneak in a shot or two if you're not careful.",
+        "description": "Simple security guards with semi-automatic Pistols. Usually not a threat on their own, but can sneak in a shot or two if you're not careful.",
         "newstatus": 0
     },
     {
         "name": "Zombie Scientist",
         "category": "Zombieman",
         "species": "Zombie",
-        "description": "UAC researchers carrying plasma pistols for self-defense. They hit harder than regular pistols .",
+        "description": "UAC researchers carrying Plasma Pistols for self-defense. They hit harder than regular pistols .",
         "newstatus": 0
     },
     {
         "name": "Female Zombie Scientist",
         "category": "Zombieman",
         "species": "Zombie",
-        "description": "Female scientists defend themselves with laser pistolettes. Don't ask why UAC scientists pick their fancy pew pew sidearms based on gender.",
+        "description": "Female scientists defend themselves with Laser Pistolettes. Don't ask why UAC scientists pick their fancy pew pew sidearms based on gender.",
         "newstatus": 0
     },
     {
@@ -52,14 +52,14 @@ export default [
         "name": "Slug Shotgunner",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Female officer with a rifled shotgun. While slugs are easier to dodge than buckshot, they also hit hard and remain lethal even at range.",
+        "description": "Female officer with a Rifled Shotgun. While slugs are easier to dodge than buckshot, they also hit hard and remain lethal even at range.",
         "newstatus": 0
     },
     {
         "name": "SSG Zombie",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Reanimated sergeant with a devastating boomstick. Avoid close range engagements at all costs.",
+        "description": "Reanimated sergeant with a devastating Boomstick. Avoid close range engagements at all costs.",
         "newstatus": 0
     },
     {
@@ -80,7 +80,7 @@ export default [
         "name": "HEP Engineer",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Specialist of indirect combat, using grenades, land mines and automated turrets. Defends himself with a terminator shotgun if the need arises.",
+        "description": "Specialist of indirect combat, using grenades, land mines and automated turrets. Defends himself with a Terminator Shotgun if the need arises.",
         "newstatus": 0
     },
     {
@@ -94,21 +94,21 @@ export default [
         "name": "Chaingunner",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Bulky commando with a rotary chaingun. Inaccurate but with an extremely high volume of fire.",
+        "description": "Bulky commando with a Rotary Chaingun. Inaccurate but with an extremely high volume of fire.",
         "newstatus": 0
     },
     {
         "name": "Nailgunner",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Armored zombie soldiers carrying nailguns. Their armor protects them well against low-caliber weaponry.",
+        "description": "Armored zombie soldiers carrying Nailguns. Their armor protects them well against low-caliber weaponry.",
         "newstatus": 0
     },
     {
         "name": "Plasma Gunner",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Plasma carbine-wielding soldiers, firing short bursts of high temperature plasma. The suit they wear also gives them some protection against plasma weaponry.",
+        "description": "Plasma Carbine-wielding soldiers, firing short bursts of high temperature plasma. The suit they wear also gives them some protection against plasma weaponry.",
         "newstatus": 0
     },
     {
@@ -423,7 +423,7 @@ export default [
         "description": "Shaped like the spider's tailed cousin, it has a chassis made of high-durability allow, a stinger equipped with a railgun, plasma grenades, and the ability to fire an explosive plasma ball after some charge time.",
         "newstatus": 0
     },
-    
+
     {
         "name": "Cacodemon",
         "category": "Cacodemon",
@@ -516,12 +516,12 @@ export default [
         "description": "An Elemental attuned to what can be only described as pure underworld energy. They're able to cast fully homing spheres of devastation which as thankfully very weak to gunfire.",
         "newstatus": 0
     },
-    
+
     {
         "name": "Hell Knight",
         "category": "Hell Knight",
         "species": "Hell Noble",
-        "description": "A bigger, badder, tougher imp. Easily underestimated on its own, but a force to be reckoned with when more of them show up.",
+        "description": "A bigger, badder, tougher Imp. Easily underestimated on its own, but a force to be reckoned with when more of them show up.",
         "newstatus": 0
     },
     {
@@ -531,34 +531,34 @@ export default [
         "description": "A lesser trained but more aggressive Hell Knight. Launches two fireballs at a time, but their lack of training causes them to deviate like Mancubus fireballs. Stand still and you should be fine.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Hell Viscount",
-    //     "category": "Hell Knight",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Cyber Hell Knight",
-    //     "category": "Hell Knight",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Pyro Knight",
-    //     "category": "Hell Knight",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Hell Paladin",
-    //     "category": "Hell Knight",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Hell Viscount",
+        "category": "Hell Knight",
+        "species": "Hell Noble",
+        "description": "Above the Knights ranks the grayskinned Viscount. Their fireballs come in bursts of three, and can charge up a devastating volley.",
+        "newstatus": 1
+    },
+    {
+        "name": "Cyber Knight",
+        "category": "Hell Knight",
+        "species": "Hell Noble",
+        "description": "Enhanced Knight with a blaster as an arm, increasing the lethality of their ranged attacks with splash damage sprinkled on top.",
+        "newstatus": 1
+    },
+    {
+        "name": "Pyro Knight",
+        "category": "Hell Knight",
+        "species": "Hell Noble",
+        "description": "Infused with the power of hellfire, they launch spreads of fireballs shotgun-style and use a flamethrower attack at close range.",
+        "newstatus": 1
+    },
+    {
+        "name": "Hell Paladin",
+        "category": "Hell Knight",
+        "species": "Hell Noble",
+        "description": "A rare sight for a race that's usually all about aggression, this promoted Knight wield a shield that's impervious to all attacks while it's still up, although enough concentrated fire should be able to stagger it.",
+        "newstatus": 1
+    },
     {
         "name": "Baron of Hell",
         "category": "Baron of Hell",
@@ -573,35 +573,35 @@ export default [
         "description": "An exclusive bloodline of nobles capable of flight. Otherwise identical to Barons in offensive and defensive capabilities.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Archon of Hell",
-    //     "category": "Baron of Hell",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Cyber Baron",
-    //     "category": "Baron of Hell",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Bruiser Demon",
-    //     "category": "Baron of Hell",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Cybruiser",
-    //     "category": "Baron of Hell",
-    //     "species": "Hell Noble",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    
+    {
+        "name": "Dark Noble",
+        "category": "Baron of Hell",
+        "species": "Hell Noble",
+        "description": "A Baron who serves the Darkness. Similarly to other dark counterparts, they are stronger, tougher and more aggressive.",
+        "newstatus": 1
+    },
+    {
+        "name": "Cyber Baron",
+        "category": "Baron of Hell",
+        "species": "Hell Noble",
+        "description": "A Baron that's received the same treatment as their tan counterparts. Their blaster can fire in bursts or spreads.",
+        "newstatus": 1
+    },
+    {
+        "name": "Bruiser Demon",
+        "category": "Baron of Hell",
+        "species": "Hell Noble",
+        "description": "Genetic clone of the two badasses who wrecked havoc back on Phobos. Their unparalleled strength makes them formidable melee fighters capable of lunging, shoulder-charging and knocking foes back with their fists.",
+        "newstatus": 1
+    },
+    {
+        "name": "Cybruiser",
+        "category": "Baron of Hell",
+        "species": "Hell Noble",
+        "description": "An unholy marriage of perfected DNA and top of the line cybernetics. These warmachines wield all kinds of explosive weaponry - rockets, grenades, mines - and come with blast protection on top of all that.",
+        "newstatus": 1
+    },
+
     {
         "name": "Archvile",
         "category": "Archvile",
@@ -616,34 +616,34 @@ export default [
         "description": "Specialists of void magic, their attacks hit multiple times if the target is in their line of sight. They are also capable of teleporting away from danger.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Summoner",
-    //     "category": "Archvile",
-    //     "species": "Archvile",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Diabolist",
-    //     "category": "Archvile",
-    //     "species": "Archvile",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Illusionist",
-    //     "category": "Archvile",
-    //     "species": "Archvile",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Infernalist",
-    //     "category": "Archvile",
-    //     "species": "Archvile",
-    //     "description": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Summoner",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "Vile variant who specialize on creating new life rather than bringing back the dead. Also capable of flight, making her a tough bitch to kill.",
+        "newstatus": 1
+    },
+    {
+        "name": "Diabolist",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "As scholars of the Darkness, Diabolists have the ability to convert lesser demons into their dark counterparts. Their fire spell is also able to send echoes of the dark will to human targets, beckoning them to the dark side.",
+        "newstatus": 1
+    },
+    {
+        "name": "Illusionist",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "Experts of their namesake magic, they can summon phantom copies of themselves and turn whatever they resurrect partially invisible, similar to Spectres. Theorized to be the creators behind the Illusion Spheres you see laying around.",
+        "newstatus": 1
+    },
+    {
+        "name": "Infernalist",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "Yet another demon infused with hellfire, who uses it to enhance both his offensive magic with fire trails and imbue his undead with a nasty explosive surprise to any poor soul forced to engage in melee combat.",
+        "newstatus": 1
+    },
     {
         "name": "Cyberdemon",
         "category": "Cyberdemon",
