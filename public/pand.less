@@ -37,6 +37,15 @@
     }
 }
 
+.wpn_admeral {
+    color: #000000;
+    text-shadow: 1px 1px #333, -1px -1px #333, -1px 1px #333, 1px -1px #333, 1px 0px #333, -1px 0px #333, 0px 1px #333, 0px -1px #333;
+    text-decoration: none;
+    &:visited {
+        color: #000000;
+    }
+}
+
 .player_class_ {
     &1 {
         color: rgb(3, 168, 3);
@@ -115,6 +124,12 @@
 
 .wpn_vitaphage {
     background: linear-gradient(darkgreen, lime);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wpn_unmakyr {
+    background: linear-gradient(white, yellow);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }

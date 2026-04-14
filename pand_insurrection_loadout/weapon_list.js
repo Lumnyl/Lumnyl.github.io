@@ -15,7 +15,7 @@ export default [
     {"slot": 2, "name": "Security Pistol", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Alt-fire now stuns groups and direct hits can stun bosses"},
     {"slot": 2, "name": "Flare Gun", "ammo": "Rockets", "tags": ["Gunlocker"], "superior": "Fires a localized sun (4 ammo per shot)"},
     {"slot": 2, "name": "Laser Rifle", "ammo": "Cells", "tags": [], "superior": "Full-auto and piercing beams (3 ammo per shot)"},
-    {"slot": 2, "name": "Converted PCC", "ammo": "Bullets", "tags": ["Warmachines", "Magazine", "SuperiorAlt"], "superior": "Alt-fire shoots grenades (4 shots per rocket)"},
+    {"slot": 2, "name": "Support SMG", "ammo": "Bullets", "tags": ["Warmachines", "Magazine", "SuperiorAlt"], "superior": "Alt-fire shoots grenades (4 shots per rocket)"},
     {"slot": 2, "name": "Maximum", "ammo": "Bullets", "tags": ["Gunlocker", "Arcane"], "superior": "Alt-fire shoots a gigantic supersonic bullet (90 ammo per shot)"},
 
     {"slot": 3, "name": "Shotgun", "ammo": "Shells", "tags": [], "superior": "Dragon's breath rounds"},
@@ -25,7 +25,8 @@ export default [
     {"slot": 3, "name": "Shrapnel Shotgun", "ammo": "Shells", "tags": [], "superior": "Projectiles are no longer affected by gravity"},
     {"slot": 3, "name": "Hunting Shotgun", "ammo": "Shells", "tags": ["Warmachines"], "superior": "Every enemy struck shoots forward shrapnel"},
     {"slot": 3, "name": "Burst Injector", "ammo": "Shells", "tags": ["Warmachines", "Magazine", "No Flame"], "superior": "Pathogen Cultivator expanded to spit out clouds"},
-    {"slot": 3, "name": "Sport Shotgun", "ammo": "Shells", "tags": ["Warmachines", "Magazine"], "superior": "Fires super heavy slugs (2 ammo per shot)"},
+    {"slot": 3, "name": "Gore Shotgun", "ammo": "Shells", "tags": ["Warmachines", "Magazine"], "superior": "Pathogen Cultivator expanded to spit out clouds"},
+    {"slot": 3, "name": "Sport Shotgun", "ammo": "Shells", "tags": ["Warmachines", "Magazine"], "superior": "Fires super heavy slugs"},
     {"slot": 3, "name": "Auto Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "No longer needs to reload"},
     {"slot": 3, "name": "Riot Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "Stabilized spread"},
     {"slot": 3, "name": "Jagdpanzer", "ammo": "Shells", "tags": ["Magazine", "Gunlocker"], "superior": "Fires an extra high-damage piercing shot"},
@@ -45,7 +46,7 @@ export default [
     {"slot": 4, "name": "Basilisk", "ammo": "Demon", "tags": ["SuperiorAlt"], "superior": "Fires comets that seek towards targets after bouncing"},
     {"slot": 4, "name": "Soul Spear", "ammo": "Mana", "tags": [], "superior": ""},
     // {"slot": 4, "name": "Vengeful Blade", "ammo": "Bullets", "tags": ["Gunlocker"], "superior": "Consumes 1 less ammo per shot"},
-    {"slot": 4, "name": "Hex Weaver", "ammo": "Demon", "tags": ["Warmachines", "No Precision"], "superior": "Spew a jet of abyss fire when venting"},
+    {"slot": 4, "name": "Hadal AMR", "ammo": "Demon", "tags": ["Warmachines", "No Precision"], "superior": "Spew a jet of abyss fire when venting"},
     {"slot": 4, "name": "Firestorm", "ammo": "Bullets", "tags": ["Durability"], "superior": "None"},
     {"slot": 4, "name": "Sniper Rifle", "ammo": "Bullets", "tags": ["Warmachines", "No Precision", "Magazine"], "superior": "Reloading while full will load all bullets"},
 
@@ -64,11 +65,11 @@ export default [
     // {"slot": 5, "name": "Solarion", "ammo": "Demon", "tags": ["Gunlocker"], "superior": "Beams split into homing balls on impact"},
     {"slot": 5, "name": "HE Rocket Launcher", "ammo": "Rockets", "tags": [], "superior": "Magazine size increases to 3"},
     {"slot": 5, "name": "Meteorite", "ammo": "Rockets", "tags": ["Durability"], "superior": "None"},
-    {"slot": 5, "name": "Vitaphage", "ammo": "Rockets", "tags": ["Warmachines", "Arcane", "No Precision"], "superior": "Fires 6 Plague bolts with the main rocket"},
+    {"slot": 5, "name": "Vitaphage", "ammo": "Rockets", "tags": ["Warmachines", "Arcane", "No Precision"], "superior": "Pressurized nexuses only fire micro Seekers"},
 
     {"slot": 6, "name": "Plasma Rifle", "ammo": "Cells", "tags": [], "superior": "No cooldown"},
     {"slot": 6, "name": "Overcharge Rifle", "ammo": "Cells", "tags": [], "superior": "Charges passively over time (even when holstered)"},
-    {"slot": 6, "name": "Soul Grinder", "ammo": "Demon", "tags": ["Warmachines", "No Superior"], "superior": "Shots explode after a short distance"},
+    // {"slot": 6, "name": "Soul Grinder", "ammo": "Demon", "tags": ["Warmachines", "No Superior"], "superior": "Shots explode after a short distance"},
     {"slot": 6, "name": "Railgun", "ammo": "Cells", "tags": ["No Precision"], "superior": "Damage increases over distance"},
     {"slot": 6, "name": "Railbeam", "ammo": "Cells", "tags": ["No Precision"], "superior": "Piercing beam"},
     {"slot": 6, "name": "Plasma Repeater", "ammo": "Cells", "tags": [], "superior": "No longer winds up"},
@@ -78,7 +79,8 @@ export default [
     {"slot": 6, "name": "Silver Buster", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "No longer needs to pump"},
     {"slot": 6, "name": "Plasma DMR", "ammo": "Cells", "tags": ["Gunlocker"], "superior": "5-shot burst with a chain-lightning on the last shot"},
     {"slot": 6, "name": "Bolt ACR", "ammo": "Cells", "tags": ["Arcane"], "superior": "Spawns a stationary cloud upon firing."},
-    {"slot": 6, "name": "Resonant Stele", "ammo": "Mana", "tags": ["Warmachines"], "superior": "None"},
+    {"slot": 6, "name": "Spatial Telestele", "ammo": "Mana", "tags": ["Warmachines"], "superior": "None"},
+    {"slot": 6, "name": "Dark Auto Shotgun", "ammo": "Demon", "tags": ["Warmachines"], "superior": "Increased pellet spread and volume"},
     {"slot": 6, "name": "Enlightener", "ammo": "Cells", "tags": ["Durability"], "superior": "None"},
 
     {"slot": 7, "name": "BFG 9000", "ammo": "Cells", "tags": [], "superior": "Projectiles now shoots extra tracers on impact"},
@@ -88,8 +90,10 @@ export default [
     {"slot": 7, "name": "Perforator", "ammo": "Bullets", "tags": [], "superior": "Fires 5 additional piercing shots on first barrage"},
     {"slot": 7, "name": "Hakkero Magicannon", "ammo": "Cells", "tags": ["Arcane"], "superior": "Fires additional star projectiles"},
     {"slot": 7, "name": "Fantasy Staff", "ammo": "Mana", "tags": ["Arcane"], "superior": ""},
+    {"slot": 7, "name": "Unmakyr", "ammo": "Cells", "tags": ["ADMERAL", "Arcane", "No Precision", "No Superior", "Fewer Slots"], "superior": ""},
+    {"slot": 7, "name": "Calamity Blade", "ammo": "Demon", "tags": ["ADMERAL", "No Capacity", "No Precision"], "superior": "Can be fired at any charge level and projectiles have knockback"},
     {"slot": 7, "name": "Heliacal Arc", "ammo": "Demon", "tags": ["Durability"], "superior": "None"},
 
-    {"slot": 8, "name": "Sacrosanct Aeonstave", "ammo": "Chaos", "tags": ["Arcane", "No Superior", "No Capacity"], "superior": "None"},
+    {"slot": 8, "name": "Sacrosanct Aeonstave", "ammo": "Chaos", "tags": ["Arcane", "No Superior", "No Capacity", "Fewer Slots"], "superior": "None"},
     {"slot": 8, "name": "Convergence", "ammo": "Demon", "tags": ["Arcane", "No Precision"], "superior": "Casts Evocations directly on your location. Casts a brief invulnerable dash when summoning Evocations!"}
 ]

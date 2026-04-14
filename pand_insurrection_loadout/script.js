@@ -128,6 +128,7 @@ function generate_loadout() {
     let include_secretweapons = document.querySelector('#include_secretweapons').checked
     let include_gunlocker = document.querySelector('#include_gunlocker').checked
     let include_warmachines = document.querySelector('#include_warmachines').checked
+    let include_admeral = document.querySelector('#include_admeral').checked
     let roll_augments = document.querySelector('#roll_augments').checked
     let more_class_weapons = document.querySelector('#more_class_weapons').checked
     let keep_starter = document.querySelector('#keep_starter').checked
@@ -169,6 +170,11 @@ function generate_loadout() {
 
     if (!include_warmachines) {
         let temp = final_weapon_list.filter(item => item.tags.includes("Warmachines") == false)
+        final_weapon_list = [...temp]
+    }
+
+    if (!include_admeral) {
+        let temp = final_weapon_list.filter(item => item.tags.includes("ADMERAL") == false)
         final_weapon_list = [...temp]
     }
 
@@ -272,7 +278,7 @@ function rollAugments(weapon) {
     let augment_list = { upgrade_path: "", conversion_type: "", conversion: 0, Strength: 0, Haste: 0, Capacity: 0, Precision: 0 }
     let used_slots = 0
     augment_list["upgrade_path"] = (weapon.ammo == "Mana") ? "Magitech" : (weapon.tags.includes("Durability") || weapon.tags.includes("No Superior")) ? "Formatter" : (weapon.slot == 2) ? (Math.random() < 0.75) ? "Superior" : "Formatter" : (Math.random() < 0.67) ? "Superior" : "Formatter"
-    let upgrade_slots = (weapon.tags.includes("Durability") || weapon.name == "Sacrosanct Aeonstave") ? 3 : 5;
+    let upgrade_slots = (weapon.tags.includes("Durability") || weapon.tags.includes("Fewer Slots")) ? 3 : 5;
     if (augment_list["upgrade_path"] == "Formatter") upgrade_slots += 5
     let upgrade_choices = ["Strength", "Haste"]
     if (!weapon.tags.includes("No Precision")) upgrade_choices.push("Precision")
@@ -381,6 +387,9 @@ function display_loadout(loadout, augments, pl_class) {
         if (weapon.name == "Vitaphage") {
             name.classList.add("wpn_vitaphage")
         }
+        if (weapon.name == "Unmakyr") {
+            name.classList.add("wpn_unmakyr")
+        }
         if (weapon.tags.includes("Gunlocker")) {
             addon.textContent = "[G] "
             addon.classList.add("wpn_gunlocker")
@@ -394,6 +403,13 @@ function display_loadout(loadout, augments, pl_class) {
             addon.classList.add("bold")
             addon.title = "Part of the Warmachines addon"
             loadout_text += `[W] `
+        }
+        if (weapon.tags.includes("ADMERAL")) {
+            addon.textContent = "[A] "
+            addon.classList.add("wpn_admeral")
+            addon.classList.add("bold")
+            addon.title = "Weapon by ADMERAL"
+            loadout_text += `[A] `
         }
         if (weapon.tags.includes("Durability")) {
             name.classList.add("wpn_durability")
