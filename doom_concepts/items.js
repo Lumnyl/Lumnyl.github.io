@@ -1147,6 +1147,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Meme Sphere",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Grants you a random Meme weapon for 69 seconds. Enhanced : Duration extended to 420 seconds.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Momentum Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
@@ -1824,7 +1836,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dagger of Ephialtos",

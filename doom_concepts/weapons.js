@@ -388,7 +388,7 @@ export default [
         "description": "This little wonder of small arms development has been developed for one thing : exceptional accuracy. Rather than raw stopping power, it focuses on recoil control to give its shooter the best hit probabilities, featuring a self-adjusting laser pointer system which can be hooked to most available heads-up displays.",
         "authorsnotes": "",
         "designnotes": "The low bore axis is inspired by the Laugo Alien.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Tactical Pistol",
@@ -718,7 +718,7 @@ export default [
         "description": "Snub-nosed revolver loaded with downscaled shotgun shells meant for executing pesky garden slitherers. Hurts about as much as equivalent ammunition, just spread over a cumulus of lead.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Xionic Magnum",
@@ -974,7 +974,7 @@ export default [
         "description": "Lightweight, swift, accurate, and strapped head to toe with all kinds of attachments. Its delightful engineering makes inserting shells a breeze and automatically chambers a round when reloading from empty, making the process rival even magazine-fed shotguns in terms of speed.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mag Shotgun",
@@ -1049,7 +1049,7 @@ export default [
         "description": "Ultra advanced purple shark-looking shotgun, which somehow manages to turn lead pellets into plasma as well as blasting away all the the excess heat that comes with instantaneous nuclear fusion.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Jackhammer",
@@ -1531,7 +1531,7 @@ export default [
         "description": "When papa rifle and mama SMG love each other very much, this is the offspring they produce. Very good range and armor piercing capabilities despite its petite stature, with only a small reduction in stopping power.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "LMG",
@@ -2314,7 +2314,7 @@ export default [
         "description": "If a gun doesn't solve your problem, try using more gun! Has a noticeable whine coming from the heatsinks desperately trying to keep this thing from melting itself down.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Laser Carbine",
@@ -2524,7 +2524,7 @@ export default [
         "description": "Automatic spreadgun firing swarms of high-intensity, low-velocity photons over a wide area. Also very effective at cooking chicken.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Plasma Handcannon",
@@ -2795,7 +2795,7 @@ export default [
         "description": "This nasty piece of demonic weaponry is by all intends and purposes an organic minigun made out of parts of its namesake arthropod. Not for the faint of heart.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Gore Gun",
@@ -3096,7 +3096,7 @@ export default [
         "description": "A lead spitter that makes miniguns look very \"mini\" in comparison. This is made for airplanes, not mortal arms.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Megalaser",
@@ -3142,7 +3142,7 @@ export default [
         "description": "Similar in concept to a fragmentation grenade, with the added benefit of covering everything in the room with a nice coat of nails. A carpenter's wet dream.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Concussion Grenade",
@@ -3277,7 +3277,7 @@ export default [
         "description": "A one-two-three punch combo of explosives to minimize the chances of anything staying recognizable on the area of effect. Earlier versions had the nasty habit of propelling the device wherever it pleases, resulting in an uncomfortable amount of backfires.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Firecracker Bomb",
@@ -3292,7 +3292,7 @@ export default [
         "description": "Makes the process of throwing 10 grenades at once much more manageable. Named so after the distinct crackling sound of multiple bombs exploding.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rolling Thunder",
@@ -3983,7 +3983,7 @@ export default [
         "description": "\"With the staff that is in my hands I will strike the water of the Nile, and it will be changed into blood. The fish in the Nile will die, and the river will stink and the Egyptians will not be able to drink its water.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Invasion of Frogs",
@@ -3998,7 +3998,7 @@ export default [
         "description": "\"I will plague your whole country with frogs. The Nile will teem with frogs. They will come up into your palace and your bedroom and onto your bed, into the houses of your officials and on your people, and into your ovens and kneading troughs. The frogs will go up on you and your people and all your officials.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Lice From the Dust",
@@ -4013,7 +4013,7 @@ export default [
         "description": "\"When Aaron stretched out his hand with the rod and struck the dust of the ground, gnats came upon men and animals. All the dust throughout the land of Egypt became lice.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Teems of Flies",
@@ -4028,7 +4028,7 @@ export default [
         "description": "\"I will send swarms of flies on you, your officials, and your people, and into your houses; and the houses of the Egyptians shall be filled with swarms of flies; so also the land where they live.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Pestilence of Livestock",
@@ -4043,7 +4043,7 @@ export default [
         "description": "\"The hand of the LORD will bring a terrible plague on your livestock in the field — on your horses and donkeys and camels and on your cattle and sheep and goats.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Infection of Boils",
@@ -4058,7 +4058,7 @@ export default [
         "description": "\"Take handfuls of soot from a furnace and have Moses toss it into the air in the presence of Pharaoh. It will become fine dust over the whole land of Egypt, and festering boils will break out on men and animals throughout the land.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Storm of Hail",
@@ -4073,7 +4073,7 @@ export default [
         "description": "\"I will send the worst hailstorm that has ever fallen on Egypt, from the day it was founded till now. The hail will fall on every man and animal that has not been brought in and is still out in the field, and they will die.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Swarms of Locusts",
@@ -4088,7 +4088,7 @@ export default [
         "description": "\"I will bring locusts into your country tomorrow. They will cover the face of the ground so that it cannot be seen. They will devour what little you have left after the hail, including every tree that is growing in your fields. They will fill your houses and those of all your officials and all the Egyptians.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Days of Darkness",
@@ -4103,7 +4103,7 @@ export default [
         "description": "\"So Moses stretched out his hand toward heaven, and there was dense darkness in all the land of Egypt for three days. People could not see one another, and for three days they could not move from where they were.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Staff of Plagues - Death of the Firstborn",
@@ -4118,7 +4118,7 @@ export default [
         "description": "\"I will go throughout Egypt. Every firstborn in Egypt will die, from the firstborn of Pharaoh, who sits on the throne, to the firstborn of the slave girl, who is at her hand mill, and all the firstborn of the cattle as well. There will be loud wailing throughout Egypt — worse than there has ever been or ever will be again.\"",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -4464,7 +4464,7 @@ export default [
         "description": "Custom-made belt-fed semi-auto shotgun loaded with canisters of 4mm Varmint instead of shells. A very roundabout way of achieving the same effect, though it does manage to get a lot of power out of each shot.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Repeater Crossbow",
@@ -4659,7 +4659,7 @@ export default [
         "description": "Rocket-powered flaming gauntlet for those who think only wimps concern themselves with self-preservation. It also looks like a dragon head, which is always a plus.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Gore Trimmer",
@@ -4674,7 +4674,7 @@ export default [
         "description": "Diesel-powered monstrosity designed to shred flesh and use the gratuitous amount of viscera to lubricate and cool itself, because this is a war zone, not brain surgery.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Flamethrower",
@@ -4785,21 +4785,21 @@ export default [
     {
         "name": "Unmaker",
         "fullname": "",
-        "ammo": "Demon Energy x3",
+        "ammo": "Demon Energy",
         "category": "Artifact",
-        "primary" : "Energy shots x3",
+        "primary" : "Energy shot",
         "secondary" : "N/A",
         "notes" : "",
         "superior" : [
+            "Fires 3 shots horizontally. Ammo cost rises to 3.",
             "Fires 5 shots horizontally. Ammo cost rises to 5.",
-            "Fires 7 shots horizontally. Ammo cost rises to 7.",
-            "Fires 9 shots horizontally. Ammo cost rises to 9."
+            "Fires 7 shots horizontally. Ammo cost rises to 7."
         ],
         "durability": false,
         "description": "Hidden within the deepest darkest corners of hell, this relic is as ancient as inferno itself. No one is sure why no demon has been seen using it yet, but it is speculated that it has some kind of spiritual lock that prevents them from wielding it.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "The Scythe",
@@ -4853,7 +4853,7 @@ export default [
         "description": "Shiny yet ominously devastating handgun, where each shot is rumored to count down toward the end of time.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "ROMERO",
@@ -5312,5 +5312,382 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
-    }
+    },
+
+    {
+        "name": "Chuck's Butter Knife",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Slice",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "The blade is made of 101% norrisium.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "The Ulapool Caber",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "KABOOOOOOOOM",
+        "secondary" : "CHAAAAAAAAARGE",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "124 damage what the FUCK",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Sniper Knife",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Long stab",
+        "secondary" : "N/A",
+        "notes" : "Very long range.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Comes with a 12x scope and a bipod for extreme precision stabbing.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Electric Toothbrush",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "EXTREME brushing action",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Kills 99% of dentists. Not for oral use. Stinky.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Boxing Glove Gun",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Wallop!",
+        "secondary" : "N/A",
+        "notes" : "Knock back the target. Knocked target takes and deals damage upon hitting something.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "💫😵💥🥊🔫🤡",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Akimbo Siggy P3200",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Fire",
+        "secondary" : "Reload (does nothing)",
+        "notes" : "Sometimes fires on its own.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "The ultimate weapon, in uncommanded discharges and misfires. You'll be lucky to not shoot yourself before you pull this thing out of your holster.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Tactical Finger Gun",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Lunatic bullet burst",
+        "secondary" : "Lunatic homing missile",
+        "notes" : "Gunshots are silent.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Just because your gun is le head doesn't mean you're not allowed to accessorize.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "L'Executeur",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Shots inflict bleed for 8 seconds.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Buffed.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "H4XX0R GUN",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "H@ck",
+        "secondary" : "N/A",
+        "notes" : "Shots remove 5% of the target's max health.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "H@ck t3h w0rlD",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Benellus's Bane",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Like ten different shotguns at once",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Hell of a lot of kick! Hell of a lot of kick! Hell of a lot of kick! Hell of a lot of kick! Hell of a lot of kick! Hell of a lot of kick!",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "3: Machine gun (dual wield)",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Auto-fire",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Number 1 stress reliever, destroyer of desktops and exterminator of termites since 1998.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Egg Automatic Rifle",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Auto-fire egg",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Even in prehistory, the hen is mightier than the 'saur",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Intervention Extended Mags",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Quickscope",
+        "secondary" : "360 Noscope",
+        "notes" : "Requires reloading. Sleight of Hand (Pro). Stopping Power (Pro). Steady Aim (Pro)",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Call of duty is better than doom because it is realistic",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Depression Gun",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Afflicted enemies move and attack slower and take more damage.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Not cool :(",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Fish Cannon",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Fish!",
+        "secondary" : "Fish!",
+        "notes" : "Fish!",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "YOU! ME! GAS STATION! what are we gettin for dinner!? sushi of corse. UH OH! There was a roofy inside of our gas station sushi, we black out and wake up in a sewer, we’re surrounded by FISH-HORNY FISH, you know what that means, FISH OORGIE! The stench draws in a bear, what do we do? We’re gunna fight it, bare handed, bear..NAKED?! OH YES PLEASE, we befriend the bear after we beat it in a brawl, then we ride it into a Chucky Cheese, DANCE DANCE Revolution, revolution?! Over throw the Government!? UHH I THINK SOo, next thing you know im reincarnated as Jesus Christ, then I turn into a Jet, FLY into the sun, black out again, WAKE UP, do a bump WHITE OUT! (Which I didnt know you could do) then I smoked a joint, GREENED OUT, THEN I TURNED INTO THE SUN, UEGH OH looks like The meth is kickin in.. DEUHBLUHHSBDUHHSBUHSBUHEUGHHUHAAAAHUEAAHAAAAAAA!!!!",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "MAG Magnum",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Big bang",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "That's a big gun",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Dinner Blaster",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Random burger",
+        "secondary" : "N/A",
+        "notes" : "Burgers can be explosive, incendiary, spreadshot, critical, poisonous, freezing, piercing or any combination of the above.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Il suffit! Mon vaisseau amarrera au matin. Je me demande ce qu'il y a pour dîner.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Krotchy Bombs",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Have a Krotchy day!",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "A bunch of bullshit",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Throw object",
+        "secondary" : "N/A",
+        "notes" : "Objects include : Brick, Cinder block, Bible, Gold bar, Crack pipe, A handful of empty casings, Computer monitor, Rat, Glumbus, Nokia 3310, Sun, Melon, Toilet, Racon, Racon in toilet, Eiffel tower, Meme Sphere, Pistol BFG.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Inspired by a Bruno Powroznik classic.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Brutal Taunts",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Convey displeasure",
+        "secondary" : "N/A",
+        "notes" : "Yes this does damage enemies.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "FUCK YOURSELF! GET OFF SCUM! FUCK YOURSELF! GO FUCK YOURSELF! FUCK YOU ASSHOLE!",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Water Hose",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Holy Water Spray",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Washes the sins out of you.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "MEGALAZOR",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "BLAAAARGH",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Dr. Octagonapus approves.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "BOMFG 34567",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Automatic BOMF blasts",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Gonna be honest, my weapon design journey peaked early and I haven't been able to recapture that spark of genius ever since. Also I know the acronym doesn't make sense I made that gun when I was 10.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Abandoned Line \"Aimless Journey to the Abandoned Station\"",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Train",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Choo choo motherfucker",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Calamity Unmaker Shield-saw",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Auto shield-saw spreadshot x3",
+        "secondary" : "Chargeable shield-saw wave",
+        "notes" : "Shield-saws rip through enemies and boomerang back to you.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "urgh FINE!!!!!!!!",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+
 ]
