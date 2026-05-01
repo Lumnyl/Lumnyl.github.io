@@ -4683,10 +4683,10 @@ export default [
         "category": "Disposable",
         "primary" : "Cast",
         "secondary" : "N/A",
-        "notes" : "",
+        "notes" : "Summons a speeding train that barrels through the opposition.",
         "superior" : "N/A",
         "durability": false,
-        "description": "",
+        "description": "A spell that is all pain all train. The speeding vehicle seems to come from some sort of dimensional rift full of eyes.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 2
