@@ -754,7 +754,7 @@ export default [
     //     "category": "Cacodemon",
     //     "species": "Cacodemon",
     //     "description": "Distant cousin of the common Caco with an affiliation towards the psychic rather than electric. They are smart enough to recognize infighting as something to be avoided, though will still retaliate if attacked.",
-    //     "newstatus": 1
+    //     "newstatus": 0
     // },
     {
         "name": "Crackodemon",
@@ -1116,7 +1116,7 @@ export default [
             "Infights easily.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Emperor",
@@ -1129,7 +1129,7 @@ export default [
             "Can charge a bull rush, dealing insane amounts of damage and knockback.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cyber Emperor",
@@ -1142,7 +1142,7 @@ export default [
             "Can charge a chainsaw rush, dealing insane amounts of damage and plowing through enemies.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dark Cardinal",
@@ -1156,7 +1156,7 @@ export default [
             "Infights easily.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spider Mastermind",
@@ -1191,7 +1191,7 @@ export default [
             "Infights easily.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demolisher",
@@ -1204,7 +1204,7 @@ export default [
             "Infights easily.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dark Sentient",
@@ -1218,7 +1218,7 @@ export default [
             "Use rapid-fire or multi-shot weapons to get rid of the shield.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Megatank",
@@ -1233,7 +1233,7 @@ export default [
             "Resistant against ballistic weapons.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -1266,7 +1266,7 @@ export default [
             "Runs at you and explodes at close range.",
             "Emits a constant beeping noise."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "SS Elite",
@@ -1277,7 +1277,7 @@ export default [
             "Attacks with a Triad SMG.",
             "Dodge-rolls out of the way of attacks."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Enforcer",
@@ -1290,7 +1290,7 @@ export default [
             "Can throw Stick Grenades.",
             "Here catch!"
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Supersoldat",
@@ -1302,6 +1302,71 @@ export default [
             "Uses a flamethrower at close range",
             "Becomes faster and more aggressive at low health.",
             "Resistant against ballistic weapons."
+        ],
+        "newstatus": 0
+    },
+
+    {
+        "name": "Nukage Barrel",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "",
+        "details": [
+            "Explodes when destroyed.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Fuel Barrel",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "",
+        "details": [
+            "Explodes and spreads fire when destroyed.",
+            "Interacting with a Fuel-based weapon out will siphon the fuel out of the barrel.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Gas Barrel",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "",
+        "details": [
+            "Leaks flaming gas when hit, damaging the barrel over time.",
+            "Explodes when destroyed.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Ammunition Barrel",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "",
+        "details": [
+            "Explodes when destroyed.",
+            "Interacting will drop a few random ammo pickups.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Biohazard Barrel",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "",
+        "details": [
+            "Explodes and spreads toxic viscera when destroyed.",
+            "Interacting with a Blood-based weapon will siphon the contents and give you ammunition.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Plasma Barrel",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "",
+        "details": [
+            "Explodes violently when destroyed.",
         ],
         "newstatus": 1
     },
@@ -1320,6 +1385,6 @@ export default [
             "Infights easily.",
             "Drops Fury of the Archangel on defeat."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
 ]

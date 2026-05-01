@@ -481,7 +481,6 @@ export default [
         "effect": "100 armor. 35% protection. 30% physical resistance.",
         "notes": "",
         "carriable": 0,
-        // "description": "Standard-issue armor commonly used by UAC marines. Very effective against bullets and blunt trauma, not so much against fireballs.",
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
@@ -494,11 +493,22 @@ export default [
         "effect": "120 armor. 35% protection. 60% physical resistance.",
         "notes": "",
         "carriable": 0,
-        // "description": "High-tech armor providing tremendous protection against physical damage due to its tough yet flexible material.",
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Xionic Shinobi Armor \"Xero\"",
+        "type": "Security Armor",
+        "category": "Armor",
+        "effect": "200 armor. 50% protection. 25% global resistance. 20% extra movement speed. Unbreakable.",
+        "notes": "Kills charge up and level up the suit. Levels unlock new Xionic S-class weapons and carry over multiple suits. Charge can be used to temporarily stop time, with duration increasing with levels.",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "0-M Armored Suit",
@@ -507,7 +517,6 @@ export default [
         "effect": "200 armor. 50% protection. 10% global resistance.",
         "notes": "",
         "carriable": 0,
-        // "description": "Full-body armor worn by the best of the best. Allows its wearer to withstand significant punishment without dying.",
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
@@ -520,7 +529,6 @@ export default [
         "effect": "300 armor. 60% protection. 20% global resistance.",
         "notes": "",
         "carriable": 0,
-        // "description": "An expensive masterfully crafted suit of armor, reserved for extremely dangerous operations.",
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
@@ -533,7 +541,6 @@ export default [
         "effect": "300 armor. 65% protection. 50% explosive resistance.",
         "notes": "",
         "carriable": 0,
-        // "description": "Full suit of polymer composite padded armor. Provides heavy protection to the wearer as well as resistance against explosives.",
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
@@ -546,11 +553,58 @@ export default [
         "effect": "300 armor. 66% protection. 50% fire resistance.",
         "notes": "",
         "carriable": 0,
-        // "description": "Full suit of polymer composite padded armor. Provides heavy protection to the wearer as well as resistance against explosives.",
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Break Armor",
+        "type": "Combat Armor",
+        "category": "Armor",
+        "effect": "6666 armor. 100% protection. -1900% global resistance. Breaks into Broken Armor.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Xionic Commando Armor \"Omega\"",
+        "type": "Combat Armor",
+        "category": "Armor",
+        "effect": "300 armor. 80% protection. 40% global resistance. Unbreakable.",
+        "notes": "Kills charge up and level up the suit. Levels unlock new Xionic C-class weapons and carry over multiple suits. Charge can be used to temporarily increase firepower, with duration increasing with levels.",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Xionic Hybrid Armor \"Kaylenna\"",
+        "type": "Special Armor",
+        "category": "Armor",
+        "effect": "300 armor. 80% protection. 40% global resistance. 20% extra movement speed. Unbreakable.",
+        "notes": "Unlocked by combining max level Xionic Commando and Shinobi Armors. Charges up with kills. Has access to all Xionic S- and C-class weapons. Charge can be used to temporarily stop time and increase firepower.",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Broken Armor",
+        "type": "Special Armor",
+        "category": "Armor",
+        "effect": "1 armor. 100% protection. 98.5% global resistance.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
@@ -1049,6 +1103,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Nanotech Suit",
+        "type": "Hazard Protection",
+        "category": "Powerup",
+        "effect": "Protects against damaging floors and regenerates your armor for 60 seconds.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Night-Vision Goggles",
         "type": "Light Amplification",
         "category": "Powerup",
@@ -1059,6 +1125,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Ultratech NVGs",
+        "type": "Light Amplification",
+        "category": "Powerup",
+        "effect": "Full-bright vision for 180 seconds.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Threat Detection Visor",
@@ -1156,7 +1234,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Momentum Sphere",
@@ -1241,6 +1319,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Phase Sphere",
+        "type": "Power Sphere",
+        "category": "Powerup",
+        "effect": "Lasts 30 seconds. While active, you're immune to damage and all attacks phase through you. Enhanced : You phase through enemies as well.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Doom Sphere",
@@ -1578,7 +1668,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 0
+    //     "newstatus": 1
     // },
     {
         "name": "Contract with Belphegor",
@@ -1878,13 +1968,25 @@ export default [
         "name": "Vessel of Rebirth",
         "type": "Misc",
         "category": "Rare Drop",
-        "effect": "When active, any health gained from Health Bonuses, Supercharges and Megacharges is instead converted to Rebith Essence. Using this item while at 500 Rebirth Essence empties it and spawns a Salvation Sphere in front of you.",
+        "effect": "When active, any health gained from Health Bonuses, Supercharges and Megacharges is instead converted to Rebirth Essence. Using this item while at 500 Rebirth Essence empties it and spawns a Salvation Sphere in front of you.",
         "notes": "",
         "carriable": 2,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Chrono Device",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Creates a temporary recall point on your current position. Using this item while a recall point is active will teleport you to that point, restoring health and armor to the values they had when it was created.",
+        "notes": "Only usable once per map.",
+        "carriable": 2,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Eye of Destiny",
@@ -1945,6 +2047,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Virtus Magitech Implant",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "When active, all Cell-based weapons use Mana instead at a 2:1 ratio.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Quickdraw Holster",
@@ -2077,6 +2191,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Meme UP!1!!!1!",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Meme weapons last 1 second longer.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
 ]

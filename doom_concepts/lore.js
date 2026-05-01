@@ -14,7 +14,7 @@ export default [
     {
         "subject": "The Deadly Sins",
         "category": "Concepts",
-        "description": "The criteria that decide what kind of demon a human soul will become. There are the 7 classic ones : Pride, Envy, Lust, Wrath, Gluttony, Sloth and Greed, as well as Sadism. The amount of sin and their severity correlates to how strong a demon will be.",
+        "description": "The criteria that decide what kind of demon a human soul will become. There are the 7 classic ones : Pride, Envy, Lust, Wrath, Gluttony, Sloth and Greed, as well as Cruelty. The amount of sin and their severity correlates to how strong a demon will be.",
         "newstatus": 0
     },
     {
