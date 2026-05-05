@@ -1014,9 +1014,10 @@ export default [
         "details": [
             "Attacks with a spell that blinds you with fire before blasting you upwards.",
             "Spell can be dodged by being out of sight when it strikes.",
-            "Resurrects nearby non-boss enemies."
+            "Resurrects nearby non-boss enemies.",
+            "Infights easily.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Exile",
@@ -1027,9 +1028,10 @@ export default [
             "Attacks with a void spell that blasts you upwards multiple times.",
             "Spell can be dodged by being out of sight when it strikes.",
             "Can teleport away from danger.",
-            "Resurrects nearby non-boss enemies."
+            "Resurrects nearby non-boss enemies.",
+            "Infights easily.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Summoner",
@@ -1038,9 +1040,10 @@ export default [
         "description": "Vile variant who specialize on creating new life rather than bringing back the dead. Also capable of flight, making her a tough bitch to kill.",
         "details": [
             "Flying.",
-            "Summons squads of basic enemies."
+            "Summons squads of basic enemies.",
+            "Infights easily.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Diabolist",
@@ -1052,8 +1055,9 @@ export default [
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Turns basic enemies into a dark counterpart.",
+            "Infights easily.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Illusionist",
@@ -1065,8 +1069,9 @@ export default [
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Resurrected enemies become partially invisible.",
+            "Infights easily.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Infernalist",
@@ -1079,8 +1084,9 @@ export default [
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Resurrected enemies explode on death!",
+            "Infights easily.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Cyberdemon",
@@ -1310,65 +1316,65 @@ export default [
         "name": "Nukage Barrel",
         "category": "Barrel",
         "species": "Object",
-        "description": "",
+        "description": "A barrel of chemical waste, scattered around most UAC research facilities.",
         "details": [
             "Explodes when destroyed.",
         ],
-        "newstatus": 1
+        "newstatus": 2
     },
     {
         "name": "Fuel Barrel",
         "category": "Barrel",
         "species": "Object",
-        "description": "",
+        "description": "Liquid black gold in a can. Mostly gets used to get backup generators running. ",
         "details": [
             "Explodes and spreads fire when destroyed.",
             "Interacting with a Fuel-based weapon out will siphon the fuel out of the barrel.",
         ],
-        "newstatus": 1
+        "newstatus": 2
     },
     {
         "name": "Gas Barrel",
         "category": "Barrel",
         "species": "Object",
-        "description": "",
+        "description": "Canister used for storing various gases, all of which are flammable and will cause damage when disturbed.",
         "details": [
             "Leaks flaming gas when hit, damaging the barrel over time.",
             "Explodes when destroyed.",
         ],
-        "newstatus": 1
+        "newstatus": 2
     },
     {
         "name": "Ammunition Barrel",
         "category": "Barrel",
         "species": "Object",
-        "description": "",
+        "description": "Spare mags, shells and rockets tossed haphazardly into a barrel for later sorting (which never gets done).",
         "details": [
             "Explodes when destroyed.",
             "Interacting will drop a few random ammo pickups.",
         ],
-        "newstatus": 1
+        "newstatus": 2
     },
     {
         "name": "Biohazard Barrel",
         "category": "Barrel",
         "species": "Object",
-        "description": "",
+        "description": "Decomposing organic matter. Highly explosive due to trapped flammable gases.",
         "details": [
             "Explodes and spreads toxic viscera when destroyed.",
             "Interacting with a Blood-based weapon will siphon the contents and give you ammunition.",
         ],
-        "newstatus": 1
+        "newstatus": 2
     },
     {
         "name": "Plasma Barrel",
         "category": "Barrel",
         "species": "Object",
-        "description": "",
+        "description": "Specialized container for stabilizing and transporting raw plasmatic material.",
         "details": [
             "Explodes violently when destroyed.",
         ],
-        "newstatus": 1
+        "newstatus": 2
     },
 
     {
@@ -1377,14 +1383,31 @@ export default [
         "species": "Angel?",
         "description": "Why would an angel try to stop you on your crusade against the great evils? Have you been misguided from the start? Or maybe you got tricked into thinking you were? Some demons are capable of disguising themselves as beings of light after all.",
         "details": [
-            "Flying",
+            "Flying.",
             "Sends feathers of light.",
-            "Slashing projectiles of light.",
+            "Sends slashing projectiles of light.",
             "Can charge a light laser attack, trying to predict your movements.",
+            "Can cast a barrage of smiting lasers from the sky.",
             "Attacks with sword dashes at close range.",
             "Infights easily.",
             "Drops Fury of the Archangel on defeat."
         ],
-        "newstatus": 0
+        "newstatus": 2
+    },
+    {
+        "name": "HEP Killing Machine",
+        "category": "Pursuer",
+        "species": "Zombie",
+        "description": "The most dangerous man in the state of Nevada. Once killed an entire building's worth of security agents over some pie. A prodigy in all forms of combat. All of this was before his integration into the HEP. Unfortunately met his end somewhere during the demonic invasion, and is now being brought back to life again and again to serve his new employers.",
+        "details": [
+            "Will dodge out of the way of almost any attack. Evading drains stamina, which regenerates over time. Taking a set amount of damage regenerates a chunk of stamina.",
+            "Melee hits drain the most stamina.",
+            "Alternates between swords and guns.",
+            "Reflects bullets while in sword mode.",
+            "Repeated encounters increase the size of his arsenal. (Machete + Auto-Pistol -> Katana + Punisher Rifle -> Dragon Swords + Dual \"Depredation\" Machine-pistols)",
+            "Has a chance to resurrect on death, increasing with repeated encounters.",
+            "Heavily resistant against splash damage.",
+        ],
+        "newstatus": 1
     },
 ]
