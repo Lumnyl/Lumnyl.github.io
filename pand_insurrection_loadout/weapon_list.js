@@ -90,8 +90,8 @@ export default [
     {"slot": 7, "name": "Perforator", "ammo": "Bullets", "tags": [], "superior": "Fires 5 additional piercing shots on first barrage"},
     {"slot": 7, "name": "Hakkero Magicannon", "ammo": "Cells", "tags": ["Arcane"], "superior": "Fires additional star projectiles"},
     {"slot": 7, "name": "Fantasy Staff", "ammo": "Mana", "tags": ["Arcane"], "superior": ""},
-    {"slot": 7, "name": "Unmakyr", "ammo": "Cells", "tags": ["ADMERAL", "Arcane", "No Precision", "No Superior", "Fewer Slots"], "superior": ""},
-    {"slot": 7, "name": "Calamity Blade", "ammo": "Demon", "tags": ["ADMERAL", "No Capacity", "No Precision"], "superior": "Can be fired at any charge level and projectiles have knockback"},
+    {"slot": 7, "name": "Unmakyr", "ammo": "Cells", "tags": ["ADMERAL", "Secret", "Arcane", "No Precision", "No Superior", "Fewer Slots"], "superior": ""},
+    {"slot": 7, "name": "Calamity Blade", "ammo": "Demon", "tags": ["ADMERAL", "Secret", "No Capacity", "No Precision"], "superior": "Can be fired at any charge level and projectiles have knockback"},
     {"slot": 7, "name": "Heliacal Arc", "ammo": "Demon", "tags": ["Durability"], "superior": "None"},
 
     {"slot": 8, "name": "Sacrosanct Aeonstave", "ammo": "Chaos", "tags": ["Arcane", "No Superior", "No Capacity", "Fewer Slots"], "superior": "None"},

@@ -411,11 +411,15 @@ function display_loadout(loadout, augments, pl_class) {
             addon.title = "Weapon by ADMERAL"
             loadout_text += `[A] `
         }
+        if (weapon.tags.includes("Secret")) {
+            addon.textContent = "[?] "
+            addon.classList.add("wpn_secret")
+            addon.classList.add("bold")
+            addon.title = "Mystery Box Exclusive"
+            loadout_text += `[?] `
+        }
         if (weapon.tags.includes("Durability")) {
             name.classList.add("wpn_durability")
-        }
-        if (weapon.tags.includes("Secret")) {
-            name.classList.add("wpn_secret")
         }
         listelem.appendChild(img)
         listelem.appendChild(slot)
