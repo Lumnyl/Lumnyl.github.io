@@ -361,12 +361,19 @@ function build_enemy_table() {
             for (let currentenemy of head_lists.enemies) {
                 let cell = document.createElement("td")
                 if (currentenemy[0] == "details") {
+                    if (enemy.category == "Pursuer") {
+                        let announcement_message = document.createElement("h3")
+                        announcement_message.textContent = enemy.details[0]
+                        cell.appendChild(announcement_message)
+                    }
                     let details_list = document.createElement("ul")
                     cell.appendChild(details_list)
                     for (let detail in enemy.details) {
-                        let detail_elem = document.createElement("li")
-                        detail_elem.textContent = enemy.details[detail]
-                        details_list.appendChild(detail_elem)
+                        if (!(detail == "0" && enemy.category == "Pursuer")) {
+                            let detail_elem = document.createElement("li")
+                            detail_elem.textContent = enemy.details[detail]
+                            details_list.appendChild(detail_elem)
+                        }
                     }
                 } else {
                  cell.textContent = enemy[currentenemy[0]]

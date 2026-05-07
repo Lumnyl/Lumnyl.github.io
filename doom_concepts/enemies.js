@@ -1383,6 +1383,7 @@ export default [
         "species": "Angel?",
         "description": "Why would an angel try to stop you on your crusade against the great evils? Have you been misguided from the start? Or maybe you got tricked into thinking you were? Some demons are capable of disguising themselves as beings of light after all.",
         "details": [
+            "A greater being looks down on you with malicious intent.",
             "Flying.",
             "Sends feathers of light.",
             "Sends slashing projectiles of light.",
@@ -1400,6 +1401,7 @@ export default [
         "species": "Zombie",
         "description": "The most dangerous man in the state of Nevada. Once killed an entire building's worth of security agents over some pie. A prodigy in all forms of combat. All of this was before his integration into the HEP. Unfortunately met his end somewhere during the demonic invasion, and is now being brought back to life again and again to serve his new employers.",
         "details": [
+            "An agent of madness is coming. Do what comes natural.",
             "Will dodge out of the way of almost any attack. Evading drains stamina, which regenerates over time. Taking a set amount of damage regenerates a chunk of stamina.",
             "Melee hits drain the most stamina.",
             "Alternates between swords and guns.",
