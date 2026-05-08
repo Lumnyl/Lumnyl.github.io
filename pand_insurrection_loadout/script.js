@@ -354,6 +354,7 @@ function display_loadout(loadout, augments, pl_class) {
         let slot = document.createElement("span")
         let name = document.createElement("span")
         let addon = document.createElement("span")
+        let mysterybox = document.createElement("span")
         img.src = `img/${weapon.name.replace(/ /g, "_")}.png`
         if (weapon.tags.includes("SuperiorAlt") && typeof wpn_augments !== 'undefined' && 'upgrade_path' in wpn_augments && wpn_augments.upgrade_path == "Superior") {
             img.src = `img/${weapon.name.replace(/ /g, "_")}2.png`
@@ -390,6 +391,13 @@ function display_loadout(loadout, augments, pl_class) {
         if (weapon.name == "Unmakyr") {
             name.classList.add("wpn_unmakyr")
         }
+        if (weapon.tags.includes("Secret")) {
+            mysterybox.textContent = "[?] "
+            mysterybox.classList.add("wpn_secret")
+            mysterybox.classList.add("bold")
+            mysterybox.title = "Mystery Box Exclusive"
+            loadout_text += `[?] `
+        }
         if (weapon.tags.includes("Gunlocker")) {
             addon.textContent = "[G] "
             addon.classList.add("wpn_gunlocker")
@@ -411,13 +419,6 @@ function display_loadout(loadout, augments, pl_class) {
             addon.title = "Weapon by ADMERAL"
             loadout_text += `[A] `
         }
-        if (weapon.tags.includes("Secret")) {
-            addon.textContent = "[?] "
-            addon.classList.add("wpn_secret")
-            addon.classList.add("bold")
-            addon.title = "Mystery Box Exclusive"
-            loadout_text += `[?] `
-        }
         if (weapon.tags.includes("Durability")) {
             name.classList.add("wpn_durability")
         }
@@ -426,6 +427,7 @@ function display_loadout(loadout, augments, pl_class) {
         listelem.appendChild(name)
         listelem.innerHTML += " "
         listelem.appendChild(addon)
+        listelem.appendChild(mysterybox)
 
         if (wpn_augments !== undefined) {
             loadout_save[index].augments = wpn_augments
