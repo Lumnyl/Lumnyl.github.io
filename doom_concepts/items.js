@@ -508,7 +508,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "0-M Armored Suit",
@@ -568,7 +568,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic Commando Armor \"Omega\"",
@@ -580,7 +580,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic Hybrid Armor \"Kaylenna\"",
@@ -592,7 +592,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Broken Armor",
@@ -604,7 +604,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -1112,7 +1112,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Night-Vision Goggles",
@@ -1136,7 +1136,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Threat Detection Visor",
@@ -1165,28 +1165,40 @@ export default [
 
 
     {
-        "name": "Illusion Sphere",
+        "name": "Blur Sphere",
         "type": "Buff Sphere",
         "category": "Powerup",
-        "effect": "Lasts 60 seconds. While active, enemies targeting you have a chance to shoot in random directions. Enhanced : Enemies will never aim directly at you.",
-        "notes": "Fixed offsets at -45°, 0° and 45°. Enemy sprite direction depends on the direction of the shot. Hopefully this prevents accidentally dodging into projectiles.",
-        "carriable": 0,
-        "description": "",
-        "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 0
-    },
-    {
-        "name": "Invisibility Sphere",
-        "type": "Buff Sphere",
-        "category": "Powerup",
-        "effect": "Lasts 60 seconds. While active, enemies go after the last spot you made a sound at. Enhanced : You no longer produce noise.",
+        "effect": "Enemies attack you less often for 60 seconds, scaling with distance. Enhanced : Enemies now must be in melee range to attack.",
         "notes": "",
         "carriable": 0,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 1
+    },
+    {
+        "name": "Illusion Sphere",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Lasts 60 seconds. While active, you create illusory clones of yourself which enemies will target at random. Enhanced : You also become entirely invisible.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 2
+    },
+    {
+        "name": "Invisibility Sphere",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Lasts 45 seconds. While active, enemies go after the last spot you made a sound at. Enhanced : You no longer produce noise.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 2
     },
     {
         "name": "Damage Sphere",
@@ -1211,6 +1223,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Rejuvenation Sphere",
+        "type": "Buff Sphere",
+        "category": "Powerup",
+        "effect": "Passively regenerate health and armor for 60 seconds. Enhanced : Taking damage drastically increases regeneration speed.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 2
     },
     {
         "name": "Weapon Sphere",
@@ -1330,7 +1354,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Doom Sphere",
@@ -1397,12 +1421,12 @@ export default [
         "type": "Power Sphere",
         "category": "Powerup",
         "effect": "Lasts 30 seconds. While active, you're immune to damage and all melee attacks deal 5x as much damage. Rip and tear! Enhanced : Enemies drop healing items when killed.",
-        "notes": "",
+        "notes": "Also grants you Berserk if you do not have it.",
         "carriable": 0,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
@@ -1917,6 +1941,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Powerup Extender",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "All active powerup effects last for an additional 50% of their duration.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Dead Sea Scroll",
         "type": "Misc",
         "category": "Rare Drop",
@@ -1953,6 +1989,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Archive of Alexandria",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Once per level, grants you a random \"Scroll\" weapon.",
+        "notes": "",
+        "carriable": 2,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Gourd of the Drunk Oni",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Once per level, grants you a random \"Spellcard\" weapon.",
+        "notes": "",
+        "carriable": 2,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Ammo Recycler",
         "type": "Misc",
         "category": "Rare Drop",
@@ -1986,7 +2046,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Eye of Destiny",
@@ -2052,7 +2112,19 @@ export default [
         "name": "Virtus Magitech Implant",
         "type": "Misc",
         "category": "Rare Drop",
-        "effect": "When active, all Cell-based weapons use Mana instead at a 2:1 ratio.",
+        "effect": "When active, all Cell-based weapons use Mana instead at a 4:1 ratio.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Plasma Pump",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Plasma Barrels can now be drained to refill Cell ammo.",
         "notes": "",
         "carriable": 3,
         "description": "",
@@ -2181,6 +2253,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Spontaneous Inorganic Mitosis",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Disposable weapons have a chance to not get consumed on use.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Power UP!!",
         "type": "Misc",
         "category": "Rare Drop",
@@ -2202,7 +2286,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
 ]

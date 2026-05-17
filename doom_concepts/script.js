@@ -115,6 +115,8 @@ const enemy_categ_list = [
 const lore_categ_list = [
     "Concepts",
     "Enemy Types",
+    "Weapon Types",
+    "Locations",
 ]
 
 const quicknotesweapons = `<li>Melee weapons all deal double damage when under the effect of Berserk unless stated otherwise.</li>
@@ -157,7 +159,6 @@ for (let weapon of weapon_list) {
     weapon_categ_amount[weapon.category] += 1
     weapon_categ_amount['Total'] += 1
 }
-console.log(weapon_categ_amount)
 
 function change_selected_category() {
     let selected_category = category_selector.value
@@ -178,6 +179,9 @@ function change_selected_category() {
             option.textContent = `${weapon_categ_list[index]}`
             option.value = `${eval(index) + 2}`
             subcategory_selector.appendChild(option)
+        }
+        if (window.location.href == "http://127.0.0.1:5500/doom_concepts/") {
+            document.querySelector("#subcategory_select").selectedIndex = 1
         }
         build_weapon_table()
         document.querySelector("#quicknotes").innerHTML = quicknotesweapons
@@ -363,13 +367,16 @@ function build_enemy_table() {
                 if (currentenemy[0] == "details") {
                     if (enemy.category == "Pursuer") {
                         let announcement_message = document.createElement("h3")
-                        announcement_message.textContent = enemy.details[0]
+                        let music_link = document.createElement("a")
+                        music_link.textContent = enemy.details[0]
+                        music_link.href = enemy.details[1]
                         cell.appendChild(announcement_message)
+                        announcement_message.appendChild(music_link)
                     }
                     let details_list = document.createElement("ul")
                     cell.appendChild(details_list)
                     for (let detail in enemy.details) {
-                        if (!(detail == "0" && enemy.category == "Pursuer")) {
+                        if (!((detail == "0" || detail == "1") && enemy.category == "Pursuer")) {
                             let detail_elem = document.createElement("li")
                             detail_elem.textContent = enemy.details[detail]
                             details_list.appendChild(detail_elem)

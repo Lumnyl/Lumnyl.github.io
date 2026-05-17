@@ -162,7 +162,7 @@ export default [
         "description": "The only toy you'll ever need for turning your tiny baby punches into something that will tear even solid brick walls down. Immediate knockout, decapitation, and satellization guaranteed.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Guntlet",
@@ -300,6 +300,36 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Plaswhip",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Whip",
+        "secondary" : "N/A",
+        "notes" : "Creates a plasma shockwave at a fair distance if it doesn't hit anything.",
+        "superior" : "Plasma shockwave is bigger and stuns enemies.",
+        "durability": false,
+        "description": "A modified Plasma Saber handle with the ability to generate a loose stream of heavy, self-magnetizing plasma. Still retains the faster-than-sound properties of regular whips, just with a lot more energy going through that crackle.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Dragon Swords",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Slash",
+        "secondary" : "Block",
+        "notes" : "Secondary attack blocks all projectiles.",
+        "superior" : "Secondary attack now reflects projectiles.",
+        "durability": false,
+        "description": "A pair of katanas imbued with some kind of out of this world anomalous energy. Crush. Destroy. Kill. No regrets. No reason. Only Madness.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Xionic S1 - \"Hollow\"",
         "fullname": "",
         "ammo": "N/A",
@@ -309,10 +339,10 @@ export default [
         "notes" : "Unlocked by wearing a Xionic Shinobi Armor. Primary attack can parry projectiles.",
         "superior" : "Parry can be held indefinitely.",
         "durability": false,
-        "description": "Elongated Ninjato-style sword, forged with a special metal that avoids light reflection, thus rendering itself invisible to the human eye. It's relatively light weight and highly durable construction makes it ideal for parrying incoming projectiles.",
+        "description": "Elongated Ninjato-style sword, forged with a special metal that avoids light reflection, thus rendering itself invisible to the human eye. Its relatively light weight and highly durable construction makes it ideal for parrying incoming projectiles.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic S2 - \"Ripper\"",
@@ -327,7 +357,7 @@ export default [
         "description": "Heavy two-handed sword/chainsaw hybrid, combining the slice capacity of the former with the destructive potential of the latter. Capable of shredding through dense armor plating with ease.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic S5 - \"Bloodwire\"",
@@ -339,10 +369,10 @@ export default [
         "notes" : "Unlocked by wearing a level 5 Xionic Shinobi Armor.",
         "superior" : "Primary attack can now be charged. At max charge, wires entangle all nearby enemies.",
         "durability": false,
-        "description": "Threads of diamond-sharp wire made out of the user's blood. They are an incredible versatile tool that can grab, strangle, and even slash targets at a distance.",
+        "description": "Threads of diamond-sharp wire made out of the user's blood. They are an incredibly versatile tool that can grab, strangle, and even slash targets at a distance.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Laser Drill",
@@ -553,7 +583,7 @@ export default [
         "description": "Single-action only, big framed revolver based on more rugged designs of the old west to accommodate the monstrosities you'll be shooting out. Has safety mechanisms in place to specifically stop people from trying to fan-fire the thing and breaking their wrist in the process.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Obrez Bolt-Action",
@@ -628,7 +658,7 @@ export default [
         "description": "Cheap bullet hose for the gangster on a budget for anything besides ammunition. Perfectly suited for those with shaky hands but sturdy grips.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Smart Revolver",
@@ -778,7 +808,7 @@ export default [
         "description": ".65 caliber handcannon whose weight and recoil make it unable to be wielded by regular humans. Its name comes from a virus that attacked the company during the design process.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Prototype 435",
@@ -929,7 +959,7 @@ export default [
         "description": "An interestingly designed shotgun with two independent magazine tubes, allowing the user to quickly swap between different ammo types without needing to unload the weapon completely. Can also just be used as a high-capacity shotgun if being boring is a preferable alternative.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Haymaker Shotgun",
@@ -944,7 +974,7 @@ export default [
         "description": "Shotgun fitted with a complex muzzle device that increases pressure inside the barrel, flinging lead alongside a violent shockwave at point blank. It is greatly recommended to use underloaded shells with this one, as large enough pellet counts have a dangerous tendency to clog up the device.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Plague Shotgun",
@@ -1079,7 +1109,7 @@ export default [
         "description": "A strange alien weapon with three different modes of fire, somehow using the same ammunition for all of them.",
         "authorsnotes": "Based on Alien Vendetta's Map31.",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "SG-2112 \"Alma\"",
@@ -1109,7 +1139,7 @@ export default [
         "description": "A tiny little gun that triples in weight when loaded, has nothing in terms of recoil reduction, basically zero precision, fires entirely too quickly, and so crudely made it would make any gunsmith cry. But all these tradeoffs are nothing compared to how effectively it tenderizes flesh.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -1170,7 +1200,7 @@ export default [
         "description": "A heavily modified side-by-size coach gun fitted with a grappling hook that provides fantastic mobility for daredevils, but nothing special for anyone with working survival instincts.",
         "authorsnotes": "",
         "designnotes": "I try to stay away from directly copying designs but I couldn't really with this one. The spike on the grip is my way of making it a bit less of a ripoff.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Harpooner",
@@ -1275,7 +1305,7 @@ export default [
         "description": "2 barrels of buckshot can bruise the shoulder of an untrained shooter, 4 barrels will outright painfully relocate it, and that's not mentioning whatever it does to the poor sod on the other end.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hell Sweeper",
@@ -1350,7 +1380,7 @@ export default [
         "description": "Like the mythical snake biting its tail, this \"shotgun\" is actually a pump-action grenade-launcher, loaded with grenades that actually fire buckshot. Clunky and hard to use, but rare are the cases that require more than one trigger pull.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Judge & Jury",
@@ -1365,7 +1395,7 @@ export default [
         "description": "Become the executioner with these two shotgun/revolver hybrids. Each comes with its own ammo type to suit both gunslingers and sharpshooters alike.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic C3 - \"Bull\"",
@@ -1380,7 +1410,7 @@ export default [
         "description": "Quad pump-action shotgun that kicks as hard as its namesake animal when firing an entire burst. Extremely effective at beautifying smiles.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Doomstick",
@@ -1518,21 +1548,21 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Punisher Rifle",
-    //     "fullname": "",
-    //     "ammo": "Bullets x3",
-    //     "category": "Automatic",
-    //     "primary" : "Auto-fire",
-    //     "secondary" : "N/A",
-    //     "notes" : "",
-    //     "superior" : "",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Punisher Rifle",
+        "fullname": "",
+        "ammo": "Bullets x3",
+        "category": "Automatic",
+        "primary" : "Auto-fire",
+        "secondary" : "N/A",
+        "notes" : "Rapidly loses accuracy while firing.",
+        "superior" : "Perfect accuracy.",
+        "durability": false,
+        "description": "Standard-issue assault rifle rechambered in a high-impact .50 caliber round and fitted with a drum magazine. Hard-hitting but very unwieldy and hard to control.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Hyperburst",
         "fullname": "",
@@ -1591,7 +1621,7 @@ export default [
         "description": "The main service weapon for cultists, gangsters, and some who fought humanity's worst bad guys. Also has a dedicated fan-based for its vintage looks and availability of ammunition.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Heavy SMG",
@@ -1741,7 +1771,7 @@ export default [
         "description": "The answer from a pedant's perspective on what the difference between a chaingun and a rotary gun is. It fires from a single barrel, but has a rotating system that will switch it out with another once it heats up enough.",
         "authorsnotes": "",
         "designnotes": "Based on the minigun from Commando 2 with some M249 elements tacked on.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Pulse Rifle",
@@ -1831,7 +1861,7 @@ export default [
         "description": "A pair of triple-barreled machine-pistols, firing at a blistering 2000 shots per minute. Its upgraded variant is able to destroy entire buildings with a single punch.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Super Machinegun",
@@ -1907,7 +1937,7 @@ export default [
         "description": "Rifle designed with a similar goal to the Hyperburst, albeit with increased punch and kick. Even though its internals are slightly less convoluted to engineer, it unfortunately suffers the same fate as its lower caliber counterpart of being produced in very limited quantities.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Infantry Rifle",
@@ -1923,6 +1953,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Jury-rigged Shock Rifle",
+        "fullname": "",
+        "ammo": "Bullets x2",
+        "category": "Precision",
+        "primary" : "Fire",
+        "secondary" : "N/A",
+        "notes" : "Requires reloading.",
+        "superior" : "Shots shock nearby enemies on hit.",
+        "durability": false,
+        "description": "A WW2 semi-automatic rifle modified with a device that charges up bullets as they travel through the barrel, adding some extra electric flavor to the usual puncture wounds.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Cowboy Repeater",
@@ -1982,7 +2027,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 1
+    //     "newstatus": 0
     // },
     {
         "name": "Killdust Carbine",
@@ -1997,7 +2042,7 @@ export default [
         "description": "Integrally suppressed bolt-action carbine. The bullets are covered in a fine powder that is highly toxic whenever injected into the bloodstream.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sniper Rifle",
@@ -2149,21 +2194,21 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Hades Rifle",
-    //     "fullname": "",
-    //     "ammo": "Bullets x10",
-    //     "category": "Precision",
-    //     "primary" : "Fire",
-    //     "secondary" : "Empower",
-    //     "notes" : "Infinite piercing. Empowering the weapon increases next shot damage at the cost of 10 Demon Energy.",
-    //     "superior" : "",
-    //     "durability": true,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Hades Rifle",
+        "fullname": "",
+        "ammo": "Bullets x10",
+        "category": "Precision",
+        "primary" : "Fire",
+        "secondary" : "Empower",
+        "notes" : "Infinite piercing. Empowering the weapon increases damage but drains durability for each shot.",
+        "superior" : "Shots can now be empowered with Demon Energy instead.",
+        "durability": true,
+        "description": "A custom-built sniper rifle made by the same company behind the Prototype 435. Seems to have been meant as the personal weapon of a half-human half-bionic spider, from which the rifle takes its name from.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
 
     {
         "name": "Rocket Launcher",
@@ -2343,7 +2388,7 @@ export default [
         "description": "Stationary indirect fire weapon, picked up and ready to make some direct attacks. Needs to be held up at an angle to allow the shell to fall in smoothly, and it fires automatically once the shell is loaded.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cluster Mortar",
@@ -2358,7 +2403,7 @@ export default [
         "description": "Mortar variant for when area of effect is more important than raw destructive power. Even more tricky to use than the regular version, as the shell only splits up upon reaching the apex of the trajectory.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rocket Swarmer",
@@ -2527,6 +2572,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "All Purpose Energun",
+        "fullname": "",
+        "ammo": "Cells",
+        "category": "Energy",
+        "primary" : "Fire",
+        "secondary" : "Switch mode",
+        "notes" : "Modes are Automatic, Precision and Explosive.",
+        "superior" : "Fire modes are upgraded to : Spread, Homing, Ionizing, and Triple (all modes at once with increased ammo cost).",
+        "durability": false,
+        "description": "A recurring idea among weapon designers is the \"gun that does everything\". The result is usually bulky and unpractical, which this iteration doesn't avoid being, although its use of plasma solves the problem of needing different ammo types along with all the knock-on effects that come with it.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Laser Carbine",
         "fullname": "",
         "ammo": "Cells",
@@ -2584,7 +2644,7 @@ export default [
         "description": "A railgun firing borderline magical resonating atomic particles that cause magnetic sonic booms at regular intervals; in short, it turns its ballistic trajectory into a line of explosives.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Ricochet Rifle",
@@ -2596,10 +2656,10 @@ export default [
         "notes" : "",
         "superior" : "Bouncing projectiles target enemies.",
         "durability": false,
-        "description": "Concentrating plasma into a dense orb has the neat side effect of stabilizing it enough to cause it to bounce a couple of times before dispersing. Always comes with a target prediction system due the frequent friendly fire incidents such a weapon causes.",
+        "description": "Concentrating plasma into a dense orb has the neat side effect of stabilizing it enough to make it bounce a couple of times before dispersing. Always comes with a target prediction system due the frequent friendly fire incidents such a weapon causes.",
         "authorsnotes": "Not a novel concept, but this particular design was inspired by the one in Endless War 3. Superior is based on the BTSX shotgun in Final Doomer.",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Eraser",
@@ -2752,6 +2812,51 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Magitech Rifle",
+        "fullname": "",
+        "ammo": "Mana x2",
+        "category": "Magic",
+        "primary" : "Energy bolt",
+        "secondary" : "N/A",
+        "notes" : "Requires a Virtus Magitech Implant.",
+        "superior" : "Faster rate of fire, lower ammo cost and laser projectiles.",
+        "durability": false,
+        "description": "The VMI was a revolution, allowing anyone to tap into their limitless well of magical essence and turn it into energy. Naturally, an entire family of weapons was developed to take advantage of the new tech, the rifle iteration being the most conventional out of the bunch.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Magitech Shotgun",
+        "fullname": "",
+        "ammo": "Mana x8",
+        "category": "Magic",
+        "primary" : "Energy spreadshot x4",
+        "secondary" : "N/A",
+        "notes" : "Requires a Virtus Magitech Implant.",
+        "superior" : "Ammo cost lowered and projectiles per shot increased to 6.",
+        "durability": false,
+        "description": "Not exactly the flashiest of shotguns you've seen, preferring a steady stream of projectiles over a flashy one-and-done kind of deal. Perfect for those with weak shoulders and lousy weapon operating techniques.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Magitech Railgun",
+        "fullname": "",
+        "ammo": "Mana x20",
+        "category": "Magic",
+        "primary" : "Energy railshot",
+        "secondary" : "N/A",
+        "notes" : "Requires a Virtus Magitech Implant.",
+        "superior" : "Halved damage. Now fires a burst of 3 at 5 ammo per shot.",
+        "durability": false,
+        "description": "A Plasma Railgun repurposed with VMI tech in mind, greatly increasing mana efficiency at the cost of no longer being compatible with standardized energy cells. Statistically identical to the original in every way besides that.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Xionic S4 - \"Aeroblade\"",
         "fullname": "",
         "ammo": "Cells x6",
@@ -2764,7 +2869,7 @@ export default [
         "description": "Resembling a sheathed katana, the Aeroblade is a machine capable of launching pressurized air that can cut through light armor up to a distance of 50 meters.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic C4 - \"Arctic Empress\"",
@@ -2779,7 +2884,7 @@ export default [
         "description": "Heavy weapon designed for instantly freezing large heaps of organic matter that would be too dangerous to deal with at close range. The high mass of the weapon also makes it a good bludgeon option for clearing the leftover ice statues.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Auto Railgun",
@@ -2915,7 +3020,7 @@ export default [
         "description": "An otherworldly rifle that pierces right through physical armor and directly damage the target's soul. Fortunately, the weapon's definition is broad enough to include essentially anything, alive or dead.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hell Repeater",
@@ -3080,7 +3185,7 @@ export default [
         "description": "The BFG line of weapons definitely caught the attention of hell's armed forces, and thus they joined the arms race by fielding their own version to make their elite forces even deadlier.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Frostfire Destroyer",
@@ -3095,7 +3200,7 @@ export default [
         "description": "A variant of the demonic superweapon that defies traditional elemental classification by firing explosive projectiles of fire and ice. Demon magic is a hell of a thing.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Chemfire Destroyer",
@@ -3110,7 +3215,7 @@ export default [
         "description": "Industrial-scale chemical warfare device firing flaming bombs that spread vitriolic gas melting all it makes contact with. As the chemical compound doesn't discriminate, this weapon is distributed sparsely to limit the amount of accidental friendly fire.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Shadowfire Destroyer",
@@ -3125,7 +3230,7 @@ export default [
         "description": "The next step in the ever accelerating arms race between humanity and hellkind. The kind of fire this weapon outputs burns ever more vividly when souls enter the mix, which means it can burn straight through most common armor types.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -3138,7 +3243,7 @@ export default [
         "notes" : "",
         "superior" : "Projectile explodes on impact, hitting every demon within its line of sight.",
         "durability": false,
-        "description": "The premier autologism-based weapon. Fires a massive ball of plasma followed an obscenely damaging burst of residual energy, strong enough to obliterate even the mightiest of adversaries. Oh yes!",
+        "description": "Oh yes! The premier autologism-based weapon. Fires a massive ball of plasma followed an obscenely damaging burst of residual energy, strong enough to obliterate even the mightiest of adversaries.",
         "authorsnotes": "",
         "designnotes": "I added a bit of M41A pulse rifle to give the silhouette some more definition. Otherwise it's a pretty by-the-books BFG.",
         "newstatus": 0
@@ -3174,6 +3279,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "BFG 12000",
+        "fullname": "",
+        "ammo": "Cells x50",
+        "category": "Superweapon",
+        "primary" : "Plasma spreadshot x20",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Also fires the BFG 9000's energy burst.",
+        "durability": false,
+        "description": "The 9k is already half-shotgun, so why not go all the way? The \"12 Grand\" is even more powerful than its older brother, but needs to vent a lot of heat after each shot and absolutely sucks at engagement ranges that aren't \"right in your face\".",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Devastator",
         "fullname": "",
         "ammo": "Cells x60",
@@ -3201,7 +3321,7 @@ export default [
         "description": "A weapon capable of turning any environment into a frozen wasteland at the pull of a trigger, its projectiles radiates intense cold and sprays icicles everywhere. Also nicknamed the \"Big Fucking Freezer\" despite not sharing that branch of the family tree.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Tele-frag",
@@ -3336,7 +3456,7 @@ export default [
         "description": "Become the war machine you've always yearned to be with the MACs, supplementing your favorite flavor of mayhem - crunchy or melty - with explosive self-propelled toppings.",
         "authorsnotes": "Yet another Commando 2 rip.",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "The Beast",
@@ -3366,7 +3486,7 @@ export default [
         "description": "A minigun with 3 concentric sets of rotating barrels, firing corrosive bullets in case 60 shots per second isn't enough to vaporize the target. Its internal magazine is large enough to hold sustained fire for an entire hour.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Megalaser",
@@ -3399,21 +3519,21 @@ export default [
         "designnotes": "It has a pin and looks like a grenade.",
         "newstatus": 0
     },
-    // {
-    //     "name": "Heavy Grenade",
-    //     "fullname": "",
-    //     "ammo": "Grenades x2",
-    //     "category": "Grenade",
-    //     "primary" : "Throw",
-    //     "secondary" : "N/A",
-    //     "notes" : "",
-    //     "superior" : "",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Heavy Grenade",
+        "fullname": "",
+        "ammo": "Grenades x2",
+        "category": "Grenade",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Deals significant impact damage.",
+        "durability": false,
+        "description": "The humble grenade, fatter and meaner. Lacks the smart-detonation feature its lighter brother has, which prevents it from exploding on contact with a valid target.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Nail Grenade",
         "fullname": "",
@@ -3474,21 +3594,21 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Proximity Grenade",
-    //     "fullname": "",
-    //     "ammo": "Grenades",
-    //     "category": "Grenade",
-    //     "primary" : "Throw",
-    //     "secondary" : "N/A",
-    //     "notes" : "",
-    //     "superior" : "",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Proximity Grenade",
+        "fullname": "",
+        "ammo": "Grenades",
+        "category": "Grenade",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Sticks to walls.",
+        "superior" : "Also creates a column of fire upon detonating.",
+        "durability": false,
+        "description": "A land mine with better aerodynamics, perfect for setting up traps from a distance. Has an awful reputation due to a bug in the software of early models that made them not show up on friendly HUDs, causing a whole slew of premature detonations - and retirements.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Cryo Grenade",
         "fullname": "",
@@ -3503,6 +3623,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "⑨-bang",
+        "fullname": "",
+        "ammo": "Grenades x6",
+        "category": "Grenade",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Explodes 9 consecutive times.",
+        "superior" : "Each explosion spreads icicles in all directions.",
+        "durability": false,
+        "description": "Experimental upgrade to the Cryo Grenade using similar tech to a special variant of flashbang which releases (as its name implies) nine consecutive flashes and bangs. Tends to be overkill for most situations and a bit of a joke because of that.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Tesla Field Generator",
@@ -3893,7 +4028,7 @@ export default [
         "description": "Turns out you really can heal yourself by hurting others. Only syphons metaphorical blood, because injecting yourself with hell juice just sounds outright awful.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Void Crush",
@@ -4178,7 +4313,7 @@ export default [
         "description": "I am being watched by eyes filled with evil intent. I want to run but cannot get my body to move. I try to close my eyes but I can still see them. I do not know how long I've been trying to wake up, but I promise I will never sleep again.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Spirit of Damocles",
@@ -4208,7 +4343,7 @@ export default [
         "description": "A hallowed weapon that fires powerful piercing shooting stars at a high rate of fire. Destroys crowds with ease, but expensive to sustain fire with.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Voodoo Doll",
@@ -4482,6 +4617,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Self Defense Pistol",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Disposable",
+        "primary" : "Volley x4",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A four-barreled derringer-style pistol, small enough to fit in your pocket. The puny barrel length, overstuffed ammunition and lack of single-barrel firing makes this only ideal in very close-quarters situations such as getting grabbed by a big bad brute.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Pocket Big Bang",
         "fullname": "",
         "ammo": "N/A",
@@ -4494,7 +4644,7 @@ export default [
         "description": "A teeny pistol firing a tiny yet devastating unstable energy payload. Fire, get into cover, and if anything survive it probably means you shouldn't be shooting at it.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Liberator",
@@ -4506,10 +4656,25 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "Nothing says freedom more than 8 shotgun barrels surrounding a grenade launcher. Intended as a cheap, mass-producible gun able to be airdropped en masse to civilians in occupied territory.",
+        "description": "Nothing says freedom more than 8 shotgun barrels and a grenade launcher. Intended as a cheap, mass-producible gun able to be airdropped en masse to civilians in occupied territory.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Mounted .50 cal",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Disposable",
+        "primary" : "Auto-fire",
+        "secondary" : "Mount",
+        "notes" : "Mounting removes recoil and shields you from most projectiles.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A classic heavy machinegun with a full box of fifties, a ballistic shield, and a chainsaw-style grip for big enough men to run and gun with. The heavy weight manages to keep the recoil in check, but using the tripod is recommended if you want any kind of accuracy.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Lucky 13",
@@ -4525,6 +4690,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Revenant Missile System",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Disposable",
+        "primary" : "Slow homing missiles x2",
+        "secondary" : "Fast straight missiles x2",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "A pair of missile launchers ripped straight off those boney bastards. Although the ammunition is fueled by a limited quantity of demon magic, the rest of the system is powered by good old electricity, making it trivial to repurpose into usable weaponry.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Anti-Tank Launcher",
@@ -4626,10 +4806,10 @@ export default [
         "notes" : "",
         "superior" : "N/A",
         "durability": false,
-        "description": "A piece of parchment on which text of an unknown language is written. The magically attuned are able to recite its contents before releasing a huge amount of fiery energy from their hand. The scroll is disintegrated in the process.",
+        "description": "A powerful pyromancy trick that unleashes a massive barrage of fireballs out of the caster's hand. One of the more popular scrolls due to its incredible power to simplicity ratio.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Monster Downgrade Scroll",
@@ -4677,6 +4857,51 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Ragnarok Scroll",
+        "fullname": "",
+        "ammo": "Mana x50",
+        "category": "Disposable",
+        "primary" : "Cast",
+        "secondary" : "N/A",
+        "notes" : "Rains down massive swords around your location.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "An epic battle invocation that rains down a full arsenal of calamity. A favorite among sword enthusiasts.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Black Sulfur Scroll",
+        "fullname": "",
+        "ammo": "Mana x50",
+        "category": "Disposable",
+        "primary" : "Mega Blast",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Another human skin scroll with a single sigil written on it, representing the alchemical element of brimstone. No demon you know of has the capability of firing a massive blood laser out of their mouth, makes you wonder who this kind of spell could be for.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Fantasy Spellcard - \"The Seal That Guards the Heavens\"",
+        "fullname": "",
+        "ammo": "Spirit x50",
+        "category": "Disposable",
+        "primary" : "Cast",
+        "secondary" : "N/A",
+        "notes" : "Summons a barrage of colorful homing explosive projectiles.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "The signature spell of the supposed founder of the entire spellcard system. Although it was designed with a different kind of dark entities in mind, it is just as devastating to the demons you're familiar with.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Rift Spellcard - \"300-ton Bullet on Tracks\"",
         "fullname": "",
         "ammo": "Spirit x50",
@@ -4686,10 +4911,25 @@ export default [
         "notes" : "Summons a speeding train that barrels through the opposition.",
         "superior" : "N/A",
         "durability": false,
-        "description": "A spell that is all pain all train. The speeding vehicle seems to come from some sort of dimensional rift full of eyes.",
+        "description": "A spell that opens a rift to an unnerving dimension full of watching eyes, out of which comes a massive hunk of metal on wheels and into which it returns after the carnage is done.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Legendary Spellcard - \"Wings of a Forgotten Demon Deity\"",
+        "fullname": "",
+        "ammo": "Spirit x50",
+        "category": "Disposable",
+        "primary" : "Cast",
+        "secondary" : "N/A",
+        "notes" : "Sends a barrage of bullets and lasers.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Pretty simple but impressive display of raw might, with three pairs of purple wings sprouting out of the caster to unleash devastation. The origin of this particular card is perplexing, as the titular god seems to have vanished long before spellcards were conceived. ",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Golden Gun",
@@ -4779,7 +5019,7 @@ export default [
         "description": "Shotgun with an internal plasma generator, infusing pellets with a light amount of plasma that give them bouncing capabilities. Lower-powered ammunition is required for the system to work properly.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Buzzer SMG",
@@ -4856,21 +5096,6 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Heavy Bowgun",
-    //     "fullname": "",
-    //     "ammo": "Multi-Purpose Tech-Arrows",
-    //     "category": "Unique",
-    //     "primary" : "Explosive bolt",
-    //     "secondary" : "Mine bolt",
-    //     "notes" : "",
-    //     "superior" : "",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
     {
         "name": "Predator Bow",
         "fullname": "",
@@ -4885,6 +5110,21 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Heavy Bowgun",
+        "fullname": "",
+        "ammo": "Multi-Purpose Tech-Arrows",
+        "category": "Unique",
+        "primary" : "Explosive bolt",
+        "secondary" : "Mine bolt",
+        "notes" : "",
+        "superior" : "Enemies caught in the explosion are temporarily stunned and take increased melee damage and knockback.",
+        "durability": false,
+        "description": "Embody your inner femme fatale with an elegant yet deadly explosive crossbow. The MPTA's are especially useful due to providing both offensive and defensive options with minimal impact to inventory space.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Grenade Rifle",
@@ -5049,7 +5289,7 @@ export default [
         "description": "Essentially a Plasma Carbine with significantly lower-tech ammunition. Later models would forgo the liquid fuel ammunition in favor of more advanced cell-based systems.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Flamethrower",
@@ -5097,6 +5337,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Firestriker",
+        "fullname": "",
+        "ammo": "Fuel x25",
+        "category": "Unique",
+        "primary" : "Firestrike comet",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Projectile burns nearby enemies as it travels, and creates a fire vortex on impact.",
+        "durability": true,
+        "description": "Massive flame cannon that operates oddly similarly to the demon-made Volcanus, with the biggest distinction besides ammunition being the higher velocity and better aerodynamics of the projectile. Never left the prototype phase due to durability issues.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Dynamo Gun",
         "fullname": "",
         "ammo": "N/A",
@@ -5124,7 +5379,7 @@ export default [
         "description": "Highly experimental device that, when linked with a compatible armor set, uses the user's blood to generate a highly lethal barrage of missiles. Repeated usage seems to lower the user's IQ, but limited data left the research inconclusive.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic S3 - \"Nightstar\"",
@@ -5139,7 +5394,7 @@ export default [
         "description": "Windmill throwing star weighing a little under 4kg, embedded with nanotechnology that grants it homing and returning capabilities. Its predecessor was discontinued due to its sawblade shape causing too many accidents.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic SX - \"Red Fang\"",
@@ -5154,7 +5409,7 @@ export default [
         "description": "Dual-bladed sword with an advanced capacitor that uses the collected blood of its victims to generate a blade that can reach up to 10 meters long.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Giga-Volt",
@@ -5324,10 +5579,10 @@ export default [
             "Shots travel faster and explode on impact.",
             "Fires bursts automatically. Increased firing speed."],
         "durability": false,
-        "description": "Advanced energy-based handgun powered by red energy cores. Designed 12 years ago by the mind behind all the nonsense you've been reading on this website.",
+        "description": "Advanced plasmatic handgun manufactured by the Flash-Zero corporation. Despite managing to output much higher firepower than current generation plasma guns in a much more compact package, this little marvel of technology's design documents somehow date back to the very early 21th century.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Tesseract",
@@ -5342,10 +5597,10 @@ export default [
             "Unlocks a new attack, firing 16 projectiles in a square shape, costing 32 mana. Increased attack speed.",
             "Unlocks a new attack, firing 16 projectiles in a square shape with infinite piercing, costing 128 mana. Increased attack speed."],
         "durability": false,
-        "description": "Incredibly magically potent four-dimensional cube. At this point, who cares about how many laws of physics this breaks?",
+        "description": "Incredibly magically potent four-dimensional cube. God knows how this thing came to be in our universe, or how our universe even manages to let four-dimensional objects exist.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Soul Cube",
@@ -5780,6 +6035,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Gold & Freddy",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Bite of '93",
+        "secondary" : "Markiplier jumpscare",
+        "notes" : "Jumpscared enemies are temporarily stunned and take more damage to the frontal lobe.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "Ok the first map is never usually that bad in any of the wads so i'll play through- AHHH FUCK",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Electric Toothbrush",
         "fullname": "",
         "ammo": "N/A",
@@ -5867,7 +6137,7 @@ export default [
         "description": "It's powerful",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "H4XX0R GUN",
@@ -5912,7 +6182,7 @@ export default [
         "description": "Yeah keep shoving more of them in there",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "3: Machine gun (dual wield)",
@@ -6032,7 +6302,7 @@ export default [
         "description": "Return of Braiiiinnnnnnssssss!!!",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Krotchy Bombs",
@@ -6049,36 +6319,36 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Barrel Toss",
-    //     "fullname": "",
-    //     "ammo": "N/A",
-    //     "category": "Meme",
-    //     "primary" : "Toss",
-    //     "secondary" : "N/A",
-    //     "notes" : "",
-    //     "superior" : "N/A",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Broat Grenades",
-    //     "fullname": "",
-    //     "ammo": "N/A",
-    //     "category": "Meme",
-    //     "primary" : "Throw",
-    //     "secondary" : "N/A",
-    //     "notes" : "",
-    //     "superior" : "N/A",
-    //     "durability": false,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Barrel Toss",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Toss",
+        "secondary" : "N/A",
+        "notes" : "Can be any barrel, with the rare addition of BFG, Devastator, Danmaku, Nazi, Kamikaze (Revenant variant), Kamikaze (Serious variant), Nerve Agent, Legendary, Black Hole and Nuclear barrels.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "No randomizer is complete without a panoply of ridiculous and overtuned barrel variants.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Broat Grenades",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Meme",
+        "primary" : "Throw",
+        "secondary" : "N/A",
+        "notes" : "Fly around and spit fireballs. Release wicked spirits on death.",
+        "superior" : "N/A",
+        "durability": false,
+        "description": "It's the Broat!! Hell yeah!!!!!",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "A bunch of bullshit",
         "fullname": "",

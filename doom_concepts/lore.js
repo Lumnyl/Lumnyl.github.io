@@ -121,4 +121,45 @@ export default [
         "newstatus": 0
     },
 
+    {
+        "subject": "Scrolls",
+        "category": "Weapon Types",
+        "description": "Pieces of parchment on which text of an unknown language is written. The magically attuned are able to recite its contents by entering a trance and unleash the powerful spell inscribed on the paper. The scroll is disintegrated in the process.",
+        "newstatus": 1
+    },
+    {
+        "subject": "Spellcards",
+        "category": "Weapon Types",
+        "description": "Spellcards are similar to scrolls in concept, but differ in that the spell contained is attuned to the original creator. They seem to originate from a different realm parallel to our own, whose geographic location roughly coincide with Japan. Normally, it would be impossible to use someone else's spells, but channeling enough energy attunes the caster to the creator's spiritual signature.",
+        "newstatus": 1
+    },
+
+    // Belphegor
+    {
+        "subject": "The Blood Ocean",
+        "category": "Locations",
+        "description": "An endless expanse of red liquid that reeks of iron and is inhabited by horrors you'll be thankful to never ever meet. Because this is Hell, the blood has mutagenic properties that irreversibly alters any kind of matter that comes into contact, be it organic of mineral. As a consequence, travel is nearly impossible as vessels tend to take a life of their own, and any shore that borders it has this gross, fleshy appearance.",
+        "newstatus": 1
+    },
+    // Leviathan
+    {
+        "subject": "The Abyss",
+        "category": "Locations",
+        "description": "Buried deep beneath the Blood Ocean is a place infinitely more hostile, where light dares not venture and the horrors are inimaginable. The Abyss is a cemetery for titanic atrocities whose slumber is only perpetuated by the cadavers sinking from above and the omnipresent cursed ethereal energy. Hardly anything comes out of the Abyss, but the few that do are plagued by an indescribable insanity whose sole purpose is to destroy.",
+        "newstatus": 1
+    },
+    // Beelzebub
+    {
+        "subject": "The Gardens of Rot",
+        "category": "Locations",
+        "description": "A putrescent jungle colored with flora that does not want you to live and fauna that does not want you to die only so they can sustain themselves on your flesh and blood. The Gardens are full of parasitic lifeforms tirelessly feeding off of and feeding into this masquerade impersonating a cycle of life. If they weren't so humid, the amount of decomposing matter in the air would cause any open flame to wipe this affront to nature off the face of the land in an instant.",
+        "newstatus": 1
+    },
+    {
+        "subject": "The Wolfenstein Megafortress",
+        "category": "Locations",
+        "description": "An immense complex designed for all things a militaristic authoritarian regime needs : weapons manufacturing, soldier training and enhancing, large scale geological resource exploitation, unethical biological research, cloning endless supplies of manpower, and omnipresent ideological reinforcement. It is nearly always invaded by the local population looking to reclaim their land and uses that as an excuse to expand its footprint even further, but it's not like diplomacy has any kind of importance in this cursed place now, hasn't it?",
+        "newstatus": 1
+    },
+
 ]

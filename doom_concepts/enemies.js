@@ -3,7 +3,7 @@ export default [
         "name": "Pistol Zombie",
         "category": "Zombieman",
         "species": "Zombie",
-        "description": "Simple security guards with semi-automatic Pistols. Usually not a threat on their own, but can sneak in a shot or two if you're not careful.",
+        "description": "Simple security guards with very lacking firepower. Usually not a threat on their own, but can sneak in a shot or two if you're not careful.",
         "details": [
             "Attacks with a Pistol.",
         ],
@@ -13,7 +13,7 @@ export default [
         "name": "Zombie Scientist",
         "category": "Zombieman",
         "species": "Zombie",
-        "description": "UAC researchers carrying Plasma Pistols for self-defense. They hit harder than regular pistols .",
+        "description": "UAC researchers carrying Plasma Pistols for self-defense. They hit harder than regular pistols but lack in velocity.",
         "details": [
             "Attacks with a Plasma Pistol.",
         ],
@@ -47,7 +47,7 @@ export default [
         "description": "A dangerous cocktail of lack of rational thought and high explosives. No concept of friendly fire or danger close.",
         "details": [
             "Attacks with a Rocket Launcher.",
-            "Will usually kill itself with splash damage.",
+            "Will usually kill himself with splash damage.",
         ],
         "newstatus": 0
     },
@@ -55,12 +55,13 @@ export default [
         "name": "HEP Agent",
         "category": "Zombieman",
         "species": "Zombie",
-        "description": "Augmented supersoldier with the ability to dodge out of the way of gunfire. Has an SMG for close encounters and a Magnum for long range engagements.",
+        "description": "Augmented supersoldier with a focus on agility, always seen wearing a business suit and sunglasses. They use a variety of submachine-guns, but always carry a Magnum as their sidearm of choice.",
         "details": [
             "Attacks with an SMG at close range and with a Magnum at long range.",
+            "Sometimes comes with a Heavy SMG, Spec-ops SMG or PDW instead.",
             "High movement speed and capable of dodging out of the way of gunfire.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Shotgun Zombie",
@@ -76,7 +77,7 @@ export default [
         "name": "Slug Shotgunner",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Female officer with a Rifled Shotgun. While slugs are easier to dodge than buckshot, they also hit hard and remain lethal even at range.",
+        "description": "Female officer with a Rifled Shotgun. While slugs are easier to dodge than buckshot, they hit hard and remain lethal even at range.",
         "details": [
             "Attacks with a Rifled Shotgun.",
         ],
@@ -119,19 +120,19 @@ export default [
         "name": "HEP Engineer",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Specialist of indirect combat, using grenades, land mines and automated turrets. Defends himself with a Terminator Shotgun if the need arises.",
+        "description": "Augmented supersoldier with a focus on tactics, always seen wearing a specialized face mask. Prefers indirect combat over direct engagements, but nevertheless dangerous if cornered.",
         "details": [
             "Attacks with a Terminator Shotgun.",
             "Prefers staying out of combat and throwing grenades, land mines and automated turrets.",
             "Mines and turrets can be destroyed.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Assault Rifle Zombie",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Lightly armored zombie wielding an automatic rifle. High damage output, especially in groups.",
+        "description": "Frontline unit with a standard-issue rifle. High damage output, especially in groups.",
         "details": [
             "Attacks with an Assault Rifle.",
             "Keeps firing until line of sight is broken.",
@@ -142,13 +143,13 @@ export default [
         "name": "Chaingunner",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Bulky commando with a Rotary Chaingun. Inaccurate but with an extremely high volume of fire.",
+        "description": "Bulky commando and king of suppressive fire. They lack in accuracy but flinging enough lead still has a good enough chance of hitting bullseyes.",
         "details": [
             "Attacks with a Rotary Chaingun.",
             "Much higher rate of fire than the Assault Rifle, at the cost of accuracy.",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Nailgunner",
@@ -166,13 +167,13 @@ export default [
         "name": "Plasma Gunner",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Plasma Carbine-wielding soldiers, firing short bursts of high temperature plasma. The suit they wear also gives them some protection against plasma weaponry.",
+        "description": "Elite soldiers with powerful plasma weaponry. They are trained to fire in bursts, but will happily hold down the trigger if they feel it necessary.",
         "details": [
             "Attacks with a Plasma Carbine.",
             "Fires in bursts or continuously until line of sight is broken.",
-            "Their suit grants them resistance against plasma weaponry.",
+            "His suit grants them resistance against plasma weaponry.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "BFG Commando",
@@ -181,7 +182,7 @@ export default [
         "description": "Highly trained commando who has proven himself worthy of carrying the almighty BFG 9000. No need to remind you how dangerous this thing is.",
         "details": [
             "Attacks with a BFG 9000!",
-            "Their suit grants them resistance against plasma weaponry.",
+            "His suit grants them resistance against plasma weaponry.",
         ],
         "newstatus": 0
     },
@@ -189,21 +190,21 @@ export default [
         "name": "HEP Vanguard",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "HEP trooper with a shield and a Heavy Metal automatic pistol. The shield offers near absolute protection, but can be stunned momentarily with sufficient firepower.",
+        "description": "Augmented supersoldier with a focus on defense, always seen carrying a bulletproof shield. Nearly impossible to fight head-on without large enough weaponry.",
         "details": [
             "Attacks with a Heavy Metal",
-            "Can pull up a shield to block against attacks, but enough firepower is able to make them falter.",
+            "Uses his shield to block against attacks, but enough firepower is able to make him falter.",
             "Take advantage of infighting to attack them from behind!",
             "Resistant against ballistic and explosive damage.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
         "name": "Imp",
         "category": "Imp",
         "species": "Imp",
-        "description": "The most common demon type and adepts at lobbing fireballs. What they lack in strength they make up in numbers.",
+        "description": "The cannon fodder of Hell's legions. What they lack in strength they make up in numbers.",
         "details": [
             "Throws fireballs",
             "Scratches you at close range.",
@@ -214,7 +215,7 @@ export default [
         "name": "Dark Imp",
         "category": "Imp",
         "species": "Imp",
-        "description": "Imp infused with the power of darkness. His fireballs are both stronger and faster.",
+        "description": "Imp infused with the power of darkness. Slightly more dangerous but still a pushover.",
         "details": [
             "Throws dark fireballs, which are stronger and faster.",
             "Scratches you at close range.",
@@ -225,7 +226,7 @@ export default [
         "name": "Cyber Imp",
         "category": "Imp",
         "species": "Imp",
-        "description": "What it says on the tin. Has one mechanical arm that can supplement his fireballs with bursts of plasma bolts.",
+        "description": "What it says on the tin. Has one mechanical arm that can supplement his fireballs with plasma-based attacks.",
         "details": [
             "Throws fireballs",
             "Can fire bursts of plasma bolts.",
@@ -237,32 +238,32 @@ export default [
         "name": "Pyro Imp",
         "category": "Imp",
         "species": "Imp",
-        "description": "Red spiky imp that can throw flurries of fireballs or concentrate their magic into an explosive bolt.",
+        "description": "Red spiky imp who spent enough time around fire to get infused by it. Still not too hard to kill, but dangerous if not taken seriously.",
         "details": [
             "Throws fireballs in flurries of 3.",
             "Can charge to throw an explosive comet.",
             "Scratches you at close range.",
             "Resistant to fire."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Devil",
         "category": "Imp",
         "species": "Imp",
-        "description": "Twitchy son of a bitch prioritizing volume over power when it comes to throwing fire. Capable of dashing away from danger.",
+        "description": "Twitchy son of a bitch who lacks the finesse to aim accurately and thus prioritizes quantity to compensate.",
         "details": [
             "Throws spreads of 3 mini fireballs, in flurries of 4.",
             "Scratches you at close range.",
             "Capable of dodging out of the way of gunfire.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Harvester",
         "category": "Imp",
         "species": "Imp",
-        "description": "Barely alive husk of an imp in charge of capturing human souls. Its attacks bypass armor and hits your soul directly.",
+        "description": "Barely alive husk of an imp in charge of capturing human souls. Has taken the lives of many overconfident soldiers who thought invincible behind their armor.",
         "lore": "",
         "details": [
             "Throws harvester balls with slight homing capabilities.",
@@ -270,7 +271,7 @@ export default [
             "Their ranged attacks ignore all armor!",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Pinky",
@@ -286,23 +287,23 @@ export default [
         "name": "Bull Fiend",
         "category": "Pinky",
         "species": "Fiend",
-        "description": "One-eye horned Fiend prone to outbursts of rage, sometimes heard growling before charging at top speed towards their target. Their cyclopic eye is a good metaphor for their tunnel vision.",
+        "description": "One-eye horned Fiend prone to outbursts of rage, charging head first into whatever ticked them off. Their cyclopic eye is a good metaphor for their tunnel vision.",
         "details": [
             "Bites you at close range.",
             "Growls before charging at top speed.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Blood Fiend",
         "category": "Pinky",
         "species": "Fiend",
-        "description": "Blood red Fiends with salivary glands that produce a blood-like, toxic substance they can spit in the face of danger.",
+        "description": "Fiends mutated by the Blood Ocean, colored in an intense red tint and using their saliva as a chemical ranged attack.",
         "details": [
             "Bites you at close range.",
             "Spits a spread of toxic blood at a distance.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Mech Fiend",
@@ -319,25 +320,24 @@ export default [
         "name": "Carrion",
         "category": "Pinky",
         "species": "Fiend",
-        "description": "Carrier of rot and disease. Its bite is infectious and it leaves a nasty plague cloud on death.",
-        "lore": "",
+        "description": "A product of the Gardens of Rot. Their bite is nastier than a komodo dragon's, and they keep spreading disease even in death due to the high amount of decomposition gas in their digestive tract.",
         "details": [
             "Bites you at close range, which inflicts poison.",
             "Leaves a lingering plague cloud on death.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Mauler",
         "category": "Pinky",
         "species": "Fiend",
-        "description": "If Fiends were capable of forming social groups, these gray menaces would be the alphas. Their charges are quick and send things flying on impact.",
+        "description": "If Fiends were capable of forming social groups, these gray menaces would be the alphas. Their head is denser in more ways than one and are more than happy to engage in headbutting contests with other demons.",
         "details": [
             "Mauls you at close range.",
             "Capable of leaping to close the distance.",
             "Growls before charging at top speed, which knocks you back.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Spectre",
@@ -1017,7 +1017,7 @@ export default [
             "Resurrects nearby non-boss enemies.",
             "Infights easily.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Exile",
@@ -1031,7 +1031,7 @@ export default [
             "Resurrects nearby non-boss enemies.",
             "Infights easily.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Summoner",
@@ -1043,7 +1043,7 @@ export default [
             "Summons squads of basic enemies.",
             "Infights easily.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Diabolist",
@@ -1057,7 +1057,7 @@ export default [
             "Turns basic enemies into a dark counterpart.",
             "Infights easily.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Illusionist",
@@ -1071,7 +1071,7 @@ export default [
             "Resurrected enemies become partially invisible.",
             "Infights easily.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Infernalist",
@@ -1086,7 +1086,7 @@ export default [
             "Resurrected enemies explode on death!",
             "Infights easily.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Cyberdemon",
@@ -1104,7 +1104,7 @@ export default [
         "name": "Tyrant",
         "category": "Cyberdemon",
         "species": "Tyrant",
-        "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. They throw spreads and bursts of fireballs and while they are easy coerced into damaging other monsters, they will almost always come out on top.",
+        "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. While they are easy coerced into damaging other monsters, they will almost always come out on top.",
         "details": [
             "Shotguns fireballs in volleys of three.",
             "Infights easily.",
@@ -1180,20 +1180,24 @@ export default [
         "name": "Sentient",
         "category": "Spiderdemon",
         "species": "Sentient",
-        "description": "Masterminds without the clunk and metal. Surprisingly nimble, they attack with rapid streams of plasma and can dodge out of the way of incoming projectiles.",
+        "description": "Masterminds without the clunk and metal. Surprisingly nimble despite their size.",
         "details": [
-
+            "Flying.",
+            "Attacks with bursts of plasma bolts.",
+            "Capable of dodging out of the way of gunfire.",
+            "Infights easily.",
+            "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Arachnophyte",
         "category": "Spiderdemon",
         "species": "Sentient",
-        "description": "Mastermind with rocket boosters in place of legs, trading its minigun for a rapid-fire plasma cannon.",
+        "description": "Mastermind with rocket boosters in place of legs, trading its ballistic weaponry for a plasmatic one.",
         "details": [
             "Flying.",
-            "Attacks with a heavy plasma cannon.",
+            "Attacks with a plasma minigun.",
             "Infights easily.",
             "Immune against splash damage."
         ],
@@ -1222,9 +1226,10 @@ export default [
             "Throws dark magic balls that create a lingering area of effect on impact.",
             "Can create a shield around itself that absorbs damage.",
             "Use rapid-fire or multi-shot weapons to get rid of the shield.",
+            "Infights easily.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Megatank",
@@ -1235,11 +1240,13 @@ export default [
             "Constantly moves.",
             "Attacks with two heavy miniguns",
             "Can load up to fire a cannon barrage.",
+            "Comes equipped with the mighty Megalaser!",
             "Be careful to not get run over!",
             "Resistant against ballistic weapons.",
+            "Infights easily.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
@@ -1320,7 +1327,7 @@ export default [
         "details": [
             "Explodes when destroyed.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Fuel Barrel",
@@ -1331,7 +1338,7 @@ export default [
             "Explodes and spreads fire when destroyed.",
             "Interacting with a Fuel-based weapon out will siphon the fuel out of the barrel.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Gas Barrel",
@@ -1342,7 +1349,7 @@ export default [
             "Leaks flaming gas when hit, damaging the barrel over time.",
             "Explodes when destroyed.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Ammunition Barrel",
@@ -1353,7 +1360,7 @@ export default [
             "Explodes when destroyed.",
             "Interacting will drop a few random ammo pickups.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Biohazard Barrel",
@@ -1364,7 +1371,7 @@ export default [
             "Explodes and spreads toxic viscera when destroyed.",
             "Interacting with a Blood-based weapon will siphon the contents and give you ammunition.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Plasma Barrel",
@@ -1374,7 +1381,7 @@ export default [
         "details": [
             "Explodes violently when destroyed.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -1384,6 +1391,7 @@ export default [
         "description": "Why would an angel try to stop you on your crusade against the great evils? Have you been misguided from the start? Or maybe you got tricked into thinking you were? Some demons are capable of disguising themselves as beings of light after all.",
         "details": [
             "A greater being looks down on you with malicious intent.",
+            "https://youtu.be/GBVhvEXtcy4",
             "Flying.",
             "Sends feathers of light.",
             "Sends slashing projectiles of light.",
@@ -1402,6 +1410,7 @@ export default [
         "description": "The most dangerous man in the state of Nevada. Once killed an entire building's worth of security agents over some pie. A prodigy in all forms of combat. All of this was before his integration into the HEP. Unfortunately met his end somewhere during the demonic invasion, and is now being brought back to life again and again to serve his new employers.",
         "details": [
             "An agent of madness is coming. Do what comes natural.",
+            "https://youtu.be/GXoFd6tnhnQ",
             "Will dodge out of the way of almost any attack. Evading drains stamina, which regenerates over time. Taking a set amount of damage regenerates a chunk of stamina.",
             "Melee hits drain the most stamina.",
             "Alternates between swords and guns.",
@@ -1410,6 +1419,6 @@ export default [
             "Has a chance to resurrect on death, increasing with repeated encounters.",
             "Heavily resistant against splash damage.",
         ],
-        "newstatus": 1
+        "newstatus": 2
     },
 ]
