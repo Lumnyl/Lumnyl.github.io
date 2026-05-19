@@ -178,7 +178,7 @@ function generate_loadout() {
         final_weapon_list = [...temp]
     }
 
-    if (keep_starter) {
+    if (keep_starter && selected_class != 0) {
         for (weapon of final_weapon_list) {
             if (weapon.name == player_classes[selected_class - 1][2]) {
                 loadout.add(weapon)
@@ -202,7 +202,7 @@ function generate_loadout() {
         }
     }
 
-    if (more_class_weapons) {
+    if (more_class_weapons && selected_class != 0) {
         var class_weapons = []
         for (weapon of final_weapon_list) {
             // console.log(weapon.name, weapon.tags.includes(player_classes[selected_class - 1][0]))
