@@ -117,6 +117,7 @@ const lore_categ_list = [
     "Enemy Types",
     "Weapon Types",
     "Locations",
+    "Princes of Hell",
 ]
 
 const quicknotesweapons = `<li>Melee weapons all deal double damage when under the effect of Berserk unless stated otherwise.</li>

@@ -426,6 +426,42 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Hollywood Sphere",
+        "type": "Supercharge",
+        "category": "Healing",
+        "effect": "Saves you from death once. Grants 100 health and 10 seconds of invincibility and infinite ammo after use.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Rebirth Sphere",
+        "type": "Supercharge",
+        "category": "Healing",
+        "effect": "Saves you from death once. Grants 100 health and health regeneration that lasts until you reach +100 overheal.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Lazarus Sphere",
+        "type": "Supercharge",
+        "category": "Healing",
+        "effect": "Saves you from death once. Grants the effects of an Ultra Sphere.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Phoenix Sphere",
         "type": "Supercharge",
         "category": "Healing",
@@ -499,6 +535,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Black Ops Reinforced Vest",
+        "type": "Security Armor",
+        "category": "Armor",
+        "effect": "150 armor. 20% protection. 50% global resistance.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Xionic Shinobi Armor \"Xero\"",
         "type": "Security Armor",
         "category": "Armor",
@@ -533,6 +581,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Cobalt Superalloy Armor",
+        "type": "Combat Armor",
+        "category": "Armor",
+        "effect": "300 armor. 65% protection. 50% plasma resistance.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "EOD Armored Suit",
@@ -1174,7 +1234,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Illusion Sphere",
@@ -1186,7 +1246,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Invisibility Sphere",
@@ -1198,7 +1258,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Damage Sphere",
@@ -1234,7 +1294,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Weapon Sphere",
@@ -1426,7 +1486,20 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
+    },
+
+    {
+        "name": "War Sphere",
+        "type": "Harbinger Sphere",
+        "category": "Powerup",
+        "effect": "Grants you the Serious Cannon for 45 seconds. Picking up another copy of the sphere upgrades it, granting you the Seriously Big Cannon instead.",
+        "notes": "Usable once per level.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
 
     {
@@ -1662,7 +1735,7 @@ export default [
         "name": "Contract with Baphomet",
         "type": "Contract",
         "category": "Rare Drop",
-        "effect": "Having over 66% of a specific ammo type increases damage dealt by all weapons using that ammo type.",
+        "effect": "Having over 66% of a specific ammo type increases damage dealt with all weapons using that ammo type.",
         "notes": "No effect on weapons with infinite ammo. Dropped by Baron of Hell variants.",
         "carriable": 1,
         "description": "",
@@ -1692,14 +1765,14 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 1
+    //     "newstatus": 0
     // },
     {
         "name": "Contract with Belphegor",
         "type": "Contract",
         "category": "Rare Drop",
         "effect": "Double damage while standing still.",
-        "notes": "Dropped by Arachnotron variants.",
+        "notes": "Dropped by Cerebral variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1711,7 +1784,7 @@ export default [
         "type": "Contract",
         "category": "Rare Drop",
         "effect": "The lower your health, the faster you attack.",
-        "notes": "Dropped by Spiderdemon variants.",
+        "notes": "Dropped by Sentient variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1735,7 +1808,7 @@ export default [
         "type": "Contract",
         "category": "Rare Drop",
         "effect": "Increased damage while at max health.",
-        "notes": "Dropped by Cyberdemon variants.",
+        "notes": "Dropped by Tyrant variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1950,6 +2023,54 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Supply Strongbox",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Grants you some random supplies.",
+        "notes": "",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Red Supply Strongbox",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Grants you a random powerful weapon.",
+        "notes": "Can only opened if you have a red keycard in your inventory.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Blue Supply Strongbox",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Grants you a random powerful armor.",
+        "notes": "Can only opened if you have a blue keycard in your inventory.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Yellow Supply Strongbox",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Grants you a random assortment of high-quality ammunition.",
+        "notes": "Can only opened if you have a yellow keycard in your inventory.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
         "newstatus": 1
     },
     {
@@ -1998,7 +2119,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Gourd of the Drunk Oni",
@@ -2010,7 +2131,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ammo Recycler",
@@ -2130,7 +2251,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Quickdraw Holster",
@@ -2262,7 +2383,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Power UP!!",

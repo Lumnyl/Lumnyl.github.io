@@ -26,7 +26,7 @@ export default [
     {
         "subject": "Darkness",
         "category": "Concepts",
-        "description": "Darkness is the name of an omnipresent force which promises great power to those willing to accept it within them. Demons under the influence of Darkness are typically more dangerous, and are recognizable by their pitch-black skin, green blood and green magic. Darkness cannot inhabit humans on its own, as their soul gets in the way, and so tries to infect their minds with dark thoughts in an attempt in securing a host for itself.",
+        "description": "Darkness is the name of an omnipresent force which promises great power to those willing to accept it within them. Demons under the influence of Darkness are typically more dangerous, and are recognizable by their pitch-black skin, green blood and green magic. Darkness cannot inhabit humans as their soul acts as a barrier, but it is capable of speaking directly to their mind.",
         "newstatus": 0
     },
     {
@@ -75,8 +75,8 @@ export default [
     {
         "subject": "Cerebrals",
         "category": "Enemy Types",
-        "description": "Cerebrals are brain-shaped demons capable of levitation, but you would probably never guess that on first sight as they are rarely seen without their mechanical chassis. Sloth being their capital sins, they tend to not use much of their gray matter and are easily coerced into doing others' biddings.",
-        "newstatus": 0
+        "description": "Cerebrals are capable of levitation, but you would probably never guess that on first sight as they are rarely seen without their mechanical chassis. Their physical form is created from a process not too dissimilar from cellular growth, and compatible spirits merely inhabit the flesh after it has done maturing. Sloth being their capital sins, they tend to not use much of their gray matter and are easily coerced into doing others' biddings.",
+        "newstatus": 2
     },
     {
         "subject": "Cacodemons",
@@ -111,8 +111,14 @@ export default [
     {
         "subject": "Sentients",
         "category": "Enemy Types",
-        "description": "Sentients embody the sin of Envy, which is the feeling of discontentment caused by the success of others. They are fond of manipulating others and are in charge of hell technology and cyberization, and resent Superdemons for getting respect and glory by just being big dumb brutes with unmatched power. It is unknown why they are so similar to Cerebrals despite coming from two different sins.",
-        "newstatus": 0
+        "description": "Sentients are Cerebrals possessed by a spirit of Envy rather than Sloth. Seeing themselves as just some second-rate clone, they resent their cohorts - especially Tyrants - for being pure-blooded \"true\" demons, not realizing the immense amount of power they possess. Because of this, they enjoy manipulating other to do their bidding, ironically by using their power as mere intimidation tools as they are unable to see it as anything more than that.",
+        "newstatus": 2
+    },
+    {
+        "subject": "Harbingers",
+        "category": "Enemy Types",
+        "description": "Artificial constructs planned to bring apocalypse to Earth. Your recent rampaging has caused Hell to deploy them prematurely, because surely a single human won't be able to stand against something that's supposed to wipe out civilizations, right?",
+        "newstatus": 1
     },
     {
         "subject": "Nazis",
@@ -125,41 +131,142 @@ export default [
         "subject": "Scrolls",
         "category": "Weapon Types",
         "description": "Pieces of parchment on which text of an unknown language is written. The magically attuned are able to recite its contents by entering a trance and unleash the powerful spell inscribed on the paper. The scroll is disintegrated in the process.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "subject": "Spellcards",
         "category": "Weapon Types",
         "description": "Spellcards are similar to scrolls in concept, but differ in that the spell contained is attuned to the original creator. They seem to originate from a different realm parallel to our own, whose geographic location roughly coincide with Japan. Normally, it would be impossible to use someone else's spells, but channeling enough energy attunes the caster to the creator's spiritual signature.",
-        "newstatus": 1
+        "newstatus": 0
     },
 
-    // Belphegor
     {
         "subject": "The Blood Ocean",
         "category": "Locations",
         "description": "An endless expanse of red liquid that reeks of iron and is inhabited by horrors you'll be thankful to never ever meet. Because this is Hell, the blood has mutagenic properties that irreversibly alters any kind of matter that comes into contact, be it organic of mineral. As a consequence, travel is nearly impossible as vessels tend to take a life of their own, and any shore that borders it has this gross, fleshy appearance.",
-        "newstatus": 1
+        "newstatus": 0
     },
-    // Leviathan
     {
         "subject": "The Abyss",
         "category": "Locations",
         "description": "Buried deep beneath the Blood Ocean is a place infinitely more hostile, where light dares not venture and the horrors are inimaginable. The Abyss is a cemetery for titanic atrocities whose slumber is only perpetuated by the cadavers sinking from above and the omnipresent cursed ethereal energy. Hardly anything comes out of the Abyss, but the few that do are plagued by an indescribable insanity whose sole purpose is to destroy.",
-        "newstatus": 1
+        "newstatus": 0
     },
-    // Beelzebub
     {
         "subject": "The Gardens of Rot",
         "category": "Locations",
         "description": "A putrescent jungle colored with flora that does not want you to live and fauna that does not want you to die only so they can sustain themselves on your flesh and blood. The Gardens are full of parasitic lifeforms tirelessly feeding off of and feeding into this masquerade impersonating a cycle of life. If they weren't so humid, the amount of decomposing matter in the air would cause any open flame to wipe this affront to nature off the face of the land in an instant.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "subject": "The Wolfenstein Megafortress",
         "category": "Locations",
         "description": "An immense complex designed for all things a militaristic authoritarian regime needs : weapons manufacturing, soldier training and enhancing, large scale geological resource exploitation, unethical biological research, cloning endless supplies of manpower, and omnipresent ideological reinforcement. It is nearly always invaded by the local population looking to reclaim their land and uses that as an excuse to expand its footprint even further, but it's not like diplomacy has any kind of importance in this cursed place now, hasn't it?",
+        "newstatus": 0
+    },
+
+    // {
+    //     "subject": "Belial",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Satan",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Baal",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Paimon",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    {
+        "subject": "Beelzebub",
+        "category": "Princes of Hell",
+        "description": "Beelzebub is what happens when you scale Tarrarre to the size of a barn. Entire species are bred and farmed for the sole purpose of filling his stomach, and he plans to add humans to that list. His gut is home to an entire ecosystem of decaying organic matter that spread to what is now known as the Gardens of Rot. His musk can be smelled from miles away, and is able to outright kill anything that isn't adjusted to living in such toxic environments.",
         "newstatus": 1
     },
+    {
+        "subject": "Belphegor",
+        "category": "Princes of Hell",
+        "description": "Belphegor is not one to flaunt his power over others. Looking at the evolution of life on Earth, he created his own version of life in the Blood Ocean, hoping that one day it would create the perfect organism for him to inhabit. However his work was sloppy and lacked rigor, so the evolutionary process wasn't able to yield significant results. Not wanting to start from scratch again, he agreed to let himself and his children put into the cyberization process, promising to pay his share once his perfect soldiers are born.",
+        "newstatus": 1
+    },
+    // {
+    //     "subject": "Aamon",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Moloch",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Mammon",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Baphomet",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    {
+        "subject": "Azazel",
+        "category": "Princes of Hell",
+        "description": "Creator of the ethereal force known as the Darkness, Azazel is more fond of sewing discord than commanding legions of demons. He is notably the one who crafted the plan to kick out the first humans out of Eden. He offers forbidden knowledge of witchcraft and necromancy, building cults that provide him offerings and sacrifices in return.",
+        "newstatus": 1
+    },
+    // {
+    //     "subject": "Lucifer",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    {
+        "subject": "Leviathan",
+        "category": "Princes of Hell",
+        "description": "Not much is known about Leviathan. He's not particularly well known as a demonic entity, and people tend to see him as just another sea cryptid; even Hell seems to pay not much attention to him. He notices this. He resents the fear and respect that his peers garner. He hates them. He despises them. He has been festering in his own hatred for ages, lurking in the deepest parts of the Abyss near the influence of chthonic beings far greater in power than anything on the surface. But he does not see this source of inimaginable power, because he does not allow himself to see it, because he only looks at those he sees above him with Envy.",
+        "newstatus": 1
+    },
+
+    // {
+    //     "subject": "Asmodeus",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Astaroth",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Lilith",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
+    // {
+    //     "subject": "Naberius",
+    //     "category": "Princes of Hell",
+    //     "description": "",
+    //     "newstatus": 5
+    // },
 
 ]

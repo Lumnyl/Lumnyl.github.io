@@ -30,15 +30,15 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Handcannon Zombie",
+        "name": "Sniper Zombie",
         "category": "Zombieman",
         "species": "Zombie",
-        "description": "A fervent defender of the saying \"bigger is better\". Watch for the laser sight if you don't wanna get domed.",
+        "description": "A specialist of taking out important targets from afar. Watch for the laser sight if you don't wanna get domed.",
         "details": [
-            "Attacks with a Handcannon.",
+            "Attacks with a Sniper Rifle.",
             "Takes some time to aim before firing. Watch for the laser sight!",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Zombie Rocketeer",
@@ -61,7 +61,7 @@ export default [
             "Sometimes comes with a Heavy SMG, Spec-ops SMG or PDW instead.",
             "High movement speed and capable of dodging out of the way of gunfire.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Shotgun Zombie",
@@ -126,7 +126,7 @@ export default [
             "Prefers staying out of combat and throwing grenades, land mines and automated turrets.",
             "Mines and turrets can be destroyed.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Assault Rifle Zombie",
@@ -149,7 +149,7 @@ export default [
             "Much higher rate of fire than the Assault Rifle, at the cost of accuracy.",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Nailgunner",
@@ -171,9 +171,9 @@ export default [
         "details": [
             "Attacks with a Plasma Carbine.",
             "Fires in bursts or continuously until line of sight is broken.",
-            "His suit grants them resistance against plasma weaponry.",
+            "His suit grants him resistance against plasma weaponry.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "BFG Commando",
@@ -182,7 +182,7 @@ export default [
         "description": "Highly trained commando who has proven himself worthy of carrying the almighty BFG 9000. No need to remind you how dangerous this thing is.",
         "details": [
             "Attacks with a BFG 9000!",
-            "His suit grants them resistance against plasma weaponry.",
+            "His suit grants him resistance against plasma weaponry.",
         ],
         "newstatus": 0
     },
@@ -192,7 +192,8 @@ export default [
         "species": "Zombie",
         "description": "Augmented supersoldier with a focus on defense, always seen carrying a bulletproof shield. Nearly impossible to fight head-on without large enough weaponry.",
         "details": [
-            "Attacks with a Heavy Metal",
+            "Attacks with a Heavy Metal.",
+            "Attacks with a Handcannon at long ranges. Watch for the laser sight!",
             "Uses his shield to block against attacks, but enough firepower is able to make him falter.",
             "Take advantage of infighting to attack them from behind!",
             "Resistant against ballistic and explosive damage.",
@@ -245,7 +246,7 @@ export default [
             "Scratches you at close range.",
             "Resistant to fire."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Devil",
@@ -257,13 +258,13 @@ export default [
             "Scratches you at close range.",
             "Capable of dodging out of the way of gunfire.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Harvester",
         "category": "Imp",
         "species": "Imp",
-        "description": "Barely alive husk of an imp in charge of capturing human souls. Has taken the lives of many overconfident soldiers who thought invincible behind their armor.",
+        "description": "Barely alive husk of an imp in charge of capturing human souls. Has taken the lives of many overconfident soldiers who thought were invincible behind their armor.",
         "lore": "",
         "details": [
             "Throws harvester balls with slight homing capabilities.",
@@ -271,7 +272,7 @@ export default [
             "Their ranged attacks ignore all armor!",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Pinky",
@@ -292,7 +293,7 @@ export default [
             "Bites you at close range.",
             "Growls before charging at top speed.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Blood Fiend",
@@ -303,7 +304,7 @@ export default [
             "Bites you at close range.",
             "Spits a spread of toxic blood at a distance.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Mech Fiend",
@@ -320,12 +321,12 @@ export default [
         "name": "Carrion",
         "category": "Pinky",
         "species": "Fiend",
-        "description": "A product of the Gardens of Rot. Their bite is nastier than a komodo dragon's, and they keep spreading disease even in death due to the high amount of decomposition gas in their digestive tract.",
+        "description": "A perpetually undead product of the Gardens of Rot. Their bite is nastier than a komodo dragon's, and they keep spreading disease even in death due to the high amount of decomposition gas in their digestive tract.",
         "details": [
             "Bites you at close range, which inflicts poison.",
             "Leaves a lingering plague cloud on death.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Mauler",
@@ -337,7 +338,7 @@ export default [
             "Capable of leaping to close the distance.",
             "Growls before charging at top speed, which knocks you back.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Spectre",
@@ -415,35 +416,35 @@ export default [
         "name": "Lost Soul",
         "category": "Lost Soul",
         "species": "Lost Soul",
-        "description": "Flying flaming skull. Relentlessly charges at you and makes using explosive weapons a disaster waiting to happen.",
+        "description": "Flying flaming skull burning with the pain of an unfortunate victim of soul stealing. Attacking them with explosive weapons is a disaster waiting to happen.",
         "details": [
             "Flying.",
             "Launches itself at you.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Forgotten One",
         "category": "Lost Soul",
         "species": "Lost Soul",
-        "description": "Flying flaming skull that has been burning for a long, long time. They charge more often and are able to track their target mid-flight.",
+        "description": "Flying flaming skull that has been burning for a long, long time, hardening its boney shell and breaking the spirit trapped inside.",
         "details": [
             "Flying.",
             "Launches itself at you, with slight homing capabilities.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Phantom",
         "category": "Lost Soul",
         "species": "Lost Soul",
-        "description": "A soul that has absorbed the Darkness's power. They charge quicker and explode after death and a small delay.",
+        "description": "A soul that has absorbed the Darkness's power. Their explosive demise makes them a nightmare to remove from sensitive environments.",
         "details": [
             "Flying.",
             "Launches itself at you.",
             "Explodes on death.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Terror",
@@ -461,51 +462,51 @@ export default [
         "name": "Drone",
         "category": "Lost Soul",
         "species": "Lost Soul",
-        "description": "Soul trapped inside a mechanical skull instead of a cartilaginous one. Resists small arms fire and can fire lasers at you.",
+        "description": "Soul trapped inside a mechanical skull instead of a cartilaginous one, using its burning energy as a source of power.",
         "details": [
             "Flying.",
             "Launches itself at you.",
-            "Fire lasers",
+            "Fire lasers.",
             "Resistant against ballistic weapons.",
-
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Plasma Drone",
         "category": "Lost Soul",
         "species": "Lost Soul",
-        "description": "Upgraded Drone, firing spreads of plasma instead of lasers. They explode on death and initiate a kamikaze attack at low health.",
+        "description": "Drone upgraded with an unstable plasmatic core. They are also programed with the nasty explosive tendencies of both Phantoms and Terrors.",
         "details": [
             "Flying.",
-            "Fire plasma shots.",
+            "Fires plasma shots.",
             "Launches itself with a kamikaze attack upon reaching low health.",
+            "Detonates itself on death, causing a plasma explosion.",
             "Resistant against ballistic weapons.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
         "name": "Revenant",
         "category": "Revenant",
         "species": "Revenant",
-        "description": "Tall armored skeleton with two shoulder cannons. Fires both dumb and guided missiles and goes for a beatdown when he gets close.",
+        "description": "Tall armored skeleton recycled from the remains of the dead. Their missiles are not hard to dodge but heavily punish moments of absentmindedness. They always try to go for a beatdown when they get the chance and as such can be kited harmlessly as long as you don't hurt them.",
         "details": [
-            "Fires dumb and homing missiles in pairs of two.",
+            "Fires either dumb or homing missiles.",
             "Punches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Carcass",
         "category": "Revenant",
         "species": "Revenant",
-        "description": "Tall unarmored skeleton without the shoulder cannons. Able to close the distance very quickly if left unattended.",
+        "description": "A Revenant that left the factory too early. The lack of armor does make it easier on their joints.",
         "details": [
             "Punches you at close range.",
             "Very quick, but light on armor.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Kamikaze",
@@ -518,185 +519,183 @@ export default [
             "Flinches on any damage taken.",
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Fire Husk",
         "category": "Revenant",
         "species": "Revenant",
-        "description": "Fire-based Revenant with a hand-held fire cannon. Fires charged fireballs at a distance and sprays flames at close range. Self-destructs when at low health.",
+        "description": "Automated mobile fire hazard. Keep your distance and make sure you're loaded with enough ammo to kill, you don't want to see how much damage they can do by blowing themselves up.",
         "details": [
             "Charges, then fires a high velocity explosive fireball.",
             "Attacks with a spray of fire at close range.",
             "Charges with a kamikaze attack upon reaching low health.",
+            "Resistant against fire."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Sentry",
         "category": "Revenant",
         "species": "Revenant",
-        "description": "Upgraded skeleton with additional armor, rapid-fire rocket launchers and dual-wield auto-shotguns. Individual shots are fairly weak but it's the volume of fire you should be wary of.",
+        "description": "Turns out that shambling masses of bones don't last too long in a fight. Sentries are an attempt at solving this issue with full-metal armor plates and improved firepower.",
         "details": [
             "Rapid-fires mini-rockets.",
             "Uses auto-shotguns at close range."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
-        "name": "Legionary",
+        "name": "Sentinel",
         "category": "Revenant",
         "species": "Revenant",
-        "description": "War machine on legs, with cluster bombs, high-explosive rockets, even a chaingun with explosive ammo. They aren't blast-resistant, so skillful movement can get them to blow themselves up.",
+        "description": "Push a Sentry's offensive and defensive capabilities to the extreme and you got yourself a Sentinel. Bringing an explosive-resistant set of armor is borderline necessary.",
         "details": [
             "Fires high explosive rockets.",
             "Charges, then fires a cluster bomb.",
-            "Spins up an explosive chaingun.",
-            "Prone to damaging themselves with their own weapons."
+            "Spins up an explosive chaingun."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Mancubus",
         "category": "Mancubus",
         "species": "Mancubus",
-        "description": "Fat sack of lard with two flame cannons for arms. Shoots in a sweeping pattern, making dodging more difficult.",
+        "description": "Bipedal mobile incendiary artillery with plenty of blubber to soften the blows of bullets. Both their large stature and lackadaisical attitude towards accuracy gets them into more fights than they can managed.",
         "details": [
             "Fires spreads of two fireballs in volleys of three.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Hectebus",
         "category": "Mancubus",
         "species": "Mancubus",
-        "description": "Fatsos who have embraced the Darkness into them. Their attacks are punctuated by explosive blasts. They also get hungry quicker.",
+        "description": "Dark-skinned fatso well-fed on dark energy. They are meaner, tougher, and get hungry faster.",
         "details": [
-            "Fires spreads of two dark fireballs in volleys of two, then a spread of two explosive blasts.",
+            "Fires two volleys of dark fireballs, then two explosive blasts.",
         ],
-        "newstatus": 0
-    },
-    {
-        "name": "Daedabus",
-        "category": "Mancubus",
-        "species": "Mancubus",
-        "description": "Less fire, more explosives. Lobs grenades, rains mortar shells, and sprays volleys of scrap.",
-        "details": [
-            "Fires spreads of two grenades.",
-            "Fires a volley of mortar shells at longer ranges.",
-            "Fires spreads of scrap at close range.",
-        ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Mafibus",
         "category": "Mancubus",
         "species": "Mancubus",
-        "description": "Red-skinned Mancubus with upgraded cannons capable of rapid fire. Sprays fire when in close proximity.",
+        "description": "Mancubus with a bright red coloration that boldly exclaims its elemental affinity. Eats and spits fire for breakfast, lunch and dinner.",
         "details": [
-            "Rapid-fires volleys of fireballs.",
+            "Fires spreads of four fireballs in volleys of three.",
             "Attacks with a spray of fire at close range.",
             "Resistant against fire."
         ],
-        "newstatus": 0
+        "newstatus": 2
+    },
+    {
+        "name": "Daedabus",
+        "category": "Mancubus",
+        "species": "Mancubus",
+        "description": "Why bother with accuracy when you got explosives? It also has the uncanny ability of actually trying to avoid blowing up meat shields in front of it.",
+        "details": [
+            "Fires three volleys of grenades.",
+            "Fires mortar shells when demons are in the way.",
+            "Fires spreads of scrap at close range.",
+        ],
+        "newstatus": 2
     },
     {
         "name": "Corpulent",
         "category": "Mancubus",
         "species": "Mancubus",
-        "description": "Ancient, wicked and powerful. Their fireballs are explosive and spread flames everywhere.",
+        "description": "Ancient, wicked and powerful. Their flame cannons are much more powerful than regular ones due to being crafted with magically potent materials.",
         "details": [
-            "Fires spreads of two explosive fireballs in volleys of two.",
-            "Can fire spreads of four explosive fireballs at a time.",
-            "Fireballs explode into lingering fire."
+            "Fires two volleys of fireballs that explode into lingering fire.",
+            "Attacks with a spray of fire at close range.",
+            "Can charge to fire a Volcanus shot."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Tankubus",
         "category": "Mancubus",
         "species": "Mancubus",
-        "description": "Half Daedabus, half motorized vehicle, half array of cannons, machine-guns and rocket launchers.",
+        "description": "Even the demons got mobility scooters, except theirs come with a full arsenal bundled in. Treat like you would any other motorized armored vehicle.",
         "details": [
             "Constantly moves.",
-            "Fires spreads of two rockets.",
-            "Fires a cannonball at longer range.",
-            "Can fire with machine-guns."
+            "Attacks with dual chainguns.",
+            "Fires barrages of rockets.",
+            "Fires a cannonball at longer range."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Arachnotron",
         "category": "Arachnotron",
         "species": "Cerebral",
-        "description": "Brain on four mechanical legs. Continuously lays down suppressive fire with its plasma cannon.",
+        "description": "Brain on four mechanical legs with a plasma-shooting appendage. Often seen around Mancubi for some reason.",
         "details": [
             "Continuously fires its plasma cannon.",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Cerebral",
         "category": "Arachnotron",
         "species": "Cerebral",
-        "description": "Arachnotron minus the mechanical legs. They fly around firing bursts of plasma and sometimes break free after their cyber-anchors get destroyed.",
+        "description": "Arachnotron minus the mechanical legs. They lazily float around occasionally throwing plasma as things that bother them.",
         "details": [
             "Flying.",
-            "Fires bursts of plasma bolts",
+            "Fires bursts of inaccurate plasma bolts",
             "Sometimes spawn after killing Arachnotrons."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Fusion Arachnotron",
         "category": "Arachnotron",
         "species": "Cerebral",
-        "description": "Arachnotron with a fusion repeater, spraying slow projectiles over a wide area. With this volume of fire, who needs accuracy?",
+        "description": "Regular Arachnotron kit except for the massive strawberry-flavored plasma dispenser. Usually ends up hitting too many wrong targets and getting beaten up for it.",
         "details": [
-            "Continuously fires its Fusion Repeater.",
+            "Continuously rapid-fires large sweeps of slow moving fusion plasma.",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Arachnotron Mk2",
         "category": "Arachnotron",
         "species": "Cerebral",
-        "description": "Upgraded Arachnotron with double the firepower and extra armor. A charging sound up close usually signifies a dozen of plasma bolts coming in a single blast.",
+        "description": "Upgraded Arachnotron with double the firepower and extra armor. If you hear them charging up, it means a brutal surprise is coming.",
         "details": [
-            "Continuously fires two plasma cannons.",
+            "Continuously fires two plasma cannons trying to predict the target's movement.",
             "Keeps firing until line of sight is broken.",
             "Can charge to fire a spread of plasma bolts.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Arachknight",
         "category": "Arachnotron",
         "species": "Cerebral",
-        "description": "Lightweight Arachnotron with superior mobility allowing them to chase their targets. Their plasma weapons are able to recycle excess heat into energy, which can be used to temporarily increase their firepower.",
+        "description": "Is to Arachnotrons what Corpulents are to Mancubi. Unlike other models, these ones are particularly mobile and aggressive due to their magically enhanced lightweight frames.",
         "details": [
-            "Continuously fires its plasma cannon.",
-            "Keeps firing until line of sight is broken.",
-            "Overcharges its plasma cannon for a short time after enough accumulated heat.",
+            "Fires rapid bursts of homing plasma.",
+            "Has heat batteries that charge as it fires. Once enough heat is accumulated, it can overcharge its weapon to fire a continuous stream of more powerful projectiles.",
             "Capable of hopping to chase its target."
-
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Scorpiotron",
         "category": "Arachnotron",
         "species": "Cerebral",
-        "description": "Shaped like the spider's tailed cousin, it has a chassis made of high-durability allow, a stinger equipped with a railgun, plasma grenades, and the ability to fire an explosive plasma ball after some charge time.",
+        "description": "Heavy duty unit with titanium plating and a tail-mounted heavy cannon. If it were a ship, it would be a destroyer.",
         "details": [
-            "Aims before firing a plasma railgun shot.",
-            "Can fire to fire a powerful explosive plasma shot.",
+            "Continuously fires a slow explosive plasma cannon.",
+            "Attacks with a plasma railgun at long ranges. Watch for the targeting laser!",
             "Launches volleys of plasma grenades at close range.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
@@ -1015,7 +1014,7 @@ export default [
             "Attacks with a spell that blinds you with fire before blasting you upwards.",
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
-            "Infights easily.",
+            "Quick to retaliate.",
         ],
         "newstatus": 0
     },
@@ -1029,7 +1028,7 @@ export default [
             "Spell can be dodged by being out of sight when it strikes.",
             "Can teleport away from danger.",
             "Resurrects nearby non-boss enemies.",
-            "Infights easily.",
+            "Quick to retaliate.",
         ],
         "newstatus": 0
     },
@@ -1041,7 +1040,7 @@ export default [
         "details": [
             "Flying.",
             "Summons squads of basic enemies.",
-            "Infights easily.",
+            "Quick to retaliate.",
         ],
         "newstatus": 0
     },
@@ -1055,7 +1054,7 @@ export default [
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Turns basic enemies into a dark counterpart.",
-            "Infights easily.",
+            "Quick to retaliate.",
         ],
         "newstatus": 0
     },
@@ -1069,7 +1068,7 @@ export default [
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Resurrected enemies become partially invisible.",
-            "Infights easily.",
+            "Quick to retaliate.",
         ],
         "newstatus": 0
     },
@@ -1084,7 +1083,7 @@ export default [
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Resurrected enemies explode on death!",
-            "Infights easily.",
+            "Quick to retaliate.",
         ],
         "newstatus": 0
     },
@@ -1095,7 +1094,7 @@ export default [
         "description": "Tyrant meets cybernetic rocket launcher. A formidable ally should you manage to trick demons into fighting it, but avoid those rockets at all costs if you plan on staying alive.",
         "details": [
             "Fires rockets in volleys of three.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1107,7 +1106,7 @@ export default [
         "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. While they are easy coerced into damaging other monsters, they will almost always come out on top.",
         "details": [
             "Shotguns fireballs in volleys of three.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1119,7 +1118,7 @@ export default [
         "description": "Why stop at just one cybernetic rocket launcher? Not like that other hand was doing much anyway.",
         "details": [
             "Fires rockets in rapid volleys of six.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1133,6 +1132,7 @@ export default [
             "Throws explosive fireballs at range.",
             "Stomps the ground, damaging anything nearby.",
             "Can charge a bull rush, dealing insane amounts of damage and knockback.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1146,6 +1146,7 @@ export default [
             "Attacks with a Flak Cannon at range, using both shrapnel and mortar firemodes.",
             "Swings a massive chainsaw at close range.",
             "Can charge a chainsaw rush, dealing insane amounts of damage and plowing through enemies.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1159,7 +1160,7 @@ export default [
             "Flying",
             "Fires rockets in volleys of three while strafing.",
             "Can load up a homing darkfire missile.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1171,7 +1172,7 @@ export default [
         "description": "An upscaled Arachnotron, sporting a heavy minigun. Has trouble moving in tight spaces, but devastating in open areas.",
         "details": [
             "Attacks with a heavy minigun.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1185,10 +1186,10 @@ export default [
             "Flying.",
             "Attacks with bursts of plasma bolts.",
             "Capable of dodging out of the way of gunfire.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Arachnophyte",
@@ -1198,7 +1199,7 @@ export default [
         "details": [
             "Flying.",
             "Attacks with a plasma minigun.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1211,7 +1212,7 @@ export default [
         "details": [
             "Attacks with two heavy miniguns.",
             "Can fire volleys of rockets.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
         "newstatus": 0
@@ -1226,10 +1227,10 @@ export default [
             "Throws dark magic balls that create a lingering area of effect on impact.",
             "Can create a shield around itself that absorbs damage.",
             "Use rapid-fire or multi-shot weapons to get rid of the shield.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Megatank",
@@ -1243,10 +1244,10 @@ export default [
             "Comes equipped with the mighty Megalaser!",
             "Be careful to not get run over!",
             "Resistant against ballistic weapons.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -1326,6 +1327,7 @@ export default [
         "description": "A barrel of chemical waste, scattered around most UAC research facilities.",
         "details": [
             "Explodes when destroyed.",
+            "Interacting with a Nukage-based weapon out will siphon the nukage out of the barrel.",
         ],
         "newstatus": 0
     },
@@ -1369,7 +1371,7 @@ export default [
         "description": "Decomposing organic matter. Highly explosive due to trapped flammable gases.",
         "details": [
             "Explodes and spreads toxic viscera when destroyed.",
-            "Interacting with a Blood-based weapon will siphon the contents and give you ammunition.",
+            "Interacting with a Blood-based weapon out will siphon the contents and give you ammunition.",
         ],
         "newstatus": 0
     },
@@ -1398,10 +1400,10 @@ export default [
             "Can charge a light laser attack, trying to predict your movements.",
             "Can cast a barrage of smiting lasers from the sky.",
             "Attacks with sword dashes at close range.",
-            "Infights easily.",
+            "Quick to retaliate.",
             "Drops Fury of the Archangel on defeat."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "HEP Killing Machine",
@@ -1414,11 +1416,158 @@ export default [
             "Will dodge out of the way of almost any attack. Evading drains stamina, which regenerates over time. Taking a set amount of damage regenerates a chunk of stamina.",
             "Melee hits drain the most stamina.",
             "Alternates between swords and guns.",
-            "Reflects bullets while in sword mode.",
+            "Blocks bullets while in sword mode. Reflects bullets in subsequent encounters.",
             "Repeated encounters increase the size of his arsenal. (Machete + Auto-Pistol -> Katana + Punisher Rifle -> Dragon Swords + Dual \"Depredation\" Machine-pistols)",
             "Has a chance to resurrect on death, increasing with repeated encounters.",
             "Heavily resistant against splash damage.",
+            "Drops his weapons on defeat."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
+    // {
+    //     "name": "Mad Hitman",
+    //     "category": "Pursuer",
+    //     "species": "Zombie",
+    //     "description": "Former scientist with an intense hatred for the Killing Machine for destroying his lab, all research data included. Ended up working many jobs such as DJ, train conductor, clown, and of course, gun for hire. Somehow managed to keep his sanity even in undeath, though who knows how long it will take until he really snaps.",
+    //     "details": [
+    //         "Warning : High amounts of improbability detected in the area.",
+    //         "https://youtu.be/Hk6Ml_wc80U",
+    //         "Flies with a jetpack.",
+    //         "Uses evasive maneuvers when under heavy fire.",
+    //         "Attacks with an MMG.",
+    //         "Tries to whack you with a street sign at close range, with heavy knockback!",
+    //         "Has a chance to revive after death, with disastrous consequences."
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "MAD HITMAN",
+    //     "category": "Pursuer",
+    //     "species": "Zombie",
+    //     "description": "WARNING. DANGER. REALITY COMPROMISED. THE CLOWN HAS BEEN ENGAGED.",
+    //     "details": [
+    //         "YOU DO NOT KILL CLOWN. CLOWN KILLS YOU.",
+    //         "https://youtu.be/nsBM6dT6lyQ",
+    //         "Revived form of the Mad Hitman.",
+    //         "Extremely erratic movement.",
+    //         "Attacks with a street sign, with heavy knockback!",
+    //         "Capable of jumping high to reach his target.",
+    //         "Can jump underground, then charges with his street sign, barreling through anything in the way.",
+    //         "Can jump underground to teleport to his target if it is out of reach for a significant amount of time.",
+    //         "Has a chance to revive after death with reduced health."
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Harbinger of Pestilence - Miasma",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "Infection. Disease. Rot.",
+    //     "details": [
+    //         "A sickly fever encompasses your entire being.",
+    //         "",
+    //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
+    {
+        "name": "Harbinger of War - Ares",
+        "category": "Pursuer",
+        "species": "Harbinger",
+        "description": "Militarism. Conflict. Desolation. Ares is the embodiment of the one single constant throughout human history. His strength lies in his singular focus : being the most destructive force there could ever be. If there is a problem that cannot be solved with a big enough arsenal, he hasn't found it. Be the one that he never solves.",
+        "details": [
+            "The distant horns of war shake your very core.",
+            "https://www.youtube.com/watch?v=UhHZUmYu7Uo",
+            "Attacks with a variety of weapons : Spreader Shotgun, Rotary Chaingun, Rocket Launcher, Grenade Launcher, Laser Bolter, Flamethrower, Serious Cannon.",
+            "Carries an upgraded arsenal in subsequent encounters : Jackhammer, Minigun, HMS Launcher, Sub-munitions Launcher, Laser Cannon, Ice Thrower, Seriously Big Cannon.",
+            "Summons a mob of Kamikazes on defeat, which increases in size with each subsequent encounters.",
+            "Drops four of his weapons on defeat, except the Serious Cannon and Seriously Big Cannon.",
+            "Drops a War Sphere on defeat."
+        ],
+        "newstatus": 1
+    },
+    // {
+    //     "name": "Harbinger of Famine - Limos",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "Scarcity. Starvation. Dread. Limos is more patient and strategically-minded than her comrades, opting for targeting supplies of food and ammunition and watching the opposition succumb to panic as they realize their inevitable death. Everywhere she goes, fields turn into sand, trees turn into ash, lakes turn into salt, livestock turns into bones, and humans turn into cannibalistic savages. She has yet to meet a man with enough vitality to walk. Make her wish to never meet one ever again.",
+    //     "details": [
+    //         "An unnatural hunger begins draining your strength.",
+    //         "",
+    //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Harbinger of Death - Thanatos",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "Cold. Thanatos sees death as just the logical endpoint of all life, the sacrifice of an individual to ensure the survival of the status quo. Animals die to feed the soil. Cells die to avoid carcinogenesis. Extending one's life is to spit in the face of nature. He is the immune system of existence, fighting against a disease that has made the earth theirs, that has blasphemed against the whole concept of life. He is the lord's judgment born from fruit of Man's hubris. Destroying worlds is his duty, his penance, his whole reason to be. It is righteous. It is moral. It is necessary. Make him practice what he preaches.",
+    //     "details": [
+    //         "Visions of your life flash before your eyes.",
+    //         "https://www.youtube.com/watch?v=rl7-ogH4ioc",
+    //         "Attacks with the Scythe at close range. Getting hit will instantly kill you!"
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Harbinger of Conquest - Zelus",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Harbinger of Bloodshed - Kratos",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "Barbary.",
+    //     "details": [
+    //         "",
+    //         "",
+    //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Harbinger of Slavery - Douleia",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Harbinger of Genocide - Ioke",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Harbinger of Disaster - Symphora",
+    //     "category": "Pursuer",
+    //     "species": "Harbinger",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
 ]
