@@ -1422,7 +1422,7 @@ export default [
         "notes" : "Requires reloading, which throws the weapons like grenades and discards all leftover ammunition. Grenade damage increases how much ammo was discarded that way.",
         "superior" : "Causes enemies to drop Life Essence on death.",
         "durability": false,
-        "description": "A twisted pair of dark shotguns possessed with rage and firing pure hatred. No need to reload, just throw them away and they'll teleport to your hands fully loaded. Each gun has its named engraved onto it, in japanese obviously.",
+        "description": "A twisted pair of dark shotguns possessed with rage and firing pure hatred. No need to reload, just throw them away and they'll teleport to your hands fully loaded. Each gun has its named engraved onto it in japanese, because of course it is.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
