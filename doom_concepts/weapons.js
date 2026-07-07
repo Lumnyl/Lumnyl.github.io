@@ -1422,7 +1422,7 @@ export default [
         "notes" : "Requires reloading, which throws the weapons like grenades and discards all leftover ammunition. Grenade damage increases how much ammo was discarded that way.",
         "superior" : "Causes enemies to drop Life Essence on death.",
         "durability": false,
-        "description": "",
+        "description": "High damage lead-spitters infused with pure malice. No need to reload, just throw them away and they'll teleport to your hands fully loaded.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
