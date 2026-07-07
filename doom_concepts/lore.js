@@ -289,7 +289,7 @@ export default [
     {
         "subject": "Mammon",
         "category": "Princes of Hell",
-        "description": "King of the rich and god of the poor. Mammon is an investor, and his investment is debt. He offers promises of uncountable riches and draws power over the ever increasing debt his clients inevitably end up accumulating. Of course, he always gives them an out in the form of a free all-inclusive trip to his luxurious casino where payouts are guaranteed. Of course, the house has to win somehow, and what it wins is indefinite dominion over the gambler's soul, in a world where money has no purpose besides accumulating ad infinitum like chocolate chip cookies.",
+        "description": "King of the rich and god of the poor. Mammon is an investor, and his investment is debt. He offers promises of uncountable riches and draws power over the ever increasing debt his clients inevitably end up accumulating. Of course, he always gives them an out in the form of a free all-inclusive trip to his luxurious casino where payouts are guaranteed. The house has to win somehow, and what it wins is indefinite dominion over the gambler's soul, in a world where money has no purpose besides accumulating ad infinitum like chocolate chip cookies.",
         "newstatus": 1
     },
     // {
