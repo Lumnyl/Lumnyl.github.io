@@ -38,7 +38,7 @@ export default [
             "Attacks with a Sniper Rifle.",
             "Takes some time to aim before firing. Watch for the laser sight!",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Zombie Rocketeer",
@@ -67,7 +67,7 @@ export default [
         "name": "Shotgun Zombie",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Undead sergeant wielding a pump-action shotgun. Dangerous at close range.",
+        "description": "Undead bald guy wielding a pump-action shotgun. Dangerous at close range.",
         "details": [
             "Attacks with a Shotgun.",
         ],
@@ -87,7 +87,7 @@ export default [
         "name": "SSG Zombie",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Reanimated sergeant with a devastating Boomstick. Avoid close range engagements at all costs.",
+        "description": "Reanimated sergeant with a devastating Boomstick. Kill them quick or avoid close encounters.",
         "details": [
             "Attacks with a Boomstick.",
             "Fires with one or both barrels.",
@@ -98,7 +98,7 @@ export default [
         "name": "Assault Shotgunner",
         "category": "Shotgunner",
         "species": "Zombie",
-        "description": "Former lieutenant who prefers the versatility of a semi-auto over the power of a double-barrel. Also wears a ballistic vest.",
+        "description": "Former lieutenant who prefers the versatility of a semi-auto over the power of a double-barrel.",
         "details": [
             "Attacks with a Combat Shotgun.",
             "Take advantage of his lengthy reload time.",
@@ -198,7 +198,7 @@ export default [
             "Take advantage of infighting to attack them from behind!",
             "Resistant against ballistic and explosive damage.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -239,7 +239,7 @@ export default [
         "name": "Pyro Imp",
         "category": "Imp",
         "species": "Imp",
-        "description": "Red spiky imp who spent enough time around fire to get infused by it. Still not too hard to kill, but dangerous if not taken seriously.",
+        "description": "Red spiky imp who spent enough time around fire to get infused with it. Still not too hard to kill, but dangerous if not taken seriously.",
         "details": [
             "Throws fireballs in flurries of 3.",
             "Can charge to throw an explosive comet.",
@@ -299,7 +299,7 @@ export default [
         "name": "Blood Fiend",
         "category": "Pinky",
         "species": "Fiend",
-        "description": "Fiends mutated by the Blood Ocean, colored in an intense red tint and using their saliva as a chemical ranged attack.",
+        "description": "Fiends mutated by the Blood Ocean, colored in an intense red tint and using their saliva as a ranged chemical weapon.",
         "details": [
             "Bites you at close range.",
             "Spits a spread of toxic blood at a distance.",
@@ -355,50 +355,50 @@ export default [
         "name": "Delusion",
         "category": "Spectre",
         "species": "Fiend",
-        "description": "A Spectre whose genes have gone completely nuts, giving them a weird, negative color scheme. Can take more punishment than regular Spectres.",
+        "description": "Partially spectral Spectre with anomalous properties allowing them to pass through most organic matter. They have a weird negative color scheme and can take a little more punishment than usual.",
         "details": [
             "Bites you at close range.",
+            "Capable of walking through other demons.",
             "Natural camouflage makes them somewhat harder to see. Especially effective in the dark.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Apparition",
         "category": "Spectre",
         "species": "Fiend",
-        "description": "Spectre variant that's able to create illusionary clones of itself that disappear upon taking any amount of damage.",
+        "description": "Magically charged Spectre whose skin creates ghostly figures of itself. These copies are entirely harmless besides the mild confusion and ammo wastage they cause.",
         "details": [
             "Bites you at close range.",
             "Natural camouflage makes them harder to see. Especially effective in the dark.",
-            "Passively creates illusionary clones of itself. Clones disappear upon taking damage.",
+            "Can create illusionary clones of itself. Clones disappear upon taking damage.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Stalker",
         "category": "Spectre",
         "species": "Fiend",
-        "description": "A skilled hunter capable to becoming entirely invisible. Only reveals itself while readying for a leap, and makes a distinct growl when doing so.",
+        "description": "A skilled hunter capable of becoming entirely invisible. As its camouflage takes a lot of concentration, it is unable to stay invisible when on the offensive.",
         "details": [
             "Bites you at close range.",
             "Completely invisible except when attacking!",
             "Growls before leaping at you, revealing itself in the process.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Phase Spectre",
         "category": "Spectre",
         "species": "Fiend",
-        "description": "A rare Fiend capable of magic. Spits out purple projectiles and occasionally phases out to get to their target quicker.",
+        "description": "A rare Fiend capable of actually wielding magic rather than just letting it passively inhabit its body. They can temporarily phase out of reality where they move along some sort of weird energy current to gain a lot of speed.",
         "details": [
             "Bites you at close range.",
             "Natural camouflage makes them harder to see. Especially effective in the dark.",
-            "Spits a phaseballs at a distance.",
+            "Spits phaseballs at a distance.",
             "Capable of phasing out of reality, rapidly dashing while being intangible.",
-
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Weeper",
@@ -421,7 +421,7 @@ export default [
             "Flying.",
             "Launches itself at you.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Forgotten One",
@@ -432,7 +432,7 @@ export default [
             "Flying.",
             "Launches itself at you, with slight homing capabilities.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Phantom",
@@ -444,7 +444,7 @@ export default [
             "Launches itself at you.",
             "Explodes on death.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Terror",
@@ -466,10 +466,10 @@ export default [
         "details": [
             "Flying.",
             "Launches itself at you.",
-            "Fire lasers.",
+            "Fires laser projectiles.",
             "Resistant against ballistic weapons.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Plasma Drone",
@@ -483,7 +483,7 @@ export default [
             "Detonates itself on death, causing a plasma explosion.",
             "Resistant against ballistic weapons.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -495,7 +495,7 @@ export default [
             "Fires either dumb or homing missiles.",
             "Punches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Carcass",
@@ -506,7 +506,7 @@ export default [
             "Punches you at close range.",
             "Very quick, but light on armor.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Kamikaze",
@@ -519,7 +519,7 @@ export default [
             "Flinches on any damage taken.",
             "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Fire Husk",
@@ -532,7 +532,7 @@ export default [
             "Charges with a kamikaze attack upon reaching low health.",
             "Resistant against fire."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Sentry",
@@ -543,7 +543,7 @@ export default [
             "Rapid-fires mini-rockets.",
             "Uses auto-shotguns at close range."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Sentinel",
@@ -555,7 +555,7 @@ export default [
             "Charges, then fires a cluster bomb.",
             "Spins up an explosive chaingun."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Mancubus",
@@ -565,7 +565,7 @@ export default [
         "details": [
             "Fires spreads of two fireballs in volleys of three.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hectebus",
@@ -575,7 +575,7 @@ export default [
         "details": [
             "Fires two volleys of dark fireballs, then two explosive blasts.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Mafibus",
@@ -587,7 +587,7 @@ export default [
             "Attacks with a spray of fire at close range.",
             "Resistant against fire."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Daedabus",
@@ -599,7 +599,7 @@ export default [
             "Fires mortar shells when demons are in the way.",
             "Fires spreads of scrap at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Corpulent",
@@ -611,7 +611,7 @@ export default [
             "Attacks with a spray of fire at close range.",
             "Can charge to fire a Volcanus shot."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Tankubus",
@@ -622,7 +622,8 @@ export default [
             "Constantly moves.",
             "Attacks with dual chainguns.",
             "Fires barrages of rockets.",
-            "Fires a cannonball at longer range."
+            "Fires a cannonball at longer range.",
+            "Can and will run you over. Get out of the way!"
         ],
         "newstatus": 2
     },
@@ -635,7 +636,7 @@ export default [
             "Continuously fires its plasma cannon.",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Cerebral",
@@ -647,7 +648,7 @@ export default [
             "Fires bursts of inaccurate plasma bolts",
             "Sometimes spawn after killing Arachnotrons."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Fusion Arachnotron",
@@ -658,7 +659,7 @@ export default [
             "Continuously rapid-fires large sweeps of slow moving fusion plasma.",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Arachnotron Mk2",
@@ -670,7 +671,7 @@ export default [
             "Keeps firing until line of sight is broken.",
             "Can charge to fire a spread of plasma bolts.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Arachknight",
@@ -682,7 +683,7 @@ export default [
             "Has heat batteries that charge as it fires. Once enough heat is accumulated, it can overcharge its weapon to fire a continuous stream of more powerful projectiles.",
             "Capable of hopping to chase its target."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Scorpiotron",
@@ -695,58 +696,59 @@ export default [
             "Launches volleys of plasma grenades at close range.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
         "name": "Cacodemon",
         "category": "Cacodemon",
         "species": "Cacodemon",
-        "description": "Big flying red ball with one big ol' green eye. Belches lightning balls and has an absolutely ferocious bite.",
+        "description": "Big flying blue-blooded tomato with a big ol' green eye. Has a mouth big enough to fit an entire standing human.",
         "details": [
             "Flying.",
-            "Throws up lightning balls.",
+            "Spits out lightning balls.",
             "Bites you at close range.",
-
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Juvenile Cacodemon",
         "category": "Cacodemon",
         "species": "Cacodemon",
-        "description": "Miniature Cacodemons who haven't matured enough to cast lightning and favor aggressively swarming their targets. Do not attempt to pet them, as they are still vicious creatures capable of biting your hands off.",
+        "description": "Miniature Cacodemons who haven't matured enough to cast lightning and favor aggressively swarming their targets. Do not attempt to pet them, they are still vicious creatures capable of biting your hands off.",
         "details": [
             "Flies fast.",
             "Gnaws you at close range.",
             "Spawn as groups.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Agathodemon",
         "category": "Cacodemon",
         "species": "Cacodemon",
-        "description": "Big flying white ball with an inverted cross on its eye. Fires spreads of lightning balls and that bite is still absolutely ferocious. They sometimes phase out to reach their target quicker.",
+        "description": "A more evil variant of the Cacodemon with albinism - white skin and a red eye. They are much more proficient with their magic, and are even capable of casting illusory tricks to make themselves almost invisible.",
         "details": [
             "Flying.",
-            "Throws up spreads of mini lightning balls.",
+            "Spits triplets of lightning balls.",
+            "Can spit a pair of homing lightning balls.",
             "Bites you at close range.",
-            "Capable of phasing out of reality, rapidly dashing while being intangible.",
+            "Capable of rapidly dashing while going partially invisible.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Beholder",
         "category": "Cacodemon",
         "species": "Cacodemon",
-        "description": "A severely mutated Cacodemon, featuring plenty of eyestalks atop its round figure and regurgitating acidic bile instead of lightning. Common around nukage pools, which is believed to be the cause of its mutations.",
+        "description": "Cacodemon that has been mutated due to prolonged exposure to nuclear waste. While they are now capable of secreting acidic bile, all of their innate magical abilities are being monopolized by the eyestalks they have on top of them.",
         "details": [
             "Flying.",
             "Throws up spreads of acidic bile.",
+            "Can fire a spread of bouncing laser projectiles from its eyestalks.",
             "Bites you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     // {
     //     "name": "Malwrath",
@@ -759,176 +761,192 @@ export default [
         "name": "Crackodemon",
         "category": "Cacodemon",
         "species": "Cacodemon",
-        "description": "Superior variant of the Cacodemon with an extra pair of eyes and enhanced magical abilities that allows it to reach even higher voltage attacks.",
+        "description": "Supercharged lightning ball with an additional pair of eyes. Getting bitten by one of them is like sticking a fork into a power outlet.",
         "details": [
             "Flying.",
-            "Throws up spreads of three lightning balls.",
-            "Electro-bites you at close range.",
+            "Spits quadruplets of lightning balls.",
+            "Can shotgun a spread of mini lightning balls.",
+            "Can spit a continuous burst of somewhat inaccurate lightning balls.",
+            "Electro-bites you at close range, causing lightning to chain to nearby targets.",
             "Resistant against electricity."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Cacobot",
         "category": "Cacodemon",
         "species": "Cacodemon",
-        "description": "Mechanized flying foe with similarly high-tech weaponry. It is unknown wether they are entirely robotic or just extremely cyberized Cacodemons.",
+        "description": "Only about 10% raw Cacodemon in volume, mostly comprised of the nervous system and whatever organs are needed to keep them afloat. Everything else is pure, cold, unfeeling machinery.",
         "details": [
             "Flying.",
-            "Fires lasers.",
-            "Can charge up to fire a laser cannon.",
+            "Fires laser projectiles from its eye.",
+            "Can charge up to fire a laser cannon whilst slowing tracking its target.",
+            "Can use rocket engines on its back to charge at high speed.",
+            "Bites you at close range.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Pain Elemental",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
-        "description": "A monstrosity that flies around vomiting Lost Souls from its gaping mouth. Top priority target if you don't want the battlefield to turn into chaos.",
+        "description": "A flying monstrosity that hosts and vomits Lost Souls. Top priority target if you don't want the battlefield to turn into chaos.",
         "lore": "",
         "details": [
             "Flying.",
             "Spawns Lost Souls which charge at you.",
-            "Bites you at close range."
+            "Bites you at close range.",
+            "Spawns a group of Lost Souls on death."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Hate Elemental",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
-        "description": "Even worse than the Pain Elemental, they spew Forgotten Ones, belch fire at close range and explode violently when defeated.",
+        "description": "Just like Lost Souls, Pain Elementals can metamorphose into meaner, stronger versions when left to themselves for a long time. Stay far away from this one if you don't want to get carbonized.",
         "details": [
             "Flying.",
             "Spawns Forgotten Ones which charge at you.",
             "Sprays fire at close range.",
-            "Explodes on death."
+            "Explodes on death.",
+            "Spawns a group of Forgotten Ones on death."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Plasma Elemental",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
-        "description": "When elementals live long enough without souls, they sometimes take properties of other elements. This one is obviously based on the same plasma featured in your arsenal, and as such should be treated with the same care as a sentient gun barrel actively shooting you.",
+        "description": "You might not be aware, but Pain Elementals can run out of souls, which can get them to take properties of other elements via some kinda of osmosis. This one for instance got pressure-washed with a plasma hose and somehow managed to come out fine. Needless to say it has built a tolerance for plasma powerwashing.",
         "details": [
             "Flying.",
             "Fires bursts of plasma bolts.",
-            "Explodes into a circular blast of plasma bolts on death."
+            "Can charge and fire an explosive plasma blast.",
+            "Explodes into a circular blast of plasma bolts on death.",
+            "Resistant against plasma."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Replicator",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
-        "description": "Fully automated Drone factory, complete with laser weaponry for self defense. Like its Caco equivalent, no one knows if they are the result of invasive enhancements or just an inspired project.",
+        "description": "Fully automated Drone factory, complete with laser weaponry for self defense. Like its Caco counterpart, there is very little demon meat inside this metal prison-factory.",
         "details": [
             "Flying.",
             "Spawns Drones.",
-            "Fires laser shots.",
+            "Can fire high-power laser projectiles.",
+            "Can charge up a supercharged Eraser shot.",
+            "Spawns a group of Drones on death.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Plasma Replicator",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
-        "description": "Fully automated Drone factory, plasma-flavored. Like the thing they produce, they also tend to get very unstable when nearing destruction.",
+        "description": "Fully automated Drone factory, plasma-flavored. Much like the things they produce, they are programmed to self-destruct when they are about to be destroyed, with obviously much more devastating results.",
         "details": [
             "Flying.",
             "Spawns Plasma Drones.",
             "Fires spreads of plasma bolts.",
+            "Can charge up a BFG 2704 plasma barrage.",
             "Launches itself with a kamikaze attack upon reaching low health.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Hades Elemental",
         "category": "Pain Elemental",
         "species": "Pain Elemental",
-        "description": "An Elemental attuned to what can be only described as pure underworld energy. They're able to cast fully homing spheres of devastation which as thankfully very weak to gunfire.",
+        "description": "An Elemental attuned to what can be only described as pure underworld energy. They're able to cast borderline sentient balls of raw malevolent force that are thankfully very loosely physically stable.",
         "details": [
             "Flying.",
-            "Spawns Hades Spheres in groups of four.",
-            "Hades Spheres are homing, and explode on contact or death.",
-            "Capable of phasing out of reality, rapidly dashing while being intangible.",
+            "Spawns Hades Spheres, homing projectiles that explode on contact or death.",
+            "Can spit a trio of smaller, faster homing projectiles.",
+            "Can fires bouncy and piercing energy blades.",
+            "Capable of rapidly dashing while going partially invisible.",
+            "Spawns a group of Hades Spheres on death."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
         "name": "Hell Knight",
         "category": "Hell Knight",
         "species": "Hell Noble",
-        "description": "A bigger, badder, tougher Imp. Easily underestimated on its own, but a force to be reckoned with when more of them show up.",
+        "description": "A bigger, badder, tougher Imp. Usually not much of a threat on its own, but becomes a tough fight in large enough groups.",
         "details": [
-            "Throws green fireballs.",
+            "Throws volleys of two fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Hell Squire",
         "category": "Hell Knight",
         "species": "Hell Noble",
-        "description": "A lesser trained but more aggressive Hell Knight. Launches two fireballs at a time, but their lack of training causes them to deviate like Mancubus fireballs. Stand still and you should be fine.",
+        "description": "A lesser trained but more aggressive Hell Knight. Their lack of focus causes their projectiles to deviate like Mancubus volleys. Stand still and you should be fine.",
         "details": [
-            "Throws spreads of two fireballs with poor accuracy.",
+            "Throws two volleys of two fireballs with poor accuracy.",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Hell Viscount",
         "category": "Hell Knight",
         "species": "Hell Noble",
-        "description": "Above the Knights ranks the grayskinned Viscount. Their fireballs come in bursts of three, and can charge up a devastating volley.",
+        "description": "Above the Knights ranks the gray skinned Viscount. Their fireballs come in bursts of three, and can charge up a devastating volley.",
         "details": [
-            "Throws red fireballs in bursts of three.",
-            "Can charge to throw a spread of fireballs.",
+            "Throws volleys of three fireballs.",
+            "Can charge to throw a spread of five fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Cyber Knight",
         "category": "Hell Knight",
         "species": "Hell Noble",
-        "description": "Enhanced Knight with a blaster as an arm, increasing the lethality of their ranged attacks with splash damage sprinkled on top.",
+        "description": "Enhanced Knight with a dual-purpose cybernetic arm cannon, with both purposes being to cause blast damage. Also sometimes throws regular fireballs because they can.",
         "details": [
-            "Shoots explosive shots out of its blaster.",
+            "Shoots a volley of two explosive shots.",
+            "Can load and fire a rocket.",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Pyro Knight",
         "category": "Hell Knight",
         "species": "Hell Noble",
-        "description": "Infused with the power of hellfire, they launch spreads of fireballs shotgun-style and use a flamethrower attack at close range.",
+        "description": "Born, trained and molded in fire. You're gonna need some big water guns if you want to put these guys out.",
         "details": [
-            "Throws spreads of fireballs.",
+            "Shotguns spreads of fireballs.",
+            "Can charge to throw a fire comet.",
             "Can use a flamethrower attack.",
             "Fire-punches you at close range.",
             "Resistant against fire"
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
-        "name": "Hell Paladin",
+        "name": "Hell Warden",
         "category": "Hell Knight",
         "species": "Hell Noble",
-        "description": "A rare sight for a race that's usually all about aggression, this promoted lion-headed Knight wields a shield that's impervious to all attacks while it's still up, although enough concentrated fire should be able to stagger it.",
+        "description": "A rare sight for a race that's usually all about aggression, this promoted lion-headed Knight wields a hellforged shield with both defensive and offensive capabilities.",
         "details": [
-            "Throws yellow fireballs.",
+            "Throws fast fireballs.",
             "Can pull up its shield to block against attacks, but enough firepower is able to make them falter.",
+            "Can use its shield to fire a magic projectile with slight homing capabilities.",
             "Shield-bashes you if you get too close.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Baron of Hell",
@@ -936,156 +954,166 @@ export default [
         "species": "Hell Noble",
         "description": "Red-skinned bruiser on goat legs. Able to tank and deal a much higher amount of punishment than Hell Knights.",
         "details": [
-            "Throws green fireballs.",
+            "Throws volleys of three fireballs.",
             "Can charge to throw a spread of three fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
-    },
-    {
-        "name": "Afrit",
-        "category": "Baron of Hell",
-        "species": "Hell Noble",
-        "description": "An exclusive bloodline of nobles capable of flight. Otherwise identical to Barons in offensive and defensive capabilities.",
-        "details": [
-            "Flying.",
-            "Throws orange fireballs.",
-            "Can charge to throw a spread of three fireballs.",
-            "Scratches you at close range.",
-        ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Dark Noble",
         "category": "Baron of Hell",
         "species": "Hell Noble",
-        "description": "A Baron who serves the Darkness. Similarly to other dark counterparts, they are stronger, tougher and more aggressive.",
+        "description": "A Baron who serves the Darkness. Calling them Dark Lords would be giving them too much credit when they're just a tier above regular Barons.",
         "details": [
-            "Throws dark fireballs.",
-            "Can charge to throw a spread of four fireballs.",
+            "Throws volleys of three fireballs.",
+            "Can charge to throw a spread of five fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
+    },
+    {
+        "name": "Afrit",
+        "category": "Baron of Hell",
+        "species": "Hell Noble",
+        "description": "An exclusive bloodline of nobles who traded their lower body for what is essentially a jetpack fueled by fire magic.",
+        "details": [
+            "Flying.",
+            "Throws volleys of two fireballs.",
+            "Can charge to throw a fire comet.",
+            "Scratches you at close range.",
+        ],
+        "newstatus": 2
     },
     {
         "name": "Cyber Baron",
         "category": "Baron of Hell",
         "species": "Hell Noble",
-        "description": "A Baron that's received the same treatment as their tan counterparts. Their blaster can fire in bursts or spreads.",
+        "description": "A Baron that has received the same treatment as their tan counterparts. The increased firepower of their weapon is entirely due to their natural higher magical prowess and not caused by any kind of mechanical upgrade.",
         "details": [
-            "Shoots explosive shots out of its blaster.",
-            "Shoots in bursts or spreads of three.",
+            "Shoots a volley of three explosive shots.",
+            "Can fire a spread of three explosive shots.",
+            "Can load and fire a rocket.",
             "Scratches you at close range.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Bruiser Demon",
         "category": "Baron of Hell",
         "species": "Hell Noble",
-        "description": "Genetic clone of the two badasses who wrecked havoc back on Phobos. Their unparalleled strength makes them formidable melee fighters capable of lunging, shoulder-charging and knocking foes back with their fists.",
+        "description": "The Baron equivalent to Pyro Knights. Their body composition would be similar to humans if they evolved to be 70% fire instead of water.",
         "details": [
-            "Throws hellfire balls.",
-            "Can shoulder-charge, hitting you with knockback.",
-            "Whacks you at close range, knocking you back.",
-            "Capable of leaping to close the distance.",
+            "Throws volleys of four fast hellfire balls.",
+            "Can charge to throw a hellfire comet.",
+            "Throws swipes of flames at close range.",
+            "Hellfire-punches you at very close range, causing an explosion that spreads fire.",
+            "Resistant against fire"
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Cybruiser",
         "category": "Baron of Hell",
         "species": "Hell Noble",
-        "description": "An unholy marriage of perfected DNA and top of the line cybernetics. These warmachines wield all kinds of explosive weaponry - rockets, grenades, mines - and come with blast protection on top of all that.",
+        "description": "Barons implanted with an entire set of cybernetics to drastically increase their firepower. Not many manage to survive the invasive transformation, which makes them a rare sight on the battlefield.",
         "details": [
-            "Attacks with rockets, grenades, and mines.",
-            "Mines can be destroyed.",
-            "Resistant against ballistic and explosive weapons.",
+            "Attacks with either rockets or grenades.",
+            "Can fire high velocity mini-grenades.",
+            "Scratches you at close range.",
+            "Resistant against ballistic weapons.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
         "name": "Archvile",
         "category": "Archvile",
         "species": "Archvile",
-        "description": "A lanky freak that is able to bring back almost any demon back to life and defends itself with an undodgeable fire spell. Take down as soon as possible.",
+        "description": "A pale lanky freak that brings fallen demons back into action. Take down as soon as possible or be punished with a war of attrition.",
         "details": [
-            "Attacks with a spell that blinds you with fire before blasting you upwards.",
+            "Attacks with a spell that surrounds you with fire before blasting you upwards.",
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Quick to retaliate.",
         ],
-        "newstatus": 0
-    },
-    {
-        "name": "Exile",
-        "category": "Archvile",
-        "species": "Archvile",
-        "description": "Specialists of void magic, their attacks hit multiple times if the target is in their line of sight. They are also capable of teleporting away from danger.",
-        "details": [
-            "Attacks with a void spell that blasts you upwards multiple times.",
-            "Spell can be dodged by being out of sight when it strikes.",
-            "Can teleport away from danger.",
-            "Resurrects nearby non-boss enemies.",
-            "Quick to retaliate.",
-        ],
-        "newstatus": 0
-    },
-    {
-        "name": "Summoner",
-        "category": "Archvile",
-        "species": "Archvile",
-        "description": "Vile variant who specialize on creating new life rather than bringing back the dead. Also capable of flight, making her a tough bitch to kill.",
-        "details": [
-            "Flying.",
-            "Summons squads of basic enemies.",
-            "Quick to retaliate.",
-        ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Diabolist",
         "category": "Archvile",
         "species": "Archvile",
-        "description": "As scholars of the Darkness, Diabolists have the ability to convert lesser demons into their dark counterparts. Their fire spell is also able to send echoes of the dark will to human targets, beckoning them to the dark side.",
+        "description": "Red horned devil with more powerful fire magic. Who knows what happened that causes these freaks to bleed black.",
         "details": [
-            "Attacks with a spell that blinds you with dark fire before blasting you upwards.",
+            "Attacks with a spell that surrounds you with fire before blasting you upwards, spreading fire at the point of impact.",
             "Spell can be dodged by being out of sight when it strikes.",
+            "Can cast a spell that launches ground fire in a straight line, going through enemies.",
             "Resurrects nearby non-boss enemies.",
-            "Turns basic enemies into a dark counterpart.",
             "Quick to retaliate.",
         ],
-        "newstatus": 0
+        "newstatus": 2
+    },
+    {
+        "name": "Summoner",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "A rather unique Archvile variant that focuses entirely on being a support unit, summoning demons directly to the frontlines. They are tough to pin down, but nonetheless require your entire attention if you don't want to get overwhelmed.",
+        "details": [
+            "Flying.",
+            "Tries to move away from the player.",
+            "Summons squads enemies. Only the most basic variants can be summoned.",
+            "Can throw horizontal blades of energy.",
+        ],
+        "newstatus": 2
+    },
+    {
+        "name": "Exile",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "Scholars of Azazel and wielders of void magic who use their wicked powers to spread their master's dominion. They are able to wield dark forces without succumbing to the Darkness's influence, thus lacking traits that \"true\" dark demons share.",
+        "details": [
+            "Attacks with a void spell that blasts you upwards multiple times.",
+            "Spell can be dodged by being out of sight when it strikes.",
+            "Can teleport away from danger.",
+            "Resurrects nearby non-boss enemies.",
+            "Turns basic enemies into their dark counterpart.",
+            "Quick to retaliate.",
+        ],
+        "newstatus": 2
     },
     {
         "name": "Illusionist",
         "category": "Archvile",
         "species": "Archvile",
-        "description": "Experts of their namesake magic, they can summon phantom copies of themselves and turn whatever they resurrect partially invisible, similar to Spectres. Theorized to be the creators behind the Illusion Spheres you see laying around.",
+        "description": "Experts of their namesake magic, they bend light to confuse and disorient their victims. Too many accidents were caused by soldiers shooting fruitlessly at the apparitions it creates.",
         "details": [
-            "Attacks with a spell that partially blinds with darkness you before blasting you upwards.",
+            "Attacks with a spell that partially blinds you with darkness before blasting you upwards.",
             "Spell can be dodged by being out of sight when it strikes.",
             "Resurrects nearby non-boss enemies.",
             "Resurrected enemies become partially invisible.",
+            "Can create illusionary clones of itself and enemies it resurrects. Clones disappear upon taking damage.",
             "Quick to retaliate.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Infernalist",
         "category": "Archvile",
         "species": "Archvile",
-        "description": "Yet another demon infused with hellfire, who uses it to enhance both his offensive magic with fire trails and imbue his undead with a nasty explosive surprise to any poor soul forced to engage in melee combat.",
+        "description": "An even worse version of the Diabolist, if you can believe that. They reek of rotten eggs due to the incredibly high sulphur concentration in their blood.",
         "details": [
-            "Attacks with a spell that blinds you with hellfire before blasting you upwards.",
+            "Attacks with a spell that surrounds you with hellfire before blasting you upwards with a lingering fire geyser.",
             "Spell rains down lingering hellfire on your position while it is charging.",
             "Spell can be dodged by being out of sight when it strikes.",
+            "Can charge to throw a fire comet.",
+            "Can cast a spell that rains down fire in a straight line.",
+            "Can use a flamethrower attack.",
             "Resurrects nearby non-boss enemies.",
-            "Resurrected enemies explode on death!",
+            "Resurrected enemies gain fire resistance and explode into flames on death!",
             "Quick to retaliate.",
+            "Resistant against fire"
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Cyberdemon",
@@ -1103,7 +1131,7 @@ export default [
         "name": "Tyrant",
         "category": "Cyberdemon",
         "species": "Tyrant",
-        "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. While they are easy coerced into damaging other monsters, they will almost always come out on top.",
+        "description": "A towering behemoth with amazing raw strength and devastating magical capabilities. While they are easy coerced into damaging other monsters, their sheer might guarantees they always come out on top.",
         "details": [
             "Shotguns fireballs in volleys of three.",
             "Quick to retaliate.",
@@ -1115,13 +1143,14 @@ export default [
         "name": "Annihilator",
         "category": "Cyberdemon",
         "species": "Tyrant",
-        "description": "Why stop at just one cybernetic rocket launcher? Not like that other hand was doing much anyway.",
+        "description": "A Cyberdemon with twice the firepower, because why stop at just one cybernetic rocket launcher when you can double it and give it targeting sensors?",
         "details": [
             "Fires rockets in rapid volleys of six.",
+            "Can fire a volley of two homing missiles.",
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Emperor",
@@ -1130,7 +1159,7 @@ export default [
         "description": "Tyrant variant that focuses on close combat. This is not a giant goat you want to engage in fisticuffs with.",
         "details": [
             "Throws explosive fireballs at range.",
-            "Stomps the ground, damaging anything nearby.",
+            "Can stomp the ground, damaging anything nearby.",
             "Can charge a bull rush, dealing insane amounts of damage and knockback.",
             "Quick to retaliate.",
             "Immune against splash damage."
@@ -1143,7 +1172,7 @@ export default [
         "species": "Tyrant",
         "description": "If you thought Emperors were scary, apparently they weren't scary enough for the demons, so they installed a massive chainsaw and a Flak Cannon on them.",
         "details": [
-            "Attacks with a Flak Cannon at range, using both shrapnel and mortar firemodes.",
+            "Attacks with a Flak Cannon at range, using both shrapnel and mortar fire modes.",
             "Swings a massive chainsaw at close range.",
             "Can charge a chainsaw rush, dealing insane amounts of damage and plowing through enemies.",
             "Quick to retaliate.",
@@ -1155,11 +1184,11 @@ export default [
         "name": "Dark Cardinal",
         "category": "Cyberdemon",
         "species": "Tyrant",
-        "description": "Cyberdemon blessed by the Darkness with flight and enhanced firepower. Because nothing says preaching your faith like fly-bys backed with rockets and darkfire missiles.",
+        "description": "Cyberdemon blessed by the Darkness with flight and enhanced firepower. Because nothing says preaching your faith like fly-bys backed with rockets and missiles.",
         "details": [
             "Flying",
             "Fires rockets in volleys of three while strafing.",
-            "Can load up a homing darkfire missile.",
+            "Can load up a homing missile that spreads dark fire on impact.",
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
@@ -1169,7 +1198,7 @@ export default [
         "name": "Spider Mastermind",
         "category": "Spiderdemon",
         "species": "Sentient",
-        "description": "An upscaled Arachnotron, sporting a heavy minigun. Has trouble moving in tight spaces, but devastating in open areas.",
+        "description": "An upscaled Arachnotron, sporting six barrels of mayhem. Has trouble moving in tight spaces, but devastating in open areas.",
         "details": [
             "Attacks with a heavy minigun.",
             "Quick to retaliate.",
@@ -1181,47 +1210,47 @@ export default [
         "name": "Sentient",
         "category": "Spiderdemon",
         "species": "Sentient",
-        "description": "Masterminds without the clunk and metal. Surprisingly nimble despite their size.",
+        "description": "Mastermind minus the clunk and metal. Surprisingly nimble despite being much larger than Cerebrals, but unlike those they are unable to escape their spider body before it explodes.",
         "details": [
             "Flying.",
-            "Attacks with bursts of plasma bolts.",
+            "Attacks with long rapid bursts of plasma bolts.",
             "Capable of dodging out of the way of gunfire.",
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Arachnophyte",
         "category": "Spiderdemon",
         "species": "Sentient",
-        "description": "Mastermind with rocket boosters in place of legs, trading its ballistic weaponry for a plasmatic one.",
+        "description": "Mastermind with rocket boosters in place of legs, somehow powerful enough to lift hundreds of tons of steel off the ground.",
         "details": [
             "Flying.",
-            "Attacks with a plasma minigun.",
+            "Attacks with a plasma minigun, either while stationary or strafing.",
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Demolisher",
         "category": "Spiderdemon",
         "species": "Sentient",
-        "description": "A couple of hits of engineering on a Mastermind chassis and you got yourself a level 4 mobile turret.",
+        "description": "A couple of hits of engineering on a Mastermind chassis and you got yourself a level 4 mobile turret. Whose idea was it to give the demons a BFG?",
         "details": [
             "Attacks with two heavy miniguns.",
-            "Can fire volleys of rockets.",
+            "Can fire with a BFG 9000!",
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Dark Sentient",
         "category": "Spiderdemon",
         "species": "Sentient",
-        "description": "A creature of Envy couldn't possibly resist the power of the Darkness. Unlike its cybie-cyb counterpart, this demon focuses more on defense and area denial with a magical shield and lingering attacks.",
+        "description": "A creature of Envy couldn't possibly resist the power of the Darkness. A more defensively-minded demon who prefers applying pressure over going for a quick kill.",
         "details": [
             "Flying",
             "Throws dark magic balls that create a lingering area of effect on impact.",
@@ -1230,7 +1259,7 @@ export default [
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Megatank",
@@ -1242,12 +1271,12 @@ export default [
             "Attacks with two heavy miniguns",
             "Can load up to fire a cannon barrage.",
             "Comes equipped with the mighty Megalaser!",
-            "Be careful to not get run over!",
-            "Resistant against ballistic weapons.",
+            "Can and will try to run over you. Get out of the way!",
             "Quick to retaliate.",
+            "Resistant against ballistic weapons.",
             "Immune against splash damage."
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
@@ -1310,7 +1339,7 @@ export default [
         "name": "Supersoldat",
         "category": "Wolfenstein",
         "species": "Human",
-        "description": "Half-mechanical dieselpunk abomination high on \"combat-enhancing\" \"chocolate\". Would definitely have kickstarted the HEP if this went anywhere.",
+        "description": "Half-mechanical dieselpunk abomination high on \"combat-enhancing\" \"chocolate\". Would definitely have kickstarted the HEP this technology didn't get lost to time.",
         "details": [
             "Attacks with an arm-mounted minigun.",
             "Uses a flamethrower at close range",
@@ -1450,7 +1479,7 @@ export default [
     //         "https://youtu.be/nsBM6dT6lyQ",
     //         "Revived form of the Mad Hitman.",
     //         "Extremely erratic movement.",
-    //         "Attacks with a street sign, with heavy knockback!",
+    //         "Attacks with a chainsaw!",
     //         "Capable of jumping high to reach his target.",
     //         "Can jump underground, then charges with his street sign, barreling through anything in the way.",
     //         "Can jump underground to teleport to his target if it is out of reach for a significant amount of time.",
@@ -1458,18 +1487,25 @@ export default [
     //     ],
     //     "newstatus": 5
     // },
-    // {
-    //     "name": "Harbinger of Pestilence - Miasma",
-    //     "category": "Pursuer",
-    //     "species": "Harbinger",
-    //     "description": "Infection. Disease. Rot.",
-    //     "details": [
-    //         "A sickly fever encompasses your entire being.",
-    //         "",
-    //         ""
-    //     ],
-    //     "newstatus": 5
-    // },
+    {
+        "name": "Harbinger of Pestilence - Miasma",
+        "category": "Pursuer",
+        "species": "Harbinger",
+        "description": "Infection. Disease. Rot. Miasma is pure chaos both in mind and in ability. The only things he cares about is spreading his plague. The only thing he even thinks about is spreading his plague. He will only be truly satisfied until his blessing has conquered every single living creature in existence. Make sure you fully eradicate this disease.",
+        "details": [
+            "A sickly fever encompasses your entire being.",
+            "https://youtu.be/Dcuzp5K14Y8",
+            "Flying.",
+            "Attacks with pathogen missiles.",
+            "Can load and fire a pathogen nuke.",
+            "Pathogen spreads to demons, causing them to deal poison with their attacks and passively regenerating their health.",
+            "Regenerates a portion of damage taken, increasing with each nearby source of living pathogen.",
+            "On subsequent encounters, the pathogen clouds are larger and can spread to corpses. Infected demons are also faster, more aggressive and inflict greater amounts of poison.",
+            "Drops a HazCom GF-3 Suit on defeat. On subsequent encounters, also drops a GF-4 Upgrade Core.",
+            "Drops a Pestilence Sphere on defeat. Picking up a second copy permanently enhances it."
+        ],
+        "newstatus": 1
+    },
     {
         "name": "Harbinger of War - Ares",
         "category": "Pursuer",
@@ -1477,39 +1513,50 @@ export default [
         "description": "Militarism. Conflict. Desolation. Ares is the embodiment of the one single constant throughout human history. His strength lies in his singular focus : being the most destructive force there could ever be. If there is a problem that cannot be solved with a big enough arsenal, he hasn't found it. Be the one that he never solves.",
         "details": [
             "The distant horns of war shake your very core.",
-            "https://www.youtube.com/watch?v=UhHZUmYu7Uo",
+            "https://youtu.be/UhHZUmYu7Uo",
             "Attacks with a variety of weapons : Spreader Shotgun, Rotary Chaingun, Rocket Launcher, Grenade Launcher, Laser Bolter, Flamethrower, Serious Cannon.",
             "Carries an upgraded arsenal in subsequent encounters : Jackhammer, Minigun, HMS Launcher, Sub-munitions Launcher, Laser Cannon, Ice Thrower, Seriously Big Cannon.",
-            "Summons a mob of Kamikazes on defeat, which increases in size with each subsequent encounters.",
+            "Summons a mob of Kamikazes on defeat, which increases in size with subsequent encounters.",
             "Drops four of his weapons on defeat, except the Serious Cannon and Seriously Big Cannon.",
-            "Drops a War Sphere on defeat."
+            "Drops a War Sphere on defeat. Picking up a second copy permanently enhances it."
+        ],
+        "newstatus": 0
+    },
+    {
+        "name": "Harbinger of Famine - Limos",
+        "category": "Pursuer",
+        "species": "Harbinger",
+        "description": "Scarcity. Starvation. Dread. Limos is more patient and strategically-minded than her comrades, opting for targeting supplies of food and ammunition and watching the opposition succumb to panic as they realize their inevitable death. Everywhere she goes, fields turn into sand, trees turn into ash, lakes turn into salt, livestock turns into bones, and humans turn into cannibalistic savages. She has yet to meet a man with enough vitality to walk. Make her wish to never meet one ever again.",
+        "details": [
+            "An unnatural hunger begins draining your strength.",
+            "https://youtu.be/QD-eEAn_i6E",
+            "Periodically summons groups of Carcasses.",
+            "While she is active, you are unable to pick up any kind of ammo.",
+            "Extremely resistant against all sources of non-melee damage.",
+            "On subsequent encounters, you also become unable to restore health and armor.",
+            "Drops a Cornucopic Vessel on defeat.",
+            "Drops a Famine Sphere on defeat. Picking up a second copy permanently enhances it."
         ],
         "newstatus": 1
     },
-    // {
-    //     "name": "Harbinger of Famine - Limos",
-    //     "category": "Pursuer",
-    //     "species": "Harbinger",
-    //     "description": "Scarcity. Starvation. Dread. Limos is more patient and strategically-minded than her comrades, opting for targeting supplies of food and ammunition and watching the opposition succumb to panic as they realize their inevitable death. Everywhere she goes, fields turn into sand, trees turn into ash, lakes turn into salt, livestock turns into bones, and humans turn into cannibalistic savages. She has yet to meet a man with enough vitality to walk. Make her wish to never meet one ever again.",
-    //     "details": [
-    //         "An unnatural hunger begins draining your strength.",
-    //         "",
-    //         ""
-    //     ],
-    //     "newstatus": 5
-    // },
-    // {
-    //     "name": "Harbinger of Death - Thanatos",
-    //     "category": "Pursuer",
-    //     "species": "Harbinger",
-    //     "description": "Cold. Thanatos sees death as just the logical endpoint of all life, the sacrifice of an individual to ensure the survival of the status quo. Animals die to feed the soil. Cells die to avoid carcinogenesis. Extending one's life is to spit in the face of nature. He is the immune system of existence, fighting against a disease that has made the earth theirs, that has blasphemed against the whole concept of life. He is the lord's judgment born from fruit of Man's hubris. Destroying worlds is his duty, his penance, his whole reason to be. It is righteous. It is moral. It is necessary. Make him practice what he preaches.",
-    //     "details": [
-    //         "Visions of your life flash before your eyes.",
-    //         "https://www.youtube.com/watch?v=rl7-ogH4ioc",
-    //         "Attacks with the Scythe at close range. Getting hit will instantly kill you!"
-    //     ],
-    //     "newstatus": 5
-    // },
+    {
+        "name": "Harbinger of Death - Thanatos",
+        "category": "Pursuer",
+        "species": "Harbinger",
+        "description": "Equality. Finality. Necessity. Thanatos sees death as just the logical endpoint of all life, the sacrifice of an individual to ensure the survival of the status quo. Animals die to feed the soil. Cells die to avoid carcinogenesis. Extending one's life is to spit in the face of nature. He is the immune system of existence, fighting against a disease that has made the earth theirs, that has blasphemed against the whole concept of life. He is the lord's judgment born from fruit of Man's hubris. Destroying worlds is his duty, his penance, his whole reason to be. It is righteous. It is moral. It is necessary. Make him practice what he preaches.",
+        "details": [
+            "Visions of your life flash before your eyes.",
+            "https://youtu.be/rl7-ogH4ioc",
+            "Attacks with a pair of semi-auto shotguns.",
+            "When reloading, he tosses his guns which explode like grenades!",
+            "Able to teleport using a cloud of smoke.",
+            "Transforms into a smoke cloud when far away, moving rapidly to try and close the distance. Intangible while in this state, but can be hit with splash damage.",
+            "On subsequent encounters, he heals himself when dealing damage. He also gains the Scythe which he attacks with at close range. Getting hit is an instant kill!",
+            "Drops Death & Rose on defeat. On subsequent encounters, also drops the Scythe.",
+            "Drops a Death Sphere on defeat. Picking up a second copy permanently enhances it."
+        ],
+        "newstatus": 1
+    },
     // {
     //     "name": "Harbinger of Conquest - Zelus",
     //     "category": "Pursuer",
@@ -1567,6 +1614,18 @@ export default [
     //         "",
     //         "",
     //         ""
+    //     ],
+    //     "newstatus": 5
+    // },
+
+    // {
+    //     "name": "Blitzkrieg Beacon",
+    //     "category": "Pursuer",
+    //     "species": "Object",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "https://youtu.be/uQ-4T6Ncnno",
     //     ],
     //     "newstatus": 5
     // },

@@ -140,8 +140,7 @@ const quicknotesitems = `<li>Like Pandemonia, armor passively halves all damage 
 <li>Contracts are rare drops, and whichever contract drop depends on the enemy category. They can be signed at the cost of 20 max health and last for the rest of the playthrough. There is no limit to how many contracts can be active at once, as long as you have blood to spare.</li>`
 
 const quicknotesenemies = `<li>Categories are an arbitrary classification based on what would fit in a monster randomizer.</li>
-<li>Pursuers may appear out of nowhere at any point during gameplay or under certain conditions. A message would appear at the beginning of the map if a Pursuer is set to spawn.</li>
-<li>Item drops are not comprehensive because that would require playtesting.</li>`
+<li>Pursuers may appear out of nowhere at any point during gameplay or under certain conditions. A message would appear at the beginning of the map if a Pursuer is set to spawn.</li>`
 
 const quicknoteslore = `<li>I have to preface this part by saying that while this lore is influenced by christianity, it is most importantly just that: influenced. I am not trying to preach anything and I am not trying to be 100% accurate to religious texts.</li>
 <li>This is also not an attempt at explaining DOOM's lore and I am writing this entirely for fun.</li>`

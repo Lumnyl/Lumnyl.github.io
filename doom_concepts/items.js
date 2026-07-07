@@ -171,6 +171,18 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
+    {
+        "name": "Life Essence",
+        "type": "Special Bonus",
+        "category": "Healing",
+        "effect": "Restores 5 health. No overcharge limit.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
 
     {
         "name": "Stimpack",
@@ -435,7 +447,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rebirth Sphere",
@@ -447,7 +459,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Lazarus Sphere",
@@ -459,7 +471,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Phoenix Sphere",
@@ -544,6 +556,18 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "HazCom GF-3 Protection Suit",
+        "type": "Security Armor",
+        "category": "Armor",
+        "effect": "100 armor. 66% protection. 20% global resistance. Regenerates health lost to DoT effects. Damaging floors deal 5 less damage. Unbreakable.",
+        "notes": "Cells can be used to recharge the armor. Doubles the attack speed of the Crowbar.",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
         "newstatus": 1
     },
     {
@@ -592,7 +616,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "EOD Armored Suit",
@@ -1490,11 +1514,47 @@ export default [
     },
 
     {
+        "name": "Pestilence Sphere",
+        "type": "Harbinger Sphere",
+        "category": "Powerup",
+        "effect": "All attacks inflicts poison and taking damage poisons the attacker for 60 seconds. Enhanced : Poison is thrice as potent.",
+        "notes": "Regenerates at the start of a level.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "War Sphere",
         "type": "Harbinger Sphere",
         "category": "Powerup",
-        "effect": "Grants you the Serious Cannon for 45 seconds. Picking up another copy of the sphere upgrades it, granting you the Seriously Big Cannon instead.",
-        "notes": "Usable once per level.",
+        "effect": "Grants you the Serious Cannon for 45 seconds. Enhanced : Grants you the Seriously Big Cannon instead.",
+        "notes": "Regenerates at the start of a level.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Famine Sphere",
+        "type": "Harbinger Sphere",
+        "category": "Powerup",
+        "effect": "Reduces all nearby enemies' speed and aggression for 45 seconds. Enhanced : Affected enemies can only use melee attacks.",
+        "notes": "Regenerates at the start of a level.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Death Sphere",
+        "type": "Harbinger Sphere",
+        "category": "Powerup",
+        "effect": "Summons a Grim Reaper familiar for 45 seconds. Also grants you the Scythe if you do not already have it. Enhanced : Summons a second familiar, and enemies killed by them now drop Life Essence. The Scythe now comes fully upgraded.",
+        "notes": "Regenerates at the start of a level. Grim Reaper attacks with a scythe which deals extreme damage. It also flies and is completely intangible.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1672,16 +1732,16 @@ export default [
     },
 
     {
-        "name": "Contract with Aamon",
+        "name": "Contract with Mephistopheles",
         "type": "Contract",
         "category": "Rare Drop",
-        "effect": "You gain 2 Juvenile Cacodemon familiars.",
-        "notes": "Familiars respawn 15 seconds after dying. Dropped by Cacodemon variants.",
+        "effect": "Increases the frequency of Rare Drops.",
+        "notes": "Dropped by Imp variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 1
     },
     // {
     //     "name": "Contract with Asmodeus",
@@ -1708,11 +1768,11 @@ export default [
     //     "newstatus": 0
     // },
     {
-        "name": "Contract with Azazel",
+        "name": "Contract with Satan",
         "type": "Contract",
         "category": "Rare Drop",
-        "effect": "Enemies you kill have a chance of coming back to life on your side.",
-        "notes": "Dropped by Archvile variants.",
+        "effect": "Permanent Berserk with increased effectiveness.",
+        "notes": "Dropped by Fiend variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1732,11 +1792,11 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Contract with Baphomet",
+        "name": "Contract with Paimon",
         "type": "Contract",
         "category": "Rare Drop",
-        "effect": "Having over 66% of a specific ammo type increases damage dealt with all weapons using that ammo type.",
-        "notes": "No effect on weapons with infinite ammo. Dropped by Baron of Hell variants.",
+        "effect": "You gain 25% global resistance when out of armor.",
+        "notes": "Dropped by Revenant variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1749,6 +1809,66 @@ export default [
         "category": "Rare Drop",
         "effect": "All health and armor bonuses are twice as effective, and all medical supplies heal an additional 5 health. No overcharge limit.",
         "notes": "Dropped by Mancubus variants.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Contract with Belphegor",
+        "type": "Contract",
+        "category": "Rare Drop",
+        "effect": "Double damage while standing still.",
+        "notes": "Dropped by Cerebral variants.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Contract with Aamon",
+        "type": "Contract",
+        "category": "Rare Drop",
+        "effect": "You gain 2 Juvenile Cacodemon familiars.",
+        "notes": "Familiars respawn 15 seconds after dying. Dropped by Cacodemon variants.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Contract with Moloch",
+        "type": "Contract",
+        "category": "Rare Drop",
+        "effect": "Enemies flinch more often and for longer.",
+        "notes": "Dropped by Pain Elemental variants.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Contract with Mammon",
+        "type": "Contract",
+        "category": "Rare Drop",
+        "effect": "Enemies drop extra ammo when killed.",
+        "notes": "Dropped by Hell Knight variants.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Contract with Baphomet",
+        "type": "Contract",
+        "category": "Rare Drop",
+        "effect": "Having over 66% of a specific ammo type increases damage dealt with all weapons using that ammo type.",
+        "notes": "No effect on weapons with infinite ammo. Dropped by Baron of Hell variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1768,11 +1888,23 @@ export default [
     //     "newstatus": 0
     // },
     {
-        "name": "Contract with Belphegor",
+        "name": "Contract with Azazel",
         "type": "Contract",
         "category": "Rare Drop",
-        "effect": "Double damage while standing still.",
-        "notes": "Dropped by Cerebral variants.",
+        "effect": "Enemies you kill have a chance of coming back to life on your side.",
+        "notes": "Dropped by Archvile variants.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Contract with Lucifer",
+        "type": "Contract",
+        "category": "Rare Drop",
+        "effect": "Increased damage while at max health.",
+        "notes": "Dropped by Tyrant variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
@@ -1803,42 +1935,6 @@ export default [
     //     "designnotes": "",
     //     "newstatus": 0
     // },
-    {
-        "name": "Contract with Lucifer",
-        "type": "Contract",
-        "category": "Rare Drop",
-        "effect": "Increased damage while at max health.",
-        "notes": "Dropped by Tyrant variants.",
-        "carriable": 1,
-        "description": "",
-        "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 0
-    },
-    {
-        "name": "Contract with Mammon",
-        "type": "Contract",
-        "category": "Rare Drop",
-        "effect": "Enemies drop extra ammo when killed.",
-        "notes": "Dropped by Hell Knight variants.",
-        "carriable": 1,
-        "description": "",
-        "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 0
-    },
-    {
-        "name": "Contract with Moloch",
-        "type": "Contract",
-        "category": "Rare Drop",
-        "effect": "Enemies flinch more often and for longer.",
-        "notes": "Dropped by Pain Elemental variants.",
-        "carriable": 1,
-        "description": "",
-        "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 0
-    },
     // {
     //     "name": "Contract with Naberius",
     //     "type": "Contract",
@@ -1851,30 +1947,6 @@ export default [
     //     "designnotes": "",
     //     "newstatus": 0
     // },
-    {
-        "name": "Contract with Paimon",
-        "type": "Contract",
-        "category": "Rare Drop",
-        "effect": "You gain 25% global resistance when out of armor.",
-        "notes": "Dropped by Revenant variants.",
-        "carriable": 1,
-        "description": "",
-        "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 0
-    },
-    {
-        "name": "Contract with Satan",
-        "type": "Contract",
-        "category": "Rare Drop",
-        "effect": "Permanent Berserk with increased effectiveness.",
-        "notes": "Dropped by Fiend variants.",
-        "carriable": 1,
-        "description": "",
-        "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 0
-    },
 
     // health/armor
     {
@@ -2035,7 +2107,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Red Supply Strongbox",
@@ -2047,7 +2119,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Blue Supply Strongbox",
@@ -2059,7 +2131,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Yellow Supply Strongbox",
@@ -2071,7 +2143,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dead Sea Scroll",
@@ -2254,6 +2326,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Cornucopic Vessel (Drain mode)",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "While active, picking up healing items instead charges this item for half of their value. Can hold up to 200 charge.",
+        "notes": "Valid items include Health Bonuses, Small and Large Health Packs, and Booster packs. Secondary effects do not activate. Picking up a second copy of this item increases its maximum charge by 165.",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Cornucopic Vessel (Heal mode)",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "While active, uses stored charge to regenerate your health.",
+        "notes": "Can overcharge up to +200.",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Quickdraw Holster",
         "type": "Misc",
         "category": "Rare Drop",
@@ -2409,5 +2505,16 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-
+    {
+        "name": "GF-4 Upgrade Core",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Used to upgrade the HazCom GF-3 Protection Suit, increasing its maximum armor by 100 and doubling the amount of armor recharged with cells.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
 ]

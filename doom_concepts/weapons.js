@@ -60,6 +60,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Crowbar",
+        "fullname": "",
+        "ammo": "N/A",
+        "category": "Melee",
+        "primary" : "Smack",
+        "secondary" : "N/A",
+        "notes" : "",
+        "superior" : "Enemies now drop supplies on death, with the amount scaling with their max health. What gets dropped is based on what you need the most between health, armor and ammo.",
+        "durability": false,
+        "description": "Something to help you pry open doors, planks and crates and fuck up faces. No PhD in theoretical physics needed.",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Katana",
         "fullname": "",
         "ammo": "N/A",
@@ -387,7 +402,7 @@ export default [
         "description": "Mysterious sword forged in brimstone and tempered with arcane powers. It is incredibly sharp, but contrary to what some games may lead you to believe, not exactly particularly resistant.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Laser Drill",
@@ -417,7 +432,7 @@ export default [
         "description": "Experimental knife developed for quickly eliminating difficult to kill targets. The blade can be detached, releasing a special chemical that violently reacts with demonic DNA. Spontaneous destruction of target usually occurs.",
         "authorsnotes": "Inspired by the Longinus Knife from Xionic Madness.",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -1079,7 +1094,7 @@ export default [
         "description": "Powerful semi-automatic shotgun that garnered a massive amount of popularity despite its flaws getting too much in the way of practicality.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mag Shotgun",
@@ -1200,7 +1215,7 @@ export default [
         "description": "Even simpler than dead simple. The high-quality choked compensated barrel improves accuracy by a decent margin, but there's no escaping the amount of reloading you'll need to do.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Spreader Shotgun",
@@ -1398,6 +1413,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Death & Rose",
+        "fullname": "",
+        "ammo": "Shells x2",
+        "category": "SSG",
+        "primary" : "Buckshot x20",
+        "secondary" : "N/A",
+        "notes" : "Requires reloading, which throws the weapons like grenades and discards all leftover ammunition. Grenade damage increases how much ammo was discarded that way.",
+        "superior" : "Causes enemies to drop Life Essence on death.",
+        "durability": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Gauss Shotgun",
         "fullname": "",
         "ammo": "Bullets x16",
@@ -1410,7 +1440,7 @@ export default [
         "description": "More of a volley gun than an actual shotgun. The multi-barrel system gives it a very consistent \"pellet\" spread that doesn't deviate much over distance. Definitely an odd choice to use a technology renowned for its accuracy to put into a weapon system that famously isn't.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "40mm Shotgun",
@@ -1425,7 +1455,7 @@ export default [
         "description": "Like the mythical snake biting its tail, this \"shotgun\" is actually a pump-action grenade-launcher, loaded with grenades that actually fire buckshot. Clunky and hard to use, but rare are the cases that require more than one trigger pull.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Flak Cannon",
@@ -1455,7 +1485,7 @@ export default [
         "description": "Gyrojet technology has been in limbo ever since its inception due to poor accuracy and legal issues. Decades later and with the constant threat of demonic attacks, research has progressed to the point where pump-action rocket-swarm-launchers are not only possible but effective as well.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Sonic Blaster",
@@ -1651,7 +1681,7 @@ export default [
         "description": "Old-timey standard-issue bolt-action rifle modified with a drum magazine and a gas-operation mechanism that does the bolt-acting automatically. You still need to load it with stripper clips, since whoever designed this didn't have time to make spare mags.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Hyperburst",
@@ -1696,7 +1726,7 @@ export default [
         "description": "High-caliber SMG that used to be a mainstay of UAC's armories before they switched over to chainguns for their automatic weapon of choice. Mostly famous for its appearance on a certain piece of promotional art, and not really much else.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Triad SMG",
@@ -2147,7 +2177,7 @@ export default [
         "description": "Turns out that rifles designed to take out large beasts work just as well against large beasts from Hell. Feeds from a detachable magazines, a rare sight in lever-action rifles.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sniper Rifle",
@@ -2177,7 +2207,7 @@ export default [
         "description": "Lightweight bolt-action rifle designed for target shooting, featuring a hollow titanium body and a smooth rapid action that helps target acquisition while aiming. Just like any other competition firearm, it is incredibly rare and extortionately expensive.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Assassin Rifle",
@@ -2373,7 +2403,7 @@ export default [
         "description": "One missile doing big damage means many missiles must do many big damage. Any demon, no matter how big, is basically guaranteed to shit their metaphorical pants upon seeing so many missiles coming at them at once.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "DPRL",
@@ -2403,7 +2433,7 @@ export default [
         "description": "A launcher that returns to the old ways with a high-explosive single-shot design. Much better suited for taking out large targets over hordes of rocket fodder.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Bunker Piercer",
@@ -2418,7 +2448,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 1
+    //     "newstatus": 5
     // },
     {
         "name": "Volley Rocket Launcher",
@@ -2493,7 +2523,7 @@ export default [
         "description": "The latest member in a long family of revolver-type launchers. The simple and rugged action allows for speedy delivery of explosive ordnance, and the newest design coupled with caseless grenades makes reloading in the heat of battle not as cumbersome as it used to be.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Napalm Launcher",
@@ -2643,7 +2673,7 @@ export default [
         "description": "The kind of plasma the UAC uses was always known to be a bit unstable, so why not take advantage of this little shortcoming? The rockets explode about as hard as an entire barrel of the stuff, since that's the whole point of the contraption.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rail Cannon",
@@ -2809,7 +2839,7 @@ export default [
         "description": "Four barrels of sci-fi mumbo jumbo. By slowing down light particles through a process that borders on magic, their kinetic energy gets converted to heat, increasing overall damage output.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Plasma Railgun",
@@ -3019,7 +3049,7 @@ export default [
         "description": "Not even the most cutting-edge tech can escape boomstick-ization. This baby's power to size ratio rivals that of a BFG, although it is still way behind when it comes to size - and power - itself.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Magitech Rifle",
@@ -3411,7 +3441,7 @@ export default [
         "description": "A tweaked variant of the 9000 attempting to make usage more straightforward. Depending on the firing mode, the residual burst of energy can either be attached to the projectile, or released immediately instead of at the moment the projectile impacts something.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "BFG 10000",
@@ -3453,7 +3483,7 @@ export default [
         "notes" : "",
         "superior" : "Each projectile fired has a chance to be duplicated.",
         "durability": false,
-        "description": "The first successful attempt at a man-portable superweapon, the 2704 is what led to the serendipitous discovery of bouncy plasma. As the first of its kind, the barrage of plasma shots is somewhat unrefined, which creates variance in the power and color of the projectiles.",
+        "description": "The first successful attempt at a man-portable superweapon, the 2704 didn't get to spend too much time on the frontlines before the rapid advance in superweapon technology left it in the dust. As the first of its kind, the barrage of plasma shots is somewhat unrefined, which creates variance in the power and color of the projectiles.",
         "authorsnotes": "For those unaware, that's how the BFG was originally intended to work. Coming up with an explanation for the christmas balls made for a fun gimmick.",
         "designnotes": "",
         "newstatus": 0
@@ -3468,10 +3498,10 @@ export default [
         "notes" : "",
         "superior" : "Increased maximum damage of secondary plasma balls, with extra colors!",
         "durability": false,
-        "description": "Instead of haphazardly spewing bouncy plasma balls everywhere, the 3141 instead projectile-vomits a big ball that spews bouncy plasma balls everywhere on impact. More like big firework gun.",
+        "description": "Instead of haphazardly spewing plasma balls everywhere, the 3141 instead projectile-vomits a big ball that spews bouncy plasma balls everywhere on impact. More like big firework gun.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "BFG 1856",
@@ -3486,7 +3516,7 @@ export default [
         "description": "Either Tesla was a visionary or someone messed with a time machine. This steampunk contraption functions similarly to the UAC's pride and joy, only with electricity instead of plasma.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Devastator",
@@ -3636,7 +3666,7 @@ export default [
         "description": "The BFG line of weapons definitely caught the attention of hell's armed forces, and thus they joined the arms race by fielding their own version to make their elite forces even deadlier.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Frostfire Destroyer",
@@ -3651,7 +3681,7 @@ export default [
         "description": "A variant of the demonic superweapon that defies traditional elemental classification by firing explosive projectiles of fire and ice. Demon magic is a hell of a thing.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Chemfire Destroyer",
@@ -3666,7 +3696,7 @@ export default [
         "description": "Industrial-scale chemical warfare device firing flaming bombs that spread vitriolic gas melting all it makes contact with. As the chemical compound doesn't discriminate, this weapon is distributed sparsely to limit the amount of accidental friendly fire.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Shadowfire Destroyer",
@@ -3681,7 +3711,7 @@ export default [
         "description": "The next step in the ever accelerating arms race between humanity and hellkind. The kind of fire this weapon outputs burns ever more vividly when souls enter the mix, which means it can burn straight through most common armor types.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "NUKE",
@@ -4493,7 +4523,7 @@ export default [
         "description": "Ever just wondered why hell needs colorful skulls to lock their doors? Well you won't be getting an answer but this contraption will help you get more use out of the ones you pick up.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Lunar Pocket Watch",
@@ -4914,7 +4944,7 @@ export default [
         "description": "\"Alien\" less for its association with any kind of extra-terrestrial species and more in the sense that nobody can figure out where these things are even coming from. It's powered by some sort of unknown energy and as such has no known ways of recharging it once the batteries go dry.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pocket Big Bang",
@@ -4959,7 +4989,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 1
+    //     "newstatus": 5
     // },
     {
         "name": "Mounted .50 cal",
@@ -5244,7 +5274,7 @@ export default [
         "description": "Silver is well-known for its anti-miasmic and anti-evil properties, so making blades out of it just makes sense. Given how many this spell conjures, you can be thankful you're not the one actually physically throwing them.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Golden Gun",
@@ -5574,7 +5604,7 @@ export default [
         "description": "Designed to solve the UAC's nukage waste problem by repurposing it into ammunition. The volatility of its projectiles and unconventional ballistics lead to more friendly fire incidents than accidental detonations of the many, many barrels of green stuff scattered all round.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Liquefier",
@@ -5589,7 +5619,7 @@ export default [
         "description": "The kind of pressure washer that is guaranteed to kill 100% of bacteria. Before firing, the nukage is mixed with a chemical agent that both increases its toxicity and ensures it evaporates quickly before people accidentally slip and cover themselves with it.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dragon Fist",
@@ -5724,7 +5754,7 @@ export default [
         "description": "Vanometric generators are capable of creating energy out of nothing. When you combine this with a weapon that utilizes energy as ammunition, you end up with effectively infinite firepower with the only drawback of having to let it build its juice back up over time.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic C5 - \"Bloody Doll\"",
@@ -6437,7 +6467,7 @@ export default [
         "description": "I'm at the doomed club, straight up cranking it, and by it, haha well, let's just say, my pinkits",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Electric Toothbrush",
@@ -6557,7 +6587,7 @@ export default [
         "description": "If your shotgun doesn't run through the rng table at least 10 times per shot you're doing it wrong",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Ballbuster",
@@ -6842,7 +6872,7 @@ export default [
         "description": "A turbo-stupid amount of dakka. The most dakka of all time you could say.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
 ]
