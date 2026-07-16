@@ -72,7 +72,7 @@ export default [
         "description": "Something to help you pry open doors, planks and crates and fuck up faces. No PhD in theoretical physics needed.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Katana",
@@ -1413,21 +1413,6 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Death & Rose",
-        "fullname": "",
-        "ammo": "Shells x2",
-        "category": "SSG",
-        "primary" : "Buckshot x20",
-        "secondary" : "N/A",
-        "notes" : "Requires reloading, which throws the weapons like grenades and discards all leftover ammunition. Grenade damage increases how much ammo was discarded that way.",
-        "superior" : "Causes enemies to drop Life Essence on death.",
-        "durability": false,
-        "description": "A twisted pair of dark shotguns possessed with rage and firing pure hatred. No need to reload, just throw them away and they'll teleport to your hands fully loaded. Each gun has its named engraved onto it in japanese, because of course it is.",
-        "authorsnotes": "",
-        "designnotes": "",
-        "newstatus": 1
-    },
-    {
         "name": "Gauss Shotgun",
         "fullname": "",
         "ammo": "Bullets x16",
@@ -1499,6 +1484,21 @@ export default [
         "durability": false,
         "description": "This shotgun fires a high-powered supersonic shockwave over a very short distance. Normally, it would take some time for the capacitors to recharge between each shot, but it's also fitted with a kinetic supercharger, allowing you to manually accelerate the process using the lever.",
         "authorsnotes": "Blatant rip-off of the Machreaper from Final Doomer. I just love that gun.",
+        "designnotes": "",
+        "newstatus": 0
+    },
+    {
+        "name": "Death & Rose",
+        "fullname": "",
+        "ammo": "Shells x2",
+        "category": "SSG",
+        "primary" : "Buckshot x20",
+        "secondary" : "N/A",
+        "notes" : "Requires reloading, which throws the weapons like grenades and discards all leftover ammunition. Grenade damage increases how much ammo was discarded that way.",
+        "superior" : "Causes enemies to drop Life Essence on death.",
+        "durability": false,
+        "description": "A twisted pair of dark shotguns possessed with rage and firing pure hatred. No need to reload, just throw them away and they'll teleport to your hands fully loaded. Each gun has its named engraved onto it in japanese, because of course it is.",
+        "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
     },
@@ -4631,6 +4631,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Spirit Bomb Launcher",
+        "fullname": "",
+        "ammo": "Spirit x10",
+        "category": "Magic",
+        "primary" : "Holy Bomb",
+        "secondary" : "N/A",
+        "notes" : "No self damage!",
+        "superior" : "Increased explosion radius. Getting hit by the blast heals you based on how many demons were also hit.",
+        "durability": false,
+        "description": "An explosive weapon that doesn't kill its wielder when mishandled. Now you can live your fantasies of blowing up hordes without having to worry with things like \"safe distance\" and \"Where did that Lost Soul come from?\".",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Star Cannon",
         "fullname": "",
         "ammo": "Spirit x10",
@@ -4715,7 +4730,7 @@ export default [
         "notes" : "Target instantly dies after a set amount of time. No effect on bosses.",
         "superior" : "Reduced ammo cost based on the target's health.",
         "durability": false,
-        "description": "A spell that turns killing from an art form to a triviality. A simple spell that has been yet to meet its match.",
+        "description": "A spell that turns killing from an art form to a triviality. A simple spell that has yet to meet its match.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -5208,13 +5223,13 @@ export default [
         "category": "Disposable",
         "primary" : "Mega Blast",
         "secondary" : "N/A",
-        "notes" : "",
+        "notes" : "Vomits a massive blood \"laser\".",
         "superior" : "N/A",
         "durability": false,
-        "description": "Another human skin scroll with a single sigil written on it, representing the alchemical element of brimstone. No demon you know of has the capability of firing a massive blood laser out of their mouth, makes you wonder who this kind of spell could be for.",
+        "description": "Another human skin scroll with a single sigil written on it, representing the alchemical element of brimstone. Vomiting blood doesn't seem like the kind of thing that would do any significant damage, but it's not like you can expect anything coming out of Hell to adhere to expectations.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Fantasy Spellcard - \"The Seal That Guards the Heavens\"",

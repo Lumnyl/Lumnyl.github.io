@@ -15,7 +15,7 @@ export default [
         "subject": "Sin",
         "category": "Concepts",
         "description": "Sin is the criteria that decide what kind of demon a human soul will become, based on what kinds of reprehensible acts they have committed. Acts of sin taint the soul, and different kinds of tainting produce different kinds of demons.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Demon Magic",
@@ -110,16 +110,22 @@ export default [
         "newstatus": 0
     },
     {
+        "subject": "Heretics",
+        "category": "Enemy Types",
+        "description": "Various people who chose to commit the ultimate act of treason and joined the forces of evil, be it out of worship, desperation, fear of death, need to belong to something greater, or just plain and simple antipathy. They are technically still living, breathing human beings, but they are either soulless or unwilling to repent; the best you can do for them is stop them from hurting others in the process.",
+        "newstatus": 1
+    },
+    {
         "subject": "Imps",
         "category": "Enemy Types",
         "description": "The most common and basic of demons. They come from people who were undeniably not good people and often fell to temptation, but did not have their soul tainted by one sin in particular.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Fiends",
         "category": "Enemy Types",
         "description": "Those who revel in violence and Wrath become Fiends when they pass away. Whenever they aren't being wrangled to fight in the legions of Hell, they display frequent acts of aggression which gets them into fights constantly. Their lack of intelligence is also a burden on their magical capabilities.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Lost Souls",
@@ -131,7 +137,7 @@ export default [
         "subject": "Revenants",
         "category": "Enemy Types",
         "description": "Revenants are quick and dirty puppets of recycled flesh and bones, which makes them an excellent choice for situations where numbers matter. They harbor souls of the sowers of discord, agitators who aim to fracture unity and cohesion through lies and false promises.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Mancubi",
@@ -161,13 +167,13 @@ export default [
         "subject": "Hell Nobles",
         "category": "Enemy Types",
         "description": "People love money, and the love of money is the root of all evil; Hell Nobles are born when those two concepts finally meet. Compared to other species of demons they have a semblance of a social structure, but nonetheless are still barbaric hellspawn and behave in all the usual ways you would expect.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Archviles",
         "category": "Enemy Types",
         "description": "The betrayal of one's trust is one of the most horrible acts one can accomplish. Archviles are mostly comprised of narcissists and opportunists, uncaring about the human element if it meant furthering their personal achievements. They have the power of resurrection, but are plagued with a curse that makes them unable to be perceived by other demons, causing one-sided friendly fire accidents where they are unable to stop themselves from wailing on the ungrateful pricks they helped back to life.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Tyrants",
@@ -235,7 +241,7 @@ export default [
         "subject": "Pandemonium",
         "category": "Locations",
         "description": "On the outside, a massive cube-shaped floating castle. On the inside, a procedurally generated escherian nightmare of corridors full of demons. Wandering its halls without purpose will only lead you nowhere, but those who have been beckoned will find their destination rather easily, although not without resistance. The Princes of Hell all share residence within this abode, not because they live there, but because it leads to wherever they happen to be. A liminal space with a mind of its own, both containing and contained within Hell itself.",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     // {
@@ -266,7 +272,7 @@ export default [
         "subject": "Beelzebub",
         "category": "Princes of Hell",
         "description": "Beelzebub is what happens when you scale Tarrarre to a size that is measured in football fields. Entire species are bred and farmed for the sole purpose of filling his stomach, and he plans to add humans to that list. His gut is home to an entire ecosystem of decaying organic matter that spread to what is now known as the Gardens of Rot. His musk can be smelled from miles away, and is able to outright kill anything that isn't adjusted to living in such toxic environments.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Belphegor",
@@ -290,7 +296,7 @@ export default [
         "subject": "Mammon",
         "category": "Princes of Hell",
         "description": "King of the rich and god of the poor. Mammon is an investor, and his investment is debt. He offers promises of uncountable riches and draws power over the ever increasing debt his clients inevitably end up accumulating. Of course, he always gives them an out in the form of a free all-inclusive trip to his luxurious casino where payouts are guaranteed. The house has to win somehow, and what it wins is indefinite dominion over the gambler's soul, in a world where money has no purpose besides accumulating ad infinitum like chocolate chip cookies.",
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "subject": "Baphomet",

@@ -10,6 +10,17 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Fanatic",
+        "category": "Zombieman",
+        "species": "Heretic",
+        "description": "Those who get their soul extricated in any way become violent savages remote controlled by the dark powers that be. The only thing greater than their bloodlust is their seemingly endless supply of knives.",
+        "details": [
+            "Runs at you and attacks with a knife.",
+            "Throws knives if he cannot get to you."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Zombie Scientist",
         "category": "Zombieman",
         "species": "Zombie",
@@ -28,6 +39,28 @@ export default [
             "Attacks with a Laser Pistolette.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Chainsaw Fanatic",
+        "category": "Zombieman",
+        "species": "Heretic",
+        "description": "No amount of horror movies can prepare you against a lunatic with a chainsaw. They are also often seen wearing makeshift helmets out of buckets, bowls and pumpkins, giving them an admittedly poor increase in survivability at the cost of any kind of situational awareness.",
+        "details": [
+            "Runs at you and attacks by swinging a chainsaw!",
+            "His charges can be sidestepped.",
+            "Throws knives if he cannot get to you."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Zombie Marksman",
+        "category": "Zombieman",
+        "species": "Zombie",
+        "description": "Soldier trained for long-range killing. Combat-wise, they're not too dissimilar from the pistol-wielding guys, just with stronger hardware.",
+        "details": [
+            "Attacks with a DMR.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "Sniper Zombie",
@@ -50,6 +83,20 @@ export default [
             "Will usually kill himself with splash damage.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Zombie Hitman",
+        "category": "Zombieman",
+        "species": "Zombie",
+        "description": "Former assassin in a stealth suit still trying to do her job despite the lack of monetary compensation. Eliminate her quick or she will blindside you when you least expect it.",
+        "details": [
+            "Attacks with an Assassin Rifle.",
+            "Partially invisible unless attacking.",
+            "Takes some time to aim before firing. No laser sight, but has trouble tracking moving targets.",
+            "Can go completely invisible to run away from danger at the cost of being fully exposed while her suit recharges.",
+            "Other enemies she may accidentally shoot have a lower chance of fighting back and lose track of her when she goes invisible."
+        ],
+        "newstatus": 1
     },
     {
         "name": "HEP Agent",
@@ -84,6 +131,17 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Disciple",
+        "category": "Shotgunner",
+        "species": "Heretic",
+        "description": "A devout yet still green mage of the dark arts. He has yet to figure out how to refine his magic into a more physical form, so his spells are still pretty weak compared to the backup weapon he carries.",
+        "details": [
+            "Throws a burst of energy bolts.",
+            "Attacks with a knife at close range."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "SSG Zombie",
         "category": "Shotgunner",
         "species": "Zombie",
@@ -95,15 +153,36 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Demontech Dragoon",
+        "category": "Shotgunner",
+        "species": "Heretic",
+        "description": "As learning the art of spell casting is long and fastidious, Hell has also provided its human followers with the knowledge of Demontech weaponry. Dragoons wield blunderbusses with expectedly devastating firepower up close.",
+        "details": [
+            "Attacks with a Demontech Blunderbuss.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Assault Shotgunner",
         "category": "Shotgunner",
         "species": "Zombie",
         "description": "Former lieutenant who prefers the versatility of a semi-auto over the power of a double-barrel.",
         "details": [
-            "Attacks with a Combat Shotgun.",
-            "Take advantage of his lengthy reload time.",
+            "Attacks with a Combat Shotgun."
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Shotgun Veteran",
+        "category": "Shotgunner",
+        "species": "Zombie",
+        "description": "Seasoned trooper wielding a prototype shotgun capable of using both blast and flame shells. Also used to be proficient at driving tanks, though thankfully that knowledge has been lost after zombification.",
+        "details": [
+            "Attacks with a Blast Shotgun/Flame Shot hybrid.",
+            "Needs to reload to switch between ammo types.",
+            "Uses a Tactical Pistol when out of range. That also includes the knife, which he will swing if you get too close."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Quad Shotgunner",
@@ -115,6 +194,19 @@ export default [
             "Fires with two or all four barrels.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Riot Sweeper",
+        "category": "Shotgunner",
+        "species": "Zombie",
+        "description": "During the chaos of the invasion, specialized police units were among the first armed forces to respond using refurbished riot control gear. Unfortunately their gear wasn't designed to protect against supernatural opponents.",
+        "details": [
+            "Attacks with a Hell Sweeper.",
+            "Take advantage of his lengthy reload time.",
+            "Uses his ballistic shield to block against attacks. Enough firepower will break the shield and temporarily stun him.",
+            "Resistant against ballistic damage. This also includes the shield."
+        ],
+        "newstatus": 1
     },
     {
         "name": "HEP Engineer",
@@ -140,6 +232,17 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Demontech Rifleman",
+        "category": "Chaingunner",
+        "species": "Heretic",
+        "description": "Frontline unit with a standard-issue rifle, Hell-worshiper edition. Their lack of military training offsets the higher damage output of their weapon.",
+        "details": [
+            "Attacks with a Demontech Rifle.",
+            "Keeps firing until line of sight is broken or the magazine runs dry.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Chaingunner",
         "category": "Chaingunner",
         "species": "Zombie",
@@ -155,25 +258,63 @@ export default [
         "name": "Nailgunner",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Armored zombie soldiers carrying Nailguns. Their armor protects them well against low-caliber weaponry.",
+        "description": "A small portion of UAC troops were promoted to an experimental branch to test out nail-based weaponry. They were nicknamed \"lawnmowers\" due to their green armor and their incredible crowd-clearing abilities.",
         "details": [
             "Attacks with a Nailgun.",
             "Keeps firing until line of sight is broken.",
             "Nails can pierce enemies and hit you through crowds!",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Plasma Gunner",
         "category": "Chaingunner",
         "species": "Zombie",
-        "description": "Elite soldiers with powerful plasma weaponry. They are trained to fire in bursts, but will happily hold down the trigger if they feel it necessary.",
+        "description": "Elite soldiers with powerful plasma weaponry. Their guns are fitted with a prototype fire selector that allowed for both rapid bursts and less rapid full-auto fire.",
         "details": [
             "Attacks with a Plasma Carbine.",
             "Fires in bursts or continuously until line of sight is broken.",
             "His suit grants him resistance against plasma weaponry.",
         ],
-        "newstatus": 0
+        "newstatus": 2
+    },
+    {
+        "name": "Demontech Gatling Gunner",
+        "category": "Chaingunner",
+        "species": "Heretic",
+        "description": "Not many have the strength required to carry and fire a gatling gun, but this guy is able to one-hand it like it's a mere pistol.",
+        "details": [
+            "Attacks with a Demontech Gatling.",
+            "Keeps firing until line of sight is broken.",
+            "Will keep his gun spinning for a few seconds after he stops firing to avoid dealing with the wind-up.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Demolitionist",
+        "category": "Chaingunner",
+        "species": "Zombie",
+        "description": "Support unit who likes the smell of dynamite a bit too much. Has stayed sober since the day he died.",
+        "details": [
+            "Attacks with an Assault Launcher.",
+            "Fires in bursts or continuously until line of sight is broken.",
+            "Can throw grenades, of either the Hand or Proximity variety.",
+            "His suit grants him resistance (but not immunity!) against explosives.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Shock Trooper",
+        "category": "Chaingunner",
+        "species": "Zombie",
+        "description": "Lightning weapons require careful planning to avoid needless friendly fire, planning that tends to become impossible when you're running mostly on instincts.",
+        "details": [
+            "Attacks with a Thunder Cannon.",
+            "Attacks with a Lightning Gun at close range.",
+            "Very likely to accidentally hit other enemies.",
+            "His suit grants him resistance against plasma weaponry.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "BFG Commando",
@@ -207,7 +348,7 @@ export default [
         "species": "Imp",
         "description": "The cannon fodder of Hell's legions. What they lack in strength they make up in numbers.",
         "details": [
-            "Throws fireballs",
+            "Throws fireballs.",
             "Scratches you at close range.",
         ],
         "newstatus": 0
@@ -224,6 +365,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Gargoyle",
+        "category": "Imp",
+        "species": "Imp",
+        "description": "Mutant imp that grew a pair of wings. They don't have a good reputation due to how much gunk they leave around.",
+        "details": [
+            "Flying.",
+            "Throws acid balls, which leave puddles when hitting a surface.",
+            "Scratches you at close range.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Cyber Imp",
         "category": "Imp",
         "species": "Imp",
@@ -234,6 +387,17 @@ export default [
             "Tazes you at close range.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Monops",
+        "category": "Imp",
+        "species": "Imp",
+        "description": "Psychic-sensitive imp cousin with a big head and a singular eye. They even use their extra gray matter to avoid starting fights with other demons.",
+        "details": [
+            "Fires psychic bolts that bounce against surfaces and pass harmlessly through anything that isn't its target.",
+            "At close range, sends a psychic blast that knocks everything back.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "Pyro Imp",
@@ -329,6 +493,17 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Metalface",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "A fiend that had titanium plates welded onto its face. The perpetual state of pain does nothing to alleviate its anger issues.",
+        "details": [
+            "Bites you at close range.",
+            "Resistant against ballistic and explosive damage, except on the back and when biting.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Mauler",
         "category": "Pinky",
         "species": "Fiend",
@@ -339,6 +514,18 @@ export default [
             "Growls before charging at top speed, which knocks you back.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Magma Fiend",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "These yellowies have the ability to eat rocks and regurgitate them a thousand degrees hotter. Some of the minerals they ingest have residual energy which lets them spit out actual fireballs as well.",
+        "details": [
+            "Bites you at close range.",
+            "Vomits lava at a distance. May occasionally spit out a fireball or two in the process.",
+            "Resistant against fire."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Spectre",
@@ -361,7 +548,7 @@ export default [
             "Capable of walking through other demons.",
             "Natural camouflage makes them somewhat harder to see. Especially effective in the dark.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Apparition",
@@ -371,9 +558,9 @@ export default [
         "details": [
             "Bites you at close range.",
             "Natural camouflage makes them harder to see. Especially effective in the dark.",
-            "Can create illusionary clones of itself. Clones disappear upon taking damage.",
+            "Can create illusionary clones of itself. Clones disappear upon taking damage or by walking through them.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Stalker",
@@ -385,7 +572,7 @@ export default [
             "Completely invisible except when attacking!",
             "Growls before leaping at you, revealing itself in the process.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Phase Spectre",
@@ -398,7 +585,7 @@ export default [
             "Spits phaseballs at a distance.",
             "Capable of phasing out of reality, rapidly dashing while being intangible.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Weeper",
@@ -411,6 +598,33 @@ export default [
             "Completely intangible unless berserking.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Fury",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "A collection of deceased Fiends made manifest through pure rage. Your average vengeful spirit this is not.",
+        "details": [
+            "Flying",
+            "Launches spirits of pure pain.",
+            "Bites you at close range.",
+            "Moves faster as it loses health."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Schizophrenia",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "A more advanced and powerful form of the Apparition, and physical proof that fear can kill. Their bite doesn't pierce flesh, but it sure feels like it does.",
+        "details": [
+            "Bites you at close range.",
+            "Can disappear and then reappear at a random location.",
+            "Occasionally create clones of itself when reappearing. Clones act like copies of the original monster.",
+            "Clones disappear after taking a randomly set amount of damage.",
+            "Dealing enough damage to the real monster clears all clones."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Lost Soul",
@@ -472,6 +686,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Tumor",
+        "category": "Lost Soul",
+        "species": "Cancer",
+        "description": "A flying ball of flesh with teeth sticking out of it. Of course Hell would be the place to find raw cancer casually flying around.",
+        "details": [
+            "Flying.",
+            "Bites you at close range.",
+            "When down to low health, will fall down and stay inactive for a period of time. If it is not finished off while in that state, it will grow back to full health."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Plasma Drone",
         "category": "Lost Soul",
         "species": "Lost Soul",
@@ -484,6 +710,32 @@ export default [
             "Resistant against ballistic weapons.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Wraith",
+        "category": "Lost Soul",
+        "species": "Lost Soul",
+        "description": "Soul mixed with some demon magic that allows it to keep form without a physical tether, which in turn allows it to tether itself to corpses.",
+        "details": [
+            "Flying.",
+            "Launches itself at you.",
+            "Messes with your vision on hit.",
+            "Can \"possess\" non-gibbed non-boss enemy corpses, resurrecting them at half health. Will leave its host when it dies."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Frostflame",
+        "category": "Lost Soul",
+        "species": "Lost Soul",
+        "description": "Due to demonic magical osmosis, this soul burns pure cold instead of heat as an insult to laws of thermodynamics. An air climatizer powered by human suffering.",
+        "details": [
+            "Flying.",
+            "Launches itself at you, leaving clouds of ice behind.",
+            "Can fire frostfire balls.",
+            "Resistant against ice."
+        ],
+        "newstatus": 1
     },
 
     {
@@ -558,6 +810,34 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Pathovector",
+        "category": "Revenant",
+        "species": "Revenant",
+        "description": "This particular flying legless skeleton was designed by Miasma himself. Remember that fire is the best way to kill pestilence.",
+        "details": [
+            "Flying.",
+            "Fires plague rockets.",
+            "Sprays plague clouds at close range."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Legionary",
+        "category": "Revenant",
+        "species": "Revenant",
+        "description": "The next step in the Sentry evolutionary line. All that extra weight is really starting to add up, but beware of its surprising bursts of speeds when it goes for the knockout.",
+        "details": [
+            "Shotguns spreads of rockets.",
+            "Attacks with a howitzer at long range.",
+            "Can use a shoulder cannon that fires homing plasma.",
+            "Can pull up a plasma shield to block against attacks.",
+            "Shield can be overheated with enough firepower, which permanently disables it. Plasma works best and causes an EMP when the shield overheat.",
+            "Rocket-punches you when in range.",
+            "Resistant against ballistic weapons."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Mancubus",
         "category": "Mancubus",
         "species": "Mancubus",
@@ -590,6 +870,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Cyber Mancubus",
+        "category": "Mancubus",
+        "species": "Mancubus",
+        "description": "If you can't increase a Mancubus's speed, then you might as well upgrade its defense. Their laser weaponry wasn't designed to be shotgun-like, but it proved to be more effective that what was intended.",
+        "details": [
+            "Continuously fires spreads of two plasma shots.",
+            "Can fire laser shotguns in volleys.",
+            "Resistant against ballistic weapons."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Daedabus",
         "category": "Mancubus",
         "species": "Mancubus",
@@ -614,6 +906,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Putrescent",
+        "category": "Mancubus",
+        "species": "Mancubus",
+        "description": "This is the foulest, vilest, most horrid gut-wrenching smelling being you ever had the displeasure of subjecting your nostrils to. And that's not mentioning how overworked your immune system is going to be trying to quarantine whatever is in those fluids it projects.",
+        "details": [
+            "Fires volleys of toxic sludge which spreads lingering goo mines on impact.",
+            "Releases toxic gases as it takes damage.",
+            "Vomits bile through a gap in its gut at close range. Gross.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Tankubus",
         "category": "Mancubus",
         "species": "Mancubus",
@@ -622,10 +926,10 @@ export default [
             "Constantly moves.",
             "Attacks with dual chainguns.",
             "Fires barrages of rockets.",
-            "Fires a cannonball at longer range.",
+            "Fires a cannonball at longer ranges.",
             "Can and will run you over. Get out of the way!"
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Arachnotron",
@@ -674,6 +978,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Arachnolauncher",
+        "category": "Arachnotron",
+        "species": "Cerebral",
+        "description": "Any cybernetic project is inevitably going to evolve into launching explosives. It's like one of those rocket artillery trucks, except on legs instead of tires.",
+        "details": [
+            "Continuously fires rockets.",
+            "Keeps firing until line of sight is broken.",
+            "Can fire a volley of homing missiles.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Arachknight",
         "category": "Arachnotron",
         "species": "Cerebral",
@@ -698,6 +1014,19 @@ export default [
         ],
         "newstatus": 0
     },
+    {
+        "name": "Demolitron",
+        "category": "Arachnotron",
+        "species": "Cerebral",
+        "description": "The mini-version of the Demolisher, with two mini-miniguns and a mini-BFG. The only thing that isn't mini here is the amount of firepower.",
+        "details": [
+            "Continuously fires two miniguns.",
+            "Can fire with gauss guns instead. Watch for the laser sight and stay on the move!",
+            "Keeps firing until line of sight is broken.",
+            "Can charge to fire a volley of BFG 10000 bolts."
+        ],
+        "newstatus": 1
+    },
 
     {
         "name": "Cacodemon",
@@ -709,7 +1038,7 @@ export default [
             "Spits out lightning balls.",
             "Bites you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Juvenile Cacodemon",
@@ -721,7 +1050,7 @@ export default [
             "Gnaws you at close range.",
             "Spawn as groups.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Agathodemon",
@@ -735,7 +1064,7 @@ export default [
             "Bites you at close range.",
             "Capable of rapidly dashing while going partially invisible.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Beholder",
@@ -748,15 +1077,22 @@ export default [
             "Can fire a spread of bouncing laser projectiles from its eyestalks.",
             "Bites you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
-    // {
-    //     "name": "Malwrath",
-    //     "category": "Cacodemon",
-    //     "species": "Cacodemon",
-    //     "description": "Distant cousin of the common Caco with an affiliation towards the psychic rather than electric. They are smart enough to recognize infighting as something to be avoided, though will still retaliate if attacked.",
-    //     "newstatus": 0
-    // },
+    {
+        "name": "Malwrath",
+        "category": "Cacodemon",
+        "species": "Cacodemon",
+        "description": "Distant cousin of the common Caco with an affiliation towards the psychic rather than electric. Does not seem to show any signs of heightened intelligence.",
+        "details": [
+            "Flying.",
+            "Fires triplets of psychic bolts that bounce against surfaces.",
+            "Can fire homing energy balls.",
+            "Projectiles pass harmlessly through anything that it isn't targeting.",
+            "Bites you at close range.",
+        ],
+        "newstatus": 1
+    },
     {
         "name": "Crackodemon",
         "category": "Cacodemon",
@@ -770,7 +1106,7 @@ export default [
             "Electro-bites you at close range, causing lightning to chain to nearby targets.",
             "Resistant against electricity."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Cacobot",
@@ -785,7 +1121,21 @@ export default [
             "Bites you at close range.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Glaucoma",
+        "category": "Cacodemon",
+        "species": "Cacodemon",
+        "description": "A blood-tinted Caco with an eye that just looks wrong. This is not a creature that looks like it enjoys living; who knows how it became like that.",
+        "details": [
+            "Flying.",
+            "Fires its eye, causing high toxic buildup.",
+            "Can spit out masses of gore that sticks against surfaces and explode into toxic gases when destroyed.",
+            "Can spit a spread of toxic blood.",
+            "Charges and bites you at close range.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "Pain Elemental",
@@ -799,7 +1149,7 @@ export default [
             "Bites you at close range.",
             "Spawns a group of Lost Souls on death."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hate Elemental",
@@ -813,7 +1163,7 @@ export default [
             "Explodes on death.",
             "Spawns a group of Forgotten Ones on death."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Plasma Elemental",
@@ -827,7 +1177,7 @@ export default [
             "Explodes into a circular blast of plasma bolts on death.",
             "Resistant against plasma."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Replicator",
@@ -842,7 +1192,22 @@ export default [
             "Spawns a group of Drones on death.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Carcinoma",
+        "category": "Pain Elemental",
+        "species": "Pain Elemental",
+        "description": "A deformed mass of flesh with random growths that resemble crab claws attached to tendrils, because Pain Elementals weren't cancerous enough. Just as much of a chore to get rid of as the real deal.",
+        "details": [
+            "Flying.",
+            "Spawns Tumors.",
+            "Highly damaging hits can cause it to spawn more Tumors.",
+            "Can charge up and vomit a blood laser barrage.",
+            "Attacks with fleshy bone claws at close range.",
+            "When down to low health, will fall down and stay inactive for a period of time. If it is not finished off while in that state, it will heal 60% of its health.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "Plasma Replicator",
@@ -857,7 +1222,22 @@ export default [
             "Launches itself with a kamikaze attack upon reaching low health.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Inferno Elemental",
+        "category": "Pain Elemental",
+        "species": "Pain Elemental",
+        "description": "Leave an Elemental without souls long enough and it'll inevitably absorb enough fire to singe a lesser demon. Definitely one to want to watch the world burn.",
+        "details": [
+            "Flying.",
+            "Spits hellfire comets.",
+            "Can spit massive bursts of hellfire balls.",
+            "Sprays hellfire at close range, leaving lingering fire on the ground.",
+            "Explodes on death, spreading explosive fireballs like a Volcanus shot.",
+            "Resistant against fire."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Hades Elemental",
@@ -872,7 +1252,7 @@ export default [
             "Capable of rapidly dashing while going partially invisible.",
             "Spawns a group of Hades Spheres on death."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -884,7 +1264,7 @@ export default [
             "Throws volleys of two fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hell Squire",
@@ -895,7 +1275,7 @@ export default [
             "Throws two volleys of two fireballs with poor accuracy.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hell Viscount",
@@ -907,7 +1287,7 @@ export default [
             "Can charge to throw a spread of five fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Cyber Knight",
@@ -917,9 +1297,23 @@ export default [
         "details": [
             "Shoots a volley of two explosive shots.",
             "Can load and fire a rocket.",
+            "Can throw a fireball.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Dread Knight",
+        "category": "Hell Knight",
+        "species": "Hell Noble",
+        "description": "Dread is exactly the kind of emotion you feel when you see a 2-meter giant with arm-mounted blades berserking towards you. Or at least what you were intended to feel.",
+        "details": [
+            "Throws volleys of two fireballs.",
+            "Slashes you with arm-mounted blades at close range.",
+            "Capable of leaping to close the distance.",
+            "Becomes faster at below half health.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "Pyro Knight",
@@ -933,7 +1327,7 @@ export default [
             "Fire-punches you at close range.",
             "Resistant against fire"
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hell Warden",
@@ -946,7 +1340,21 @@ export default [
             "Can use its shield to fire a magic projectile with slight homing capabilities.",
             "Shield-bashes you if you get too close.",
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Cyber Warden",
+        "category": "Hell Knight",
+        "species": "Hell Noble",
+        "description": "When wielding a shield isn't enough, become the shield instead. The extra firepower is just a bonus.",
+        "details": [
+            "Attacks with fragmentation grenades.",
+            "Can pull up its shield to block against attacks, but enough firepower is able to make them falter.",
+            "Can use its shield to fire an explosive projectile with slight homing capabilities.",
+            "Shield-bashes you if you get too close.",
+            "Resistant against ballistic weapons.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "Baron of Hell",
@@ -958,7 +1366,7 @@ export default [
             "Can charge to throw a spread of three fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Dark Noble",
@@ -970,7 +1378,7 @@ export default [
             "Can charge to throw a spread of five fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Afrit",
@@ -983,7 +1391,7 @@ export default [
             "Can charge to throw a fire comet.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Cyber Baron",
@@ -996,7 +1404,21 @@ export default [
             "Can load and fire a rocket.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Lord of Heresy",
+        "category": "Baron of Hell",
+        "species": "Hell Noble",
+        "description": "A winged noble that adopted a symbiotic relationship with the humans that worship it, offering strength in return.",
+        "details": [
+            "Throws volleys of four fireballs.",
+            "Buffs the speed and firepower of nearby Heretics. Magic users gain increased projectile speed and damage, and weapon users have their weapons upgraded.",
+            "Summons a group of Heretics when reaching half health.",
+            "Doesn't take damage from Heretics and vice-versa.",
+            "Scratches you at close range.",
+        ],
+        "newstatus": 1
     },
     {
         "name": "Bruiser Demon",
@@ -1010,7 +1432,22 @@ export default [
             "Hellfire-punches you at very close range, causing an explosion that spreads fire.",
             "Resistant against fire"
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Midas Demon",
+        "category": "Baron of Hell",
+        "species": "Hell Noble",
+        "description": "Is there anything more greedful than turning yourself into solid gold? Ironically, while they are really hardy against typical hell attacks, they are much more susceptible to what humans commonly use for weapons.",
+        "details": [
+            "Throws volleys of four greedfire balls.",
+            "Can charge to throw a greedfire comet, which explodes into flaming hot coins.",
+            "Getting hit by greedfire steals your ammunition and buffs the demon based on the type and quantity of ammo stolen.",
+            "Bullets = attack speed. Shells = damage. Rockets = comet blast radius. Cells = movement speed. Demon energy = regeneration. Grenades = projectile speed.",
+            "Drops most of the stolen ammo on death.",
+            "Resistant against energy damage (fire, plasma, magic, etc), but weak against physical damage (ballistic, explosive, impact, etc)."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Cybruiser",
@@ -1023,7 +1460,7 @@ export default [
             "Scratches you at close range.",
             "Resistant against ballistic weapons.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -1037,7 +1474,7 @@ export default [
             "Resurrects nearby non-boss enemies.",
             "Quick to retaliate.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Diabolist",
@@ -1051,7 +1488,7 @@ export default [
             "Resurrects nearby non-boss enemies.",
             "Quick to retaliate.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Summoner",
@@ -1064,7 +1501,7 @@ export default [
             "Summons squads enemies. Only the most basic variants can be summoned.",
             "Can throw horizontal blades of energy.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Exile",
@@ -1079,7 +1516,7 @@ export default [
             "Turns basic enemies into their dark counterpart.",
             "Quick to retaliate.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Illusionist",
@@ -1094,7 +1531,7 @@ export default [
             "Can create illusionary clones of itself and enemies it resurrects. Clones disappear upon taking damage.",
             "Quick to retaliate.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Infernalist",
@@ -1113,8 +1550,45 @@ export default [
             "Quick to retaliate.",
             "Resistant against fire"
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
+    {
+        "name": "Hemomancer",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "A specialist of blood magic, the kind that uses the target's body against them, not the one used for rituals. The new-found abundance of subjects made available by the invasion has given them plenty of opportunities to refine their craft.",
+        "details": [
+            "Attacks with a spell that boils your blood before blasting you upwards.",
+            "Spell can be dodged by being out of sight when it strikes.",
+            "Spell completely ignores armor!",
+            "Can throw spreads and bombs of blood.",
+            "Can charge to fire a blood laser.",
+            "Resurrects nearby non-boss enemies.",
+            "Resurrected enemies quickly regenerate their health after non taking hits for a while.",
+            "When low on health, will consume enemy corpses instead of resurrecting them.",
+            "Quick to retaliate.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Thanaturgist",
+        "category": "Archvile",
+        "species": "Archvile",
+        "description": "There is fundamentally no kind of magic deadlier than the one that just kills you. Thankfully, just like a pyromancer can still succumb to flames, these grim reaper wannabees too, can be killed to death.",
+        "details": [
+            "Attacks with a spell that surrounds you with darkness before blasting you upwards.",
+            "Spell can be dodged by being out of sight when it strikes.",
+            "Can charge to throw a burst of homing spirits.",
+            "Passively summons slow-moving sickle projectiles in random directions.",
+            "Attacks cause the target to get marked for death. While a target is marked, this demon will prioritize attacking it with its spell and instantly kill it.",
+            "Moves and attacks faster after killing players.",
+            "Resurrects nearby non-boss enemies.",
+            "Resurrected enemies gain the ability to mark targets.",
+            "Quick to retaliate.",
+        ],
+        "newstatus": 1
+    },
+
     {
         "name": "Cyberdemon",
         "category": "Cyberdemon",
@@ -1150,7 +1624,7 @@ export default [
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Emperor",
@@ -1195,6 +1669,35 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Terminator",
+        "category": "Cyberdemon",
+        "species": "Tyrant",
+        "description": "No sane person would try to use demon bodies as vessels for crafting killing machines, but progress isn't exclusive to the sound of mind. This resurrected cyborg is the product of the UAC's hubris, inadvertently - or perhaps purposefully - helping Hell more than they did humanity in this war.",
+        "details": [
+            "Attacks with an explosive minigun.",
+            "Can load up and fire a volley of high explosive rockets.",
+            "Can attack with a BFG 9000!",
+            "Quick to retaliate.",
+            "Immune against splash damage."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Eliminator",
+        "category": "Cyberdemon",
+        "species": "Tyrant",
+        "description": "A Terminator overhauled specifically to kill the one man more dangerous than Hell itself. Crowd control capabilities aren't the best and it is hard-coded to target you, so you can absolutely let demons tear it to shreds while it does nothing to help itself out.",
+        "details": [
+            "Attacks with a Howitzer.",
+            "Attacks with a Rail Cannon at long ranges. Watch for the targeting laser!",
+            "Comes equipped with the mighty Megalaser!",
+            "Capable of tossing teleportation beacons.",
+            "Will never retaliate against other demons.",
+            "Immune against splash damage."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Spider Mastermind",
         "category": "Spiderdemon",
         "species": "Sentient",
@@ -1218,7 +1721,7 @@ export default [
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Arachnophyte",
@@ -1231,7 +1734,7 @@ export default [
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Demolisher",
@@ -1244,7 +1747,20 @@ export default [
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Bulldozer",
+        "category": "Spiderdemon",
+        "species": "Sentient",
+        "description": "Why bother installing human technology onto your war machines when you already have your own in-house weapons?",
+        "details": [
+            "Attacks with two Hell Repeaters.",
+            "Can attack with an upgraded Destroyer, of either Hellfire, Frostfire, or Chemfire variety.",
+            "Quick to retaliate.",
+            "Immune against splash damage."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Dark Sentient",
@@ -1259,7 +1775,24 @@ export default [
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
+    },
+    {
+        "name": "Psychomancer",
+        "category": "Spiderdemon",
+        "species": "Sentient",
+        "description": "So many massive brains with telekinetic abilities, and yet so few actually use them as anything more than locomotion, if at all. At least you that means you won't see too many blimps flying around with the ability to throw rockets back at their attackers.",
+        "details": [
+            "Flying",
+            "Fires homing psychic bolts that bounce against surfaces, either in rapid bursts or as continuous fire.",
+            "Projectiles pass harmlessly through anything that it isn't targeting.",
+            "Can create a psychic shield around itself that captures projectiles.",
+            "Keep firing projectiles to overload the shield or get ready to dodge your own attacks.",
+            "Hitscan weapons bypass the shield entirely!",
+            "Quick to retaliate.",
+            "Immune against splash damage."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Megatank",
@@ -1276,7 +1809,7 @@ export default [
             "Resistant against ballistic weapons.",
             "Immune against splash damage."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
 
     {
@@ -1323,12 +1856,34 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "SS Sniper",
+        "category": "Wolfenstein",
+        "species": "Human",
+        "description": "SS armed with a classic clip-fed bolt-action. No laser sight to help your pinpoint this guy in a mob, you gotta do it the old-fashioned way.",
+        "details": [
+            "Attacks with a bolt-action rifle.",
+            "Takes some time to aim before firing. Watch for the scope glint!",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Panzerschreck",
+        "category": "Wolfenstein",
+        "species": "Human",
+        "description": "Soldier wielding a big tube for schrecking panzers. Unlike its zombie counterpart, he actually knows what danger close means.",
+        "details": [
+            "Attacks with a single-shot rocket launcher.",
+            "Uses a pistol at close range."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Enforcer",
         "category": "Wolfenstein",
         "species": "Human",
         "description": "Big armored guy with a big machine-gun and a lot of grenades. Also a surprisingly good dancer.",
         "details": [
-            "Attack with an Enforcer Machinegun.",
+            "Attacks with an Enforcer Machinegun.",
             "Eat lead!",
             "Can throw Stick Grenades.",
             "Here catch!"
@@ -1413,6 +1968,27 @@ export default [
             "Explodes violently when destroyed.",
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Superbattery",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "Huge energy cell filled to bursting with with voltage.",
+        "details": [
+            "Leaks electricity when hit, damaging the barrel over time.",
+            "Explodes violently when destroyed, temporarily disabling nearby electronics.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Demontech Barrel",
+        "category": "Barrel",
+        "species": "Object",
+        "description": "Canister of energy used to power everything Demontech. Allegedly has addictive properties.",
+        "details": [
+            "Explodes violently when destroyed.",
+        ],
+        "newstatus": 1
     },
 
     {
@@ -1504,7 +2080,7 @@ export default [
             "Drops a HazCom GF-3 Suit on defeat. On subsequent encounters, also drops a GF-4 Upgrade Core.",
             "Drops a Pestilence Sphere on defeat. Picking up a second copy permanently enhances it."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Harbinger of War - Ares",
@@ -1537,7 +2113,7 @@ export default [
             "Drops a Cornucopic Vessel on defeat.",
             "Drops a Famine Sphere on defeat. Picking up a second copy permanently enhances it."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Harbinger of Death - Thanatos",
@@ -1555,7 +2131,7 @@ export default [
             "Drops Death & Rose on defeat. On subsequent encounters, also drops the Scythe.",
             "Drops a Death Sphere on defeat. Picking up a second copy permanently enhances it."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Harbinger of Conquest - Zelus",

@@ -181,7 +181,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -568,7 +568,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Xionic Shinobi Armor \"Xero\"",
@@ -1523,7 +1523,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "War Sphere",
@@ -1559,7 +1559,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -1741,7 +1741,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Contract with Asmodeus",
@@ -1875,18 +1875,18 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
-    // {
-    //     "name": "Contract with Belial",
-    //     "type": "Contract",
-    //     "category": "Rare Drop",
-    //     "effect": "Magic and Demonic weapons deal increased damage.",
-    //     "notes": "Dropped by Heretic variants.",
-    //     "carriable": 1,
-    //     "description": "",
-    //     "authorsnotes": "",
-    //     "designnotes": "",
-    //     "newstatus": 0
-    // },
+    {
+        "name": "Contract with Belial",
+        "type": "Contract",
+        "category": "Rare Drop",
+        "effect": "Magic and Demonic weapons deal increased damage.",
+        "notes": "Dropped by Heretic variants.",
+        "carriable": 1,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
     {
         "name": "Contract with Azazel",
         "type": "Contract",
@@ -2326,6 +2326,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Demontech Pump",
+        "type": "Misc",
+        "category": "Rare Drop",
+        "effect": "Demontech Barrels can now be drained to refill Demon Energy.",
+        "notes": "",
+        "carriable": 3,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Cornucopic Vessel (Drain mode)",
         "type": "Misc",
         "category": "Rare Drop",
@@ -2335,7 +2347,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cornucopic Vessel (Heal mode)",
@@ -2347,7 +2359,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Quickdraw Holster",
@@ -2515,6 +2527,6 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
 ]
