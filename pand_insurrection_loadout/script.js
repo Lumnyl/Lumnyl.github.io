@@ -1,14 +1,14 @@
 import weapon_list from "./weapon_list.js"
 
 const player_classes = [
-    ["Marine", "", "Pistol"],
-    ["Sergeant", "Shells", "Sheller"],
-    ["Spec Ops", "Bullets", "Compact SMG"],
-    ["Demolition", "Rockets", "Firecracker"],
-    ["Elite", "Cells", "Plasma Handgun"],
-    ["Exiled", "Demon", "Immolator"],
-    ["Acolyte", "Chaos", "Chaos Blaster"],
-    ["Heretic", "Mana", "Sapphire Wand"],
+    ["Marine", "", ["Pistol"]],
+    ["Sergeant", "Shells", ["Sheller"]],
+    ["Spec Ops", "Bullets", ["Compact SMG"]],
+    ["Demolition", "Rockets", ["Firecracker"]],
+    ["Elite", "Cells", ["Plasma Handgun"]],
+    ["Exiled", "Demon", ["Templar Shortsword", "Immolator"]],
+    ["Acolyte", "Chaos", ["Flayer Wristblade", "Chaos Blaster"]],
+    ["Heretic", "Mana", ["Silver Gauntlets", "Sapphire Wand"]],
 ]
 
 let input_amount = document.querySelector("#input_weapon_amount")
@@ -180,7 +180,7 @@ function generate_loadout() {
 
     if (keep_starter && selected_class != 0) {
         for (weapon of final_weapon_list) {
-            if (weapon.name == player_classes[selected_class - 1][2]) {
+            if (player_classes[selected_class - 1][2].includes(weapon.name)) {
                 loadout.add(weapon)
                 if (weapon.ammo != "Chaos" && weapon.ammo != "Mana" && weapon.ammo != "None") {
                     ammo_types.add(weapon.ammo)

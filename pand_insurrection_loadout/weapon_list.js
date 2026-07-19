@@ -1,4 +1,7 @@
 export default [
+    {"slot": 1, "name": "Templar Shortsword", "ammo": "Demon", "tags": [], "superior": "Now fully imbued with fire and improved altfire that gives ammo and health on hit."},
+    {"slot": 1, "name": "Flayer Wristblade", "ammo": "Chaos", "tags": [], "superior": "Hits more times per swing and can sap armor."},
+    {"slot": 1, "name": "Silver Gauntlets", "ammo": "Mana", "tags": ["No Capacity"], "superior": "None"},
     {"slot": 1, "name": "Chainsaw", "ammo": "None", "tags": ["No Capacity", "No Superior", "No Precision", "No Conversion"], "superior": "None"},
     {"slot": 1, "name": "Super Taser", "ammo": "None", "tags": ["No Capacity"], "superior": "Deals damage over time and stun any enemy type"},
     {"slot": 1, "name": "Charge Hammer", "ammo": "None", "tags": ["Warmachines", "No Capacity"], "superior": "Blast extends further forward"},
@@ -28,6 +31,7 @@ export default [
     {"slot": 3, "name": "Sport Shotgun", "ammo": "Shells", "tags": ["Warmachines", "Magazine"], "superior": "Fires super heavy slugs"},
     {"slot": 3, "name": "Auto Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "No longer needs to reload"},
     {"slot": 3, "name": "Riot Shotgun", "ammo": "Shells", "tags": ["Magazine"], "superior": "Stabilized spread"},
+    {"slot": 3, "name": "Ethereal Arbalest", "ammo": "Mana", "tags": [], "superior": "Fires an extra high-damage piercing shot"},
     {"slot": 3, "name": "Jagdpanzer", "ammo": "Shells", "tags": ["Magazine", "Gunlocker"], "superior": "Fires an extra high-damage piercing shot"},
     {"slot": 3, "name": "Quad Shotgun", "ammo": "Shells", "tags": [], "superior": "Fires a strong shockwave and increased self-knockback"},
     {"slot": 3, "name": "Raiden Electron Shotgun", "ammo": "Shells", "tags": ["Arcane", "Magazine", "Elite"], "superior": "Shoots a large lightning bolt during alt-fire"},
