@@ -2255,6 +2255,21 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Aimbot Rifle",
+        "fullname": "",
+        "ammo": "Bullets x10",
+        "category": "Precision",
+        "primary" : "Fire",
+        "secondary" : "Focus",
+        "notes" : "Locks on the nearest target to the crosshair in about half a second. Focus overclocks the targeting system, locking on instantly and while actively firing, building up heat in the process.",
+        "superior" : "Permanent overclock with no need for cooling.",
+        "durability": false,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Pulse Sniper Rifle",
         "fullname": "",
         "ammo": "Bullets x5",
@@ -2368,12 +2383,12 @@ export default [
         "primary" : "Rocket",
         "secondary" : "N/A",
         "notes" : "",
-        "superior" : "",
+        "superior" : "Now stuns targets instead of merely flinching them. Hitting a stunned enemy with a rocket snaps them out of it but creates a massive secondary explosion.",
         "durability": false,
         "description": "With bigger demons comes the need for bigger weaponry. Unlike older rocket launcher models, this one shoots slower rockets that consume less fuel and produce little to no back-blast, allowing usage in crowded environments.",
         "authorsnotes": "",
         "designnotes": "It's kind of a mess honestly. I almost gave it a muzzle brake before remembering rocket launchers don't need those.",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Heat Seeker",
@@ -3618,7 +3633,7 @@ export default [
         "notes" : "",
         "superior" : "Deals extra damage based on the target's max health.",
         "durability": false,
-        "description": "An upscaled and weaponized microwave oven. The weapon's relative short range and lack of physical projectile makes it ideal in sensitive environments.",
+        "description": "An upscaled and weaponized microwave oven. The weapon's relative short range and lack of physical projectile makes it ideal for use in sensitive environments.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
@@ -4643,7 +4658,7 @@ export default [
         "description": "An explosive weapon that doesn't kill its wielder when mishandled. Now you can live your fantasies of blowing up hordes without having to worry with things like \"safe distance\" and \"Where did that Lost Soul come from?\".",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Star Cannon",
@@ -5229,7 +5244,7 @@ export default [
         "description": "Another human skin scroll with a single sigil written on it, representing the alchemical element of brimstone. Vomiting blood doesn't seem like the kind of thing that would do any significant damage, but it's not like you can expect anything coming out of Hell to adhere to expectations.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Fantasy Spellcard - \"The Seal That Guards the Heavens\"",
@@ -5912,7 +5927,7 @@ export default [
             "Secondary attack also temporarily buffs damage and attack speed. You gain increased defense while this weapon is active.",
             "Charge passively builds up. You gain regeneration while this weapon is active."],
         "durability": false,
-        "description": "The reward for your triumph over the false angel. This sword, resonating with divine power, previously lead the army of heaven towards victory over the Devil himself.",
+        "description": "The reward for your triumph over the false angel. This sword, resonating with divine power, previously lead the army of Heaven towards victory over the Devil himself.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0

@@ -113,7 +113,7 @@ export default [
         "subject": "Heretics",
         "category": "Enemy Types",
         "description": "Various people who chose to commit the ultimate act of treason and joined the forces of evil, be it out of worship, desperation, fear of death, need to belong to something greater, or just plain and simple antipathy. They are technically still living, breathing human beings, but they are either soulless or unwilling to repent; the best you can do for them is stop them from hurting others in the process.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "subject": "Imps",
@@ -160,8 +160,8 @@ export default [
     {
         "subject": "Pain Elementals",
         "category": "Enemy Types",
-        "description": "Pain Elemental are mostly just that, living, arguably breathing pain. The love towards inflicting torment unto others they expressed as humans has turned them into living prisons for captured Lost Souls to dwell in, cursed to forever feel the combined suffering of its inmates.",
-        "newstatus": 0
+        "description": "Pain Elemental are mostly just that, living, arguably breathing pain. The love towards inflicting torment unto others they expressed as humans has morphed them into living factories used for turning human souls into the flying skulls you've grown to hate.",
+        "newstatus": 2
     },
     {
         "subject": "Hell Nobles",
@@ -192,6 +192,12 @@ export default [
         "category": "Enemy Types",
         "description": "Artificial constructs planned to bring apocalypse to Earth. Your recent rampaging has caused Hell to deploy them prematurely, because surely a single human won't be able to stand against something that's supposed to wipe out civilizations, right?",
         "newstatus": 0
+    },
+    {
+        "subject": "Helldroid",
+        "category": "Enemy Types",
+        "description": "Brains are computers in essence. They are fed information and process it to generate an output. That line of thinking is what birthed the concept of Helldroids, robots made in the demons' image using brains harvested from corpses. To whom the brain belonged to doesn't matter, it's all just computational power at the end of the day.",
+        "newstatus": 1
     },
     {
         "subject": "Nazis",
@@ -250,12 +256,12 @@ export default [
     //     "description": "",
     //     "newstatus": 5
     // },
-    // {
-    //     "subject": "Satan",
-    //     "category": "Princes of Hell",
-    //     "description": "",
-    //     "newstatus": 5
-    // },
+    {
+        "subject": "Satan",
+        "category": "Princes of Hell",
+        "description": "After his defeat at the hands of the Heavens, Lucifer's rage and hatred grew so great that out of his shadow was born the ultimate adversary. In essence, Satan is to the Son what Lucifer is to the Father. He is the ambassador of Hell on Earth, and is the one in charge of writing and enforcing contracts. He may present himself as polite, well-mannered, aristocratic even, but poke a hole in his masquerade and you will understand why he is the prince of Wrath.",
+        "newstatus": 1
+    },
     // {
     //     "subject": "Baal",
     //     "category": "Princes of Hell",

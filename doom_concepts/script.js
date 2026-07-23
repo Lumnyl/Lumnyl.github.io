@@ -160,6 +160,10 @@ for (let weapon of weapon_list) {
     weapon_categ_amount['Total'] += 1
 }
 
+if (window.location.href == "http://127.0.0.1:5500/doom_concepts/") {
+    document.querySelector("#category_select").selectedIndex = 2
+}
+
 function change_selected_category() {
     let selected_category = category_selector.value
     active_table.innerHTML = ""
@@ -173,15 +177,16 @@ function change_selected_category() {
     option.textContent = `New and Updated`
     option.value = 1
     subcategory_selector.appendChild(option)
+    // quick access when adding new stuff
+    if (window.location.href == "http://127.0.0.1:5500/doom_concepts/") {
+        document.querySelector("#subcategory_select").selectedIndex = 1
+    }
     if (selected_category == "weapons") {
         for (let index in weapon_categ_list) {
             let option = document.createElement("option")
             option.textContent = `${weapon_categ_list[index]}`
             option.value = `${eval(index) + 2}`
             subcategory_selector.appendChild(option)
-        }
-        if (window.location.href == "http://127.0.0.1:5500/doom_concepts/") {
-            document.querySelector("#subcategory_select").selectedIndex = 1
         }
         build_weapon_table()
         document.querySelector("#quicknotes").innerHTML = quicknotesweapons

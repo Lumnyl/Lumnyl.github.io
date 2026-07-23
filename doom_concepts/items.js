@@ -1856,24 +1856,24 @@ export default [
         "type": "Contract",
         "category": "Rare Drop",
         "effect": "Enemies drop extra ammo when killed.",
-        "notes": "Dropped by Hell Knight variants.",
+        "notes": "Dropped by Hell Noble variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Contract with Baphomet",
         "type": "Contract",
         "category": "Rare Drop",
         "effect": "Having over 66% of a specific ammo type increases damage dealt with all weapons using that ammo type.",
-        "notes": "No effect on weapons with infinite ammo. Dropped by Baron of Hell variants.",
+        "notes": "No effect on weapons with infinite ammo. Dropped by any enemy with 1000 health or more.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Contract with Belial",
@@ -1885,7 +1885,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Contract with Azazel",
@@ -2335,7 +2335,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cornucopic Vessel (Drain mode)",
