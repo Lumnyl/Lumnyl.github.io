@@ -95,7 +95,7 @@ const enemy_categ_list = [
     "Shotgunner",
     "Chaingunner",
     "Imp",
-    "Fiend",
+    "Pinky",
     "Spectre",
     "Lost Soul",
     "Revenant",
