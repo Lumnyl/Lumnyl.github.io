@@ -702,24 +702,24 @@ export default [
         ],
         "newstatus": 0
     },
-    {
-        "name": "Goliath",
-        "category": "Pinky",
-        "species": "Fiend",
-        "description": "",
-        "details": [
-        ],
-        "newstatus": 1
-    },
-    {
-        "name": "Volcanic Fiend",
-        "category": "Pinky",
-        "species": "Fiend",
-        "description": "",
-        "details": [
-        ],
-        "newstatus": 1
-    },
+    // {
+    //     "name": "Goliath",
+    //     "category": "Pinky",
+    //     "species": "Fiend",
+    //     "description": "",
+    //     "details": [
+    //     ],
+    //     "newstatus": 1
+    // },
+    // {
+    //     "name": "Volcanic Fiend",
+    //     "category": "Pinky",
+    //     "species": "Fiend",
+    //     "description": "",
+    //     "details": [
+    //     ],
+    //     "newstatus": 1
+    // },
     {
         "name": "Spectre",
         "category": "Spectre",
