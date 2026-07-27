@@ -49,7 +49,7 @@ export default [
             "Attacks with two pistols.",
             "The second pistol can instead be a Classic, Precision, Tactical, Competition, or Heavy Pistol."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Chainsaw Fanatic",
@@ -119,7 +119,7 @@ export default [
             "Takes some time to aim before firing, with aiming speed increasing drastically if you're standing still. Watch for the laser sight!",
             "Tries to predict your movements. Has a much harder time tracking you the closer you are."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "HEP Agent",
@@ -145,7 +145,7 @@ export default [
             "High movement speed and capable of dodging out of the way of gunfire.",
             "Resistant against ballistic damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shotgun Zombie",
@@ -208,7 +208,7 @@ export default [
             "Attacks with a Shredder shotgun.",
             "Either fires small spreads of shrapnel multiple times or a wide volley all at once."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Flakker",
@@ -218,7 +218,7 @@ export default [
         "details": [
             "Attacks with a Flak Cannon, using both shrapnel and mortar fire modes.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Assault Shotgunner",
@@ -240,7 +240,7 @@ export default [
             "Can use the Meat-hook to close the distance.",
             "Attacks with a chainsaw at close range."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shotgun Veteran",
@@ -290,7 +290,7 @@ export default [
             "Shields can be overheated with enough firepower, which permanently disables them. Plasma works best.",
             "Mines and turrets can be destroyed.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "HEP Virtus",
@@ -303,7 +303,7 @@ export default [
             "Capable of tossing teleportation beacons.",
             "Conjures magical shields on allies that slightly reduces all damage taken and stops them from hurting each other.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Assault Rifle Zombie",
@@ -385,7 +385,7 @@ export default [
             "Keeps firing until line of sight is broken.",
             "Can fire at an increased rate of fire, but quickly overheats."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demolitionist",
@@ -433,7 +433,7 @@ export default [
             "Attacks with Mechanized Arm Cannons.",
             "Resistant against ballistic weapons.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "HEP Vanguard",
@@ -542,7 +542,7 @@ export default [
             "Either fires a strong laser in a fixed direction or a weaker one that tracks targets.",
             "At close range, sends a psychic blast that damages and knocks everything back.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cyber Devil",
@@ -554,7 +554,7 @@ export default [
             "Tazes you at close range.",
             "Capable of dodging out of the way of gunfire.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Harvester",
@@ -582,7 +582,7 @@ export default [
             "Resistant against ballistic weapons.",
             "Immune to pain."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pinky",
@@ -685,6 +685,21 @@ export default [
             "Resistant against ballistic weaponry.",
             "Immune to pain."
         ],
+        "newstatus": 0
+    },
+    {
+        "name": "Gore Monster",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "A near-lethal dose of radiation that has turned a Fiend into a sentient collective of unicellular lifeforms traveling together in a mass of non-newtonian gore. When preparing for an attack, the cells clump together in the shape of their original self, solid enough for bullets to be effective once again.",
+        "details": [
+            "Bites you at close range.",
+            "Can vomit gore at a distance.",
+            "Shrinks into a pool of blood when not attacking. Any physical non-splash source of damage is useless against it in this state.",
+            "Attacks cover its target in gore, which becomes poisonous once it builds up to a critical mass. Other enemies will always prioritize targets covered in any amount of gore.",
+            "Can climb walls.",
+            "Consumes corpses to restore its health."
+        ],
         "newstatus": 1
     },
     // {
@@ -703,7 +718,7 @@ export default [
         "description": "Fiends with an albinism-like genetic mishap, causing their skin to produce photorefractive pigments. Thrives in dark areas.",
         "details": [
             "Bites you at close range.",
-            "Natural camouflage makes them harder to see. Especially effective in the dark.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
         ],
         "newstatus": 0
     },
@@ -714,10 +729,10 @@ export default [
         "description": "Spectres get a slightly altered set of cybernetics that takes advantage of the quirk in their biology at the cost of raw speed.",
         "details": [
             "Bites you at close range.",
-            "Natural camouflage makes them harder to see. Especially effective in the dark.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
             "At below half health, moves much faster while creating afterimages.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Delusion",
@@ -727,7 +742,7 @@ export default [
         "details": [
             "Bites you at close range.",
             "Capable of walking through other demons.",
-            "Natural camouflage makes them somewhat harder to see. Especially effective in the dark.",
+            "Natural camouflage makes it somewhat harder to see. Especially effective in the dark.",
         ],
         "newstatus": 0
     },
@@ -738,7 +753,7 @@ export default [
         "description": "Magically charged Spectre whose skin creates ghostly figures of itself. These copies are entirely harmless besides the mild confusion and ammo wastage they cause.",
         "details": [
             "Bites you at close range.",
-            "Natural camouflage makes them harder to see. Especially effective in the dark.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
             "Can create illusionary clones of itself. Clones disappear upon taking damage or by walking through them.",
         ],
         "newstatus": 0
@@ -759,10 +774,10 @@ export default [
         "name": "Phase Spectre",
         "category": "Spectre",
         "species": "Fiend",
-        "description": "A rare Fiend capable of actually wielding magic rather than just letting it passively inhabit its body. They can temporarily phase out of reality where they move along some sort of weird energy current to gain a lot of speed.",
+        "description": "A rare Fiend capable of actually wielding magic rather than just letting it passively inhabit its body. They can temporarily phase out of reality where they gain a lot of speed by moving along some sort of weird energy current.",
         "details": [
             "Bites you at close range.",
-            "Natural camouflage makes them harder to see. Especially effective in the dark.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
             "Spits phaseballs at a distance.",
             "Capable of phasing out of reality, rapidly dashing while being intangible.",
         ],
@@ -776,9 +791,10 @@ export default [
         "details": [
             "Bites you at close range.",
             "Goes berserk when looked directly at, massively increasing speed and aggression.",
+            "While berserking, will charge when in range, which can be sidestepped.",
             "Completely intangible unless berserking.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Fury",
@@ -794,6 +810,19 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Faceless",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "A Spectre mutated by traces of abyssal influences. While they have lost all that make Fiends normally lethal, they also have lost the need for it; their entire skin radiates an energy of pure madness that is toxic to the brain of most sentient lifeforms.",
+        "details": [
+            "Leaps at you when in range, messing with your vision and teleporting away on hit.",
+            "Looking at it will cause static to build up, obscuring your vision and damaging you when it reaches max intensity.",
+            "Can be \"seen\" through partially invisible enemies, but static will build up slower.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Schizophrenia",
         "category": "Spectre",
         "species": "Fiend",
@@ -806,6 +835,196 @@ export default [
             "Dealing enough damage to the real monster clears all clones."
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Nightmare",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "A master of shadows, using tricks to destabilize their opponent before going in for the kill. In total darkness, only their glowing eyes give their position away. ",
+        "details": [
+            "Bites you at close range.",
+            "Leaps at you when in range.",
+            "Surrounds itself with black mist, making it harder to see. Especially effective in the dark.",
+            "Can initiate a charge attack by growling. It disappears before immediately reappearing with two illusory clones of itself, standing still for a moment before charging at high speed. Shooting at a clone will make it disappear, but shooting the real monster will interrupt the charge.",
+            "Can disappear into the shadows and reappear after a moment, usually behind you."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Phase Nightmare",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "A Nightmare that has abandoned trickery to focus on the more offensively suited phase magic. More akin to a more dangerous Phase Spectre than an advanced form of Nightmare.",
+        "details": [
+            "Bites you at close range.",
+            "Leaps at you when in range.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
+            "Spits a trio of homing phaseballs at a distance.",
+            "Capable of phasing out of reality, rapidly dashing while being intangible and casting a volley of phaseballs at you.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Geist",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "Prolonged exposure to spectral energy can turn Spectres into beings that have little difficulty passing through inorganic matter. They are even able to use parts of their body as projectiles.",
+        "details": [
+            "Flying",
+            "Spawns four orbs of energy that linger in front of it for a few moments, then are fired straight ahead as a volley.",
+            "Can spawns six orbs of energy that rotate around it for a few moments, then are fired outwards with homing capabilities.",
+            "Flinching will interrupt the casting process.",
+            "Intangible against attacks, but takes a little damage in the process. Energy damage (fire, plasma, magic, etc) is more effective."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Plasma Geist",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "Plasma weapons are a great way to deal with Geists, but in rare cases they might just make things worse. Not even a BFG can exorcize this one.",
+        "details": [
+            "Flying",
+            "Concentrates an orb of plasmatic energy in front of it for a few moments, which is then fired straight ahead as an explosive projectile.",
+            "Can spawn eight orbs of energy that rotate around it and firing a burst of plasma shots after short wind-up.",
+            "Flinching will interrupt the casting process.",
+            "At close range, creates a plasma explosion centered on itself.",
+            "Intangible against attacks, but takes a little damage in the process.",
+            "Plasma damage heals them instead!"
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Rake",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "Mutant Spectre with extraordinarily sharp blades instead of arms, which they use for locomotion or goring their prey. They are also reported to mimic human cries, an ability they use in tandem with their stealth to hunt unsuspecting victims.",
+        "details": [
+            "Slashes you at close range.",
+            "Leaps at you when in range.",
+            "Completely invisible, but progressively reveals itself when it comes near.",
+            "Attacks reduce armor protection in half for the purposes of damage calculation.",
+            "Capable of jumping to crawl on walls and ceilings."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Fake One",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "A semi-parasitic organism capable of both stealth and thanatosis. They are an absolute pain to deal with with no way of permanently killing them besides persistence, and seems to take great pleasure in the stress it causes.",
+        "details": [
+            "Relentlessly leaps at you while in range.",
+            "Initially looks like a regular Spectre, but reveals itself when it gets close enough.",
+            "Can fake its own death, with chance diminishing with each defeat. Will teleport away when you aren't looking at it.",
+            "After faking its death, it will infect one random non-boss enemy with lower maximum health on the map. Being close to or killing the infected enemy will cause the monster to burst out of its body, killing the host in the process.",
+            "Also has the ability to infect marine corpses."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Tar Monster",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "Under the same conditions that would produce a Gore Monster, the skin of Spectre alters the chemical composition of the binding agent between cells into a highly flammable, black tar-like substance.",
+        "details": [
+            "Bites you at close range.",
+            "Can spit tar at a distance.",
+            "Shrinks into a pool of tar when not attacking. Any physical non-splash source of damage is useless against it in this state.",
+            "Attacks cover its target in tar which slows it down. Getting hit by fire ignites the tar, removing the debuff at the cost of a big chunk of fire damage.",
+            "Can climb walls.",
+            "Particularly weak to fire."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Lemure",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "The spirit of a Fiend that managed to persist after its demise through black magic. Besides their spectral nature, these dark beasts remain bound by the laws of the physical world.",
+        "details": [
+            "Bites you at close range.",
+            "Capable of walking through other demons.",
+            "Can throw horizontal blades of dark energy that pass through enemies and bounce once against walls.",
+            "Can fire a spray of dark projectiles upwards, which then home in to your position.",
+            "Can disappear and then reappear at a random location.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Wendigo",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "A deer-horned cannibalistic Rake with significantly greater size, strength and stealth. Their regenerative abilities are also great, capable of healing life-threatening wounds mere seconds after consuming flesh.",
+        "details": [
+            "Slashes you at close range.",
+            "Leaps at you when in range.",
+            "Completely invisible, but partially reveals itself when attacking.",
+            "Attacks reduce armor protection in half for the purposes of damage calculation.",
+            "Capable of jumping to crawl on walls and ceilings.",
+            "Consumes corpses to restore its health.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Helldroid Cloaker",
+        "category": "Spectre",
+        "species": "Helldroid",
+        "description": "Stealth-oriented droid inspired by an elite police unit that brings fear even to the most battle-hardened of criminals. The sound of radio interference they produce when charging is iconic for a reason, very few are able to keep standing after a hit.",
+        "details": [
+            "Attacks with a circular saw at close range.",
+            "Natural camouflage makes it harder to see. Especially effective in the dark.",
+            "Can fire a burst of energy bolts at a distance.",
+            "Can initiate a charge that produces a loud and distinct sound, becoming invisible until right before impact and steering to try to hit their target.",
+            "Dealing damage right before the charge hits will guarantee a flinch.",
+            "Resistant against ballistic weaponry.",
+            "Immune to pain."
+        ],
+        "newstatus": 1
+    },
+    // { rework later
+    //     "name": "Gelomorph",
+    //     "category": "Spectre",
+    //     "species": "Fiend",
+    //     "description": "",
+    //     "details": [
+    //         "Morphs itself into the strongest non-boss nearby enemy.",
+    //         "Morphs into you if there aren't any suitable targets!"
+    //     ],
+    //     "newstatus": 5
+    // },
+    {
+        "name": "Anomalous Weeper",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "Combine an already unstable Weeper with the raw insanity of the Abyss and you get this absolute monstrosity of a ghoul. It might seem harmless at first, but looking at it - even through a camera monitor - spells certain death on the offender no matter what is put in between them.",
+        "details": [
+            "Initially walks around without attacking.",
+            "Completely intangible and capable of walking through other demons.",
+            "Randomly teleports around.",
+            "Goes berserk when looked directly at, causing it to disappear. It will then periodically reappear at a fair distance from its target, rushing at it at high speed while screeching.",
+            "Dealing damage to it while it is rushing will cause it to disappear and start the cycle again. If you can't hit it in time, it was nice knowing you.",
+            "Stops berserking after its target is dead."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Shadowfire Nightmare",
+        "category": "Spectre",
+        "species": "Fiend",
+        "description": "In very rare cases, Nightmares may find themselves infused with extremely dangerous shadowfire, massively boosting their powers at the cost of needing to frequently sustain themselves with souls to keep the fire burning.",
+        "details": [
+            "Bites you with shadowfire at close range.",
+            "Natural camouflage makes it harder to see, although faint purple flames help announce its presence. Especially effective in the dark.",
+            "Fires a trio of shadowfire bolts at a distance.",
+            "Can cast a spread of ground shadowfire.",
+            "Can initiate a charge attack by growling. It disappears before immediately reappearing with four illusory clones of itself, standing still for a moment. Afterwards, all clones will launch themselves at you in a random order, with the real monster charging last. Shooting at a clone will make it disappear, shooting the real monster will interrupt the charge if it flinches.",
+            "Shadowfire attacks ignore all armor!",
+            "Can disappear into flames and reappear after a moment, usually behind you.",
+            "Builds up charge when killing targets. Temporarily empowers itself at full charge, dealing more damage whilst losing its invisibility and burning more intensely."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Lost Soul",
@@ -903,7 +1122,7 @@ export default [
             "Can \"possess\" living non-boss enemies, covering them in a liquid metal that increases resistance, especially against ballistic weapons.",
             "Possession takes some time and stuns the target in the process."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Wraith",
@@ -1062,7 +1281,7 @@ export default [
             "-- Attacks by bashing with its cannons at close range.",
             "-- Attacks everything in sight, even unprovoked!"
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Mancubus",
@@ -1156,7 +1375,7 @@ export default [
             "On death (except when gibbed), rapidly produces a final swarm of Mech-flies.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Tankubus",
@@ -1172,6 +1391,15 @@ export default [
         ],
         "newstatus": 0
     },
+    // { rework later
+    //     "name": "Ceaseless Void",
+    //     "category": "Mancubus",
+    //     "species": "Mancubus",
+    //     "description": "",
+    //     "details": [
+    //     ],
+    //     "newstatus": 5
+    // },
     {
         "name": "Arachnotron",
         "category": "Arachnotron",
@@ -1216,7 +1444,7 @@ export default [
             "Fires wide spreads of laser projectiles.",
             "Can deploy a pair of delayed-propulsion rockets."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Arachnotron Mk2",
@@ -1342,7 +1570,7 @@ export default [
             "Fires volleys of sticky mini-rockets that explode a small delay after impact.",
             "Bites you at close range.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Malwrath",
@@ -1501,7 +1729,7 @@ export default [
             "Defends itself with a sawblade launcher.",
             "At low health, engages a self-destruct sequence and tries to get you into the blast radius."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Hades Elemental",
@@ -1566,7 +1794,7 @@ export default [
             "Can charge to throw a spread of five fireballs.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Cyber Knight",
@@ -1591,7 +1819,7 @@ export default [
             "Can load and fire a rocket.",
             "Scratches you at close range.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Dread Knight",
@@ -1617,7 +1845,7 @@ export default [
             "Capable of leaping to close the distance, causing shockwaves where they land.",
             "Becomes faster at it loses health.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pyro Knight",
@@ -1708,7 +1936,7 @@ export default [
             "Can load and fire a rocket.",
             "Scratches you at close range.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Lord of Heresy",
@@ -1778,7 +2006,7 @@ export default [
             "Doesn't take damage from Heretics and vice-versa.",
             "Punches you at close range with its cybernetic arm.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -1832,7 +2060,7 @@ export default [
             "Resurrects nearby non-boss enemies from a distance.",
             "Quick to retaliate.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Exile",
@@ -1897,7 +2125,7 @@ export default [
             "Quick to retaliate.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Hemomancer",
@@ -2000,7 +2228,7 @@ export default [
             "Quick to retaliate.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cyber Emperor",
@@ -2188,7 +2416,7 @@ export default [
             "Resistant against ballistic weapons.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -2253,7 +2481,7 @@ export default [
         "details": [
             "Sprints faster and bites harder than regular dogs.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Panzerschreck",
@@ -2304,7 +2532,7 @@ export default [
             "Immune to pain.",
             "Resistant against ballistic weapons."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -2616,7 +2844,7 @@ export default [
             "On defeat, drops a Hellstorm, Devastator or Targeting Beacon.",
             "On subsequent encounters, engages a nuclear self-destruct sequence at the end of Scorched Earth mode. Interacting or hitting it with a melee weapon will disarm the nuke and drop a Nuke Sphere.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Blitzkrieg Beacon",

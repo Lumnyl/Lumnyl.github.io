@@ -1861,7 +1861,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Contract with Baphomet",
@@ -1873,7 +1873,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Contract with Belial",

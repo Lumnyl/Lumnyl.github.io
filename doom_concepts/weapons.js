@@ -2267,7 +2267,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pulse Sniper Rifle",
@@ -2388,7 +2388,7 @@ export default [
         "description": "With bigger demons comes the need for bigger weaponry. Unlike older rocket launcher models, this one shoots slower rockets that consume less fuel and produce little to no back-blast, allowing usage in crowded environments.",
         "authorsnotes": "",
         "designnotes": "It's kind of a mess honestly. I almost gave it a muzzle brake before remembering rocket launchers don't need those.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Heat Seeker",
@@ -4697,13 +4697,13 @@ export default [
         "category": "Magic",
         "primary" : "Exorcise",
         "secondary" : "N/A",
-        "notes" : "Target is stunned and receives constant damage. Instantly kills Lost Souls and deals heavy damage to Pain Elementals. No effect on bosses.",
+        "notes" : "Target is stunned and receives constant damage. Instantly kills Lost Souls and deals heavy damage to Pain Elementals and certain spectral enemies. No effect on bosses.",
         "superior" : "Secondary attack allows you to brandish the cross, dealing constant damage in front of you at no ammo cost. Enemies release homing projectiles upon taking any damage from this weapon.",
         "durability": false,
         "description": "When physical demonic activity on earth was limited to possession, this was the best tool available to banish them back where they belong. While possession is mostly a thing of the past and the cross's ability to not damage the host body wasn't necessary anymore, it still sees use by those who do not want to taint themselves with physical violence.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Hell's Redeemer",

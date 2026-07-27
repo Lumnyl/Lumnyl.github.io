@@ -161,7 +161,7 @@ export default [
         "subject": "Pain Elementals",
         "category": "Enemy Types",
         "description": "Pain Elemental are mostly just that, living, arguably breathing pain. The love towards inflicting torment unto others they expressed as humans has morphed them into living factories used for turning human souls into the flying skulls you've grown to hate.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Hell Nobles",
@@ -197,7 +197,7 @@ export default [
         "subject": "Helldroid",
         "category": "Enemy Types",
         "description": "Brains are computers in essence. They are fed information and process it to generate an output. That line of thinking is what birthed the concept of Helldroids, robots made in the demons' image using brains harvested from corpses. To whom the brain belonged to doesn't matter, it's all just computational power at the end of the day.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "subject": "Nazis",
@@ -220,6 +220,12 @@ export default [
     },
 
     {
+        "subject": "The Gardens of Rot",
+        "category": "Locations",
+        "description": "A putrescent jungle colored with flora that does not want you to live and fauna that does not want you to die only so they can sustain themselves on your flesh and blood. The Gardens are full of parasitic lifeforms tirelessly feeding off of and feeding into this masquerade impersonating a cycle of life. If they weren't so humid, the amount of decomposing matter in the air would cause any open flame to wipe this affront to nature off the face of the land in an instant.",
+        "newstatus": 0
+    },
+    {
         "subject": "The Blood Ocean",
         "category": "Locations",
         "description": "An endless expanse of red liquid that reeks of iron and is inhabited by horrors you'll be thankful to never ever meet. Because this is Hell, the blood has mutagenic properties that irreversibly alters any kind of matter that comes into contact, be it organic of mineral. As a consequence, travel is nearly impossible as vessels tend to take a life of their own, and any shore that borders it has this gross, fleshy appearance.",
@@ -228,14 +234,14 @@ export default [
     {
         "subject": "The Abyss",
         "category": "Locations",
-        "description": "Buried deep beneath the Blood Ocean is a place infinitely more hostile, where light dares not venture and the horrors are inimaginable. The Abyss is a cemetery for titanic atrocities whose slumber is only perpetuated by the cadavers sinking from above and the omnipresent cursed ethereal energy. Hardly anything comes out of the Abyss, but the few that do are plagued by an indescribable insanity whose sole purpose is to destroy.",
-        "newstatus": 0
+        "description": "Buried deep beneath the Blood Ocean is a place infinitely more hostile, where light dares not venture and the horrors are inimaginable. The Abyss is a cemetery for titanic atrocities whose slumber is only perpetuated by the cadavers sinking from above and the omnipresent cursed ethereal energy. Not many can survive direct exposure to the Abyss, even fewer are able to withstand the irreparable damage it causes to their body, and most of the ones that do are unable to maintain their primordial will to keep living for long.",
+        "newstatus": 2
     },
     {
-        "subject": "The Gardens of Rot",
+        "subject": "Abyssal Taint",
         "category": "Locations",
-        "description": "A putrescent jungle colored with flora that does not want you to live and fauna that does not want you to die only so they can sustain themselves on your flesh and blood. The Gardens are full of parasitic lifeforms tirelessly feeding off of and feeding into this masquerade impersonating a cycle of life. If they weren't so humid, the amount of decomposing matter in the air would cause any open flame to wipe this affront to nature off the face of the land in an instant.",
-        "newstatus": 0
+        "description": "The Abyss's influence is not limited to its hadopelagic home. It has grown roots that have steadily made their way to the surface in many different regions of Hell. At the epicenter of each patch of Taint is a lake of abyssal fluid out of which blossoms a tree that has grown out of the root. The vast majority of abyssal monstrosities originate from areas like these, where the lethality of the Abyss is dampened by thousands of miles of rocks.",
+        "newstatus": 1
     },
     {
         "subject": "The Wolfenstein Megafortress",
@@ -260,7 +266,7 @@ export default [
         "subject": "Satan",
         "category": "Princes of Hell",
         "description": "After his defeat at the hands of the Heavens, Lucifer's rage and hatred grew so great that out of his shadow was born the ultimate adversary. In essence, Satan is to the Son what Lucifer is to the Father. He is the ambassador of Hell on Earth, and is the one in charge of writing and enforcing contracts. He may present himself as polite, well-mannered, aristocratic even, but poke a hole in his masquerade and you will understand why he is the prince of Wrath.",
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "subject": "Baal",
