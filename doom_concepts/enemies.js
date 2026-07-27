@@ -700,17 +700,26 @@ export default [
             "Can climb walls.",
             "Consumes corpses to restore its health."
         ],
+        "newstatus": 0
+    },
+    {
+        "name": "Goliath",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "",
+        "details": [
+        ],
         "newstatus": 1
     },
-    // {
-    //     "name": "Goliath",
-    //     "category": "Pinky",
-    //     "species": "Fiend",
-    //     "description": "",
-    //     "details": [
-    //     ],
-    //     "newstatus": 5
-    // },
+    {
+        "name": "Volcanic Fiend",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "",
+        "details": [
+        ],
+        "newstatus": 1
+    },
     {
         "name": "Spectre",
         "category": "Spectre",
@@ -794,7 +803,7 @@ export default [
             "While berserking, will charge when in range, which can be sidestepped.",
             "Completely intangible unless berserking.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Fury",
@@ -820,7 +829,7 @@ export default [
             "Can be \"seen\" through partially invisible enemies, but static will build up slower.",
             "Natural camouflage makes it harder to see. Especially effective in the dark.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Schizophrenia",
@@ -848,7 +857,7 @@ export default [
             "Can initiate a charge attack by growling. It disappears before immediately reappearing with two illusory clones of itself, standing still for a moment before charging at high speed. Shooting at a clone will make it disappear, but shooting the real monster will interrupt the charge.",
             "Can disappear into the shadows and reappear after a moment, usually behind you."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Phase Nightmare",
@@ -862,7 +871,7 @@ export default [
             "Spits a trio of homing phaseballs at a distance.",
             "Capable of phasing out of reality, rapidly dashing while being intangible and casting a volley of phaseballs at you.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Geist",
@@ -876,7 +885,7 @@ export default [
             "Flinching will interrupt the casting process.",
             "Intangible against attacks, but takes a little damage in the process. Energy damage (fire, plasma, magic, etc) is more effective."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Plasma Geist",
@@ -892,7 +901,7 @@ export default [
             "Intangible against attacks, but takes a little damage in the process.",
             "Plasma damage heals them instead!"
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Rake",
@@ -906,7 +915,7 @@ export default [
             "Attacks reduce armor protection in half for the purposes of damage calculation.",
             "Capable of jumping to crawl on walls and ceilings."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Fake One",
@@ -920,7 +929,7 @@ export default [
             "After faking its death, it will infect one random non-boss enemy with lower maximum health on the map. Being close to or killing the infected enemy will cause the monster to burst out of its body, killing the host in the process.",
             "Also has the ability to infect marine corpses."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Tar Monster",
@@ -935,7 +944,7 @@ export default [
             "Can climb walls.",
             "Particularly weak to fire."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Lemure",
@@ -950,7 +959,7 @@ export default [
             "Can disappear and then reappear at a random location.",
             "Natural camouflage makes it harder to see. Especially effective in the dark.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Wendigo",
@@ -965,7 +974,7 @@ export default [
             "Capable of jumping to crawl on walls and ceilings.",
             "Consumes corpses to restore its health.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Helldroid Cloaker",
@@ -981,7 +990,7 @@ export default [
             "Resistant against ballistic weaponry.",
             "Immune to pain."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     // { rework later
     //     "name": "Gelomorph",
@@ -1007,7 +1016,7 @@ export default [
             "Dealing damage to it while it is rushing will cause it to disappear and start the cycle again. If you can't hit it in time, it was nice knowing you.",
             "Stops berserking after its target is dead."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Shadowfire Nightmare",
@@ -1024,7 +1033,7 @@ export default [
             "Can disappear into flames and reappear after a moment, usually behind you.",
             "Builds up charge when killing targets. Temporarily empowers itself at full charge, dealing more damage whilst losing its invisibility and burning more intensely."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Lost Soul",

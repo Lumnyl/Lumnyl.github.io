@@ -4,6 +4,8 @@ const subcategory_selector = document.querySelector("#subcategory_select")
 subcategory_selector.addEventListener("change", change_selected_subcategory)
 const weapon_amount_button = document.querySelector("#weapon_amount_button")
 weapon_amount_button.addEventListener("click", display_weapon_amount_details)
+const enemy_amount_button = document.querySelector("#enemy_amount_button")
+enemy_amount_button.addEventListener("click", display_enemy_amount_details)
 
 const active_table = document.querySelector("#active_table")
 
@@ -112,6 +114,31 @@ const enemy_categ_list = [
     "Pursuer"
 ]
 
+
+var enemy_categ_amount = {
+    Zombieman : 0,
+    Shotgunner : 0,
+    Chaingunner : 0,
+    Imp : 0,
+    Pinky : 0,
+    Spectre : 0,
+    'Lost Soul' : 0,
+    Revenant : 0,
+    Mancubus : 0,
+    Arachnotron : 0,
+    Cacodemon : 0,
+    'Pain Elemental' : 0,
+    'Hell Knight' : 0,
+    'Baron of Hell' : 0,
+    Archvile : 0,
+    Cyberdemon : 0,
+    Spiderdemon : 0,
+    Wolfenstein : 0,
+    Barrel : 0,
+    Pursuer : 0,
+    Total : 0
+}
+
 const lore_categ_list = [
     "Concepts",
     "Enemy Types",
@@ -158,6 +185,11 @@ document.querySelector("#lore_amount").textContent = lore_list.length
 for (let weapon of weapon_list) {
     weapon_categ_amount[weapon.category] += 1
     weapon_categ_amount['Total'] += 1
+}
+
+for (let enemy of enemy_list) {
+    enemy_categ_amount[enemy.category] += 1
+    enemy_categ_amount['Total'] += 1
 }
 
 if (window.location.href == "http://127.0.0.1:5500/doom_concepts/") {
@@ -262,6 +294,27 @@ function display_weapon_amount_details() {
     }
 }
 build_weapon_categ_details()
+
+function build_enemy_categ_details() {
+    let details = document.querySelector("#enemy_amount_detail")
+    for (let item in enemy_categ_amount) {
+        if (item != "Total") {
+            let elem = document.createElement("li")
+            elem.textContent = item + " = " + enemy_categ_amount[item]
+            details.appendChild(elem)
+        }
+    }
+}
+
+function display_enemy_amount_details() {
+    let details = document.querySelector("#enemy_amount_detail")
+    if (details.classList.contains("hide")){
+        details.classList.remove("hide")
+    } else {
+        details.classList.add("hide")
+    }
+}
+build_enemy_categ_details()
 
 function build_weapon_table() {
     let table_head = document.createElement("thead")
