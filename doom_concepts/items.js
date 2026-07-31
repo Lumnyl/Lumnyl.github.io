@@ -1772,24 +1772,24 @@ export default [
         "type": "Contract",
         "category": "Rare Drop",
         "effect": "Permanent Berserk with increased effectiveness.",
-        "notes": "Dropped by Fiend variants.",
+        "notes": "Dropped by Fiend and Taurodemon variants.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Contract with Baal",
         "type": "Contract",
         "category": "Rare Drop",
         "effect": "Receive the effects of the Invisibility Sphere after not attacking for 30 seconds. Effect lost upon attacking.",
-        "notes": "Dropped by Spectre variants.",
+        "notes": "Dropped by any enemy with any kind of innate invisibility.",
         "carriable": 1,
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Contract with Paimon",

@@ -111,6 +111,7 @@ const enemy_categ_list = [
     "Cyberdemon",
     "Spiderdemon",
     "Wolfenstein",
+    "Barrel",
     "Pursuer"
 ]
 

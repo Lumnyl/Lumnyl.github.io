@@ -235,13 +235,13 @@ export default [
         "subject": "The Abyss",
         "category": "Locations",
         "description": "Buried deep beneath the Blood Ocean is a place infinitely more hostile, where light dares not venture and the horrors are inimaginable. The Abyss is a cemetery for titanic atrocities whose slumber is only perpetuated by the cadavers sinking from above and the omnipresent cursed ethereal energy. Not many can survive direct exposure to the Abyss, even fewer are able to withstand the irreparable damage it causes to their body, and most of the ones that do are unable to maintain their primordial will to keep living for long.",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "subject": "Abyssal Taint",
         "category": "Locations",
         "description": "The Abyss's influence is not limited to its hadopelagic home. It has grown roots that have steadily made their way to the surface in many different regions of Hell. At the epicenter of each patch of Taint is a lake of abyssal fluid out of which blossoms a tree that has grown out of the root. The vast majority of abyssal monstrosities originate from areas like these, where the lethality of the Abyss is dampened by thousands of miles of rocks.",
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "subject": "The Wolfenstein Megafortress",

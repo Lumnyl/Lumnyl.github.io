@@ -606,6 +606,16 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Dark Fiend",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "It's a bit of a surprise that Fiends are smart enough to consent to the pact of the Darkness. Apparently not smart enough to realize how little benefit they get out of a purely magical power boost, but they do get tougher as consolation.",
+        "details": [
+            "Bites you at close range.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Blood Fiend",
         "category": "Pinky",
         "species": "Fiend",
@@ -650,6 +660,29 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Pinkygunner",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "Taking the phrase \"eat lead\" a bit too literally. How does it even operate a gun with its mouth?",
+        "details": [
+            "Attacks with a chaingun at range.",
+            "Drops its weapon when reaching half health and tries to bite you instead with increased movement speed."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Septic",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "An exploding barrel on legs. Seems like babies aren't the only creatures with a predisposition to gulping down toxic liquids, except these ones don't require any kind of immediate care to survive.",
+        "details": [
+            "Bites you at close range.",
+            "Vomits nukage at a distance.",
+            "Explodes when gibbed."
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Mauler",
         "category": "Pinky",
         "species": "Fiend",
@@ -674,6 +707,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Desiccated",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "Dry bones cursed to eternal life. Be rigorous when disposing of them or they will literally come back to bite you in the rear.",
+        "details": [
+			"Bites you at close range.",
+            "Leaps at you when in range.",
+            "Revives itself a few seconds after death, unless gibbed or killed via a melee weapon."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Stone Fiend",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "Pinky covered in a thick layer of rock that protects against small arms fire. Given that they would be too stupid to understand what armor is, this is probably an accident.",
+        "details": [
+            "Bites you at close range.",
+            "Resistant against ballistic weaponry.",
+            "Taking enough damage will break the rock and let a Pinky out.",
+        ],
+        "newstatus": 1
+    },
+    {
         "name": "Helldroid Menace",
         "category": "Pinky",
         "species": "Helldroid",
@@ -686,6 +743,35 @@ export default [
             "Immune to pain."
         ],
         "newstatus": 0
+    },
+    {
+        "name": "Red Maw",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "A large monster whose maw extends over the entirety of its upper body, splitting it in two halves covered in teeth. When human flesh is in short supply, it is not uncommon to find them chomping on trees and wooden structures.",
+        "details": [
+            "Bites you at close range.",
+            "Leaps at you when in range.",
+            "Will continuously crush you when biting, locking you in place. Dealing damage will break you free, temporarily stunning the monster in the process.",
+			"May appear as as regular Pinky at first."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Licker",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "Grotesque creature with a freakishly long tongue it uses to stab its target, injecting them with a deadly neurotoxin that kills a full-grown human in under a minute. Thankfully, the toxin can be treated very easily with commonly found medical supplies.",
+        "details": [
+            "Stabs you with its tongue with a slightly longer range than Fiend bites.",
+            "Injects a neurotoxin on hit, which will instantly kill you if you do not seek medical treatment within 30 seconds.",
+            "Health Bonuses add a few seconds to the kill timer, clearing the toxin if it exceeds 30 seconds.",
+            "Small Health Packs reset the timer to 30 seconds, and stops buildup for an additional 10.",
+            "Large Health Packs instantly clear the toxin.",
+            "Clearing the toxin will grant you 60 seconds of immunity where you are unable to get infected again.",
+            "Other enemies are immune to the toxin."
+        ],
+        "newstatus": 1
     },
     {
         "name": "Gore Monster",
@@ -702,24 +788,114 @@ export default [
         ],
         "newstatus": 0
     },
-    // {
-    //     "name": "Goliath",
-    //     "category": "Pinky",
-    //     "species": "Fiend",
-    //     "description": "",
-    //     "details": [
-    //     ],
-    //     "newstatus": 1
-    // },
-    // {
-    //     "name": "Volcanic Fiend",
-    //     "category": "Pinky",
-    //     "species": "Fiend",
-    //     "description": "",
-    //     "details": [
-    //     ],
-    //     "newstatus": 1
-    // },
+    {
+        "name": "Taurodemon",
+        "category": "Pinky",
+        "species": "Taurodemon",
+        "description": "A genetic hybrid of a Fiend and some kind of bovine animal. A two-ton slab of pure muscle with enough speed to catch even the fastest of marines.",
+        "details": [
+            "Charges at its target if there's a clear path to it, knocking it back on hit.",
+            "Limited steering ability while charging.",
+            "Will stop and turn around if it misses.",
+            "Will be briefly stunned when charging into a wall.",
+            "Attacks by swiping its horns instead of charging at close range."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Obsidian Fiend",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "Just when you thought armored Pinkies were bad enough. While its shell isn't much stronger than regular rock, it serves as an excellent insulator that lets the magmatic creature inside burn to even higher temperatures.",
+        "details": [
+            "Bites you at close range.",
+            "Vomits searing lava at a distance, accompanied with a volley of fireballs.",
+            "Resistant against ballistic and fire damage.",
+            "Taking enough damage will break the rock and let a Magma Fiend out.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Warbeast",
+        "category": "Pinky",
+        "species": "Taurodemon",
+        "description": "If it's made of flesh, it can be improved with technology. A new pair of eyes aids with vision in crowded environments, and cyber hind legs produce enough horsepower to knock down solid brick walls.",
+        "details": [
+            "Charges at its target if there's a path to it, sending it and anything in its path flying on hit.",
+            "Limited steering ability while charging.",
+            "Will stop and turn around if it misses.",
+            "Will hurt itself and be briefly stunned when charging into a wall.",
+            "Attacks by swiping its horns instead of charging at close range."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Goliath",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "A Fiend the size of a Tyrant with all the power and drawbacks such a transformation incurs. Very susceptible to over-focusing on targets they can't reach.",
+        "details": [
+			"Bites with a long wind-up but devastating payoff.",
+			"Greatly reduced pain chance.",
+			"Take advantage of its size to attack it from spaces it cannot enter."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Rage Spirit",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "The primordial essence of a Fiend, extracted and refined into a fierce spirit of pure fire. Still susceptible to lead poisoning despite how nonphysical they may look.",
+        "details": [
+            "Flying",
+            "Burns you with its bite.",
+            "Can charge similarly to a Lost Soul, leaving a trail of lingering fire behind.",
+            "Resistant to fire."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Hellhog",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "Purple pig-like Fiend (even more so than the common Pinky) with a preference and proficiency for brawling over biting. Capable of slaughtering a man with a single punch.",
+        "details": [
+            "Throws quick jabs at close range.",
+            "Can throw a charged punch from a range, either a straight jab that knocks you backwards or an uppercut that knocks you upwards like an Archvile attack.",
+            "Spits a volley of arcing fireballs at a distance.",
+            "Can dash sideways to avoid attacks."
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Despicable",
+        "category": "Pinky",
+        "species": "Fiend",
+        "description": "Hardy motherfucker that even the demons hate. Surprisingly agile despite being chained at the ankles.",
+        "details": [
+            "Bites you at close range.",
+            "Leaps at you when in range.",
+            "Can jump to reach spaces at a higher elevation.",
+            "Growls before charging at top speed, ending with an aimed leap and a bite.",
+            "Spits a torrent of viscera at a distance.",
+        ],
+        "newstatus": 1
+    },
+    {
+        "name": "Armor Head",
+        "category": "Pinky",
+        "species": "Taurodemon",
+        "description": "A pink bull with reinforced steel plating on its head and neck; a relatively simple addition with devastating repercussions. Better get those corrida skills up to speed.",
+        "details": [
+            "Charges at its target if there's a clear path to it, knocking it back on hit.",
+            "Limited steering ability while charging.",
+            "Will stop and turn around if it misses.",
+            "Will be briefly stunned when charging into a wall.",
+            "Attacks by swiping its horns instead of charging at close range.",
+            "Resistant against ballistic and explosive damage except on the back.",
+        ],
+        "newstatus": 1
+    },
     {
         "name": "Spectre",
         "category": "Spectre",
@@ -2626,9 +2802,9 @@ export default [
         "species": "Object",
         "description": "Canister of energy used to power everything Demontech. Allegedly has addictive properties.",
         "details": [
-            "Explodes violently when destroyed.",
+            "Explodes violently when destroyed, leaving a lingering damaging field behind.",
         ],
-        "newstatus": 0
+        "newstatus": 2
     },
 
     {
@@ -2863,6 +3039,84 @@ export default [
     //     "details": [
     //         "",
     //         "https://youtu.be/uQ-4T6Ncnno",
+    //     ],
+    //     "newstatus": 5
+    // },
+
+    // {
+    //     "name": "House of Doom",
+    //     "category": "Final Boss",
+    //     "species": "Level",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Romero, The Director",
+    //     "category": "Final Boss",
+    //     "species": "Heretic",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Romero, Father of Doom",
+    //     "category": "Final Boss",
+    //     "species": "",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Carmack, The Overseer",
+    //     "category": "Final Boss",
+    //     "species": "Heretic",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Carmack, God of Machines",
+    //     "category": "Final Boss",
+    //     "species": "",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Adrian, The Designer",
+    //     "category": "Final Boss",
+    //     "species": "Heretic",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
+    //     ],
+    //     "newstatus": 5
+    // },
+    // {
+    //     "name": "Adrian, Icon of Sin",
+    //     "category": "Final Boss",
+    //     "species": "",
+    //     "description": "",
+    //     "details": [
+    //         "",
+    //         "",
     //     ],
     //     "newstatus": 5
     // },

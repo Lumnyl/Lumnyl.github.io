@@ -4703,7 +4703,7 @@ export default [
         "description": "When physical demonic activity on earth was limited to possession, this was the best tool available to banish them back where they belong. While possession is mostly a thing of the past and the cross's ability to not damage the host body wasn't necessary anymore, it still sees use by those who do not want to taint themselves with physical violence.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Hell's Redeemer",
