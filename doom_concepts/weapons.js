@@ -22,12 +22,12 @@ export default [
         "primary" : "Punch",
         "secondary" : "N/A",
         "notes" : "Berserk bonus increased to 5x.",
-        "superior" : "Guaranteed flinch with increased duration.",
+        "superior" : "Guaranteed flinch with increased duration. Berserk bonus increased to 10x.",
         "durability": false,
         "description": "The solution for those who have something to prove but don't want to feel limited by the fleshy padding wrapping their hands. Nothing like knocking out a demon in a single roid-fuelled punch.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Fire Axe",
@@ -4406,7 +4406,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Wind Slasher",
+        "name": "Wind Slicer",
         "fullname": "",
         "ammo": "Mana x4",
         "category": "Magic",
@@ -4418,7 +4418,7 @@ export default [
         "description": "A magical sabre that, while light and not exactly fit for traditional hacking and slashing, surpasses its non-magical brethren in combat not within its blade's range by sending sharp waves of air that do not wane over distance nor actually requires air to function.",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Ripsaw Satellites",
