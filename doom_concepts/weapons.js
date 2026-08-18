@@ -2113,7 +2113,7 @@ export default [
         "notes" : "Requires reloading.",
         "superior" : "No longer needs to reload. Each weapon fires in rapid bursts of two projectiles.",
         "durability": false,
-        "description": "A set of two handheld rapid slug cannons that can fire twice for each unit of ammunition. They are fed with drum magazines and usually reloaded by a second squadmate to limit pauses between salvos as short as possible.",
+        "description": "A set of two handheld rapid slug cannons that can fire twice for each unit of ammunition. They are fed with drum magazines and usually reloaded by a second squadmate to keep pauses between salvos as short as possible.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
@@ -3391,7 +3391,7 @@ export default [
         "notes" : "Primary fire deals massive knockback. Secondary fire allows you to grab barrels and enemy projectiles mid-air, which can neutralized using secondary fire or be shot back with massively increased damage using primary fire.",
         "superior" : "Secondary attack can now be used to pick up any enemy that would have been killed in one hit by the primary attack.",
         "durability": false,
-        "description": "The Dark Energy Field Manipulator was a prototype tool meant for effortlessly carrying heavy charges by locally neutralizing the effects of gravity. A freak accident caused it to get supercharged with quantic energies, rendering too dangerous to use for its intended purpose.",
+        "description": "The Dark Energy Field Manipulator was a prototype tool meant for effortlessly carrying heavy charges by locally neutralizing the effects of gravity. A freak accident caused it to get supercharged with quantic energies, rendering it too dangerous to use for its intended purpose.",
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 1
