@@ -692,6 +692,30 @@ export default [
     },
 
     {
+        "name": "Nail Clip",
+        "type": "Small Bullet Pickup",
+        "category": "Ammunition",
+        "effect": "8 nails.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Uranium Nail Clip",
+        "type": "Small Bullet Pickup",
+        "category": "Ammunition",
+        "effect": "8 nails that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Bullet Pile",
         "type": "Small Bullet Pickup",
         "category": "Ammunition",
@@ -740,6 +764,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Nail Box",
+        "type": "Large Bullet Pickup",
+        "category": "Ammunition",
+        "effect": "40 nails.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Uranium Nail Box",
+        "type": "Large Bullet Pickup",
+        "category": "Ammunition",
+        "effect": "40 nails that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Shotgun Shells",
         "type": "Small Shell Pickup",
         "category": "Ammunition",
@@ -766,6 +814,32 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Fuel Can",
+        "type": "Small Shell Pickup",
+        "category": "Ammunition",
+        "effect": "40 fuel.",
+        "notes": "",
+        "carriable": 0,
+        // "description": "A handful of shotgun shells made to be stuffed into shotguns.",
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Napalm Can",
+        "type": "Small Shell Pickup",
+        "category": "Ammunition",
+        "effect": "40 fuel that deals 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        // "description": "A handful of shotgun shells made to be stuffed into shotguns.",
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Shell Box",
         "type": "Large Shell Pickup",
         "category": "Ammunition",
@@ -788,6 +862,30 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Fuel Tank",
+        "type": "Large Shell Pickup",
+        "category": "Ammunition",
+        "effect": "200 fuel.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Napalm Tank",
+        "type": "Large Shell Pickup",
+        "category": "Ammunition",
+        "effect": "200 fuel that deals 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Rocket",
@@ -814,6 +912,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Rail Slug",
+        "type": "Small Rocket Pickup",
+        "category": "Ammunition",
+        "effect": "1 rail slug.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Cryo-stable Slug",
+        "type": "Small Rocket Pickup",
+        "category": "Ammunition",
+        "effect": "1 rail slug that deals 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Rocket Box",
         "type": "Large Rocket Pickup",
         "category": "Ammunition",
@@ -836,6 +958,30 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Slug Crate",
+        "type": "Large Rocket Pickup",
+        "category": "Ammunition",
+        "effect": "5 rail slugs.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Cryo-stable Slug Crate",
+        "type": "Large Rocket Pickup",
+        "category": "Ammunition",
+        "effect": "5 rail slugs that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Energy Cell",
@@ -862,6 +1008,30 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Quantum Core",
+        "type": "Small Cell Pickup",
+        "category": "Ammunition",
+        "effect": "3 quanta.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Quantum Singularity",
+        "type": "Small Cell Pickup",
+        "category": "Ammunition",
+        "effect": "3 quanta that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Energy Cell Pack",
         "type": "Large Cell Pickup",
         "category": "Ammunition",
@@ -884,6 +1054,30 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Quantum Core Crate",
+        "type": "Large Cell Pickup",
+        "category": "Ammunition",
+        "effect": "15 quanta.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
+        "name": "Quantum Singularity Crate",
+        "type": "Large Cell Pickup",
+        "category": "Ammunition",
+        "effect": "15 quanta that deal 25% more damage.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Demonic Essence",
@@ -957,6 +1151,18 @@ export default [
         "designnotes": "",
         "newstatus": 0
     },
+    {
+        "name": "Ephialtic Essence",
+        "type": "Ephialtic Pickup",
+        "category": "Ammunition",
+        "effect": "10 ephialtic energy.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
 
     {
         "name": "Ammo Backpack",
@@ -1019,6 +1225,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Nail Strap",
+        "type": "Capacity Increase",
+        "category": "Powerup",
+        "effect": "Nail ammo capacity increased by 16. Grants 16 nails. Stacks up to five times.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Shell Bandolier",
         "type": "Capacity Increase",
         "category": "Powerup",
@@ -1029,6 +1247,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Fuel Reservoir",
+        "type": "Capacity Increase",
+        "category": "Powerup",
+        "effect": "Fuel ammo capacity increased by 80. Grants 80 fuel. Stacks up to five times.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Rocket Bag",
@@ -1043,6 +1273,18 @@ export default [
         "newstatus": 0
     },
     {
+        "name": "Slug Cartouchiere",
+        "type": "Capacity Increase",
+        "category": "Powerup",
+        "effect": "Rail slug ammo capacity increased by 4. Grants 4 rail slugs. Stacks up to five times.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
+    },
+    {
         "name": "Portable Capacitor",
         "type": "Capacity Increase",
         "category": "Powerup",
@@ -1053,6 +1295,18 @@ export default [
         "authorsnotes": "",
         "designnotes": "",
         "newstatus": 0
+    },
+    {
+        "name": "Quantic Organization Unit",
+        "type": "Capacity Increase",
+        "category": "Powerup",
+        "effect": "Quanta ammo capacity increased by 6. Grants 6 quanta. Stacks up to five times.",
+        "notes": "",
+        "carriable": 0,
+        "description": "",
+        "authorsnotes": "",
+        "designnotes": "",
+        "newstatus": 1
     },
     {
         "name": "Demonic Crystal",
@@ -1753,7 +2007,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 0
+    //     "newstatus": 5
     // },
     // {
     //     "name": "Contract with Astaroth",
@@ -1765,7 +2019,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 0
+    //     "newstatus": 5
     // },
     {
         "name": "Contract with Satan",
@@ -1777,7 +2031,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Contract with Baal",
@@ -1789,7 +2043,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Contract with Paimon",
@@ -1933,7 +2187,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 0
+    //     "newstatus": 5
     // },
     // {
     //     "name": "Contract with Naberius",
@@ -1945,7 +2199,7 @@ export default [
     //     "description": "",
     //     "authorsnotes": "",
     //     "designnotes": "",
-    //     "newstatus": 0
+    //     "newstatus": 5
     // },
 
     // health/armor
@@ -2458,7 +2712,7 @@ export default [
         "newstatus": 0
     },
     {
-        "name": "Quantum Efficiency Device",
+        "name": "Meta-Efficiency Throughput Array",
         "type": "Misc",
         "category": "Rare Drop",
         "effect": "Superweapons consume less ammo.",
@@ -2467,7 +2721,7 @@ export default [
         "description": "",
         "authorsnotes": "",
         "designnotes": "",
-        "newstatus": 0
+        "newstatus": 2
     },
     {
         "name": "Scavenger Medal",

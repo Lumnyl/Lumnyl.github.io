@@ -252,8 +252,8 @@ export default [
     {
         "subject": "Pandemonium",
         "category": "Locations",
-        "description": "On the outside, a massive cube-shaped floating castle. On the inside, a procedurally generated escherian nightmare of corridors full of demons. Wandering its halls without purpose will only lead you nowhere, but those who have been beckoned will find their destination rather easily, although not without resistance. The Princes of Hell all share residence within this abode, not because they live there, but because it leads to wherever they happen to be. A liminal space with a mind of its own, both containing and contained within Hell itself.",
-        "newstatus": 0
+        "description": "On the outside, a massive cube-shaped floating castle. On the inside, a procedurally generated nightmare whose purpose is to offer an unsurmountable challenge to heroes who oppose the will of the underworld. It is a liminal Klein bottle with a mind of its own, containing and contained within Hell itself. No two visits of Pandemonium are the same, but whether you find yourself in an incomprehensible escherian unplace, the dead wastelands of the Great War, or the visceral intestines of a larger than worlds being, unending legions of Hell will be waiting to get a chance to put you down for good. Should you triumph, you will find yourself at the door of one of the Princes of Hells, not because they live there, but because it leads to wherever they happen to be.",
+        "newstatus": 2
     },
 
     // {

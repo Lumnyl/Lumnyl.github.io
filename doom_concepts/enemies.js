@@ -93,7 +93,7 @@ export default [
             "Attacks by shooting a burst of fireballs.",
             "Drops a live grenade on death."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Zombie Rocketeer",
@@ -372,7 +372,7 @@ export default [
             "Fires in bursts or continuously until line of sight is broken.",
             "His suit grants him resistance against plasma weaponry.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Demontech Gatling Gunner",
@@ -409,7 +409,7 @@ export default [
             "Briefly stunned after overheating.",
             "His suit grants him resistance against plasma weaponry.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Demolitionist",
@@ -620,7 +620,7 @@ export default [
             "Can teleport to disorient its target.",
             "Scratches you at close range.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Pinky",
@@ -684,7 +684,7 @@ export default [
             "Bites you at close range, which inflicts poison.",
             "Leaves a lingering plague cloud on death.",
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Metalface",
@@ -1284,7 +1284,7 @@ export default [
             "Spawn and move as groups.",
             "Groups can merge into larger ones."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Phantom",
@@ -1333,7 +1333,7 @@ export default [
             "Bites you at close range.",
             "When down to low health, will fall down and stay inactive for a period of time. If it is not finished off while in that state, it will grow back to full health."
         ],
-        "newstatus": 2
+        "newstatus": 0
     },
     {
         "name": "Plasma Drone",
@@ -1360,7 +1360,7 @@ export default [
             "Spits a spread of toxic blood at a distance.",
             "Can charge up and vomit a short blood laser barrage.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Ferrosymbiote",
@@ -1413,7 +1413,7 @@ export default [
             "Possession takes a short time and stuns the target in the process.",
             "Possessed enemies at full health occasionally spawn another Umbral Symbiote."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Juvenile Wanderer",
@@ -1473,7 +1473,7 @@ export default [
             "Can charge up to fire a continuous laser whilst slowing tracking its target.",
             "Punches you at close range.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     // {
     //     "name": "Rocket Ghoul",
@@ -1509,7 +1509,7 @@ export default [
             "Fires eye projectiles that spread a cloud of disease on impact.",
             "Can charge up and vomit a blood laser barrage.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Sentry",
@@ -1638,7 +1638,7 @@ export default [
             "Attacks with a spray of frost at close range.",
             "Resistant against ice."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Daedabus",
@@ -1758,7 +1758,7 @@ export default [
             "Nails can pierce enemies and hit you through crowds!",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cyber Cerebral",
@@ -1819,7 +1819,7 @@ export default [
             "Has negative-heat batteries that charge as it fires. Once enough cold is accumulated, it can create a frost shockwave and overcharge its weapon, firing stronger projectiles.",
             "Capable of hopping to chase its target."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Scorpiotron",
@@ -1857,7 +1857,7 @@ export default [
             "Fires either in a straight line or in a wide spread.",
             "Keeps firing until line of sight is broken.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -1894,7 +1894,7 @@ export default [
             "Spits out fire balls that linger on impact.",
             "Bites you at close range.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Agathodemon",
@@ -1946,7 +1946,7 @@ export default [
             "Bites you at close range.",
             "Resistant against physical damage (ballistic, explosive, impact, etc), but weak against energy damage (fire, plasma, magic, etc)."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Midasfiend",
@@ -1959,7 +1959,7 @@ export default [
             "Bites you at close range.",
             "Resistant against energy damage (fire, plasma, magic, etc), but weak against physical damage (ballistic, explosive, impact, etc)."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Malwrath",
@@ -1987,7 +1987,7 @@ export default [
             "Can spit a large bomb of toxic matter that spreads fumes on impact.",
             "Spits noxious gases at close range."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Crackodemon",
@@ -2017,7 +2017,7 @@ export default [
             "Bites you at close range.",
             "Resistant against fire."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Cacobot",
@@ -2048,7 +2048,7 @@ export default [
             "Dealing enough damage to the real monster clears all clones.",
             "Completely invisible except for its mouth and horns."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Glaucoma",
@@ -2397,7 +2397,7 @@ export default [
             "Can throw a gravity-affected comet that spreads fires every time it bounces.",
             "Scratches you at close range.",
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Bruiser Demon",
@@ -2469,7 +2469,7 @@ export default [
             "Can lunge to ice-punches you at close range, knocking you back.",
             "Resistant against ice."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "Hellfire Afrit",
@@ -2484,7 +2484,7 @@ export default [
             "Hellfire-punches you at close range, causing an explosion that spreads fire.",
             "Resistant against fire."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
 
     {
@@ -2908,7 +2908,7 @@ export default [
             "Resistant against ballistic weapons.",
             "Immune against splash damage."
         ],
-        "newstatus": 1
+        "newstatus": 0
     },
     {
         "name": "War Satellite",
