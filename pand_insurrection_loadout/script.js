@@ -129,6 +129,7 @@ function generate_loadout() {
     let include_gunlocker = document.querySelector('#include_gunlocker').checked
     let include_warmachines = document.querySelector('#include_warmachines').checked
     let include_admeral = document.querySelector('#include_admeral').checked
+    let include_lumnyl = document.querySelector('#include_lumnyl').checked
     let roll_augments = document.querySelector('#roll_augments').checked
     let more_class_weapons = document.querySelector('#more_class_weapons').checked
     let keep_starter = document.querySelector('#keep_starter').checked
@@ -175,6 +176,11 @@ function generate_loadout() {
 
     if (!include_admeral) {
         let temp = final_weapon_list.filter(item => item.tags.includes("ADMERAL") == false)
+        final_weapon_list = [...temp]
+    }
+
+    if (!include_lumnyl) {
+        let temp = final_weapon_list.filter(item => item.tags.includes("Lumnyl") == false)
         final_weapon_list = [...temp]
     }
 
@@ -388,6 +394,9 @@ function display_loadout(loadout, augments, pl_class) {
         if (weapon.name == "Vitaphage") {
             name.classList.add("wpn_vitaphage")
         }
+        if (weapon.name == "Rahael Guise") {
+            name.classList.add("wpn_rahael")
+        }
         if (weapon.name == "Unmakyr") {
             name.classList.add("wpn_unmakyr")
         }
@@ -418,6 +427,13 @@ function display_loadout(loadout, augments, pl_class) {
             addon.classList.add("bold")
             addon.title = "Weapon by ADMERAL"
             loadout_text += `[A] `
+        }
+        if (weapon.tags.includes("Lumnyl")) {
+            addon.textContent = "[L] "
+            addon.classList.add("wpn_lumnyl")
+            addon.classList.add("bold")
+            addon.title = "Part of the Arsenal L-5625 addon"
+            loadout_text += `[L] `
         }
         if (weapon.tags.includes("Durability")) {
             name.classList.add("wpn_durability")
